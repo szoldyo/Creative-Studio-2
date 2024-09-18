@@ -7141,3 +7141,12 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.09.18-13.21.46:219][632]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Player/Input/IMC_Default_Auto3
 [2024.09.18-13.21.46:219][632]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/IMC_Default_Auto37CF3452941C36A437AB2E7A38D2551C2.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/Autosaves/Game/Player/Input/IMC_Default_Auto3.uasset'
 [2024.09.18-13.21.46:219][632]LogFileHelpers: Auto-saving content packages took 0.002
+[2024.09.18-13.35.01:347][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.09.18-13.35.02:781][393]LogSlate: Window 'Save Content' being destroyed
+[2024.09.18-13.35.02:786][393]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.09.18-13.35.02:838][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Input/IMC_Default" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Input/IMC_Default.uasset" SILENT=true
+[2024.09.18-13.35.02:839][393]LogSavePackage: Moving output files for package: /Game/Player/Input/IMC_Default
+[2024.09.18-13.35.02:839][393]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/IMC_Default1F4ACAD24A3A3870ECA892B518C1F64D.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Input/IMC_Default.uasset'
+[2024.09.18-13.35.02:845][393]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 2.50 sec)
+[2024.09.18-13.35.02:846][393]AssetCheck: New page: Asset Save: IMC_Default
+[2024.09.18-13.35.02:846][393]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Player/Input/IMC_Default.IMC_Default
