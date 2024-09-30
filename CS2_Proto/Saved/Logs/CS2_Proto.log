@@ -8898,3 +8898,21 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.09.30-10.01.44:683][765]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
 [2024.09.30-10.01.45:649][877]BlueprintLog: New page: Compile BP_PlayerMaster
 [2024.09.30-10.01.45:726][877]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.09.30-10.03.19:576][518]LogDerivedDataCache: C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:28.057 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 14884 files in 15392 folders with total size 535 MiB.
+[2024.09.30-10.33.17:266][897]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Player/Master/Input/Actions/IA_Jump.IA_Jump
+[2024.09.30-10.33.30:694][438]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/Player/Master/Input/IMC_Default.IMC_Default
+[2024.09.30-10.33.36:917][173]Cmd: TRANSACTION UNDO
+[2024.09.30-10.33.36:917][173]LogEditorTransaction: Undo Change Key Value
+[2024.09.30-10.41.08:500][746]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.09.30-10.41.08:503][746]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.09.30-10.41.08:597][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Classes/BP_Player_R" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Classes/BP_Player_R.uasset" SILENT=true
+[2024.09.30-10.41.08:601][746]LogSavePackage: Moving output files for package: /Game/Player/Classes/BP_Player_R
+[2024.09.30-10.41.08:602][746]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_Player_R4213081248C618253AAA478F05DCBB24.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Classes/BP_Player_R.uasset'
+[2024.09.30-10.41.08:613][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Classes/BP_Player_M" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Classes/BP_Player_M.uasset" SILENT=true
+[2024.09.30-10.41.08:616][746]LogSavePackage: Moving output files for package: /Game/Player/Classes/BP_Player_M
+[2024.09.30-10.41.08:617][746]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_Player_M6691F84C4BB4030985E1C58ECB5FE59B.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Classes/BP_Player_M.uasset'
+[2024.09.30-10.41.08:621][746]LogFileHelpers: InternalPromptForCheckoutAndSave took 118 ms (total: 3.08 sec)
+[2024.09.30-10.41.08:622][746]AssetCheck: New page: Asset Save: multiple assets
+[2024.09.30-10.41.08:622][746]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Classes/BP_Player_R.BP_Player_R
+[2024.09.30-10.41.08:622][746]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Classes/BP_Player_M.BP_Player_M
+[2024.09.30-10.41.22:501][944]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
