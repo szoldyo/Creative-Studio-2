@@ -1156,3 +1156,45 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.01-09.24.01:979][576]LogFileHelpers: InternalPromptForCheckoutAndSave took 167 ms
 [2024.10.01-09.24.01:980][576]AssetCheck: New page: Asset Save: BP_PlayerMaster
 [2024.10.01-09.24.01:980][576]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Master/BP_PlayerMaster.BP_PlayerMaster
+[2024.10.01-09.24.19:444][968]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.01-09.24.21:058][152]Cmd: SELECT NONE
+[2024.10.01-09.42.21:592][377]LogDerivedDataCache: C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:28.028 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 14884 files in 15392 folders with total size 535 MiB.
+[2024.10.01-09.45.50:321][ 44]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Player/Classes/BP_Player_M.BP_Player_M
+[2024.10.01-09.45.50:321][ 44]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.01-09.45.50:321][ 44]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.01-09.45.50:468][ 46]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.01-09.48.03:056][615]BlueprintLog: New page: Compile BP_PlayerMaster
+[2024.10.01-09.48.03:135][615]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.10.01-09.48.31:107][833]BlueprintLog: New page: Compile BP_PlayerMaster
+[2024.10.01-09.48.31:122][833]LogClass: Warning: Map Element Type mismatch in Test of Test - Previous (DoubleProperty to IntProperty) Current (DoubleProperty to StrProperty) for package: FObjectReader
+[2024.10.01-09.48.31:183][833]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.10.01-09.49.38:239][459]LogSlate: Window 'Change Variable Type' being destroyed
+[2024.10.01-09.49.42:311][774]LogSlate: Window 'Change Variable Type' being destroyed
+[2024.10.01-09.49.47:690][338]BlueprintLog: New page: Compile BP_PlayerMaster
+[2024.10.01-09.49.47:706][338]LogClass: Warning: Type mismatch in Test of BP_PlayerMaster_C - Previous (MapProperty) Current(SetProperty) for package:  FObjectReader
+[2024.10.01-09.49.47:707][338]LogClass: Warning: Type mismatch in Test of BP_Player_M_C - Previous (MapProperty) Current(SetProperty) for package:  FObjectReader
+[2024.10.01-09.49.47:742][338]LogClass: Warning: Type mismatch in Test of BP_Player_R_C - Previous (MapProperty) Current(SetProperty) for package:  FObjectReader
+[2024.10.01-09.49.47:767][338]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.01-09.50.23:628][305]LogSlate: Window 'Delete Variable' being destroyed
+[2024.10.01-09.50.24:771][424]LogSlate: Window 'Find in Blueprints' being destroyed
+[2024.10.01-09.50.24:775][424]LogSlate: Window 'Find in Blueprints' being destroyed
+[2024.10.01-09.50.29:371][969]BlueprintLog: New page: Compile BP_PlayerMaster
+[2024.10.01-09.50.29:471][969]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.10.01-09.50.29:775][990]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.10.01-09.50.29:783][990]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.01-09.50.29:827][990]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.01-09.50.29:889][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Classes/BP_Player_M" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Classes/BP_Player_M.uasset" SILENT=true
+[2024.10.01-09.50.29:894][990]LogSavePackage: Moving output files for package: /Game/Player/Classes/BP_Player_M
+[2024.10.01-09.50.29:894][990]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_Player_M6D728BA84042630ABE0420AB9A558241.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Classes/BP_Player_M.uasset'
+[2024.10.01-09.50.29:904][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Master/BP_PlayerMaster" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Master/BP_PlayerMaster.uasset" SILENT=true
+[2024.10.01-09.50.29:927][990]LogSavePackage: Moving output files for package: /Game/Player/Master/BP_PlayerMaster
+[2024.10.01-09.50.29:927][990]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_PlayerMaster36E24014464A47C96769868A57CBE11E.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Master/BP_PlayerMaster.uasset'
+[2024.10.01-09.50.29:928][990]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.01-09.50.29:963][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Classes/BP_Player_R" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Classes/BP_Player_R.uasset" SILENT=true
+[2024.10.01-09.50.29:967][990]LogSavePackage: Moving output files for package: /Game/Player/Classes/BP_Player_R
+[2024.10.01-09.50.29:967][990]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_Player_RB818A3B74CD3C277E92AE2AF57CFD9D2.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Classes/BP_Player_R.uasset'
+[2024.10.01-09.50.29:973][990]LogFileHelpers: InternalPromptForCheckoutAndSave took 189 ms (total: 357 ms)
+[2024.10.01-09.50.29:976][990]AssetCheck: New page: Asset Save: multiple assets
+[2024.10.01-09.50.29:976][990]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Classes/BP_Player_M.BP_Player_M
+[2024.10.01-09.50.29:976][990]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Master/BP_PlayerMaster.BP_PlayerMaster
+[2024.10.01-09.50.29:976][990]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Classes/BP_Player_R.BP_Player_R
