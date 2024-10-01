@@ -1198,3 +1198,176 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.01-09.50.29:976][990]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Classes/BP_Player_M.BP_Player_M
 [2024.10.01-09.50.29:976][990]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Master/BP_PlayerMaster.BP_PlayerMaster
 [2024.10.01-09.50.29:976][990]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Classes/BP_Player_R.BP_Player_R
+[2024.10.01-10.09.03:649][480]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2024.10.01-10.09.03:653][480]LogContentBrowser: Creating deferred item: NewWorld
+[2024.10.01-10.09.03:657][481]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2024.10.01-10.09.04:887][626]LogContentBrowser: Attempting asset rename: NewWorld -> NewWorld
+[2024.10.01-10.09.04:888][626]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.01-10.09.04:888][626]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.01-10.09.04:890][626]LogContentBrowser: End creating deferred item NewWorld
+[2024.10.01-10.09.05:033][642]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.10.01-10.09.06:983][642]LogSlate: Window 'Save Content' being destroyed
+[2024.10.01-10.09.06:988][642]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.01-10.09.07:026][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/NewWorld" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/NewWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.10.01-10.09.07:034][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2024.10.01-10.09.07:037][642]LogSavePackage: Moving output files for package: /Game/Level/NewWorld
+[2024.10.01-10.09.07:037][642]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/NewWorldDA6018F1428C7950F84D63A7DB8B37E0.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/NewWorld.umap'
+[2024.10.01-10.09.07:041][642]LogFileHelpers: Saving map 'NewWorld' took 0.015
+[2024.10.01-10.09.07:045][642]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 415 ms)
+[2024.10.01-10.09.07:045][642]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level/NewWorld.NewWorld
+[2024.10.01-10.09.07:045][642]Cmd: MAP LOAD FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/NewWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.10.01-10.09.07:045][642]LightingResults: New page: Lighting Build
+[2024.10.01-10.09.07:046][642]LoadErrors: New page: Loading map: NewWorld.umap
+[2024.10.01-10.09.07:062][642]LogWorld: UWorld::CleanupWorld for CS2_Level, bSessionEnded=true, bCleanupResources=true
+[2024.10.01-10.09.07:062][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.01-10.09.07:063][642]LogContentBundle: [CS2_Level(Standalone)] Deleting container.
+[2024.10.01-10.09.07:063][642]MapCheck: New page: Map Check
+[2024.10.01-10.09.07:063][642]LightingResults: New page: Lighting Build
+[2024.10.01-10.09.07:072][642]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.01-10.09.07:075][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.01-10.09.07:078][642]LogWorld: UWorld::CleanupWorld for NewWorld, bSessionEnded=true, bCleanupResources=true
+[2024.10.01-10.09.07:078][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.01-10.09.07:085][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.01-10.09.07:094][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.01-10.09.07:096][642]LogAudio: Display: Audio Device (ID: 1) registered with world 'NewWorld'.
+[2024.10.01-10.09.07:096][642]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.01-10.09.07:096][642]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.01-10.09.07:096][642]LogAIModule: Creating AISystem for world NewWorld
+[2024.10.01-10.09.07:112][642]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.01-10.09.07:122][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.10.01-10.09.07:126][642]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.01-10.09.07:126][642]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.06ms to complete.
+[2024.10.01-10.09.07:130][642]AssetCheck: New page: Asset Save: NewWorld
+[2024.10.01-10.09.07:130][642]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/NewWorld.NewWorld
+[2024.10.01-10.09.14:864][491]LogEditor: Attempting to add actor of class 'SkyLight' to level at 0.00,0.00,0.00
+[2024.10.01-10.09.14:887][491]LogSlate: Took 0.003077 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.10.01-10.09.14:899][491]LogEditorEnvironmentLightingViewer: Intensity - Intensity
+[2024.10.01-10.09.14:899][491]LogEditorEnvironmentLightingViewer: LightColor - LightColor
+[2024.10.01-10.09.14:899][491]LogEditorEnvironmentLightingViewer: bAffectsWorld - bAffectsWorld
+[2024.10.01-10.09.14:899][491]LogEditorEnvironmentLightingViewer: CastShadows - CastShadows
+[2024.10.01-10.09.14:899][491]LogEditorEnvironmentLightingViewer: IndirectLightingIntensity - IndirectLightingIntensity
+[2024.10.01-10.09.14:899][491]LogEditorEnvironmentLightingViewer: VolumetricScatteringIntensity - VolumetricScatteringIntensity
+[2024.10.01-10.09.14:899][491]LogEditorEnvironmentLightingViewer: SamplesPerPixel - SamplesPerPixel
+[2024.10.01-10.09.15:226][529]LogEditor: Attempting to add actor of class 'DirectionalLight' to level at 0.00,0.00,0.00
+[2024.10.01-10.09.15:263][529]LogEditorEnvironmentLightingViewer: LightSourceAngle - LightSourceAngle
+[2024.10.01-10.09.15:263][529]LogEditorEnvironmentLightingViewer: LightSourceSoftAngle - LightSourceSoftAngle
+[2024.10.01-10.09.15:263][529]LogEditorEnvironmentLightingViewer: bUseTemperature - bUseTemperature
+[2024.10.01-10.09.15:263][529]LogEditorEnvironmentLightingViewer: Temperature - Temperature
+[2024.10.01-10.09.15:263][529]LogEditorEnvironmentLightingViewer: Intensity - Intensity
+[2024.10.01-10.09.15:263][529]LogEditorEnvironmentLightingViewer: LightColor - LightColor
+[2024.10.01-10.09.15:263][529]LogEditorEnvironmentLightingViewer: bAffectsWorld - bAffectsWorld
+[2024.10.01-10.09.15:263][529]LogEditorEnvironmentLightingViewer: CastShadows - CastShadows
+[2024.10.01-10.09.15:263][529]LogEditorEnvironmentLightingViewer: IndirectLightingIntensity - IndirectLightingIntensity
+[2024.10.01-10.09.15:263][529]LogEditorEnvironmentLightingViewer: VolumetricScatteringIntensity - VolumetricScatteringIntensity
+[2024.10.01-10.09.15:263][529]LogEditorEnvironmentLightingViewer: bEnableLightShaftOcclusion - bEnableLightShaftOcclusion
+[2024.10.01-10.09.15:263][529]LogEditorEnvironmentLightingViewer: OcclusionMaskDarkness - OcclusionMaskDarkness
+[2024.10.01-10.09.15:263][529]LogEditorEnvironmentLightingViewer: OcclusionDepthRange - OcclusionDepthRange
+[2024.10.01-10.09.15:263][529]LogEditorEnvironmentLightingViewer: bEnableLightShaftBloom - bEnableLightShaftBloom
+[2024.10.01-10.09.15:263][529]LogEditorEnvironmentLightingViewer: BloomScale - BloomScale
+[2024.10.01-10.09.15:263][529]LogEditorEnvironmentLightingViewer: BloomThreshold - BloomThreshold
+[2024.10.01-10.09.15:263][529]LogEditorEnvironmentLightingViewer: BloomMaxBrightness - BloomMaxBrightness
+[2024.10.01-10.09.15:263][529]LogEditorEnvironmentLightingViewer: BloomTint - BloomTint
+[2024.10.01-10.09.15:264][529]LogEditorEnvironmentLightingViewer: DynamicShadowDistanceMovableLight - DynamicShadowDistanceMovableLight
+[2024.10.01-10.09.15:264][529]LogEditorEnvironmentLightingViewer: DynamicShadowDistanceStationaryLight - DynamicShadowDistanceStationaryLight
+[2024.10.01-10.09.15:264][529]LogEditorEnvironmentLightingViewer: DynamicShadowCascades - DynamicShadowCascades
+[2024.10.01-10.09.15:264][529]LogEditorEnvironmentLightingViewer: CascadeDistributionExponent - CascadeDistributionExponent
+[2024.10.01-10.09.15:264][529]LogEditorEnvironmentLightingViewer: CascadeTransitionFraction - CascadeTransitionFraction
+[2024.10.01-10.09.15:264][529]LogEditorEnvironmentLightingViewer: ShadowDistanceFadeoutFraction - ShadowDistanceFadeoutFraction
+[2024.10.01-10.09.15:264][529]LogEditorEnvironmentLightingViewer: DistanceFieldShadowDistance - DistanceFieldShadowDistance
+[2024.10.01-10.09.15:264][529]LogEditorEnvironmentLightingViewer: bUseRayTracedDistanceFieldShadows - bUseRayTracedDistanceFieldShadows
+[2024.10.01-10.09.15:264][529]LogEditorEnvironmentLightingViewer: ShadowSourceAngleFactor - ShadowSourceAngleFactor
+[2024.10.01-10.09.15:264][529]LogEditorEnvironmentLightingViewer: SamplesPerPixel - SamplesPerPixel
+[2024.10.01-10.09.15:264][529]LogEditorEnvironmentLightingViewer: bAtmosphereSunLight - bAtmosphereSunLight
+[2024.10.01-10.09.15:264][529]LogEditorEnvironmentLightingViewer: bCastShadowsOnClouds - bCastShadowsOnClouds
+[2024.10.01-10.09.15:264][529]LogEditorEnvironmentLightingViewer: bCastShadowsOnAtmosphere - bCastShadowsOnAtmosphere
+[2024.10.01-10.09.15:264][529]LogEditorEnvironmentLightingViewer: bCastCloudShadows - bCastCloudShadows
+[2024.10.01-10.09.15:264][529]LogEditorEnvironmentLightingViewer: CloudScatteredLuminanceScale - CloudScatteredLuminanceScale
+[2024.10.01-10.09.15:264][529]LogEditorEnvironmentLightingViewer: MaxDrawDistance - MaxDrawDistance
+[2024.10.01-10.09.15:264][529]LogEditorEnvironmentLightingViewer: MaxDistanceFadeRange - MaxDistanceFadeRange
+[2024.10.01-10.09.15:264][529]LogEditorEnvironmentLightingViewer: LightFunctionMaterial - LightFunctionMaterial
+[2024.10.01-10.09.15:265][529]LogEditorEnvironmentLightingViewer: LightFunctionScale - LightFunctionScale
+[2024.10.01-10.09.15:265][529]LogEditorEnvironmentLightingViewer: LightFunctionFadeDistance - LightFunctionFadeDistance
+[2024.10.01-10.09.15:265][529]LogEditorEnvironmentLightingViewer: DisabledBrightness - DisabledBrightness
+[2024.10.01-10.09.15:268][529]LogEditorEnvironmentLightingViewer: Intensity - Intensity
+[2024.10.01-10.09.15:268][529]LogEditorEnvironmentLightingViewer: LightColor - LightColor
+[2024.10.01-10.09.15:268][529]LogEditorEnvironmentLightingViewer: bAffectsWorld - bAffectsWorld
+[2024.10.01-10.09.15:268][529]LogEditorEnvironmentLightingViewer: CastShadows - CastShadows
+[2024.10.01-10.09.15:268][529]LogEditorEnvironmentLightingViewer: IndirectLightingIntensity - IndirectLightingIntensity
+[2024.10.01-10.09.15:268][529]LogEditorEnvironmentLightingViewer: VolumetricScatteringIntensity - VolumetricScatteringIntensity
+[2024.10.01-10.09.15:268][529]LogEditorEnvironmentLightingViewer: SamplesPerPixel - SamplesPerPixel
+[2024.10.01-10.09.15:599][564]LogEditor: Attempting to add actor of class 'SkyAtmosphere' to level at 0.00,0.00,0.00
+[2024.10.01-10.09.15:956][604]LogEditor: Attempting to add actor of class 'VolumetricCloud' to level at 0.00,0.00,0.00
+[2024.10.01-10.09.16:323][639]LogEditor: Attempting to add actor of class 'ExponentialHeightFog' to level at 0.00,0.00,0.00
+[2024.10.01-10.09.17:186][739]LogSlate: Window 'Env. Light Mixer' being destroyed
+[2024.10.01-10.09.17:190][739]LogSlate: Window 'Env. Light Mixer' being destroyed
+[2024.10.01-10.09.20:954][170]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.10.01-10.09.22:207][170]LogSlate: Window 'Save Content' being destroyed
+[2024.10.01-10.09.22:212][170]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.01-10.09.22:256][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/NewWorld" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/NewWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.10.01-10.09.22:278][170]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.10.01-10.09.22:280][170]LogSavePackage: Moving output files for package: /Game/Level/NewWorld
+[2024.10.01-10.09.22:280][170]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/NewWorld3180769941583A4096BDFE9A34FE3D25.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/NewWorld.umap'
+[2024.10.01-10.09.22:286][170]LogFileHelpers: Saving map 'NewWorld' took 0.030
+[2024.10.01-10.09.22:290][170]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 493 ms)
+[2024.10.01-10.09.22:378][170]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.01-10.09.22:379][170]LogWorldPartition: ULevel::OnLevelLoaded(CS2_Level)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.10.01-10.09.22:379][170]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.01-10.09.22:379][170]LogWorldPartition: UWorldPartition::Initialize : World = CS2_Level, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.01-10.09.22:399][170]LogContentBundle: [CS2_Level(Standalone)] Creating new contrainer.
+[2024.10.01-10.09.22:399][170]LogWorldPartition: Display: WorldPartition initialize took 19 ms (total: 101 ms)
+[2024.10.01-10.09.22:400][170]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level/CS2_Level.CS2_Level
+[2024.10.01-10.09.22:401][170]Cmd: MAP LOAD FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/CS2_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.10.01-10.09.22:401][170]LightingResults: New page: Lighting Build
+[2024.10.01-10.09.22:401][170]LoadErrors: New page: Loading map: CS2_Level.umap
+[2024.10.01-10.09.22:442][170]LogWorld: UWorld::CleanupWorld for NewWorld, bSessionEnded=true, bCleanupResources=true
+[2024.10.01-10.09.22:442][170]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.01-10.09.22:442][170]MapCheck: New page: Map Check
+[2024.10.01-10.09.22:442][170]LightingResults: New page: Lighting Build
+[2024.10.01-10.09.22:452][170]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.01-10.09.22:453][170]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.01-10.09.22:455][170]LogWorld: UWorld::CleanupWorld for CS2_Level, bSessionEnded=true, bCleanupResources=true
+[2024.10.01-10.09.22:455][170]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.01-10.09.22:455][170]LogContentBundle: [CS2_Level(Standalone)] Deleting container.
+[2024.10.01-10.09.22:465][170]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.01-10.09.22:473][170]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.10.01-10.09.22:487][170]LogAudio: Display: Audio Device (ID: 1) registered with world 'CS2_Level'.
+[2024.10.01-10.09.22:487][170]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.01-10.09.22:487][170]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.01-10.09.22:487][170]LogAIModule: Creating AISystem for world CS2_Level
+[2024.10.01-10.09.22:488][170]LogWorldPartition: ULevel::OnLevelLoaded(CS2_Level)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.10.01-10.09.22:488][170]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.01-10.09.22:488][170]LogWorldPartition: UWorldPartition::Initialize : World = CS2_Level, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.01-10.09.22:492][170]LogContentBundle: [CS2_Level(Standalone)] Creating new contrainer.
+[2024.10.01-10.09.22:492][170]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 106 ms)
+[2024.10.01-10.09.22:515][170]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.01-10.09.22:526][170]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.10.01-10.09.22:530][170]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.01-10.09.22:530][170]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.207ms to complete.
+[2024.10.01-10.09.22:539][170]AssetCheck: New page: Asset Save: NewWorld
+[2024.10.01-10.09.26:484][625]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.01-10.09.26:485][625]LogObjectTools: Deleting 1 worlds: /Game/Level/NewWorld.NewWorld
+[2024.10.01-10.09.26:485][625]LogObjectTools: Currently 13 active worlds: /Game/Level/CS2_Level.CS2_Level, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3, /Engine/Transient.World_4, /Engine/Transient.World_5, /Engine/Transient.World_6, /Engine/Transient.World_7, /Engine/Transient.World_8, /Engine/Transient.World_9, /Engine/Transient.World_10, /Engine/Transient.World_11
+[2024.10.01-10.09.26:492][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.10.01-10.09.27:613][625]LogSlate: Window 'Delete Assets' being destroyed
+[2024.10.01-10.09.27:616][625]LogWorld: UWorld::CleanupWorld for NewWorld, bSessionEnded=true, bCleanupResources=true
+[2024.10.01-10.09.27:616][625]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.01-10.09.27:632][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.01-10.09.27:640][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.10.01-10.09.27:648][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2024.10.01-10.09.30:452][945]Cmd: SELECT NONE
+[2024.10.01-10.09.41:966][318]Cmd: DELETE
+[2024.10.01-10.09.41:966][318]Cmd: ACTOR DELETE
+[2024.10.01-10.09.42:643][399]Cmd: DELETE
+[2024.10.01-10.09.42:643][399]Cmd: ACTOR DELETE
+[2024.10.01-10.09.43:162][461]Cmd: DELETE
+[2024.10.01-10.09.43:162][461]Cmd: ACTOR DELETE
+[2024.10.01-10.09.43:795][536]Cmd: DELETE
+[2024.10.01-10.09.43:795][536]Cmd: ACTOR DELETE
+[2024.10.01-10.09.46:828][896]Cmd: DELETE
+[2024.10.01-10.09.46:828][896]Cmd: ACTOR DELETE
+[2024.10.01-10.09.50:015][274]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.10.01-10.09.50:019][274]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.01-10.09.50:088][274]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.01-10.09.50:097][274]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.10.01-10.09.50:104][274]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.10.01-10.09.50:109][274]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 583 ms)
