@@ -8108,3 +8108,190 @@ Make sure 'AB_Locomotion_C' has been compiled for  Set MovementComponent
 [2024.10.14-13.51.43:443][573]LogFileHelpers: InternalPromptForCheckoutAndSave took 111 ms (total: 6.95 sec)
 [2024.10.14-13.51.43:443][573]AssetCheck: New page: Asset Save: BP_Player_M
 [2024.10.14-13.51.43:443][573]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Classes/BP_Player_M.BP_Player_M
+[2024.10.14-14.09.42:409][179]LogDerivedDataCache: C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.029 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 621 files in 1055 folders with total size 36 MiB.
+[2024.10.14-14.14.54:564][299]Cmd: SELECT NONE
+[2024.10.14-14.26.16:895][449]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2024.10.14-14.26.16:895][449]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.14-14.26.16:926][449]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2024.10.14-14.26.16:926][449]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.14-14.38.01:270][626]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.14-14.38.01:274][626]LogContentBundle: [CS2_Level(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.14-14.38.01:274][626]LogWorldPartition: Display: GenerateStreaming for 'CS2_Level' started...
+[2024.10.14-14.38.01:276][626]LogWorldPartition: Display: GenerateStreaming for 'CS2_Level' took 630 us (total: 32 ms)
+[2024.10.14-14.38.01:276][626]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.14-14.38.01:276][626]PIE: New page: PIE session: CS2_Level (14 Oct 2024, 16:38:01)
+[2024.10.14-14.38.01:276][626]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_CS2_Level
+[2024.10.14-14.38.01:277][626]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001807s)
+[2024.10.14-14.38.01:277][626]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/CS2_Level.CS2_Level to /Game/Level/UEDPIE_0_CS2_Level.CS2_Level (0.001831s)
+[2024.10.14-14.38.01:288][626]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.10.14-14.38.01:291][626]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.14-14.38.01:291][626]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.14-14.38.01:292][626]LogAIModule: Creating AISystem for world CS2_Level
+[2024.10.14-14.38.01:292][626]LogWorldPartition: ULevel::OnLevelLoaded(CS2_Level)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.14-14.38.01:292][626]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.14-14.38.01:292][626]LogWorldPartition: UWorldPartition::Initialize : World = CS2_Level, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.14-14.38.01:292][626]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.14-14.38.01:293][626]LogContentBundle: [CS2_Level(Standalone)] Creating new contrainer.
+[2024.10.14-14.38.01:293][626]LogWorldPartition: Display: WorldPartition initialize took 587 us (total: 91 ms)
+[2024.10.14-14.38.01:293][626]LogPlayLevel: PIE: World Init took: (0.001357s)
+[2024.10.14-14.38.01:293][626]LogAudio: Display: Creating Audio Device:                 Id: 47, Scope: Unique, Realtime: True
+[2024.10.14-14.38.01:293][626]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.14-14.38.01:293][626]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.14-14.38.01:293][626]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.14-14.38.01:293][626]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.14-14.38.01:293][626]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.14-14.38.01:293][626]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.14-14.38.01:293][626]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.14-14.38.01:293][626]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.14-14.38.01:293][626]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.14-14.38.01:293][626]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.14-14.38.01:293][626]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.14-14.38.01:295][626]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.14-14.38.01:311][626]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.14-14.38.01:311][626]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.14-14.38.01:311][626]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.14-14.38.01:311][626]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.14-14.38.01:311][626]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=47
+[2024.10.14-14.38.01:311][626]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=47
+[2024.10.14-14.38.01:313][626]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=47
+[2024.10.14-14.38.01:313][626]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=47
+[2024.10.14-14.38.01:313][626]LogInit: FAudioDevice initialized with ID 47.
+[2024.10.14-14.38.01:313][626]LogAudio: Display: Audio Device (ID: 47) registered with world 'CS2_Level'.
+[2024.10.14-14.38.01:313][626]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 47
+[2024.10.14-14.38.01:315][626]LogLoad: Game class is 'BP_CS2_GameMode_C'
+[2024.10.14-14.38.01:316][626]LogWorld: Bringing World /Game/Level/UEDPIE_0_CS2_Level.CS2_Level up for play (max tick rate 0) at 2024.10.14-15.38.01
+[2024.10.14-14.38.01:316][626]LogWorld: Bringing up level for play took: 0.000503
+[2024.10.14-14.38.01:318][626]LogOnline: OSS: Created online subsystem instance for: :Context_96
+[2024.10.14-14.38.01:318][626]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for PlatformUserId 0,
+[2024.10.14-14.38.01:320][626]PIE: Server logged in
+[2024.10.14-14.38.01:321][626]PIE: Play in editor total start time 0.046 seconds.
+[2024.10.14-14.38.17:457][504]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.14-14.38.17:458][504]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_CS2_Level
+[2024.10.14-14.38.17:458][504]LogWorld: UWorld::CleanupWorld for CS2_Level, bSessionEnded=true, bCleanupResources=true
+[2024.10.14-14.38.17:458][504]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.14-14.38.17:458][504]LogContentBundle: [CS2_Level(Standalone)] Deleting container.
+[2024.10.14-14.38.17:461][504]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.14-14.38.17:464][504]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.14-14.38.17:473][504]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.14-14.38.17:473][504]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 47
+[2024.10.14-14.38.17:473][504]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=47
+[2024.10.14-14.38.17:474][504]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=47
+[2024.10.14-14.38.17:479][504]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.14-14.38.17:524][508]LogPlayLevel: Display: Destroying online subsystem :Context_96
+[2024.10.14-14.53.32:734][515]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.10.14-14.53.32:752][515]LogContentBrowser: Creating deferred item: NewFolder
+[2024.10.14-14.53.32:757][516]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.10.14-14.53.36:665][985]LogContentBrowser: Attempting asset rename: NewFolder -> Melee
+[2024.10.14-14.53.36:665][985]LogContentBrowser: End creating deferred item NewFolder
+[2024.10.14-14.53.43:008][713]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.10.14-14.53.43:027][713]LogContentBrowser: Creating deferred item: NewFolder
+[2024.10.14-14.53.43:032][714]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.10.14-14.53.46:573][139]LogContentBrowser: Attempting asset rename: NewFolder -> Ranged
+[2024.10.14-14.53.46:573][139]LogContentBrowser: End creating deferred item NewFolder
+[2024.10.14-14.53.49:973][514]LogMetaData: Removing '/Game/Player/Classes/Melee/BP_Player_M.BP_Player_M_C' ref from Metadata '/Game/Player/Classes/BP_Player_M.PackageMetaData'
+[2024.10.14-14.53.49:973][514]LogMetaData: Removing '/Game/Player/Classes/Melee/BP_Player_M.BP_Player_M:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Player/Classes/BP_Player_M.PackageMetaData'
+[2024.10.14-14.53.49:973][514]LogMetaData: Removing '/Game/Player/Classes/Melee/BP_Player_M.BP_Player_M:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Player/Classes/BP_Player_M.PackageMetaData'
+[2024.10.14-14.53.49:973][514]LogMetaData: Removing '/Game/Player/Classes/Melee/BP_Player_M.BP_Player_M:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Player/Classes/BP_Player_M.PackageMetaData'
+[2024.10.14-14.53.49:973][514]LogMetaData: Removing '/Game/Player/Classes/Melee/BP_Player_M.SKEL_BP_Player_M_C' ref from Metadata '/Game/Player/Classes/BP_Player_M.PackageMetaData'
+[2024.10.14-14.53.49:973][514]LogMetaData: Removing '/Game/Player/Classes/Melee/BP_Player_M.BP_Player_M_C:OnNotifyEnd_E9E7B1504B00028D8BB80B95B23165B1' ref from Metadata '/Game/Player/Classes/BP_Player_M.PackageMetaData'
+[2024.10.14-14.53.49:973][514]LogMetaData: Removing '/Game/Player/Classes/Melee/BP_Player_M.BP_Player_M_C:OnNotifyBegin_E9E7B1504B00028D8BB80B95B23165B1' ref from Metadata '/Game/Player/Classes/BP_Player_M.PackageMetaData'
+[2024.10.14-14.53.49:973][514]LogMetaData: Removing '/Game/Player/Classes/Melee/BP_Player_M.BP_Player_M_C:OnInterrupted_E9E7B1504B00028D8BB80B95B23165B1' ref from Metadata '/Game/Player/Classes/BP_Player_M.PackageMetaData'
+[2024.10.14-14.53.49:973][514]LogMetaData: Removing '/Game/Player/Classes/Melee/BP_Player_M.BP_Player_M_C:OnBlendOut_E9E7B1504B00028D8BB80B95B23165B1' ref from Metadata '/Game/Player/Classes/BP_Player_M.PackageMetaData'
+[2024.10.14-14.53.49:973][514]LogMetaData: Removing '/Game/Player/Classes/Melee/BP_Player_M.BP_Player_M_C:OnCompleted_E9E7B1504B00028D8BB80B95B23165B1' ref from Metadata '/Game/Player/Classes/BP_Player_M.PackageMetaData'
+[2024.10.14-14.53.49:973][514]LogMetaData: Removing '/Game/Player/Classes/Melee/BP_Player_M.BP_Player_M_C:ReceiveBeginPlay' ref from Metadata '/Game/Player/Classes/BP_Player_M.PackageMetaData'
+[2024.10.14-14.53.49:973][514]LogMetaData: Removing '/Game/Player/Classes/Melee/BP_Player_M.SKEL_BP_Player_M_C:UserConstructionScript' ref from Metadata '/Game/Player/Classes/BP_Player_M.PackageMetaData'
+[2024.10.14-14.53.49:973][514]LogMetaData: Removing '/Game/Player/Classes/Melee/BP_Player_M.SKEL_BP_Player_M_C:ReceiveBeginPlay' ref from Metadata '/Game/Player/Classes/BP_Player_M.PackageMetaData'
+[2024.10.14-14.53.49:983][514]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.14-14.53.50:050][514]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Classes/Melee/BP_Player_M" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Classes/Melee/BP_Player_M.uasset" SILENT=true
+[2024.10.14-14.53.50:057][514]LogSavePackage: Moving output files for package: /Game/Player/Classes/Melee/BP_Player_M
+[2024.10.14-14.53.50:057][514]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_Player_M70AE269C4D22048FF4D958AD172F814B.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Classes/Melee/BP_Player_M.uasset'
+[2024.10.14-14.53.50:061][514]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Classes/BP_Player_M" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Classes/BP_Player_M.uasset" SILENT=true
+[2024.10.14-14.53.50:061][514]LogSavePackage: Moving output files for package: /Game/Player/Classes/BP_Player_M
+[2024.10.14-14.53.50:061][514]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_Player_M345763D04B83BB3B670A478CC1360366.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Classes/BP_Player_M.uasset'
+[2024.10.14-14.53.50:067][514]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 7.04 sec)
+[2024.10.14-14.53.50:075][514]AssetCheck: New page: Asset Save: multiple assets
+[2024.10.14-14.53.50:075][514]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Classes/Melee/BP_Player_M.BP_Player_M
+[2024.10.14-14.53.50:075][514]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Player/Classes/BP_Player_M.BP_Player_M_C
+[2024.10.14-14.53.50:075][514]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Player/Classes/BP_Player_M.BP_Player_M
+[2024.10.14-14.53.50:075][514]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Player/Classes/BP_Player_M.Default__BP_Player_M_C
+[2024.10.14-14.53.51:714][688]LogMetaData: Removing '/Game/Player/Classes/Ranged/BP_Player_R.BP_Player_R_C' ref from Metadata '/Game/Player/Classes/BP_Player_R.PackageMetaData'
+[2024.10.14-14.53.51:714][688]LogMetaData: Removing '/Game/Player/Classes/Ranged/BP_Player_R.BP_Player_R:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Player/Classes/BP_Player_R.PackageMetaData'
+[2024.10.14-14.53.51:714][688]LogMetaData: Removing '/Game/Player/Classes/Ranged/BP_Player_R.BP_Player_R:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Player/Classes/BP_Player_R.PackageMetaData'
+[2024.10.14-14.53.51:714][688]LogMetaData: Removing '/Game/Player/Classes/Ranged/BP_Player_R.BP_Player_R:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Player/Classes/BP_Player_R.PackageMetaData'
+[2024.10.14-14.53.51:714][688]LogMetaData: Removing '/Game/Player/Classes/Ranged/BP_Player_R.BP_Player_R:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Player/Classes/BP_Player_R.PackageMetaData'
+[2024.10.14-14.53.51:714][688]LogMetaData: Removing '/Game/Player/Classes/Ranged/BP_Player_R.BP_Player_R:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Player/Classes/BP_Player_R.PackageMetaData'
+[2024.10.14-14.53.51:714][688]LogMetaData: Removing '/Game/Player/Classes/Ranged/BP_Player_R.BP_Player_R:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/Player/Classes/BP_Player_R.PackageMetaData'
+[2024.10.14-14.53.51:714][688]LogMetaData: Removing '/Game/Player/Classes/Ranged/BP_Player_R.SKEL_BP_Player_R_C' ref from Metadata '/Game/Player/Classes/BP_Player_R.PackageMetaData'
+[2024.10.14-14.53.51:714][688]LogMetaData: Removing '/Game/Player/Classes/Ranged/BP_Player_R.SKEL_BP_Player_R_C:ReceiveBeginPlay' ref from Metadata '/Game/Player/Classes/BP_Player_R.PackageMetaData'
+[2024.10.14-14.53.51:714][688]LogMetaData: Removing '/Game/Player/Classes/Ranged/BP_Player_R.SKEL_BP_Player_R_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Player/Classes/BP_Player_R.PackageMetaData'
+[2024.10.14-14.53.51:714][688]LogMetaData: Removing '/Game/Player/Classes/Ranged/BP_Player_R.SKEL_BP_Player_R_C:ReceiveTick' ref from Metadata '/Game/Player/Classes/BP_Player_R.PackageMetaData'
+[2024.10.14-14.53.51:714][688]LogMetaData: Removing '/Game/Player/Classes/Ranged/BP_Player_R.SKEL_BP_Player_R_C:UserConstructionScript' ref from Metadata '/Game/Player/Classes/BP_Player_R.PackageMetaData'
+[2024.10.14-14.53.51:714][688]LogMetaData: Removing '/Game/Player/Classes/Ranged/BP_Player_R.BP_Player_R_C:ReceiveBeginPlay' ref from Metadata '/Game/Player/Classes/BP_Player_R.PackageMetaData'
+[2024.10.14-14.53.51:723][688]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.14-14.53.51:775][688]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.14-14.53.51:812][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Classes/Ranged/BP_Player_R" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Classes/Ranged/BP_Player_R.uasset" SILENT=true
+[2024.10.14-14.53.51:812][688]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/Player/Classes/Ranged/BP_Player_R does not exist, will not scan.
+[2024.10.14-14.53.51:817][688]LogSavePackage: Moving output files for package: /Game/Player/Classes/Ranged/BP_Player_R
+[2024.10.14-14.53.51:817][688]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_Player_RB57C75714C87704740DBDB8E2F036B27.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Classes/Ranged/BP_Player_R.uasset'
+[2024.10.14-14.53.51:823][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Classes/BP_Player_R" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Classes/BP_Player_R.uasset" SILENT=true
+[2024.10.14-14.53.51:824][688]LogSavePackage: Moving output files for package: /Game/Player/Classes/BP_Player_R
+[2024.10.14-14.53.51:824][688]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_Player_R1EB60AF144198ACA677BD49D40C5B5CD.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Classes/BP_Player_R.uasset'
+[2024.10.14-14.53.51:830][688]LogFileHelpers: InternalPromptForCheckoutAndSave took 106 ms (total: 7.14 sec)
+[2024.10.14-14.53.51:837][688]AssetCheck: New page: Asset Save: multiple assets
+[2024.10.14-14.53.51:837][688]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Classes/Ranged/BP_Player_R.BP_Player_R
+[2024.10.14-14.53.51:837][688]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Player/Classes/BP_Player_R.BP_Player_R_C
+[2024.10.14-14.53.51:837][688]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Player/Classes/BP_Player_R.BP_Player_R
+[2024.10.14-14.53.51:837][688]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Player/Classes/BP_Player_R.Default__BP_Player_R_C
+[2024.10.14-14.53.55:033][ 49]LogSlateStyle: Warning: Missing Resource from 'NiagaraEditorStyle' Style: 'Unable to find Color 'NiagaraEditor.AssetColors.DataChannel'.'
+[2024.10.14-14.54.16:728][284]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.10.14-14.54.16:731][284]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.10.14-14.54.16:735][284]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.10.14-14.54.16:745][285]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.10.14-14.54.36:274][558]LogContentBrowser: Attempting asset rename: NewBlueprint -> AnimNotState_HitDetection
+[2024.10.14-14.54.36:279][558]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.10.14-14.54.36:958][633]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.14-14.54.37:013][633]LogSavePackage: Moving output files for package: /Game/Player/Classes/Melee/AnimNotState_HitDetection
+[2024.10.14-14.54.37:013][633]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/AnimNotState_HitDetection23ACC6604C318CB081F154B7814D6AC0.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Classes/Melee/AnimNotState_HitDetection.uasset'
+[2024.10.14-14.54.37:019][633]LogFileHelpers: InternalPromptForCheckoutAndSave took 60 ms (total: 7.21 sec)
+[2024.10.14-14.54.37:019][633]AssetCheck: New page: Asset Save: AnimNotState_HitDetection
+[2024.10.14-14.54.37:019][633]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Classes/Melee/AnimNotState_HitDetection.AnimNotState_HitDetection
+[2024.10.14-14.55.01:800][545]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.10.14-14.55.01:810][545]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Level/CS2_Level_Auto4
+[2024.10.14-14.55.01:810][545]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/CS2_Level_Auto493C0A6E54E3B8A4C447BFEAFE012BCFA.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/Autosaves/Game/Level/CS2_Level_Auto4.umap'
+[2024.10.14-14.55.01:811][545]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/Autosaves/Game/Level/CS2_Level_Auto4.umap is in the /Temp path, will not scan.
+[2024.10.14-14.55.01:811][545]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Level/CS2_Level_Auto4 is in the /Temp path, will not scan.
+[2024.10.14-14.55.01:811][545]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Level/CS2_Level_Auto4 is in the /Temp path, will not scan.
+[2024.10.14-14.55.01:811][545]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/CS2_Level' took 0.026
+[2024.10.14-14.55.01:811][545]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.026
+[2024.10.14-14.55.01:811][545]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Characters/Mannequins/Animations/ABP_Manny] ([2] browsable assets)...
+[2024.10.14-14.55.01:837][545]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny]
+[2024.10.14-14.55.01:837][545]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Mannequins/Animations/ABP_Manny]
+[2024.10.14-14.55.01:861][545]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Mannequins/Animations/ABP_Manny_Auto4
+[2024.10.14-14.55.01:861][545]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/ABP_Manny_Auto4093EA49E46204759786C67899B40ACDC.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/Autosaves/Game/Characters/Mannequins/Animations/ABP_Manny_Auto4.uasset'
+[2024.10.14-14.55.01:861][545]LogFileHelpers: Auto-saving content packages took 0.051
+[2024.10.14-15.09.42:410][198]LogDerivedDataCache: C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.030 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 621 files in 1055 folders with total size 36 MiB.
+[2024.10.14-15.35.05:363][962]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/Animations/Combat/AM_SwordSlash1.AM_SwordSlash1
+[2024.10.14-15.35.05:363][962]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.14-15.35.05:363][962]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.14-15.35.05:368][962]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_51:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.10.14-15.35.05:503][962]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.14-15.35.05:503][962]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.14-15.35.05:595][962]LogViewport: Scene viewport resized to 1522x721, mode Windowed.
+[2024.10.14-15.35.56:318][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.10.14-15.35.56:322][995]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.14-15.35.56:358][995]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/CS2_Level" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/CS2_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.10.14-15.35.56:380][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.10.14-15.35.56:387][995]LogSavePackage: Moving output files for package: /Game/Level/CS2_Level
+[2024.10.14-15.35.56:387][995]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/CS2_LevelEDDBAFE24235548D20363B995EA542A0.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/CS2_Level.umap'
+[2024.10.14-15.35.56:390][995]LogFileHelpers: All files are already saved.
+[2024.10.14-15.35.56:391][995]LogFileHelpers: Saving map 'CS2_Level' took 0.033
+[2024.10.14-15.35.56:413][995]LogSavePackage: Moving output files for package: /Game/Characters/Mannequins/Animations/ABP_Manny
+[2024.10.14-15.35.56:413][995]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/ABP_MannyD569DF8D48D3AD30B7425CA0902241D5.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Characters/Mannequins/Animations/ABP_Manny.uasset'
+[2024.10.14-15.35.56:421][995]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Combat/AM_SwordSlash1" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Animations/Combat/AM_SwordSlash1.uasset" SILENT=true
+[2024.10.14-15.35.56:422][995]LogSavePackage: Moving output files for package: /Game/Animations/Combat/AM_SwordSlash1
+[2024.10.14-15.35.56:422][995]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/AM_SwordSlash1AD8C62314176CA273EF63788E154D2E5.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Animations/Combat/AM_SwordSlash1.uasset'
+[2024.10.14-15.35.56:427][995]LogFileHelpers: InternalPromptForCheckoutAndSave took 104 ms (total: 7.31 sec)
+[2024.10.14-15.35.56:428][995]AssetCheck: New page: Asset Save: multiple assets
+[2024.10.14-15.35.56:428][995]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/CS2_Level.CS2_Level
+[2024.10.14-15.35.56:428][995]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny
+[2024.10.14-15.35.56:428][995]LogContentValidation: Display: Validating /Script/Engine.AnimMontage /Game/Animations/Combat/AM_SwordSlash1.AM_SwordSlash1
