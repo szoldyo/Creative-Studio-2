@@ -4898,3 +4898,1007 @@ Make sure 'ABP_Manny_C' has been compiled for  Set Speed
 [2024.10.16-10.31.30:178][374]BlueprintLog: New page: Compile BP_Player_M
 [2024.10.16-10.31.30:226][374]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
 [2024.10.16-10.31.30:906][441]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.10.16-11.00.50:826][793]LogDerivedDataCache: C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.037 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 627 files in 1067 folders with total size 36 MiB.
+[2024.10.16-11.14.56:314][331]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.16-11.14.56:320][331]LogContentBundle: [CS2_Level(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.16-11.14.56:320][331]LogWorldPartition: Display: GenerateStreaming for 'CS2_Level' started...
+[2024.10.16-11.14.56:320][331]LogWorldPartition: Display: GenerateStreaming for 'CS2_Level' took 681 us (total: 4 ms)
+[2024.10.16-11.14.56:320][331]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.16-11.14.56:320][331]PIE: New page: PIE session: CS2_Level (16 Oct 2024, 13:14:56)
+[2024.10.16-11.14.56:320][331]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_CS2_Level
+[2024.10.16-11.14.56:323][331]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002152s)
+[2024.10.16-11.14.56:323][331]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/CS2_Level.CS2_Level to /Game/Level/UEDPIE_0_CS2_Level.CS2_Level (0.002177s)
+[2024.10.16-11.14.56:332][331]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.10.16-11.14.56:333][331]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.16-11.14.56:333][331]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.16-11.14.56:333][331]LogAIModule: Creating AISystem for world CS2_Level
+[2024.10.16-11.14.56:333][331]LogWorldPartition: ULevel::OnLevelLoaded(CS2_Level)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.16-11.14.56:333][331]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.16-11.14.56:333][331]LogWorldPartition: UWorldPartition::Initialize : World = CS2_Level, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.16-11.14.56:334][331]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.16-11.14.56:334][331]LogContentBundle: [CS2_Level(Standalone)] Creating new contrainer.
+[2024.10.16-11.14.56:334][331]LogWorldPartition: Display: WorldPartition initialize took 531 us (total: 75 ms)
+[2024.10.16-11.14.56:334][331]LogPlayLevel: PIE: World Init took: (0.001303s)
+[2024.10.16-11.14.56:334][331]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.10.16-11.14.56:334][331]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.16-11.14.56:334][331]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.16-11.14.56:334][331]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.16-11.14.56:334][331]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.16-11.14.56:334][331]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.16-11.14.56:334][331]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.16-11.14.56:334][331]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.16-11.14.56:334][331]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.16-11.14.56:334][331]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.16-11.14.56:334][331]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.16-11.14.56:334][331]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.16-11.14.56:336][331]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.16-11.14.56:352][331]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.16-11.14.56:353][331]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.16-11.14.56:353][331]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.16-11.14.56:353][331]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.16-11.14.56:354][331]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.10.16-11.14.56:354][331]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.10.16-11.14.56:355][331]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.10.16-11.14.56:355][331]LogInit: FAudioDevice initialized with ID 8.
+[2024.10.16-11.14.56:355][331]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.10.16-11.14.56:355][331]LogAudio: Display: Audio Device (ID: 8) registered with world 'CS2_Level'.
+[2024.10.16-11.14.56:355][331]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.10.16-11.14.56:408][331]LogLoad: Game class is 'BP_CS2_GameMode_C'
+[2024.10.16-11.14.56:408][331]LogWorld: Bringing World /Game/Level/UEDPIE_0_CS2_Level.CS2_Level up for play (max tick rate 0) at 2024.10.16-12.14.56
+[2024.10.16-11.14.56:408][331]LogWorld: Bringing up level for play took: 0.000436
+[2024.10.16-11.14.56:409][331]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2024.10.16-11.14.56:411][331]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for PlatformUserId 0,
+[2024.10.16-11.14.56:413][331]PIE: Server logged in
+[2024.10.16-11.14.56:413][331]PIE: Play in editor total start time 0.094 seconds.
+[2024.10.16-11.15.20:743][231]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.16-11.15.20:743][231]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_CS2_Level
+[2024.10.16-11.15.20:743][231]LogWorld: UWorld::CleanupWorld for CS2_Level, bSessionEnded=true, bCleanupResources=true
+[2024.10.16-11.15.20:743][231]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.16-11.15.20:743][231]LogContentBundle: [CS2_Level(Standalone)] Deleting container.
+[2024.10.16-11.15.20:746][231]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.16-11.15.20:748][231]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.16-11.15.20:759][231]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.16-11.15.20:759][231]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.10.16-11.15.20:759][231]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.10.16-11.15.20:760][231]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.10.16-11.15.20:765][231]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.10.16-11.15.20:826][237]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2024.10.16-11.31.55:559][834]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.16-11.31.55:565][834]LogContentBundle: [CS2_Level(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.16-11.31.55:565][834]LogWorldPartition: Display: GenerateStreaming for 'CS2_Level' started...
+[2024.10.16-11.31.55:566][834]LogWorldPartition: Display: GenerateStreaming for 'CS2_Level' took 710 us (total: 5 ms)
+[2024.10.16-11.31.55:566][834]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.16-11.31.55:566][834]PIE: New page: PIE session: CS2_Level (16 Oct 2024, 13:31:55)
+[2024.10.16-11.31.55:592][834]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_CS2_Level
+[2024.10.16-11.31.55:593][834]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001850s)
+[2024.10.16-11.31.55:593][834]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/CS2_Level.CS2_Level to /Game/Level/UEDPIE_0_CS2_Level.CS2_Level (0.001879s)
+[2024.10.16-11.31.55:603][834]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.10.16-11.31.55:604][834]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.16-11.31.55:604][834]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.16-11.31.55:605][834]LogAIModule: Creating AISystem for world CS2_Level
+[2024.10.16-11.31.55:605][834]LogWorldPartition: ULevel::OnLevelLoaded(CS2_Level)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.16-11.31.55:605][834]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.16-11.31.55:605][834]LogWorldPartition: UWorldPartition::Initialize : World = CS2_Level, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.16-11.31.55:605][834]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.16-11.31.55:605][834]LogContentBundle: [CS2_Level(Standalone)] Creating new contrainer.
+[2024.10.16-11.31.55:605][834]LogWorldPartition: Display: WorldPartition initialize took 520 us (total: 75 ms)
+[2024.10.16-11.31.55:605][834]LogPlayLevel: PIE: World Init took: (0.001269s)
+[2024.10.16-11.31.55:605][834]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.10.16-11.31.55:606][834]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.16-11.31.55:606][834]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.16-11.31.55:606][834]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.16-11.31.55:606][834]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.16-11.31.55:606][834]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.16-11.31.55:606][834]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.16-11.31.55:606][834]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.16-11.31.55:606][834]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.16-11.31.55:606][834]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.16-11.31.55:606][834]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.16-11.31.55:606][834]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.16-11.31.55:608][834]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.16-11.31.55:624][834]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.16-11.31.55:624][834]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.16-11.31.55:624][834]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.16-11.31.55:625][834]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.16-11.31.55:625][834]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.10.16-11.31.55:625][834]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.10.16-11.31.55:626][834]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.10.16-11.31.55:626][834]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.10.16-11.31.55:626][834]LogInit: FAudioDevice initialized with ID 9.
+[2024.10.16-11.31.55:626][834]LogAudio: Display: Audio Device (ID: 9) registered with world 'CS2_Level'.
+[2024.10.16-11.31.55:627][834]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.10.16-11.31.55:644][834]LogLoad: Game class is 'BP_CS2_GameMode_C'
+[2024.10.16-11.31.55:644][834]LogWorld: Bringing World /Game/Level/UEDPIE_0_CS2_Level.CS2_Level up for play (max tick rate 0) at 2024.10.16-12.31.55
+[2024.10.16-11.31.55:644][834]LogWorld: Bringing up level for play took: 0.000466
+[2024.10.16-11.31.55:646][834]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2024.10.16-11.31.55:646][834]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for PlatformUserId 0,
+[2024.10.16-11.31.55:648][834]PIE: Server logged in
+[2024.10.16-11.31.55:649][834]PIE: Play in editor total start time 0.084 seconds.
+[2024.10.16-11.32.15:462][188]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.16-11.32.15:462][188]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_CS2_Level
+[2024.10.16-11.32.15:462][188]LogWorld: UWorld::CleanupWorld for CS2_Level, bSessionEnded=true, bCleanupResources=true
+[2024.10.16-11.32.15:462][188]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.16-11.32.15:462][188]LogContentBundle: [CS2_Level(Standalone)] Deleting container.
+[2024.10.16-11.32.15:465][188]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.16-11.32.15:468][188]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.16-11.32.15:478][188]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.16-11.32.15:478][188]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.10.16-11.32.15:478][188]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.10.16-11.32.15:479][188]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.10.16-11.32.15:485][188]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.10.16-11.32.15:544][192]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2024.10.16-11.32.16:114][259]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.16-11.32.44:995][709]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.16-11.32.45:000][709]LogContentBundle: [CS2_Level(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.16-11.32.45:000][709]LogWorldPartition: Display: GenerateStreaming for 'CS2_Level' started...
+[2024.10.16-11.32.45:000][709]LogWorldPartition: Display: GenerateStreaming for 'CS2_Level' took 581 us (total: 6 ms)
+[2024.10.16-11.32.45:000][709]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.16-11.32.45:000][709]PIE: New page: PIE session: CS2_Level (16 Oct 2024, 13:32:45)
+[2024.10.16-11.32.45:022][709]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_CS2_Level
+[2024.10.16-11.32.45:024][709]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001724s)
+[2024.10.16-11.32.45:024][709]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/CS2_Level.CS2_Level to /Game/Level/UEDPIE_0_CS2_Level.CS2_Level (0.001748s)
+[2024.10.16-11.32.45:034][709]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.16-11.32.45:035][709]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.16-11.32.45:035][709]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.16-11.32.45:035][709]LogAIModule: Creating AISystem for world CS2_Level
+[2024.10.16-11.32.45:035][709]LogWorldPartition: ULevel::OnLevelLoaded(CS2_Level)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.16-11.32.45:035][709]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.16-11.32.45:036][709]LogWorldPartition: UWorldPartition::Initialize : World = CS2_Level, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.16-11.32.45:036][709]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.16-11.32.45:036][709]LogContentBundle: [CS2_Level(Standalone)] Creating new contrainer.
+[2024.10.16-11.32.45:036][709]LogWorldPartition: Display: WorldPartition initialize took 551 us (total: 76 ms)
+[2024.10.16-11.32.45:036][709]LogPlayLevel: PIE: World Init took: (0.001276s)
+[2024.10.16-11.32.45:036][709]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.10.16-11.32.45:036][709]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.16-11.32.45:036][709]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.16-11.32.45:036][709]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.16-11.32.45:036][709]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.16-11.32.45:036][709]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.16-11.32.45:036][709]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.16-11.32.45:036][709]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.16-11.32.45:036][709]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.16-11.32.45:036][709]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.16-11.32.45:036][709]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.16-11.32.45:036][709]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.16-11.32.45:038][709]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.16-11.32.45:053][709]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.16-11.32.45:053][709]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.16-11.32.45:053][709]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.16-11.32.45:053][709]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.16-11.32.45:053][709]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.10.16-11.32.45:053][709]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.10.16-11.32.45:055][709]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.10.16-11.32.45:055][709]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.10.16-11.32.45:055][709]LogInit: FAudioDevice initialized with ID 10.
+[2024.10.16-11.32.45:055][709]LogAudio: Display: Audio Device (ID: 10) registered with world 'CS2_Level'.
+[2024.10.16-11.32.45:055][709]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.10.16-11.32.45:057][709]LogLoad: Game class is 'BP_CS2_GameMode_C'
+[2024.10.16-11.32.45:057][709]LogWorld: Bringing World /Game/Level/UEDPIE_0_CS2_Level.CS2_Level up for play (max tick rate 0) at 2024.10.16-12.32.45
+[2024.10.16-11.32.45:057][709]LogWorld: Bringing up level for play took: 0.000407
+[2024.10.16-11.32.45:059][709]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2024.10.16-11.32.45:059][709]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for PlatformUserId 0,
+[2024.10.16-11.32.45:061][709]PIE: Server logged in
+[2024.10.16-11.32.45:061][709]PIE: Play in editor total start time 0.061 seconds.
+[2024.10.16-11.32.48:076][ 58]LogBlueprintUserMessages: [BP_Player_M_C_0] 99.9
+[2024.10.16-11.32.48:085][ 59]LogBlueprintUserMessages: [BP_Player_M_C_0] 99.8
+[2024.10.16-11.32.48:093][ 60]LogBlueprintUserMessages: [BP_Player_M_C_0] 99.7
+[2024.10.16-11.32.48:102][ 61]LogBlueprintUserMessages: [BP_Player_M_C_0] 99.6
+[2024.10.16-11.32.48:110][ 62]LogBlueprintUserMessages: [BP_Player_M_C_0] 99.5
+[2024.10.16-11.32.48:118][ 63]LogBlueprintUserMessages: [BP_Player_M_C_0] 99.4
+[2024.10.16-11.32.48:126][ 64]LogBlueprintUserMessages: [BP_Player_M_C_0] 99.3
+[2024.10.16-11.32.48:134][ 65]LogBlueprintUserMessages: [BP_Player_M_C_0] 99.2
+[2024.10.16-11.32.48:143][ 66]LogBlueprintUserMessages: [BP_Player_M_C_0] 99.1
+[2024.10.16-11.32.48:152][ 67]LogBlueprintUserMessages: [BP_Player_M_C_0] 99.0
+[2024.10.16-11.32.48:160][ 68]LogBlueprintUserMessages: [BP_Player_M_C_0] 98.9
+[2024.10.16-11.32.48:167][ 69]LogBlueprintUserMessages: [BP_Player_M_C_0] 98.8
+[2024.10.16-11.32.48:176][ 70]LogBlueprintUserMessages: [BP_Player_M_C_0] 98.7
+[2024.10.16-11.32.48:185][ 71]LogBlueprintUserMessages: [BP_Player_M_C_0] 98.6
+[2024.10.16-11.32.48:194][ 72]LogBlueprintUserMessages: [BP_Player_M_C_0] 98.5
+[2024.10.16-11.32.48:202][ 73]LogBlueprintUserMessages: [BP_Player_M_C_0] 98.4
+[2024.10.16-11.32.48:210][ 74]LogBlueprintUserMessages: [BP_Player_M_C_0] 98.3
+[2024.10.16-11.32.48:218][ 75]LogBlueprintUserMessages: [BP_Player_M_C_0] 98.2
+[2024.10.16-11.32.48:226][ 76]LogBlueprintUserMessages: [BP_Player_M_C_0] 98.1
+[2024.10.16-11.32.48:235][ 77]LogBlueprintUserMessages: [BP_Player_M_C_0] 98.0
+[2024.10.16-11.32.48:243][ 78]LogBlueprintUserMessages: [BP_Player_M_C_0] 97.9
+[2024.10.16-11.32.48:252][ 79]LogBlueprintUserMessages: [BP_Player_M_C_0] 97.8
+[2024.10.16-11.32.48:260][ 80]LogBlueprintUserMessages: [BP_Player_M_C_0] 97.7
+[2024.10.16-11.32.48:268][ 81]LogBlueprintUserMessages: [BP_Player_M_C_0] 97.6
+[2024.10.16-11.32.48:276][ 82]LogBlueprintUserMessages: [BP_Player_M_C_0] 97.5
+[2024.10.16-11.32.48:285][ 83]LogBlueprintUserMessages: [BP_Player_M_C_0] 97.4
+[2024.10.16-11.32.48:293][ 84]LogBlueprintUserMessages: [BP_Player_M_C_0] 97.3
+[2024.10.16-11.32.48:302][ 85]LogBlueprintUserMessages: [BP_Player_M_C_0] 97.2
+[2024.10.16-11.32.48:310][ 86]LogBlueprintUserMessages: [BP_Player_M_C_0] 97.1
+[2024.10.16-11.32.48:318][ 87]LogBlueprintUserMessages: [BP_Player_M_C_0] 97.0
+[2024.10.16-11.32.48:327][ 88]LogBlueprintUserMessages: [BP_Player_M_C_0] 96.9
+[2024.10.16-11.32.48:335][ 89]LogBlueprintUserMessages: [BP_Player_M_C_0] 96.8
+[2024.10.16-11.32.48:343][ 90]LogBlueprintUserMessages: [BP_Player_M_C_0] 96.7
+[2024.10.16-11.32.48:352][ 91]LogBlueprintUserMessages: [BP_Player_M_C_0] 96.6
+[2024.10.16-11.32.48:361][ 92]LogBlueprintUserMessages: [BP_Player_M_C_0] 96.5
+[2024.10.16-11.32.48:368][ 93]LogBlueprintUserMessages: [BP_Player_M_C_0] 96.4
+[2024.10.16-11.32.48:376][ 94]LogBlueprintUserMessages: [BP_Player_M_C_0] 96.3
+[2024.10.16-11.32.48:386][ 95]LogBlueprintUserMessages: [BP_Player_M_C_0] 96.2
+[2024.10.16-11.32.48:393][ 96]LogBlueprintUserMessages: [BP_Player_M_C_0] 96.1
+[2024.10.16-11.32.48:402][ 97]LogBlueprintUserMessages: [BP_Player_M_C_0] 96.0
+[2024.10.16-11.32.48:410][ 98]LogBlueprintUserMessages: [BP_Player_M_C_0] 95.9
+[2024.10.16-11.32.48:419][ 99]LogBlueprintUserMessages: [BP_Player_M_C_0] 95.8
+[2024.10.16-11.32.48:427][100]LogBlueprintUserMessages: [BP_Player_M_C_0] 95.7
+[2024.10.16-11.32.48:436][101]LogBlueprintUserMessages: [BP_Player_M_C_0] 95.6
+[2024.10.16-11.32.48:444][102]LogBlueprintUserMessages: [BP_Player_M_C_0] 95.5
+[2024.10.16-11.32.48:452][103]LogBlueprintUserMessages: [BP_Player_M_C_0] 95.4
+[2024.10.16-11.32.48:460][104]LogBlueprintUserMessages: [BP_Player_M_C_0] 95.3
+[2024.10.16-11.32.48:468][105]LogBlueprintUserMessages: [BP_Player_M_C_0] 95.2
+[2024.10.16-11.32.48:477][106]LogBlueprintUserMessages: [BP_Player_M_C_0] 95.1
+[2024.10.16-11.32.48:485][107]LogBlueprintUserMessages: [BP_Player_M_C_0] 95.0
+[2024.10.16-11.32.48:493][108]LogBlueprintUserMessages: [BP_Player_M_C_0] 94.9
+[2024.10.16-11.32.48:502][109]LogBlueprintUserMessages: [BP_Player_M_C_0] 94.8
+[2024.10.16-11.32.48:510][110]LogBlueprintUserMessages: [BP_Player_M_C_0] 94.7
+[2024.10.16-11.32.48:519][111]LogBlueprintUserMessages: [BP_Player_M_C_0] 94.6
+[2024.10.16-11.32.48:527][112]LogBlueprintUserMessages: [BP_Player_M_C_0] 94.5
+[2024.10.16-11.32.48:535][113]LogBlueprintUserMessages: [BP_Player_M_C_0] 94.4
+[2024.10.16-11.32.48:544][114]LogBlueprintUserMessages: [BP_Player_M_C_0] 94.3
+[2024.10.16-11.32.48:552][115]LogBlueprintUserMessages: [BP_Player_M_C_0] 94.2
+[2024.10.16-11.32.48:977][127]LogBlueprintUserMessages: [BP_Player_M_C_0] 95.2
+[2024.10.16-11.32.49:310][128]LogBlueprintUserMessages: [BP_Player_M_C_0] 96.2
+[2024.10.16-11.32.49:644][129]LogBlueprintUserMessages: [BP_Player_M_C_0] 97.2
+[2024.10.16-11.32.49:977][130]LogBlueprintUserMessages: [BP_Player_M_C_0] 98.2
+[2024.10.16-11.32.50:310][131]LogBlueprintUserMessages: [BP_Player_M_C_0] 99.2
+[2024.10.16-11.32.50:643][132]LogBlueprintUserMessages: [BP_Player_M_C_0] 100.2
+[2024.10.16-11.32.54:783][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.16-11.32.54:783][193]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_CS2_Level
+[2024.10.16-11.32.54:783][193]LogWorld: UWorld::CleanupWorld for CS2_Level, bSessionEnded=true, bCleanupResources=true
+[2024.10.16-11.32.54:783][193]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.16-11.32.54:783][193]LogContentBundle: [CS2_Level(Standalone)] Deleting container.
+[2024.10.16-11.32.54:785][193]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.16-11.32.54:788][193]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.16-11.32.54:798][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.16-11.32.54:798][193]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.10.16-11.32.54:798][193]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.10.16-11.32.54:799][193]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.10.16-11.32.54:803][193]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.16-11.32.54:853][198]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2024.10.16-12.00.51:802][541]LogDerivedDataCache: C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.012 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 627 files in 1067 folders with total size 36 MiB.
+[2024.10.16-12.01.50:826][406]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.16-12.01.50:831][406]LogContentBundle: [CS2_Level(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.16-12.01.50:831][406]LogWorldPartition: Display: GenerateStreaming for 'CS2_Level' started...
+[2024.10.16-12.01.50:832][406]LogWorldPartition: Display: GenerateStreaming for 'CS2_Level' took 693 us (total: 6 ms)
+[2024.10.16-12.01.50:832][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.16-12.01.50:832][406]PIE: New page: PIE session: CS2_Level (16 Oct 2024, 14:01:50)
+[2024.10.16-12.01.50:833][406]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_CS2_Level
+[2024.10.16-12.01.50:834][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001893s)
+[2024.10.16-12.01.50:834][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/CS2_Level.CS2_Level to /Game/Level/UEDPIE_0_CS2_Level.CS2_Level (0.001919s)
+[2024.10.16-12.01.50:844][406]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.10.16-12.01.50:845][406]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.16-12.01.50:845][406]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.16-12.01.50:845][406]LogAIModule: Creating AISystem for world CS2_Level
+[2024.10.16-12.01.50:846][406]LogWorldPartition: ULevel::OnLevelLoaded(CS2_Level)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.16-12.01.50:846][406]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.16-12.01.50:846][406]LogWorldPartition: UWorldPartition::Initialize : World = CS2_Level, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.16-12.01.50:846][406]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.16-12.01.50:846][406]LogContentBundle: [CS2_Level(Standalone)] Creating new contrainer.
+[2024.10.16-12.01.50:846][406]LogWorldPartition: Display: WorldPartition initialize took 530 us (total: 76 ms)
+[2024.10.16-12.01.50:846][406]LogPlayLevel: PIE: World Init took: (0.001315s)
+[2024.10.16-12.01.50:846][406]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.10.16-12.01.50:846][406]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.16-12.01.50:846][406]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.16-12.01.50:846][406]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.16-12.01.50:846][406]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.16-12.01.50:846][406]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.16-12.01.50:846][406]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.16-12.01.50:846][406]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.16-12.01.50:846][406]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.16-12.01.50:847][406]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.16-12.01.50:847][406]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.16-12.01.50:847][406]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.16-12.01.50:848][406]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.16-12.01.50:865][406]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.16-12.01.50:865][406]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.16-12.01.50:865][406]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.16-12.01.50:865][406]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.16-12.01.50:866][406]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.10.16-12.01.50:866][406]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.10.16-12.01.50:867][406]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.10.16-12.01.50:867][406]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.10.16-12.01.50:867][406]LogInit: FAudioDevice initialized with ID 11.
+[2024.10.16-12.01.50:867][406]LogAudio: Display: Audio Device (ID: 11) registered with world 'CS2_Level'.
+[2024.10.16-12.01.50:867][406]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.10.16-12.01.50:869][406]LogLoad: Game class is 'BP_CS2_GameMode_C'
+[2024.10.16-12.01.50:870][406]LogWorld: Bringing World /Game/Level/UEDPIE_0_CS2_Level.CS2_Level up for play (max tick rate 0) at 2024.10.16-13.01.50
+[2024.10.16-12.01.50:870][406]LogWorld: Bringing up level for play took: 0.000489
+[2024.10.16-12.01.50:871][406]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2024.10.16-12.01.50:872][406]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for PlatformUserId 0,
+[2024.10.16-12.01.50:874][406]PIE: Server logged in
+[2024.10.16-12.01.50:874][406]PIE: Play in editor total start time 0.043 seconds.
+[2024.10.16-12.01.53:006][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.16-12.01.53:006][613]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_CS2_Level
+[2024.10.16-12.01.53:006][613]LogWorld: UWorld::CleanupWorld for CS2_Level, bSessionEnded=true, bCleanupResources=true
+[2024.10.16-12.01.53:006][613]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.16-12.01.53:006][613]LogContentBundle: [CS2_Level(Standalone)] Deleting container.
+[2024.10.16-12.01.53:009][613]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.16-12.01.53:011][613]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.16-12.01.53:022][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.16-12.01.53:022][613]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.10.16-12.01.53:022][613]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.10.16-12.01.53:023][613]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.10.16-12.01.53:028][613]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.16-12.01.53:078][616]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2024.10.16-12.03.09:094][582]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.16-12.03.09:098][582]LogContentBundle: [CS2_Level(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.16-12.03.09:098][582]LogWorldPartition: Display: GenerateStreaming for 'CS2_Level' started...
+[2024.10.16-12.03.09:099][582]LogWorldPartition: Display: GenerateStreaming for 'CS2_Level' took 615 us (total: 7 ms)
+[2024.10.16-12.03.09:099][582]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.16-12.03.09:099][582]PIE: New page: PIE session: CS2_Level (16 Oct 2024, 14:03:09)
+[2024.10.16-12.03.09:147][582]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_CS2_Level
+[2024.10.16-12.03.09:149][582]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001795s)
+[2024.10.16-12.03.09:149][582]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/CS2_Level.CS2_Level to /Game/Level/UEDPIE_0_CS2_Level.CS2_Level (0.001824s)
+[2024.10.16-12.03.09:157][582]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.10.16-12.03.09:159][582]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.16-12.03.09:159][582]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.16-12.03.09:159][582]LogAIModule: Creating AISystem for world CS2_Level
+[2024.10.16-12.03.09:160][582]LogWorldPartition: ULevel::OnLevelLoaded(CS2_Level)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.16-12.03.09:160][582]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.16-12.03.09:160][582]LogWorldPartition: UWorldPartition::Initialize : World = CS2_Level, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.16-12.03.09:160][582]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.16-12.03.09:160][582]LogContentBundle: [CS2_Level(Standalone)] Creating new contrainer.
+[2024.10.16-12.03.09:160][582]LogWorldPartition: Display: WorldPartition initialize took 541 us (total: 77 ms)
+[2024.10.16-12.03.09:160][582]LogPlayLevel: PIE: World Init took: (0.001270s)
+[2024.10.16-12.03.09:160][582]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.10.16-12.03.09:160][582]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.16-12.03.09:160][582]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.16-12.03.09:160][582]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.16-12.03.09:160][582]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.16-12.03.09:160][582]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.16-12.03.09:160][582]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.16-12.03.09:160][582]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.16-12.03.09:160][582]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.16-12.03.09:161][582]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.16-12.03.09:161][582]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.16-12.03.09:161][582]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.16-12.03.09:162][582]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.16-12.03.09:178][582]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.16-12.03.09:178][582]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.16-12.03.09:178][582]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.16-12.03.09:178][582]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.16-12.03.09:179][582]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.10.16-12.03.09:179][582]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.10.16-12.03.09:180][582]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.10.16-12.03.09:180][582]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.10.16-12.03.09:180][582]LogInit: FAudioDevice initialized with ID 12.
+[2024.10.16-12.03.09:180][582]LogAudio: Display: Audio Device (ID: 12) registered with world 'CS2_Level'.
+[2024.10.16-12.03.09:180][582]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.10.16-12.03.09:182][582]LogLoad: Game class is 'BP_CS2_GameMode_C'
+[2024.10.16-12.03.09:182][582]LogWorld: Bringing World /Game/Level/UEDPIE_0_CS2_Level.CS2_Level up for play (max tick rate 0) at 2024.10.16-13.03.09
+[2024.10.16-12.03.09:182][582]LogWorld: Bringing up level for play took: 0.000437
+[2024.10.16-12.03.09:184][582]LogOnline: OSS: Created online subsystem instance for: :Context_44
+[2024.10.16-12.03.09:184][582]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for PlatformUserId 0,
+[2024.10.16-12.03.09:186][582]PIE: Server logged in
+[2024.10.16-12.03.09:187][582]PIE: Play in editor total start time 0.088 seconds.
+[2024.10.16-12.03.23:319][264]LogBlueprintUserMessages: [BP_PlayerTestDummy_C_0] 90.0
+[2024.10.16-12.03.26:519][648]LogBlueprintUserMessages: [BP_PlayerTestDummy_C_0] 80.0
+[2024.10.16-12.03.28:011][827]LogBlueprintUserMessages: [BP_PlayerTestDummy_C_0] 70.0
+[2024.10.16-12.03.31:288][216]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.16-12.03.31:288][216]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_CS2_Level
+[2024.10.16-12.03.31:288][216]LogWorld: UWorld::CleanupWorld for CS2_Level, bSessionEnded=true, bCleanupResources=true
+[2024.10.16-12.03.31:288][216]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.16-12.03.31:288][216]LogContentBundle: [CS2_Level(Standalone)] Deleting container.
+[2024.10.16-12.03.31:290][216]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.16-12.03.31:293][216]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.16-12.03.31:303][216]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.16-12.03.31:304][216]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.10.16-12.03.31:304][216]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.10.16-12.03.31:305][216]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.10.16-12.03.31:310][216]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.10.16-12.03.31:361][219]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2024.10.16-12.03.35:208][680]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.16-12.03.35:213][680]LogContentBundle: [CS2_Level(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.16-12.03.35:213][680]LogWorldPartition: Display: GenerateStreaming for 'CS2_Level' started...
+[2024.10.16-12.03.35:214][680]LogWorldPartition: Display: GenerateStreaming for 'CS2_Level' took 572 us (total: 8 ms)
+[2024.10.16-12.03.35:214][680]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.16-12.03.35:214][680]PIE: New page: PIE session: CS2_Level (16 Oct 2024, 14:03:35)
+[2024.10.16-12.03.35:238][680]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_CS2_Level
+[2024.10.16-12.03.35:240][680]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001793s)
+[2024.10.16-12.03.35:240][680]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/CS2_Level.CS2_Level to /Game/Level/UEDPIE_0_CS2_Level.CS2_Level (0.001817s)
+[2024.10.16-12.03.35:247][680]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.16-12.03.35:248][680]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.16-12.03.35:248][680]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.16-12.03.35:249][680]LogAIModule: Creating AISystem for world CS2_Level
+[2024.10.16-12.03.35:249][680]LogWorldPartition: ULevel::OnLevelLoaded(CS2_Level)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.16-12.03.35:249][680]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.16-12.03.35:249][680]LogWorldPartition: UWorldPartition::Initialize : World = CS2_Level, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.16-12.03.35:249][680]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.16-12.03.35:249][680]LogContentBundle: [CS2_Level(Standalone)] Creating new contrainer.
+[2024.10.16-12.03.35:249][680]LogWorldPartition: Display: WorldPartition initialize took 537 us (total: 77 ms)
+[2024.10.16-12.03.35:249][680]LogPlayLevel: PIE: World Init took: (0.001254s)
+[2024.10.16-12.03.35:249][680]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.10.16-12.03.35:249][680]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.16-12.03.35:249][680]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.16-12.03.35:249][680]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.16-12.03.35:249][680]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.16-12.03.35:250][680]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.16-12.03.35:250][680]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.16-12.03.35:250][680]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.16-12.03.35:250][680]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.16-12.03.35:250][680]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.16-12.03.35:250][680]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.16-12.03.35:250][680]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.16-12.03.35:251][680]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.16-12.03.35:266][680]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.16-12.03.35:266][680]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.16-12.03.35:266][680]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.16-12.03.35:266][680]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.16-12.03.35:267][680]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.10.16-12.03.35:267][680]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.10.16-12.03.35:268][680]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.10.16-12.03.35:268][680]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.10.16-12.03.35:268][680]LogInit: FAudioDevice initialized with ID 13.
+[2024.10.16-12.03.35:268][680]LogAudio: Display: Audio Device (ID: 13) registered with world 'CS2_Level'.
+[2024.10.16-12.03.35:268][680]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.10.16-12.03.35:270][680]LogLoad: Game class is 'BP_CS2_GameMode_C'
+[2024.10.16-12.03.35:270][680]LogWorld: Bringing World /Game/Level/UEDPIE_0_CS2_Level.CS2_Level up for play (max tick rate 0) at 2024.10.16-13.03.35
+[2024.10.16-12.03.35:270][680]LogWorld: Bringing up level for play took: 0.000400
+[2024.10.16-12.03.35:271][680]LogOnline: OSS: Created online subsystem instance for: :Context_45
+[2024.10.16-12.03.35:272][680]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for PlatformUserId 0,
+[2024.10.16-12.03.35:274][680]PIE: Server logged in
+[2024.10.16-12.03.35:275][680]PIE: Play in editor total start time 0.061 seconds.
+[2024.10.16-12.03.47:798][162]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.16-12.03.47:798][162]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_CS2_Level
+[2024.10.16-12.03.47:798][162]LogWorld: UWorld::CleanupWorld for CS2_Level, bSessionEnded=true, bCleanupResources=true
+[2024.10.16-12.03.47:798][162]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.16-12.03.47:799][162]LogContentBundle: [CS2_Level(Standalone)] Deleting container.
+[2024.10.16-12.03.47:801][162]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.16-12.03.47:804][162]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.16-12.03.47:814][162]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.16-12.03.47:814][162]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.10.16-12.03.47:814][162]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.10.16-12.03.47:815][162]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.10.16-12.03.47:820][162]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.10.16-12.03.47:863][164]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2024.10.16-12.16.34:609][517]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.10.16-12.16.34:619][517]LogContentBrowser: Creating deferred item: NewFolder
+[2024.10.16-12.16.34:625][518]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.10.16-12.16.41:034][287]LogContentBrowser: Attempting asset rename: NewFolder -> Weapons
+[2024.10.16-12.16.41:034][287]LogContentBrowser: End creating deferred item NewFolder
+[2024.10.16-12.23.08:412][876]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Student\Downloads\Equip.Unequip\Equip.Unequip\sword.fbx)
+[2024.10.16-12.23.08:415][876]LogFbx: Loading FBX Scene from C:\Users\Student\Downloads\Equip.Unequip\Equip.Unequip\sword.fbx
+[2024.10.16-12.23.08:420][876]LogFbx: FBX Scene Loaded Succesfully
+[2024.10.16-12.23.17:018][876]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.10.16-12.23.17:100][876]LogFbx: Display: Triangulating static mesh sword
+[2024.10.16-12.23.17:126][876]LogStaticMesh: Display: Building static mesh sword...
+[2024.10.16-12.23.17:141][876]LogStaticMesh: Built static mesh [0.02s] /Game/Weapons/sword.sword
+[2024.10.16-12.23.17:160][876]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.10.16-12.23.18:083][955]LogShaderCompilers: Display: ================================================
+[2024.10.16-12.23.18:083][955]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.16-12.23.18:083][955]LogShaderCompilers: Display: Total job queries 10, among them cache hits 2 (20.00%)
+[2024.10.16-12.23.18:083][955]LogShaderCompilers: Display: Tracking 5 distinct input hashes that result in 5 distinct outputs (100.00%)
+[2024.10.16-12.23.18:083][955]LogShaderCompilers: Display: RAM used: 97.22 KiB of 1.60 GiB budget. Usage: 0.01%
+[2024.10.16-12.23.18:083][955]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.16-12.23.18:083][955]LogShaderCompilers: Display: Shaders Compiled: 1
+[2024.10.16-12.23.18:083][955]LogShaderCompilers: Display: Jobs assigned 4, completed 1 (25.00%)
+[2024.10.16-12.23.18:083][955]LogShaderCompilers: Display: Time job spent in pending queue: average 0.03 s, longest 0.03 s
+[2024.10.16-12.23.18:083][955]LogShaderCompilers: Display: Job execution time: average 0.62 s, max 0.62 s
+[2024.10.16-12.23.18:083][955]LogShaderCompilers: Display: Job life time (pending + execution): average 0.65 s, max 0.65
+[2024.10.16-12.23.18:083][955]LogShaderCompilers: Display: Shader code size: average 29.711 KiB, min 29.711 KiB, max 29.711 KiB
+[2024.10.16-12.23.18:083][955]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.65 s
+[2024.10.16-12.23.18:083][955]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.10.16-12.23.18:083][955]LogShaderCompilers: Display: Average processing rate: 1.55 jobs/sec
+[2024.10.16-12.23.18:083][955]LogShaderCompilers: Display: Total thread time: 0.299 s
+[2024.10.16-12.23.18:083][955]LogShaderCompilers: Display: Total thread preprocess time: 0.246 s
+[2024.10.16-12.23.18:083][955]LogShaderCompilers: Display: Percentage time preprocessing: 82.33%
+[2024.10.16-12.23.18:083][955]LogShaderCompilers: Display: Effective parallelization: 0.46 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.10.16-12.23.18:083][955]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2024.10.16-12.23.18:083][955]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.30 sec, max 0.30 sec, min 0.30 sec)
+[2024.10.16-12.23.18:083][955]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2024.10.16-12.23.18:083][955]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 100.00% of total time (compiled    1 times, average 0.30 sec, max 0.30 sec, min 0.30 sec)
+[2024.10.16-12.23.18:083][955]LogShaderCompilers: Display: ================================================
+[2024.10.16-12.23.23:762][513]LogInterchangeEngine: [Pending] Importing
+[2024.10.16-12.23.23:762][513]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/Student/Dow...nequip/Equip.Unequip/Sword_substance_phong2_BaseColor.png]
+[2024.10.16-12.23.23:788][514]LogInterchangeEngine: [Pending] Importing
+[2024.10.16-12.23.24:104][514]LogTexture: Display: Building textures: /Game/Weapons/Sword_substance_phong2_BaseColor.Sword_substance_phong2_BaseColor (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.10.16-12.23.24:119][515]LogInterchangeEngine: [Success] Import Done
+[2024.10.16-12.23.24:138][515]LogInterchangeEngine: [Success] Import Done
+[2024.10.16-12.23.25:411][518]LogSlate: Window 'Message Log' being destroyed
+[2024.10.16-12.23.25:415][518]LogSlate: Window 'Message Log' being destroyed
+[2024.10.16-12.23.26:623][642]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.16-12.23.26:714][642]LogSavePackage: Moving output files for package: /Game/Weapons/Sword_substance_phong2_BaseColor
+[2024.10.16-12.23.26:714][642]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/Sword_substance_phong2_BaseColorEF304C98437819EBCCA854956657B9B1.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Weapons/Sword_substance_phong2_BaseColor.uasset'
+[2024.10.16-12.23.27:291][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/phong2" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Weapons/phong2.uasset" SILENT=true
+[2024.10.16-12.23.27:293][642]LogSavePackage: Moving output files for package: /Game/Weapons/phong2
+[2024.10.16-12.23.27:293][642]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/phong24F454A754976C588786F69AEA58A0114.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Weapons/phong2.uasset'
+[2024.10.16-12.23.27:299][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/sword" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Weapons/sword.uasset" SILENT=true
+[2024.10.16-12.23.27:301][642]LogSavePackage: Moving output files for package: /Game/Weapons/sword
+[2024.10.16-12.23.27:301][642]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/sword89FAC045416FCDFB40A15ABBF5468CB8.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Weapons/sword.uasset'
+[2024.10.16-12.23.27:308][642]LogFileHelpers: InternalPromptForCheckoutAndSave took 684 ms (total: 4.83 sec)
+[2024.10.16-12.23.27:308][642]AssetCheck: New page: Asset Save: multiple assets
+[2024.10.16-12.23.27:308][642]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Weapons/Sword_substance_phong2_BaseColor.Sword_substance_phong2_BaseColor
+[2024.10.16-12.23.27:308][642]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Weapons/phong2.phong2
+[2024.10.16-12.23.27:308][642]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Weapons/sword.sword
+[2024.10.16-12.23.31:453][126]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Weapons/phong2.phong2
+[2024.10.16-12.23.31:467][126]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.16-12.23.31:467][126]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.16-12.23.31:609][126]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.16-12.23.31:610][126]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.16-12.23.31:610][126]MaterialEditorStats: Shader Count: 0
+[2024.10.16-12.23.31:615][126]LogViewport: Scene viewport resized to 407x383, mode Windowed.
+[2024.10.16-12.23.31:678][128]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.10.16-12.23.31:678][128]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.16-12.23.31:678][128]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.16-12.23.31:678][128]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.16-12.23.31:678][128]MaterialEditorStats: Shader Count: 4
+[2024.10.16-12.23.33:843][367]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.16-12.23.33:843][367]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.16-12.23.33:843][367]MaterialEditorStats: Shader Count: 0
+[2024.10.16-12.23.33:880][369]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.10.16-12.23.33:880][369]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.16-12.23.33:880][369]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.16-12.23.33:880][369]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.16-12.23.33:880][369]MaterialEditorStats: Shader Count: 4
+[2024.10.16-12.23.35:834][580]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.16-12.23.35:834][580]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.10.16-12.23.35:834][580]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.16-12.23.35:834][580]MaterialEditorStats: Shader Count: 0
+[2024.10.16-12.23.36:003][596]MaterialEditorStats: Texture samplers: 1/16
+[2024.10.16-12.23.36:003][596]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.10.16-12.23.36:003][596]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.16-12.23.36:003][596]MaterialEditorStats: Shader Count: 1
+[2024.10.16-12.23.36:107][608]MaterialEditorStats: Base pass shader: 194 instructions
+[2024.10.16-12.23.36:107][608]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.10.16-12.23.36:107][608]MaterialEditorStats: Texture samplers: 3/16
+[2024.10.16-12.23.36:107][608]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.10.16-12.23.36:107][608]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.16-12.23.36:107][608]MaterialEditorStats: Shader Count: 4
+[2024.10.16-12.23.37:594][767]LogMaterialEditor: Applying material phong2
+[2024.10.16-12.23.37:813][767]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.10.16-12.23.38:312][767]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.10.16-12.23.38:319][767]MaterialEditorStats: Texture samplers: 1/16
+[2024.10.16-12.23.38:319][767]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.10.16-12.23.38:319][767]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.16-12.23.38:319][767]MaterialEditorStats: Shader Count: 2
+[2024.10.16-12.23.38:327][768]MaterialEditorStats: Base pass shader: 194 instructions
+[2024.10.16-12.23.38:327][768]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.10.16-12.23.38:327][768]MaterialEditorStats: Texture samplers: 3/16
+[2024.10.16-12.23.38:327][768]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.10.16-12.23.38:327][768]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.16-12.23.38:327][768]MaterialEditorStats: Shader Count: 4
+[2024.10.16-12.23.39:006][845]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.10.16-12.23.39:009][845]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.16-12.23.39:496][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/phong2" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Weapons/phong2.uasset" SILENT=true
+[2024.10.16-12.23.39:497][845]LogSavePackage: Moving output files for package: /Game/Weapons/phong2
+[2024.10.16-12.23.39:497][845]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/phong2CD80ADFF48A37DCF6EA6368FF6F72417.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Weapons/phong2.uasset'
+[2024.10.16-12.23.39:503][845]LogFileHelpers: InternalPromptForCheckoutAndSave took 494 ms (total: 5.32 sec)
+[2024.10.16-12.23.39:503][845]AssetCheck: New page: Asset Save: phong2
+[2024.10.16-12.23.39:503][845]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Weapons/phong2.phong2
+[2024.10.16-12.23.39:504][845]MaterialEditorStats: Base pass shader: 194 instructions
+[2024.10.16-12.23.39:504][845]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.10.16-12.23.39:504][845]MaterialEditorStats: MaxSampler: 244 instructions
+[2024.10.16-12.23.39:504][845]MaterialEditorStats: Texture samplers: 4/16
+[2024.10.16-12.23.39:504][845]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.10.16-12.23.39:504][845]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.16-12.23.39:504][845]MaterialEditorStats: Shader Count: 16
+[2024.10.16-12.23.40:232][931]LogSlate: Window 'phong2' being destroyed
+[2024.10.16-12.23.40:235][931]LogSlate: Window 'phong2' being destroyed
+[2024.10.16-12.23.40:250][931]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2024.10.16-12.23.40:250][931]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.16-12.23.41:356][ 46]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Weapons/sword.sword
+[2024.10.16-12.23.41:406][ 46]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.16-12.23.41:406][ 46]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.16-12.23.41:756][ 46]LogViewport: Scene viewport resized to 1525x773, mode Windowed.
+[2024.10.16-12.23.45:722][499]LogSlate: Window 'sword' being destroyed
+[2024.10.16-12.23.45:731][499]LogSlate: Window 'sword' being destroyed
+[2024.10.16-12.23.45:760][499]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2024.10.16-12.23.45:760][499]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.16-12.23.49:621][921]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.10.16-12.23.49:639][921]LogContentBrowser: Creating deferred item: NewFolder
+[2024.10.16-12.23.49:644][922]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.10.16-12.23.52:377][248]LogContentBrowser: Attempting asset rename: NewFolder -> TestSword
+[2024.10.16-12.23.52:378][248]LogContentBrowser: End creating deferred item NewFolder
+[2024.10.16-12.23.56:355][688]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.16-12.23.56:401][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/TestSword/phong2" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Weapons/TestSword/phong2.uasset" SILENT=true
+[2024.10.16-12.23.56:402][688]LogSavePackage: Moving output files for package: /Game/Weapons/TestSword/phong2
+[2024.10.16-12.23.56:402][688]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/phong2E9BDBF5B4D559FDBF574A2B608F40A77.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Weapons/TestSword/phong2.uasset'
+[2024.10.16-12.23.56:403][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/TestSword/sword" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Weapons/TestSword/sword.uasset" SILENT=true
+[2024.10.16-12.23.56:405][688]LogSavePackage: Moving output files for package: /Game/Weapons/TestSword/sword
+[2024.10.16-12.23.56:405][688]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/sword4A261AE1411263EFAD3F9BA7844DC831.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Weapons/TestSword/sword.uasset'
+[2024.10.16-12.23.56:419][688]LogSavePackage: Moving output files for package: /Game/Weapons/TestSword/Sword_substance_phong2_BaseColor
+[2024.10.16-12.23.56:419][688]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/Sword_substance_phong2_BaseColorA59FCE974B5669625B0CB9B420899D80.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Weapons/TestSword/Sword_substance_phong2_BaseColor.uasset'
+[2024.10.16-12.23.56:425][688]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 5.39 sec)
+[2024.10.16-12.23.56:445][688]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.10.16-12.23.56:457][688]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.16-12.23.56:464][688]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.10.16-12.23.56:475][688]AssetCheck: New page: Asset Save: multiple assets
+[2024.10.16-12.23.56:475][688]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Weapons/TestSword/phong2.phong2
+[2024.10.16-12.23.56:475][688]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Weapons/TestSword/sword.sword
+[2024.10.16-12.23.56:475][688]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Weapons/TestSword/Sword_substance_phong2_BaseColor.Sword_substance_phong2_BaseColor
+[2024.10.16-12.24.22:151][517]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Student\Downloads\Equip.Unequip\Equip.Unequip\DrawSword.UE.fbx)
+[2024.10.16-12.24.22:154][517]LogFbx: Loading FBX Scene from C:\Users\Student\Downloads\Equip.Unequip\Equip.Unequip\DrawSword.UE.fbx
+[2024.10.16-12.24.22:172][517]LogFbx: FBX Scene Loaded Succesfully
+[2024.10.16-12.24.25:638][517]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(0) root
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(1) pelvis
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(2) spine_01
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(3) spine_02
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(4) spine_03
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(5) spine_04
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(6) spine_05
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(7) neck_01
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(8) neck_02
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(9) head
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(10) clavicle_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(11) upperarm_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(12) lowerarm_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(13) lowerarm_twist_02_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(14) lowerarm_twist_01_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(15) lowerarm_correctiveRoot_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(16) lowerarm_in_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(17) lowerarm_out_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(18) lowerarm_fwd_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(19) lowerarm_bck_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(20) hand_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(21) wrist_inner_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(22) wrist_outer_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(23) index_metacarpal_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(24) index_01_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(25) index_02_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(26) index_03_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(27) middle_metacarpal_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(28) middle_01_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(29) middle_02_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(30) middle_03_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(31) thumb_01_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(32) thumb_02_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(33) thumb_03_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(34) pinky_metacarpal_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(35) pinky_01_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(36) pinky_02_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(37) pinky_03_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(38) ring_metacarpal_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(39) ring_01_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(40) ring_02_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(41) ring_03_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(42) weapon_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(43) upperarm_twist_01_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(44) upperarm_twistCor_01_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(45) upperarm_twist_02_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(46) upperarm_tricep_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(47) upperarm_bicep_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(48) upperarm_twistCor_02_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(49) upperarm_correctiveRoot_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(50) upperarm_bck_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(51) upperarm_fwd_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(52) upperarm_in_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(53) upperarm_out_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(54) clavicle_out_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(55) clavicle_scap_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(56) clavicle_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(57) upperarm_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(58) lowerarm_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(59) lowerarm_twist_02_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(60) lowerarm_twist_01_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(61) lowerarm_correctiveRoot_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(62) lowerarm_out_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(63) lowerarm_in_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(64) lowerarm_fwd_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(65) lowerarm_bck_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(66) hand_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(67) wrist_inner_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(68) wrist_outer_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(69) pinky_metacarpal_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(70) pinky_01_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(71) pinky_02_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(72) pinky_03_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(73) ring_metacarpal_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(74) ring_01_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(75) ring_02_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(76) ring_03_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(77) middle_metacarpal_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(78) middle_01_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(79) middle_02_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(80) middle_03_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(81) index_metacarpal_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(82) index_01_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(83) index_02_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(84) index_03_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(85) thumb_01_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(86) thumb_02_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(87) thumb_03_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(88) weapon_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(89) upperarm_twist_01_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(90) upperarm_twistCor_01_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(91) upperarm_twist_02_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(92) upperarm_tricep_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(93) upperarm_bicep_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(94) upperarm_twistCor_02_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(95) upperarm_correctiveRoot_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(96) upperarm_bck_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(97) upperarm_in_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(98) upperarm_fwd_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(99) upperarm_out_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(100) clavicle_out_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(101) clavicle_scap_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(102) clavicle_pec_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(103) spine_04_latissimus_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(104) spine_04_latissimus_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(105) clavicle_pec_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(106) thigh_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(107) calf_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(108) foot_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(109) ball_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(110) ankle_fwd_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(111) ankle_bck_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(112) calf_twist_02_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(113) calf_twistCor_02_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(114) calf_twist_01_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(115) calf_correctiveRoot_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(116) calf_kneeBack_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(117) calf_knee_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(118) thigh_twist_01_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(119) thigh_twistCor_01_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(120) thigh_twist_02_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(121) thigh_twistCor_02_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(122) thigh_correctiveRoot_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(123) thigh_fwd_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(124) thigh_bck_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(125) thigh_out_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(126) thigh_in_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(127) thigh_bck_lwr_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(128) thigh_fwd_lwr_r
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(129) thigh_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(130) calf_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(131) foot_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(132) ball_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(133) ankle_bck_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(134) ankle_fwd_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(135) calf_twist_02_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(136) calf_twistCor_02_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(137) calf_twist_01_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(138) calf_correctiveRoot_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(139) calf_kneeBack_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(140) calf_knee_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(141) thigh_twist_01_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(142) thigh_twistCor_01_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(143) thigh_twist_02_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(144) thigh_twistCor_02_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(145) thigh_correctiveRoot_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(146) thigh_bck_l
+[2024.10.16-12.24.25:656][517]LogFbx: SortedLinks :(147) thigh_fwd_l
+[2024.10.16-12.24.25:657][517]LogFbx: SortedLinks :(148) thigh_out_l
+[2024.10.16-12.24.25:657][517]LogFbx: SortedLinks :(149) thigh_bck_lwr_l
+[2024.10.16-12.24.25:657][517]LogFbx: SortedLinks :(150) thigh_in_l
+[2024.10.16-12.24.25:657][517]LogFbx: SortedLinks :(151) thigh_fwd_lwr_l
+[2024.10.16-12.24.25:657][517]LogFbx: SortedLinks :(152) ik_foot_root
+[2024.10.16-12.24.25:657][517]LogFbx: SortedLinks :(153) ik_foot_l
+[2024.10.16-12.24.25:657][517]LogFbx: SortedLinks :(154) ik_foot_r
+[2024.10.16-12.24.25:657][517]LogFbx: SortedLinks :(155) ik_hand_root
+[2024.10.16-12.24.25:657][517]LogFbx: SortedLinks :(156) ik_hand_gun
+[2024.10.16-12.24.25:657][517]LogFbx: SortedLinks :(157) ik_hand_l
+[2024.10.16-12.24.25:657][517]LogFbx: SortedLinks :(158) ik_hand_r
+[2024.10.16-12.24.25:657][517]LogFbx: SortedLinks :(159) interaction
+[2024.10.16-12.24.25:657][517]LogFbx: SortedLinks :(160) center_of_mass
+[2024.10.16-12.24.25:657][517]LogFbx: Parsing AnimStack mixamo.com
+[2024.10.16-12.24.25:942][517]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Animations/Combat/DrawSword_UE.DrawSword_UE
+[2024.10.16-12.24.25:954][517]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Animations/Combat/DrawSword_UE.DrawSword_UE
+[2024.10.16-12.24.25:958][517]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\Student\Downloads\Equip.Unequip\Equip.Unequip\SheathSword.UE.fbx)
+[2024.10.16-12.24.25:962][517]LogFbx: Loading FBX Scene from C:\Users\Student\Downloads\Equip.Unequip\Equip.Unequip\SheathSword.UE.fbx
+[2024.10.16-12.24.25:965][517]LogAnimationCompression: Display: Storing compressed animation data for /Game/Animations/Combat/DrawSword_UE.DrawSword_UE, at AnimationSequence/fbdb1791629b402f3612644d7d93508d3257c7e4
+[2024.10.16-12.24.25:980][517]LogFbx: FBX Scene Loaded Succesfully
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(0) root
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(1) pelvis
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(2) spine_01
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(3) spine_02
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(4) spine_03
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(5) spine_04
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(6) spine_05
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(7) neck_01
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(8) neck_02
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(9) head
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(10) clavicle_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(11) upperarm_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(12) lowerarm_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(13) lowerarm_twist_02_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(14) lowerarm_twist_01_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(15) lowerarm_correctiveRoot_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(16) lowerarm_in_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(17) lowerarm_out_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(18) lowerarm_fwd_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(19) lowerarm_bck_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(20) hand_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(21) wrist_inner_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(22) wrist_outer_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(23) index_metacarpal_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(24) index_01_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(25) index_02_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(26) index_03_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(27) middle_metacarpal_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(28) middle_01_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(29) middle_02_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(30) middle_03_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(31) thumb_01_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(32) thumb_02_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(33) thumb_03_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(34) pinky_metacarpal_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(35) pinky_01_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(36) pinky_02_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(37) pinky_03_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(38) ring_metacarpal_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(39) ring_01_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(40) ring_02_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(41) ring_03_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(42) weapon_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(43) upperarm_twist_01_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(44) upperarm_twistCor_01_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(45) upperarm_twist_02_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(46) upperarm_tricep_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(47) upperarm_bicep_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(48) upperarm_twistCor_02_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(49) upperarm_correctiveRoot_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(50) upperarm_bck_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(51) upperarm_fwd_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(52) upperarm_in_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(53) upperarm_out_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(54) clavicle_out_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(55) clavicle_scap_l
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(56) clavicle_r
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(57) upperarm_r
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(58) lowerarm_r
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(59) lowerarm_twist_02_r
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(60) lowerarm_twist_01_r
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(61) lowerarm_correctiveRoot_r
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(62) lowerarm_out_r
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(63) lowerarm_in_r
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(64) lowerarm_fwd_r
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(65) lowerarm_bck_r
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(66) hand_r
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(67) wrist_inner_r
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(68) wrist_outer_r
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(69) pinky_metacarpal_r
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(70) pinky_01_r
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(71) pinky_02_r
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(72) pinky_03_r
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(73) ring_metacarpal_r
+[2024.10.16-12.24.25:982][517]LogFbx: SortedLinks :(74) ring_01_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(75) ring_02_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(76) ring_03_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(77) middle_metacarpal_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(78) middle_01_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(79) middle_02_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(80) middle_03_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(81) index_metacarpal_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(82) index_01_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(83) index_02_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(84) index_03_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(85) thumb_01_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(86) thumb_02_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(87) thumb_03_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(88) weapon_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(89) upperarm_twist_01_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(90) upperarm_twistCor_01_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(91) upperarm_twist_02_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(92) upperarm_tricep_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(93) upperarm_bicep_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(94) upperarm_twistCor_02_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(95) upperarm_correctiveRoot_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(96) upperarm_bck_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(97) upperarm_in_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(98) upperarm_fwd_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(99) upperarm_out_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(100) clavicle_out_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(101) clavicle_scap_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(102) clavicle_pec_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(103) spine_04_latissimus_l
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(104) spine_04_latissimus_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(105) clavicle_pec_l
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(106) thigh_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(107) calf_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(108) foot_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(109) ball_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(110) ankle_fwd_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(111) ankle_bck_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(112) calf_twist_02_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(113) calf_twistCor_02_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(114) calf_twist_01_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(115) calf_correctiveRoot_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(116) calf_kneeBack_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(117) calf_knee_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(118) thigh_twist_01_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(119) thigh_twistCor_01_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(120) thigh_twist_02_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(121) thigh_twistCor_02_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(122) thigh_correctiveRoot_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(123) thigh_fwd_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(124) thigh_bck_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(125) thigh_out_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(126) thigh_in_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(127) thigh_bck_lwr_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(128) thigh_fwd_lwr_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(129) thigh_l
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(130) calf_l
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(131) foot_l
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(132) ball_l
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(133) ankle_bck_l
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(134) ankle_fwd_l
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(135) calf_twist_02_l
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(136) calf_twistCor_02_l
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(137) calf_twist_01_l
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(138) calf_correctiveRoot_l
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(139) calf_kneeBack_l
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(140) calf_knee_l
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(141) thigh_twist_01_l
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(142) thigh_twistCor_01_l
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(143) thigh_twist_02_l
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(144) thigh_twistCor_02_l
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(145) thigh_correctiveRoot_l
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(146) thigh_bck_l
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(147) thigh_fwd_l
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(148) thigh_out_l
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(149) thigh_bck_lwr_l
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(150) thigh_in_l
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(151) thigh_fwd_lwr_l
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(152) ik_foot_root
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(153) ik_foot_l
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(154) ik_foot_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(155) ik_hand_root
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(156) ik_hand_gun
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(157) ik_hand_l
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(158) ik_hand_r
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(159) interaction
+[2024.10.16-12.24.25:983][517]LogFbx: SortedLinks :(160) center_of_mass
+[2024.10.16-12.24.25:983][517]LogFbx: Parsing AnimStack mixamo.com
+[2024.10.16-12.24.26:280][517]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Animations/Combat/SheathSword_UE.SheathSword_UE
+[2024.10.16-12.24.26:296][517]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Animations/Combat/SheathSword_UE.SheathSword_UE
+[2024.10.16-12.24.26:312][518]LogAnimationCompression: Display: Storing compressed animation data for /Game/Animations/Combat/SheathSword_UE.SheathSword_UE, at AnimationSequence/ec2e977be9d45ee4be58265aaadd290259ba2909
+[2024.10.16-12.24.38:600][924]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.10.16-12.24.38:605][924]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.16-12.24.38:680][924]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Combat/DrawSword_UE" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Animations/Combat/DrawSword_UE.uasset" SILENT=true
+[2024.10.16-12.24.38:692][924]LogSavePackage: Moving output files for package: /Game/Animations/Combat/DrawSword_UE
+[2024.10.16-12.24.38:692][924]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/DrawSword_UE7D9177FF4DF5C09F17148B82E19F7A56.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Animations/Combat/DrawSword_UE.uasset'
+[2024.10.16-12.24.38:700][924]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Combat/SheathSword_UE" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Animations/Combat/SheathSword_UE.uasset" SILENT=true
+[2024.10.16-12.24.38:714][924]LogSavePackage: Moving output files for package: /Game/Animations/Combat/SheathSword_UE
+[2024.10.16-12.24.38:714][924]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/SheathSword_UE6D411E8443D57A2D255294BE26F4A789.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Animations/Combat/SheathSword_UE.uasset'
+[2024.10.16-12.24.38:723][924]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 5.51 sec)
+[2024.10.16-12.24.38:723][924]AssetCheck: New page: Asset Save: multiple assets
+[2024.10.16-12.24.38:723][924]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Animations/Combat/DrawSword_UE.DrawSword_UE
+[2024.10.16-12.24.38:723][924]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Animations/Combat/SheathSword_UE.SheathSword_UE
+[2024.10.16-12.24.57:024][ 26]LogContentBrowser: Attempting asset rename: SheathSword_UE_Montage -> AM_SheathSword
+[2024.10.16-12.24.57:042][ 26]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.16-12.24.57:112][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Combat/AM_SheathSword" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Animations/Combat/AM_SheathSword.uasset" SILENT=true
+[2024.10.16-12.24.57:113][ 26]LogSavePackage: Moving output files for package: /Game/Animations/Combat/AM_SheathSword
+[2024.10.16-12.24.57:113][ 26]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/AM_SheathSwordBEAE970341ADA4E7B80C8B84E5EDCD8B.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Animations/Combat/AM_SheathSword.uasset'
+[2024.10.16-12.24.57:122][ 26]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 5.59 sec)
+[2024.10.16-12.24.57:137][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.10.16-12.24.57:146][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.10.16-12.24.57:154][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.10.16-12.24.57:155][ 26]AssetCheck: New page: Asset Save: AM_SheathSword
+[2024.10.16-12.24.57:155][ 26]LogContentValidation: Display: Validating /Script/Engine.AnimMontage /Game/Animations/Combat/AM_SheathSword.AM_SheathSword
+[2024.10.16-12.25.03:630][803]LogContentBrowser: Attempting asset rename: AM_SheathSword -> AM_SheatheSword
+[2024.10.16-12.25.03:647][803]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.16-12.25.03:675][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Combat/AM_SheatheSword" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Animations/Combat/AM_SheatheSword.uasset" SILENT=true
+[2024.10.16-12.25.03:675][803]LogSavePackage: Moving output files for package: /Game/Animations/Combat/AM_SheatheSword
+[2024.10.16-12.25.03:675][803]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/AM_SheatheSword701E6A474C5D6F40C6C1E793219B5962.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Animations/Combat/AM_SheatheSword.uasset'
+[2024.10.16-12.25.03:683][803]LogFileHelpers: InternalPromptForCheckoutAndSave took 35 ms (total: 5.63 sec)
+[2024.10.16-12.25.03:700][803]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.16-12.25.03:710][803]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.10.16-12.25.03:717][803]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2024.10.16-12.25.03:719][803]AssetCheck: New page: Asset Save: AM_SheatheSword
+[2024.10.16-12.25.03:719][803]LogContentValidation: Display: Validating /Script/Engine.AnimMontage /Game/Animations/Combat/AM_SheatheSword.AM_SheatheSword
+[2024.10.16-12.25.05:041][954]Cmd: TRANSACTION UNDO
+[2024.10.16-12.25.05:041][954]LogEditorTransaction: Undo Resizing Play Length
+[2024.10.16-12.25.05:134][954]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_31:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.10.16-12.25.06:173][ 36]Cmd: TRANSACTION UNDO
+[2024.10.16-12.25.06:173][ 36]LogEditorTransaction: Undo Resizing Play Length
+[2024.10.16-12.25.06:266][ 36]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_31:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.10.16-12.25.09:653][430]Cmd: TRANSACTION REDO
+[2024.10.16-12.25.09:653][430]LogEditorTransaction: Redo Resizing Play Length
+[2024.10.16-12.25.09:747][430]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_31:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.10.16-12.25.10:010][435]Cmd: TRANSACTION REDO
+[2024.10.16-12.25.10:011][435]LogEditorTransaction: Redo Resizing Play Length
+[2024.10.16-12.25.10:101][435]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_31:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.10.16-12.25.18:526][424]LogContentBrowser: Attempting asset rename: DrawSword_UE_Montage -> AM_DrawSword
+[2024.10.16-12.25.18:543][424]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.16-12.25.18:575][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Combat/AM_DrawSword" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Animations/Combat/AM_DrawSword.uasset" SILENT=true
+[2024.10.16-12.25.18:576][424]LogSavePackage: Moving output files for package: /Game/Animations/Combat/AM_DrawSword
+[2024.10.16-12.25.18:576][424]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/AM_DrawSword0773BBC54AF2BA567C7809BB3238B717.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Animations/Combat/AM_DrawSword.uasset'
+[2024.10.16-12.25.18:584][424]LogFileHelpers: InternalPromptForCheckoutAndSave took 41 ms (total: 5.67 sec)
+[2024.10.16-12.25.18:598][424]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.16-12.25.18:608][424]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.16-12.25.18:617][424]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.10.16-12.25.18:619][424]AssetCheck: New page: Asset Save: AM_DrawSword
+[2024.10.16-12.25.18:619][424]LogContentValidation: Display: Validating /Script/Engine.AnimMontage /Game/Animations/Combat/AM_DrawSword.AM_DrawSword
+[2024.10.16-12.25.42:535][951]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
