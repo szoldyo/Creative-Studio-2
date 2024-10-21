@@ -1243,3 +1243,186 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.21-09.25.01:330][525]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
 [2024.10.21-09.25.55:441][ 18]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
 [2024.10.21-09.33.39:681][724]LogDerivedDataCache: C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.028 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 842 files in 1346 folders with total size 38 MiB.
+[2024.10.21-10.33.39:673][706]LogDerivedDataCache: C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.020 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 842 files in 1346 folders with total size 38 MiB.
+[2024.10.21-11.33.38:692][749]LogDerivedDataCache: C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.039 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 842 files in 1346 folders with total size 38 MiB.
+[2024.10.21-12.15.29:835][554]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.21-12.15.30:683][645]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Player/Classes/Melee/BP_Player_M.BP_Player_M
+[2024.10.21-12.15.30:684][645]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.21-12.15.30:684][645]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.21-12.15.34:519][ 56]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2024.10.21-12.15.34:519][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.21-12.15.39:998][671]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Player/Master/BP_PlayerMaster.BP_PlayerMaster
+[2024.10.21-12.15.39:999][671]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.21-12.15.39:999][671]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.21-12.15.52:617][ 74]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UGameplayStatics::GetPlayerController' [Element not found.]
+[2024.10.21-12.17.05:454][479]BlueprintLog: New page: Compile BP_PlayerMaster
+[2024.10.21-12.17.05:506][479]LogScript: Warning: Attempted to access BP_Player_M_C_0 via property Character, but BP_Player_M_C_0 is not valid (pending kill or garbage)
+	ABP_Manny_C /Engine/Transient.World_18:PersistentLevel.BP_Player_M_C_0.CharacterMesh0.ABP_Manny_C_0
+	Function /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:04BE
+[2024.10.21-12.17.05:506][479]LogScript: Warning: Attempted to access REINST_BP_Player_M_C_0 via property Character, but REINST_BP_Player_M_C_0 is not valid (pending kill or garbage)
+	ABP_Manny_C /Engine/Transient.World_17:PersistentLevel.REINST_BP_Player_M_C_0.CharacterMesh0.ABP_Manny_C_0
+	Function /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:04BE
+[2024.10.21-12.17.05:518][479]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.10.21-12.17.06:155][540]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.10.21-12.17.06:160][540]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.21-12.17.06:200][540]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.21-12.17.06:258][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Master/BP_PlayerMaster" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Master/BP_PlayerMaster.uasset" SILENT=true
+[2024.10.21-12.17.06:276][540]LogSavePackage: Moving output files for package: /Game/Player/Master/BP_PlayerMaster
+[2024.10.21-12.17.06:277][540]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_PlayerMaster2C9E64734CD269AE62B1ABBA1D7088AA.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Master/BP_PlayerMaster.uasset'
+[2024.10.21-12.17.06:283][540]LogFileHelpers: InternalPromptForCheckoutAndSave took 122 ms (total: 468 ms)
+[2024.10.21-12.17.06:284][540]AssetCheck: New page: Asset Save: BP_PlayerMaster
+[2024.10.21-12.17.06:284][540]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Master/BP_PlayerMaster.BP_PlayerMaster
+[2024.10.21-12.17.07:400][661]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2024.10.21-12.17.07:400][661]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.21-12.23.33:165][ 96]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2024.10.21-12.23.33:169][ 96]LogContentBrowser: Creating deferred item: NewWorld
+[2024.10.21-12.23.33:173][ 97]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2024.10.21-12.23.36:402][482]LogContentBrowser: Attempting asset rename: NewWorld -> MainMenu
+[2024.10.21-12.23.36:403][482]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.21-12.23.36:403][482]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.21-12.23.36:405][482]LogContentBrowser: End creating deferred item NewWorld
+[2024.10.21-12.23.37:117][567]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.21-12.23.37:167][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/MainMenu" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.10.21-12.23.37:179][567]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.10.21-12.23.37:188][567]LogSavePackage: Moving output files for package: /Game/Level/MainMenu
+[2024.10.21-12.23.37:188][567]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/MainMenu5A9A47994E82C58A0047AF929E4972C7.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/MainMenu.umap'
+[2024.10.21-12.23.37:192][567]LogFileHelpers: Saving map 'MainMenu' took 0.025
+[2024.10.21-12.23.37:197][567]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 548 ms)
+[2024.10.21-12.23.37:197][567]AssetCheck: New page: Asset Save: MainMenu
+[2024.10.21-12.23.37:197][567]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/MainMenu.MainMenu
+[2024.10.21-12.23.38:200][683]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.21-12.23.38:202][683]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level/MainMenu.MainMenu
+[2024.10.21-12.23.38:202][683]Cmd: MAP LOAD FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.10.21-12.23.38:202][683]LightingResults: New page: Lighting Build
+[2024.10.21-12.23.38:202][683]LoadErrors: New page: Loading map: MainMenu.umap
+[2024.10.21-12.23.38:252][683]LogWorld: UWorld::CleanupWorld for CS2_Level, bSessionEnded=true, bCleanupResources=true
+[2024.10.21-12.23.38:252][683]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.21-12.23.38:252][683]LogContentBundle: [CS2_Level(Standalone)] Deleting container.
+[2024.10.21-12.23.38:253][683]MapCheck: New page: Map Check
+[2024.10.21-12.23.38:253][683]LightingResults: New page: Lighting Build
+[2024.10.21-12.23.38:260][683]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.21-12.23.38:263][683]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.10.21-12.23.38:265][683]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.10.21-12.23.38:265][683]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.21-12.23.38:273][683]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.21-12.23.38:280][683]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.21-12.23.38:281][683]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2024.10.21-12.23.38:281][683]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.21-12.23.38:281][683]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.21-12.23.38:281][683]LogAIModule: Creating AISystem for world MainMenu
+[2024.10.21-12.23.38:298][683]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.21-12.23.38:307][683]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.10.21-12.23.38:312][683]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.21-12.23.38:312][683]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.066ms to complete.
+[2024.10.21-12.23.55:205][856]LogEditorViewport: Clicking Background
+[2024.10.21-12.25.15:914][ 68]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.10.21-12.25.30:440][750]Cmd: DELETE
+[2024.10.21-12.25.30:441][750]Cmd: ACTOR DELETE
+[2024.10.21-12.27.10:351][991]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.10.21-12.27.10:420][991]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.21-12.27.10:424][991]LogWorldPartition: ULevel::OnLevelLoaded(CS2_Level)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.10.21-12.27.10:424][991]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.21-12.27.10:424][991]LogWorldPartition: UWorldPartition::Initialize : World = CS2_Level, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.21-12.27.10:451][991]LogContentBundle: [CS2_Level(Standalone)] Creating new contrainer.
+[2024.10.21-12.27.10:451][991]LogWorldPartition: Display: WorldPartition initialize took 27 ms (total: 99 ms)
+[2024.10.21-12.27.10:452][991]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level/CS2_Level.CS2_Level
+[2024.10.21-12.27.10:453][991]Cmd: MAP LOAD FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/CS2_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.10.21-12.27.10:453][991]LightingResults: New page: Lighting Build
+[2024.10.21-12.27.10:453][991]LoadErrors: New page: Loading map: CS2_Level.umap
+[2024.10.21-12.27.10:467][991]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.10.21-12.27.10:467][991]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.21-12.27.10:468][991]MapCheck: New page: Map Check
+[2024.10.21-12.27.10:468][991]LightingResults: New page: Lighting Build
+[2024.10.21-12.27.10:477][991]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.21-12.27.10:478][991]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.21-12.27.10:480][991]LogWorld: UWorld::CleanupWorld for CS2_Level, bSessionEnded=true, bCleanupResources=true
+[2024.10.21-12.27.10:480][991]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.21-12.27.10:480][991]LogContentBundle: [CS2_Level(Standalone)] Deleting container.
+[2024.10.21-12.27.10:490][991]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.10.21-12.27.10:499][991]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.21-12.27.10:511][991]LogAudio: Display: Audio Device (ID: 1) registered with world 'CS2_Level'.
+[2024.10.21-12.27.10:511][991]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.21-12.27.10:512][991]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.21-12.27.10:512][991]LogAIModule: Creating AISystem for world CS2_Level
+[2024.10.21-12.27.10:512][991]LogWorldPartition: ULevel::OnLevelLoaded(CS2_Level)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.10.21-12.27.10:512][991]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.21-12.27.10:512][991]LogWorldPartition: UWorldPartition::Initialize : World = CS2_Level, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.21-12.27.10:516][991]LogContentBundle: [CS2_Level(Standalone)] Creating new contrainer.
+[2024.10.21-12.27.10:516][991]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 103 ms)
+[2024.10.21-12.27.10:535][991]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.21-12.27.10:545][991]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.21-12.27.10:550][991]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.21-12.27.10:550][991]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.206ms to complete.
+[2024.10.21-12.27.24:078][532]Cmd: EDIT COPY
+[2024.10.21-12.27.26:551][812]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.10.21-12.27.26:580][812]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.21-12.27.26:581][812]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level/MainMenu.MainMenu
+[2024.10.21-12.27.26:581][812]Cmd: MAP LOAD FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.10.21-12.27.26:581][812]LightingResults: New page: Lighting Build
+[2024.10.21-12.27.26:581][812]LoadErrors: New page: Loading map: MainMenu.umap
+[2024.10.21-12.27.26:597][812]LogWorld: UWorld::CleanupWorld for CS2_Level, bSessionEnded=true, bCleanupResources=true
+[2024.10.21-12.27.26:597][812]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.21-12.27.26:598][812]LogContentBundle: [CS2_Level(Standalone)] Deleting container.
+[2024.10.21-12.27.26:598][812]MapCheck: New page: Map Check
+[2024.10.21-12.27.26:598][812]LightingResults: New page: Lighting Build
+[2024.10.21-12.27.26:606][812]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.21-12.27.26:608][812]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.21-12.27.26:609][812]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.10.21-12.27.26:610][812]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.21-12.27.26:618][812]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.21-12.27.26:624][812]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.21-12.27.26:626][812]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2024.10.21-12.27.26:626][812]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.21-12.27.26:626][812]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.21-12.27.26:627][812]LogAIModule: Creating AISystem for world MainMenu
+[2024.10.21-12.27.26:643][812]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.21-12.27.26:652][812]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.21-12.27.26:657][812]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.21-12.27.26:658][812]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.059ms to complete.
+[2024.10.21-12.27.27:332][888]LogEditorViewport: Clicking Background
+[2024.10.21-12.27.27:624][923]Cmd: EDIT PASTE
+[2024.10.21-12.27.31:363][362]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.10.21-12.27.31:368][362]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.21-12.27.31:417][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/MainMenu" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.10.21-12.27.31:439][362]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.10.21-12.27.31:443][362]LogSavePackage: Moving output files for package: /Game/Level/MainMenu
+[2024.10.21-12.27.31:443][362]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/MainMenu8A6A80BD47D995BB855DC78E9AD050BA.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/MainMenu.umap'
+[2024.10.21-12.27.31:447][362]LogFileHelpers: Saving map 'MainMenu' took 0.030
+[2024.10.21-12.27.31:451][362]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 632 ms)
+[2024.10.21-12.27.31:452][362]AssetCheck: New page: Asset Save: MainMenu
+[2024.10.21-12.27.31:452][362]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/MainMenu.MainMenu
+[2024.10.21-12.27.32:440][477]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.10.21-12.27.32:479][477]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.21-12.27.32:480][477]LogWorldPartition: ULevel::OnLevelLoaded(CS2_Level)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.10.21-12.27.32:480][477]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.21-12.27.32:480][477]LogWorldPartition: UWorldPartition::Initialize : World = CS2_Level, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.21-12.27.32:484][477]LogContentBundle: [CS2_Level(Standalone)] Creating new contrainer.
+[2024.10.21-12.27.32:484][477]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 108 ms)
+[2024.10.21-12.27.32:486][477]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level/CS2_Level.CS2_Level
+[2024.10.21-12.27.32:486][477]Cmd: MAP LOAD FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/CS2_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.10.21-12.27.32:486][477]LightingResults: New page: Lighting Build
+[2024.10.21-12.27.32:486][477]LoadErrors: New page: Loading map: CS2_Level.umap
+[2024.10.21-12.27.32:500][477]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.10.21-12.27.32:500][477]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.21-12.27.32:500][477]MapCheck: New page: Map Check
+[2024.10.21-12.27.32:500][477]LightingResults: New page: Lighting Build
+[2024.10.21-12.27.32:510][477]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.21-12.27.32:511][477]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.21-12.27.32:512][477]LogWorld: UWorld::CleanupWorld for CS2_Level, bSessionEnded=true, bCleanupResources=true
+[2024.10.21-12.27.32:512][477]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.21-12.27.32:512][477]LogContentBundle: [CS2_Level(Standalone)] Deleting container.
+[2024.10.21-12.27.32:522][477]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.10.21-12.27.32:530][477]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.21-12.27.32:543][477]LogAudio: Display: Audio Device (ID: 1) registered with world 'CS2_Level'.
+[2024.10.21-12.27.32:543][477]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.21-12.27.32:543][477]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.21-12.27.32:543][477]LogAIModule: Creating AISystem for world CS2_Level
+[2024.10.21-12.27.32:543][477]LogWorldPartition: ULevel::OnLevelLoaded(CS2_Level)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.10.21-12.27.32:543][477]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.21-12.27.32:543][477]LogWorldPartition: UWorldPartition::Initialize : World = CS2_Level, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.21-12.27.32:548][477]LogContentBundle: [CS2_Level(Standalone)] Creating new contrainer.
+[2024.10.21-12.27.32:548][477]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 113 ms)
+[2024.10.21-12.27.32:567][477]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.21-12.27.32:575][477]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.21-12.27.32:579][477]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.21-12.27.32:579][477]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.201ms to complete.
