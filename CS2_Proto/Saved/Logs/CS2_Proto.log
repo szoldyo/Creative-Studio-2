@@ -1672,3 +1672,38 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.23-10.38.38:327][316]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 1.20 sec)
 [2024.10.23-10.38.38:328][316]AssetCheck: New page: Asset Save: CharacterSelect
 [2024.10.23-10.38.38:328][316]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/CharacterSelect.CharacterSelect
+[2024.10.23-10.55.03:182][464]LogDerivedDataCache: C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.025 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 843 files in 1348 folders with total size 38 MiB.
+[2024.10.23-11.55.03:179][262]LogDerivedDataCache: C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.021 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 843 files in 1348 folders with total size 38 MiB.
+[2024.10.23-12.22.30:164][548]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2024.10.23-12.22.30:168][548]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2024.10.23-12.22.30:170][548]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2024.10.23-12.22.30:176][548]LogAutomationController: Ignoring very large delta of 2.75 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.10.23-12.22.30:180][549]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2024.10.23-12.22.41:694][920]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WBP_CharacterSelect
+[2024.10.23-12.22.41:697][920]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2024.10.23-12.22.42:153][974]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-12.22.42:190][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelect" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset" SILENT=true
+[2024.10.23-12.22.42:191][974]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelect
+[2024.10.23-12.22.42:191][974]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelectAD2DCAFC46F6B50AE77FD7A593156C69.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset'
+[2024.10.23-12.22.42:198][974]LogFileHelpers: InternalPromptForCheckoutAndSave took 44 ms (total: 1.25 sec)
+[2024.10.23-12.22.42:198][974]AssetCheck: New page: Asset Save: WBP_CharacterSelect
+[2024.10.23-12.22.42:198][974]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelect.WBP_CharacterSelect
+[2024.10.23-12.22.44:914][298]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/WBP_CharacterSelect.WBP_CharacterSelect
+[2024.10.23-12.22.44:914][298]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-12.22.44:914][298]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.23-12.22.44:918][298]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-12.22.44:918][298]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.23-12.22.44:922][298]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2024.10.23-12.22.45:070][298]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2024.10.23-12.22.45:074][298]LogSlate: Took 0.003871 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.10.23-12.24.31:814][967]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.10.23-12.24.31:817][967]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-12.24.31:850][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelect" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset" SILENT=true
+[2024.10.23-12.24.31:852][967]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelect
+[2024.10.23-12.24.31:852][967]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelectFE1CF1004620F3A3DED9CF9E3434DF5B.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset'
+[2024.10.23-12.24.31:857][967]LogFileHelpers: InternalPromptForCheckoutAndSave took 39 ms (total: 1.29 sec)
+[2024.10.23-12.24.31:858][967]AssetCheck: New page: Asset Save: WBP_CharacterSelect
+[2024.10.23-12.24.31:858][967]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelect.WBP_CharacterSelect
+[2024.10.23-12.24.33:012][102]BlueprintLog: New page: Compile WBP_CharacterSelect
+[2024.10.23-12.24.33:025][102]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.10.23-12.24.33:364][123]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
