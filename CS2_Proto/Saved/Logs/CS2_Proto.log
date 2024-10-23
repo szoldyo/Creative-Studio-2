@@ -1707,3 +1707,398 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.23-12.24.33:012][102]BlueprintLog: New page: Compile WBP_CharacterSelect
 [2024.10.23-12.24.33:025][102]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
 [2024.10.23-12.24.33:364][123]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.10.23-12.30.45:735][285]BlueprintLog: New page: Compile WBP_CharacterSelect
+[2024.10.23-12.30.45:748][285]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.10.23-12.30.46:217][322]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.23-12.30.46:220][322]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-12.30.46:267][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelect" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset" SILENT=true
+[2024.10.23-12.30.46:269][322]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelect
+[2024.10.23-12.30.46:269][322]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelect4FAABF8C4027B1EC841C36B8DF64C148.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset'
+[2024.10.23-12.30.46:273][322]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 1.34 sec)
+[2024.10.23-12.30.46:274][322]AssetCheck: New page: Asset Save: WBP_CharacterSelect
+[2024.10.23-12.30.46:274][322]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelect.WBP_CharacterSelect
+[2024.10.23-12.31.57:319][229]BlueprintLog: New page: Compile WBP_CharacterSelect
+[2024.10.23-12.31.57:333][229]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.23-12.31.57:668][266]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.23-12.31.57:671][266]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-12.31.57:729][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelect" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset" SILENT=true
+[2024.10.23-12.31.57:731][266]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelect
+[2024.10.23-12.31.57:731][266]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelectD3BAB7084489FC07EF2494B374CADF7E.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset'
+[2024.10.23-12.31.57:734][266]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 1.40 sec)
+[2024.10.23-12.31.57:735][266]AssetCheck: New page: Asset Save: WBP_CharacterSelect
+[2024.10.23-12.31.57:735][266]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelect.WBP_CharacterSelect
+[2024.10.23-12.40.27:227][316]BlueprintLog: New page: Compile WBP_CharacterSelect
+[2024.10.23-12.40.27:242][316]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.10.23-12.40.27:583][353]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.10.23-12.40.27:586][353]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-12.40.27:627][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelect" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset" SILENT=true
+[2024.10.23-12.40.27:629][353]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelect
+[2024.10.23-12.40.27:629][353]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelect55B584294AF9B9C0BC40FDB64B94D802.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset'
+[2024.10.23-12.40.27:633][353]LogFileHelpers: InternalPromptForCheckoutAndSave took 46 ms (total: 1.45 sec)
+[2024.10.23-12.40.27:635][353]AssetCheck: New page: Asset Save: WBP_CharacterSelect
+[2024.10.23-12.40.27:635][353]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelect.WBP_CharacterSelect
+[2024.10.23-12.41.01:976][226]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.10.23-12.41.01:976][226]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.23-12.41.11:833][385]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Character_Selection/GameMode_CharacterSelect.GameMode_CharacterSelect
+[2024.10.23-12.41.11:833][385]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-12.41.11:833][385]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.23-12.41.11:938][385]LogViewport: Scene viewport resized to 1562x1070, mode Windowed.
+[2024.10.23-12.41.43:975][396]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.23-12.41.43:980][396]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.10.23-12.41.43:982][396]LogPlayLevel: [PlayLevel] Compiling GameMode_CharacterSelect before play...
+[2024.10.23-12.41.43:982][396]LogBlueprint: Error: [AssetLog] C:\Github Repos\Creative-Studio-2\CS2_Proto\Content\Character_Selection\GameMode_CharacterSelect.uasset: [Compiler] Spawn node  Create Widget  must have a class specified.
+[2024.10.23-12.41.43:998][396]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.10.23-12.41.43:999][396]LogPlayLevel: PlayLevel: Blueprint regeneration took 18 ms (1 blueprints)
+[2024.10.23-12.41.43:999][396]BlueprintLog: Warning: Blueprint failed to compile:  GameMode_CharacterSelect
+[2024.10.23-12.41.46:036][396]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2024.10.23-12.41.46:100][396]LogAutomationController: Ignoring very large delta of 2.13 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.10.23-12.41.48:944][719]LogSlate: Window 'Message Log' being destroyed
+[2024.10.23-12.41.48:948][719]LogSlate: Window 'Message Log' being destroyed
+[2024.10.23-12.41.51:451][999]BlueprintLog: New page: Compile GameMode_CharacterSelect
+[2024.10.23-12.41.51:466][999]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.23-12.41.51:805][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.23-12.41.51:808][ 36]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-12.41.51:863][ 36]LogSavePackage: Moving output files for package: /Game/Character_Selection/GameMode_CharacterSelect
+[2024.10.23-12.41.51:864][ 36]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/GameMode_CharacterSelect1AFAD31D4FECF6E930D9CCA0210285BE.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/GameMode_CharacterSelect.uasset'
+[2024.10.23-12.41.51:868][ 36]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 1.51 sec)
+[2024.10.23-12.41.51:868][ 36]AssetCheck: New page: Asset Save: GameMode_CharacterSelect
+[2024.10.23-12.41.51:869][ 36]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character_Selection/GameMode_CharacterSelect.GameMode_CharacterSelect
+[2024.10.23-12.41.53:153][170]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.23-12.41.53:158][170]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.23-12.41.53:159][170]PIE: New page: PIE session: CharacterSelect (23 Oct 2024, 14:41:53)
+[2024.10.23-12.41.53:191][170]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_CharacterSelect
+[2024.10.23-12.41.53:193][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001292s)
+[2024.10.23-12.41.53:193][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/CharacterSelect.CharacterSelect to /Game/Level/UEDPIE_0_CharacterSelect.CharacterSelect (0.001315s)
+[2024.10.23-12.41.53:201][170]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.10.23-12.41.53:203][170]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-12.41.53:203][170]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.23-12.41.53:203][170]LogAIModule: Creating AISystem for world CharacterSelect
+[2024.10.23-12.41.53:203][170]LogPlayLevel: PIE: World Init took: (0.000632s)
+[2024.10.23-12.41.53:203][170]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.10.23-12.41.53:203][170]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.23-12.41.53:203][170]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.23-12.41.53:203][170]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.23-12.41.53:203][170]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.23-12.41.53:203][170]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.23-12.41.53:203][170]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.23-12.41.53:203][170]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.23-12.41.53:203][170]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.23-12.41.53:203][170]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.23-12.41.53:204][170]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.23-12.41.53:204][170]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.23-12.41.53:205][170]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.23-12.41.53:221][170]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.23-12.41.53:221][170]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.23-12.41.53:221][170]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.23-12.41.53:221][170]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.23-12.41.53:222][170]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.10.23-12.41.53:222][170]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.10.23-12.41.53:223][170]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.10.23-12.41.53:223][170]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.10.23-12.41.53:223][170]LogInit: FAudioDevice initialized with ID 5.
+[2024.10.23-12.41.53:223][170]LogAudio: Display: Audio Device (ID: 5) registered with world 'CharacterSelect'.
+[2024.10.23-12.41.53:223][170]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.10.23-12.41.53:225][170]LogLoad: Game class is 'GameMode_CharacterSelect_C'
+[2024.10.23-12.41.53:229][170]LogWorld: Bringing World /Game/Level/UEDPIE_0_CharacterSelect.CharacterSelect up for play (max tick rate 0) at 2024.10.23-13.41.53
+[2024.10.23-12.41.53:229][170]LogWorld: Bringing up level for play took: 0.004021
+[2024.10.23-12.41.53:231][170]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.10.23-12.41.53:231][170]PIE: Server logged in
+[2024.10.23-12.41.53:232][170]PIE: Play in editor total start time 0.073 seconds.
+[2024.10.23-12.41.54:972][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.23-12.41.54:972][368]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_CharacterSelect
+[2024.10.23-12.41.54:972][368]LogWorld: UWorld::CleanupWorld for CharacterSelect, bSessionEnded=true, bCleanupResources=true
+[2024.10.23-12.41.54:972][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.23-12.41.54:974][368]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.23-12.41.54:977][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.23-12.41.54:985][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.23-12.41.54:985][368]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.10.23-12.41.54:985][368]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.10.23-12.41.54:986][368]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.10.23-12.41.54:991][368]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.10.23-12.41.55:055][373]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.10.23-12.42.03:046][276]BlueprintLog: New page: Compile GameMode_CharacterSelect
+[2024.10.23-12.42.03:060][276]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.10.23-12.42.03:396][313]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.23-12.42.03:400][313]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-12.42.03:443][313]LogSavePackage: Moving output files for package: /Game/Character_Selection/GameMode_CharacterSelect
+[2024.10.23-12.42.03:443][313]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/GameMode_CharacterSelectADEA905040ED2513D1A0E4A24738C96C.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/GameMode_CharacterSelect.uasset'
+[2024.10.23-12.42.03:447][313]LogFileHelpers: InternalPromptForCheckoutAndSave took 47 ms (total: 1.56 sec)
+[2024.10.23-12.42.03:447][313]AssetCheck: New page: Asset Save: GameMode_CharacterSelect
+[2024.10.23-12.42.03:448][313]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character_Selection/GameMode_CharacterSelect.GameMode_CharacterSelect
+[2024.10.23-12.42.04:977][469]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.23-12.42.04:983][469]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.23-12.42.04:983][469]PIE: New page: PIE session: CharacterSelect (23 Oct 2024, 14:42:04)
+[2024.10.23-12.42.05:012][469]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_CharacterSelect
+[2024.10.23-12.42.05:012][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001257s)
+[2024.10.23-12.42.05:012][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/CharacterSelect.CharacterSelect to /Game/Level/UEDPIE_0_CharacterSelect.CharacterSelect (0.001281s)
+[2024.10.23-12.42.05:022][469]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.10.23-12.42.05:023][469]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-12.42.05:023][469]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.23-12.42.05:023][469]LogAIModule: Creating AISystem for world CharacterSelect
+[2024.10.23-12.42.05:023][469]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2024.10.23-12.42.05:023][469]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.10.23-12.42.05:023][469]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.23-12.42.05:024][469]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.23-12.42.05:024][469]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.23-12.42.05:024][469]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.23-12.42.05:024][469]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.23-12.42.05:024][469]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.23-12.42.05:024][469]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.23-12.42.05:024][469]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.23-12.42.05:024][469]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.23-12.42.05:024][469]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.23-12.42.05:024][469]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.23-12.42.05:025][469]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.23-12.42.05:040][469]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.23-12.42.05:040][469]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.23-12.42.05:040][469]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.23-12.42.05:040][469]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.23-12.42.05:040][469]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.10.23-12.42.05:040][469]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.10.23-12.42.05:041][469]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.10.23-12.42.05:041][469]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.10.23-12.42.05:041][469]LogInit: FAudioDevice initialized with ID 6.
+[2024.10.23-12.42.05:041][469]LogAudio: Display: Audio Device (ID: 6) registered with world 'CharacterSelect'.
+[2024.10.23-12.42.05:042][469]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.10.23-12.42.05:043][469]LogLoad: Game class is 'GameMode_CharacterSelect_C'
+[2024.10.23-12.42.05:047][469]LogWorld: Bringing World /Game/Level/UEDPIE_0_CharacterSelect.CharacterSelect up for play (max tick rate 0) at 2024.10.23-13.42.05
+[2024.10.23-12.42.05:048][469]LogWorld: Bringing up level for play took: 0.004045
+[2024.10.23-12.42.05:049][469]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.10.23-12.42.05:050][469]PIE: Server logged in
+[2024.10.23-12.42.05:051][469]PIE: Play in editor total start time 0.068 seconds.
+[2024.10.23-12.42.06:312][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.23-12.42.06:312][609]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_CharacterSelect
+[2024.10.23-12.42.06:312][609]LogWorld: UWorld::CleanupWorld for CharacterSelect, bSessionEnded=true, bCleanupResources=true
+[2024.10.23-12.42.06:312][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.23-12.42.06:314][609]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.23-12.42.06:318][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.23-12.42.06:326][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.23-12.42.06:326][609]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.10.23-12.42.06:326][609]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.10.23-12.42.06:327][609]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.10.23-12.42.06:332][609]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.10.23-12.42.06:385][613]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.10.23-12.42.21:436][946]BlueprintLog: New page: Compile GameMode_CharacterSelect
+[2024.10.23-12.42.21:450][946]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.23-12.42.21:822][986]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.23-12.42.21:825][986]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-12.42.21:857][986]LogSavePackage: Moving output files for package: /Game/Character_Selection/GameMode_CharacterSelect
+[2024.10.23-12.42.21:857][986]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/GameMode_CharacterSelectE1883FBB4FDF74AA9D9D268D56B76CDE.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/GameMode_CharacterSelect.uasset'
+[2024.10.23-12.42.21:862][986]LogFileHelpers: InternalPromptForCheckoutAndSave took 36 ms (total: 1.59 sec)
+[2024.10.23-12.42.21:863][986]AssetCheck: New page: Asset Save: GameMode_CharacterSelect
+[2024.10.23-12.42.21:863][986]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character_Selection/GameMode_CharacterSelect.GameMode_CharacterSelect
+[2024.10.23-12.53.50:494][152]BlueprintLog: New page: Compile GameMode_CharacterSelect
+[2024.10.23-12.53.50:509][152]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.10.23-12.53.51:024][210]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.10.23-12.53.51:027][210]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-12.53.51:074][210]LogSavePackage: Moving output files for package: /Game/Character_Selection/GameMode_CharacterSelect
+[2024.10.23-12.53.51:075][210]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/GameMode_CharacterSelect945A6D25429FF572BF24D892288E4019.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/GameMode_CharacterSelect.uasset'
+[2024.10.23-12.53.51:079][210]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 1.64 sec)
+[2024.10.23-12.53.51:079][210]AssetCheck: New page: Asset Save: GameMode_CharacterSelect
+[2024.10.23-12.53.51:079][210]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character_Selection/GameMode_CharacterSelect.GameMode_CharacterSelect
+[2024.10.23-12.54.06:144][976]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Edit Comment Color entirely.
+[2024.10.23-12.54.06:148][976]LogSlate: Window 'Color Picker' being destroyed
+[2024.10.23-12.54.06:953][ 71]BlueprintLog: New page: Compile GameMode_CharacterSelect
+[2024.10.23-12.54.06:968][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.23-12.54.07:280][104]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.10.23-12.54.07:283][104]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-12.54.07:337][104]LogSavePackage: Moving output files for package: /Game/Character_Selection/GameMode_CharacterSelect
+[2024.10.23-12.54.07:337][104]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/GameMode_CharacterSelect16EF24C140BC78C797F117B014775298.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/GameMode_CharacterSelect.uasset'
+[2024.10.23-12.54.07:341][104]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 1.70 sec)
+[2024.10.23-12.54.07:342][104]AssetCheck: New page: Asset Save: GameMode_CharacterSelect
+[2024.10.23-12.54.07:342][104]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character_Selection/GameMode_CharacterSelect.GameMode_CharacterSelect
+[2024.10.23-12.54.31:470][507]BlueprintLog: New page: Compile GameMode_CharacterSelect
+[2024.10.23-12.54.31:485][507]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.23-12.54.31:835][544]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.23-12.54.31:838][544]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-12.54.31:874][544]LogSavePackage: Moving output files for package: /Game/Character_Selection/GameMode_CharacterSelect
+[2024.10.23-12.54.31:874][544]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/GameMode_CharacterSelectB3CF3AB84CBD60CD20EE74A993C102B5.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/GameMode_CharacterSelect.uasset'
+[2024.10.23-12.54.31:880][544]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 1.74 sec)
+[2024.10.23-12.54.31:881][544]AssetCheck: New page: Asset Save: GameMode_CharacterSelect
+[2024.10.23-12.54.31:881][544]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character_Selection/GameMode_CharacterSelect.GameMode_CharacterSelect
+[2024.10.23-12.54.34:784][882]BlueprintLog: New page: Compile GameMode_CharacterSelect
+[2024.10.23-12.54.34:800][882]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.23-12.54.34:960][898]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.23-12.54.34:964][898]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-12.54.35:011][898]LogSavePackage: Moving output files for package: /Game/Character_Selection/GameMode_CharacterSelect
+[2024.10.23-12.54.35:011][898]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/GameMode_CharacterSelectD7FF5CB94438958B2591309506C87195.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/GameMode_CharacterSelect.uasset'
+[2024.10.23-12.54.35:015][898]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 1.80 sec)
+[2024.10.23-12.54.35:016][898]AssetCheck: New page: Asset Save: GameMode_CharacterSelect
+[2024.10.23-12.54.35:016][898]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character_Selection/GameMode_CharacterSelect.GameMode_CharacterSelect
+[2024.10.23-12.54.51:983][299]BlueprintLog: New page: Compile GameMode_CharacterSelect
+[2024.10.23-12.54.51:998][299]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.23-12.54.52:459][348]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.10.23-12.54.52:462][348]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-12.54.52:508][348]LogSavePackage: Moving output files for package: /Game/Character_Selection/GameMode_CharacterSelect
+[2024.10.23-12.54.52:509][348]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/GameMode_CharacterSelect74E9E6124A83447042D0AEAB94FC4F3C.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/GameMode_CharacterSelect.uasset'
+[2024.10.23-12.54.52:514][348]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 1.85 sec)
+[2024.10.23-12.54.52:515][348]AssetCheck: New page: Asset Save: GameMode_CharacterSelect
+[2024.10.23-12.54.52:515][348]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character_Selection/GameMode_CharacterSelect.GameMode_CharacterSelect
+[2024.10.23-12.55.02:194][451]LogDerivedDataCache: C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.035 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 843 files in 1348 folders with total size 38 MiB.
+[2024.10.23-12.55.24:381][539]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.10.23-12.55.30:878][289]BlueprintLog: New page: Compile WBP_CharacterSelect
+[2024.10.23-12.55.30:891][289]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.23-12.55.31:253][329]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.23-12.55.31:256][329]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-12.55.31:308][329]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelect" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset" SILENT=true
+[2024.10.23-12.55.31:310][329]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelect
+[2024.10.23-12.55.31:310][329]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelect0C4FCD064B65F689203A1F94F19511A1.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset'
+[2024.10.23-12.55.31:315][329]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 1.91 sec)
+[2024.10.23-12.55.31:315][329]AssetCheck: New page: Asset Save: WBP_CharacterSelect
+[2024.10.23-12.55.31:315][329]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelect.WBP_CharacterSelect
+[2024.10.23-12.56.53:991][973]BlueprintLog: New page: Compile WBP_CharacterSelect
+[2024.10.23-12.56.54:005][973]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.23-12.56.54:287][  2]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.10.23-12.56.54:291][  2]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-12.56.54:345][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelect" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset" SILENT=true
+[2024.10.23-12.56.54:347][  2]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelect
+[2024.10.23-12.56.54:348][  2]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelect3ECC49A14F2C2559F45CBF90DA52AFE8.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset'
+[2024.10.23-12.56.54:352][  2]LogFileHelpers: InternalPromptForCheckoutAndSave took 61 ms (total: 1.97 sec)
+[2024.10.23-12.56.54:352][  2]AssetCheck: New page: Asset Save: WBP_CharacterSelect
+[2024.10.23-12.56.54:352][  2]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelect.WBP_CharacterSelect
+[2024.10.23-12.57.03:761][491]BlueprintLog: New page: Compile WBP_CharacterSelect
+[2024.10.23-12.57.03:762][491]LogClass: Warning: Type mismatch in Characters of WBP_CharacterSelect_C - Previous (ObjectProperty) Current(ArrayProperty) for package:  FObjectReader
+[2024.10.23-12.57.03:775][491]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.10.23-12.57.04:129][527]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.23-12.57.04:133][527]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-12.57.04:169][527]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelect" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset" SILENT=true
+[2024.10.23-12.57.04:171][527]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelect
+[2024.10.23-12.57.04:171][527]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelect82B64AFD427162DED3601089EA0A4DF7.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset'
+[2024.10.23-12.57.04:176][527]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 2.01 sec)
+[2024.10.23-12.57.04:177][527]AssetCheck: New page: Asset Save: WBP_CharacterSelect
+[2024.10.23-12.57.04:177][527]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelect.WBP_CharacterSelect
+[2024.10.23-12.57.20:626][644]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.10.23-12.57.20:630][644]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-12.57.20:667][644]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelect" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset" SILENT=true
+[2024.10.23-12.57.20:669][644]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelect
+[2024.10.23-12.57.20:669][644]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelect7F4D3EB04ECA8A17F3F15EA6F1F2424B.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset'
+[2024.10.23-12.57.20:673][644]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 2.05 sec)
+[2024.10.23-12.57.20:674][644]AssetCheck: New page: Asset Save: WBP_CharacterSelect
+[2024.10.23-12.57.20:674][644]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelect.WBP_CharacterSelect
+[2024.10.23-12.57.21:576][745]BlueprintLog: New page: Compile WBP_CharacterSelect
+[2024.10.23-12.57.21:591][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.23-12.57.21:936][783]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.23-12.58.01:510][142]BlueprintLog: New page: Compile WBP_CharacterSelect
+[2024.10.23-12.58.01:522][142]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.10.23-12.58.01:816][173]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.23-12.58.01:820][173]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-12.58.01:867][173]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelect" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset" SILENT=true
+[2024.10.23-12.58.01:870][173]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelect
+[2024.10.23-12.58.01:870][173]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelectC105FCC44425B310AD948CB14BD586FF.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset'
+[2024.10.23-12.58.01:873][173]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 2.11 sec)
+[2024.10.23-12.58.01:874][173]AssetCheck: New page: Asset Save: WBP_CharacterSelect
+[2024.10.23-12.58.01:874][173]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelect.WBP_CharacterSelect
+[2024.10.23-12.58.36:745][538]BlueprintLog: New page: Compile WBP_CharacterSelect
+[2024.10.23-12.58.36:759][538]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.23-12.58.36:952][557]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.10.23-12.58.36:957][557]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-12.58.37:015][557]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelect" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset" SILENT=true
+[2024.10.23-12.58.37:018][557]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelect
+[2024.10.23-12.58.37:018][557]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelect89244F1F4F487B523FA8F098BA00443D.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset'
+[2024.10.23-12.58.37:022][557]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 2.17 sec)
+[2024.10.23-12.58.37:023][557]AssetCheck: New page: Asset Save: WBP_CharacterSelect
+[2024.10.23-12.58.37:023][557]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelect.WBP_CharacterSelect
+[2024.10.23-13.06.28:014][863]BlueprintLog: New page: Compile WBP_CharacterSelect
+[2024.10.23-13.06.28:030][863]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.10.23-13.06.28:349][897]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.23-13.06.28:352][897]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-13.06.28:398][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelect" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset" SILENT=true
+[2024.10.23-13.06.28:401][897]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelect
+[2024.10.23-13.06.28:402][897]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelectD6F3191042635E49C7D5DAA33033D354.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset'
+[2024.10.23-13.06.28:405][897]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 2.22 sec)
+[2024.10.23-13.06.28:406][897]AssetCheck: New page: Asset Save: WBP_CharacterSelect
+[2024.10.23-13.06.28:406][897]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelect.WBP_CharacterSelect
+[2024.10.23-13.27.56:259][948]BlueprintLog: New page: Compile WBP_CharacterSelect
+[2024.10.23-13.27.56:277][948]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.10.23-13.27.56:679][990]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.10.23-13.27.56:684][990]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-13.27.56:737][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelect" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset" SILENT=true
+[2024.10.23-13.27.56:741][990]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelect
+[2024.10.23-13.27.56:741][990]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelect008FCAF7425EF2D1D0498A8420B3E1C5.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset'
+[2024.10.23-13.27.56:746][990]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 2.29 sec)
+[2024.10.23-13.27.56:746][990]AssetCheck: New page: Asset Save: WBP_CharacterSelect
+[2024.10.23-13.27.56:746][990]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelect.WBP_CharacterSelect
+[2024.10.23-13.28.30:517][356]BlueprintLog: New page: Compile WBP_CharacterSelect
+[2024.10.23-13.28.30:534][356]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.10.23-13.28.30:854][387]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.10.23-13.28.30:858][387]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-13.28.30:900][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelect" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset" SILENT=true
+[2024.10.23-13.28.30:904][387]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelect
+[2024.10.23-13.28.30:904][387]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelect9EA1A4474D7D390D7202A88867736396.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset'
+[2024.10.23-13.28.30:908][387]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 2.34 sec)
+[2024.10.23-13.28.30:910][387]AssetCheck: New page: Asset Save: WBP_CharacterSelect
+[2024.10.23-13.28.30:910][387]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelect.WBP_CharacterSelect
+[2024.10.23-13.28.36:205][ 18]BlueprintLog: New page: Compile WBP_CharacterSelect
+[2024.10.23-13.28.36:223][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.23-13.28.36:447][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.10.23-13.28.36:451][ 41]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-13.28.36:504][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelect" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset" SILENT=true
+[2024.10.23-13.28.36:509][ 41]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelect
+[2024.10.23-13.28.36:509][ 41]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelect9C08F7CF4F45E9185A9E3495F665ED3B.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset'
+[2024.10.23-13.28.36:513][ 41]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 2.40 sec)
+[2024.10.23-13.28.36:514][ 41]AssetCheck: New page: Asset Save: WBP_CharacterSelect
+[2024.10.23-13.28.36:514][ 41]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelect.WBP_CharacterSelect
+[2024.10.23-13.29.12:703][ 87]BlueprintLog: New page: Compile WBP_CharacterSelect
+[2024.10.23-13.29.12:718][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.10.23-13.29.13:073][125]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.23-13.29.13:077][125]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-13.29.13:119][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelect" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset" SILENT=true
+[2024.10.23-13.29.13:123][125]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelect
+[2024.10.23-13.29.13:124][125]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelect0F25752D4C54281FA1185BAC9E98CA25.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset'
+[2024.10.23-13.29.13:127][125]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 2.45 sec)
+[2024.10.23-13.29.13:129][125]AssetCheck: New page: Asset Save: WBP_CharacterSelect
+[2024.10.23-13.29.13:129][125]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelect.WBP_CharacterSelect
+[2024.10.23-13.29.28:850][442]BlueprintLog: New page: Compile WBP_CharacterSelect
+[2024.10.23-13.29.28:866][442]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.10.23-13.29.29:229][478]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.10.23-13.29.29:233][478]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-13.29.29:283][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelect" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset" SILENT=true
+[2024.10.23-13.29.29:288][478]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelect
+[2024.10.23-13.29.29:289][478]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelect123544884F5B176C242C1EA0EF6F2E3D.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset'
+[2024.10.23-13.29.29:294][478]LogFileHelpers: InternalPromptForCheckoutAndSave took 60 ms (total: 2.51 sec)
+[2024.10.23-13.29.29:295][478]AssetCheck: New page: Asset Save: WBP_CharacterSelect
+[2024.10.23-13.29.29:295][478]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelect.WBP_CharacterSelect
+[2024.10.23-13.29.46:464][219]BlueprintLog: New page: Compile WBP_CharacterSelect
+[2024.10.23-13.29.46:482][219]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.23-13.29.46:880][261]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.23-13.29.46:884][261]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-13.29.46:931][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelect" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset" SILENT=true
+[2024.10.23-13.29.46:936][261]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelect
+[2024.10.23-13.29.46:936][261]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelectBED7764D4E3A325E0E20978A1DA5AA4C.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset'
+[2024.10.23-13.29.46:940][261]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 2.57 sec)
+[2024.10.23-13.29.46:941][261]AssetCheck: New page: Asset Save: WBP_CharacterSelect
+[2024.10.23-13.29.46:941][261]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelect.WBP_CharacterSelect
+[2024.10.23-13.30.55:429][184]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-13.30.55:472][185]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-13.30.55:488][186]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-13.30.55:507][187]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-13.30.55:522][188]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-13.30.55:547][190]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-13.30.55:579][191]LogShaderCompilers: Display: ================================================
+[2024.10.23-13.30.55:579][191]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.23-13.30.55:579][191]LogShaderCompilers: Display: Total job queries 2, among them cache hits 0 (0.00%)
+[2024.10.23-13.30.55:579][191]LogShaderCompilers: Display: Tracking 2 distinct input hashes that result in 2 distinct outputs (100.00%)
+[2024.10.23-13.30.55:579][191]LogShaderCompilers: Display: RAM used: 39.58 KiB of 1.60 GiB budget. Usage: 0.00%
+[2024.10.23-13.30.55:579][191]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.23-13.30.55:579][191]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.10.23-13.30.55:579][191]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.10.23-13.30.55:579][191]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.10.23-13.30.55:579][191]LogShaderCompilers: Display: ================================================
+[2024.10.23-13.30.55:754][203]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-13.30.56:299][251]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-13.30.56:341][253]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-13.31.02:277][910]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_CS2_GameInstance.BP_CS2_GameInstance
+[2024.10.23-13.31.02:277][910]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-13.31.02:277][910]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.23-13.31.02:322][910]LogSlate: Window 'Open Asset' being destroyed
+[2024.10.23-13.31.03:283][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.23-13.31.07:749][544]BlueprintLog: New page: Compile BP_CS2_GameInstance
+[2024.10.23-13.31.07:760][544]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.23-13.31.08:036][575]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.10.23-13.31.08:039][575]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-13.31.08:081][575]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_CS2_GameInstance" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Blueprints/BP_CS2_GameInstance.uasset" SILENT=true
+[2024.10.23-13.31.08:082][575]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_CS2_GameInstance
+[2024.10.23-13.31.08:082][575]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_CS2_GameInstanceD4434C2C44AE8D50276D3EBA82555910.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Blueprints/BP_CS2_GameInstance.uasset'
+[2024.10.23-13.31.08:086][575]LogFileHelpers: InternalPromptForCheckoutAndSave took 47 ms (total: 2.61 sec)
+[2024.10.23-13.31.08:087][575]AssetCheck: New page: Asset Save: BP_CS2_GameInstance
+[2024.10.23-13.31.08:087][575]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_CS2_GameInstance.BP_CS2_GameInstance
