@@ -2225,16 +2225,3 @@ Script Stack (0 frames) :
 [2024.10.23-14.36.01:097][513]LogOutputDevice: Error: [Callstack] 0x00007ffcdbb8257d KERNEL32.DLL!UnknownFunction []
 [2024.10.23-14.36.01:097][513]LogOutputDevice: Error: [Callstack] 0x00007ffcdd80af08 ntdll.dll!UnknownFunction []
 [2024.10.23-14.36.01:097][513]LogOutputDevice: Error: 
-[2024.10.23-14.36.01:099][513]LogStats:                SubmitErrorReport -  0.000 s
-[2024.10.23-14.36.01:956][513]LogStats:                    SendNewReport -  0.858 s
-[2024.10.23-14.36.01:956][513]LogStats:             FDebug::EnsureFailed -  0.886 s
-[2024.10.23-14.36.10:384][502]BlueprintLog: New page: Compile BP_Camera
-[2024.10.23-14.36.10:403][502]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
-[2024.10.23-14.36.10:857][550]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
-[2024.10.23-14.36.10:862][550]LogFileHelpers: InternalPromptForCheckoutAndSave started...
-[2024.10.23-14.36.10:919][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character_Selection/BP_Camera" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/BP_Camera.uasset" SILENT=true
-[2024.10.23-14.36.10:921][550]LogSavePackage: Moving output files for package: /Game/Character_Selection/BP_Camera
-[2024.10.23-14.36.10:921][550]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_Camera39F1BCD540C859C18C2D559FBD29D7F3.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/BP_Camera.uasset'
-[2024.10.23-14.36.10:925][550]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 3.09 sec)
-[2024.10.23-14.36.10:926][550]AssetCheck: New page: Asset Save: BP_Camera
-[2024.10.23-14.36.10:926][550]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character_Selection/BP_Camera.BP_Camera
