@@ -1575,3 +1575,174 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.28-10.28.23:580][891]LogDerivedDataCache: C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.024 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 843 files in 1348 folders with total size 38 MiB.
 [2024.10.28-11.28.23:579][179]LogDerivedDataCache: C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.022 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 843 files in 1348 folders with total size 38 MiB.
 [2024.10.28-12.04.12:762][659]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.10.28-12.28.22:593][ 53]LogDerivedDataCache: C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.036 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 843 files in 1348 folders with total size 38 MiB.
+[2024.10.28-13.12.44:596][241]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2024.10.28-13.12.44:691][241]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.28-13.12.44:695][241]LogWorldPartition: ULevel::OnLevelLoaded(CS2_Level)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.10.28-13.12.44:695][241]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.28-13.12.44:695][241]LogWorldPartition: UWorldPartition::Initialize : World = CS2_Level, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.28-13.12.44:719][241]LogContentBundle: [CS2_Level(Standalone)] Creating new contrainer.
+[2024.10.28-13.12.44:719][241]LogWorldPartition: Display: WorldPartition initialize took 24 ms (total: 95 ms)
+[2024.10.28-13.12.44:720][241]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level/CS2_Level.CS2_Level
+[2024.10.28-13.12.44:720][241]Cmd: MAP LOAD FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/CS2_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.10.28-13.12.44:720][241]LightingResults: New page: Lighting Build
+[2024.10.28-13.12.44:720][241]LoadErrors: New page: Loading map: CS2_Level.umap
+[2024.10.28-13.12.44:737][241]LogWorld: UWorld::CleanupWorld for CharacterSelect, bSessionEnded=true, bCleanupResources=true
+[2024.10.28-13.12.44:737][241]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.28-13.12.44:737][241]MapCheck: New page: Map Check
+[2024.10.28-13.12.44:737][241]LightingResults: New page: Lighting Build
+[2024.10.28-13.12.44:747][241]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.28-13.12.44:752][241]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.10.28-13.12.44:755][241]LogWorld: UWorld::CleanupWorld for CS2_Level, bSessionEnded=true, bCleanupResources=true
+[2024.10.28-13.12.44:755][241]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.28-13.12.44:755][241]LogContentBundle: [CS2_Level(Standalone)] Deleting container.
+[2024.10.28-13.12.44:767][241]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.28-13.12.44:775][241]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.10.28-13.12.44:789][241]LogAudio: Display: Audio Device (ID: 1) registered with world 'CS2_Level'.
+[2024.10.28-13.12.44:789][241]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.28-13.12.44:789][241]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.28-13.12.44:789][241]LogAIModule: Creating AISystem for world CS2_Level
+[2024.10.28-13.12.44:789][241]LogWorldPartition: ULevel::OnLevelLoaded(CS2_Level)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.10.28-13.12.44:790][241]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.28-13.12.44:790][241]LogWorldPartition: UWorldPartition::Initialize : World = CS2_Level, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.28-13.12.44:794][241]LogContentBundle: [CS2_Level(Standalone)] Creating new contrainer.
+[2024.10.28-13.12.44:794][241]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 99 ms)
+[2024.10.28-13.12.44:817][241]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.28-13.12.44:827][241]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.28-13.12.44:832][241]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.28-13.12.44:832][241]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.224ms to complete.
+[2024.10.28-13.13.41:495][340]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.10.28-13.13.41:500][340]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.10.28-13.13.41:504][340]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.10.28-13.13.41:515][341]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.10.28-13.14.01:085][676]LogContentBrowser: Attempting asset rename: NewBlueprint -> PC_CharacterSelect
+[2024.10.28-13.14.01:089][676]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.10.28-13.14.02:052][789]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.28-13.14.02:102][789]LogSavePackage: Moving output files for package: /Game/Character_Selection/PC_CharacterSelect
+[2024.10.28-13.14.02:102][789]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/PC_CharacterSelect305EF14D4A7CFA79E53B33B773F65799.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/PC_CharacterSelect.uasset'
+[2024.10.28-13.14.02:108][789]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 845 ms)
+[2024.10.28-13.14.02:109][789]AssetCheck: New page: Asset Save: PC_CharacterSelect
+[2024.10.28-13.14.02:109][789]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character_Selection/PC_CharacterSelect.PC_CharacterSelect
+[2024.10.28-13.14.36:528][712]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_CS2_GameMode.BP_CS2_GameMode
+[2024.10.28-13.14.36:528][712]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.28-13.14.36:528][712]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.28-13.14.53:384][743]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.10.28-13.14.53:387][743]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.28-13.14.53:448][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_CS2_GameMode" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Blueprints/BP_CS2_GameMode.uasset" SILENT=true
+[2024.10.28-13.14.53:450][743]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_CS2_GameMode
+[2024.10.28-13.14.53:450][743]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_CS2_GameMode23523AC0438A8C35A285F58B3E8F4C60.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Blueprints/BP_CS2_GameMode.uasset'
+[2024.10.28-13.14.53:456][743]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 914 ms)
+[2024.10.28-13.14.53:457][743]AssetCheck: New page: Asset Save: BP_CS2_GameMode
+[2024.10.28-13.14.53:457][743]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_CS2_GameMode.BP_CS2_GameMode
+[2024.10.28-13.14.54:107][816]BlueprintLog: New page: Compile BP_CS2_GameMode
+[2024.10.28-13.14.54:123][816]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.28-13.14.54:386][841]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.28-13.15.17:252][487]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.10.28-13.15.17:255][487]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.28-13.15.17:281][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_CS2_GameMode" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Blueprints/BP_CS2_GameMode.uasset" SILENT=true
+[2024.10.28-13.15.17:282][487]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_CS2_GameMode
+[2024.10.28-13.15.17:282][487]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_CS2_GameModeA8B34B994E3F570416CE938E09F4C978.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Blueprints/BP_CS2_GameMode.uasset'
+[2024.10.28-13.15.17:287][487]LogFileHelpers: InternalPromptForCheckoutAndSave took 31 ms (total: 945 ms)
+[2024.10.28-13.15.17:287][487]AssetCheck: New page: Asset Save: BP_CS2_GameMode
+[2024.10.28-13.15.17:287][487]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_CS2_GameMode.BP_CS2_GameMode
+[2024.10.28-13.16.28:126][ 90]BlueprintLog: New page: Compile BP_CS2_GameMode
+[2024.10.28-13.16.28:144][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.10.28-13.16.28:972][185]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.10.28-13.16.28:975][185]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.28-13.16.29:026][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_CS2_GameMode" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Blueprints/BP_CS2_GameMode.uasset" SILENT=true
+[2024.10.28-13.16.29:028][185]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_CS2_GameMode
+[2024.10.28-13.16.29:028][185]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_CS2_GameModeF9166BF0477F086249072D92E322D099.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Blueprints/BP_CS2_GameMode.uasset'
+[2024.10.28-13.16.29:032][185]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 1.00 sec)
+[2024.10.28-13.16.29:032][185]AssetCheck: New page: Asset Save: BP_CS2_GameMode
+[2024.10.28-13.16.29:032][185]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_CS2_GameMode.BP_CS2_GameMode
+[2024.10.28-13.17.07:096][  0]BlueprintLog: New page: Compile BP_CS2_GameMode
+[2024.10.28-13.17.07:110][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.10.28-13.17.07:460][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.10.28-13.17.07:463][ 38]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.28-13.17.07:509][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_CS2_GameMode" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Blueprints/BP_CS2_GameMode.uasset" SILENT=true
+[2024.10.28-13.17.07:510][ 38]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_CS2_GameMode
+[2024.10.28-13.17.07:511][ 38]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_CS2_GameModeD99B27604953B8986FEA4B9C035FE48C.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Blueprints/BP_CS2_GameMode.uasset'
+[2024.10.28-13.17.07:514][ 38]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 1.05 sec)
+[2024.10.28-13.17.07:516][ 38]AssetCheck: New page: Asset Save: BP_CS2_GameMode
+[2024.10.28-13.17.07:516][ 38]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_CS2_GameMode.BP_CS2_GameMode
+[2024.10.28-13.17.36:857][166]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.10.28-13.17.36:861][166]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.28-13.17.36:917][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_CS2_GameMode" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Blueprints/BP_CS2_GameMode.uasset" SILENT=true
+[2024.10.28-13.17.36:918][166]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_CS2_GameMode
+[2024.10.28-13.17.36:918][166]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_CS2_GameMode8EBAC2064E381FF95E1A61BF09F5F4DC.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Blueprints/BP_CS2_GameMode.uasset'
+[2024.10.28-13.17.36:922][166]LogFileHelpers: InternalPromptForCheckoutAndSave took 61 ms (total: 1.11 sec)
+[2024.10.28-13.17.36:923][166]AssetCheck: New page: Asset Save: BP_CS2_GameMode
+[2024.10.28-13.17.36:923][166]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_CS2_GameMode.BP_CS2_GameMode
+[2024.10.28-13.17.45:017][126]BlueprintLog: New page: Compile BP_CS2_GameMode
+[2024.10.28-13.17.45:033][126]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.10.28-13.17.45:314][154]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.10.28-13.17.45:317][154]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.28-13.17.45:373][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_CS2_GameMode" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Blueprints/BP_CS2_GameMode.uasset" SILENT=true
+[2024.10.28-13.17.45:375][154]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_CS2_GameMode
+[2024.10.28-13.17.45:375][154]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_CS2_GameModeE0CF2EE3485B88DB1629D0BE1E037437.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Blueprints/BP_CS2_GameMode.uasset'
+[2024.10.28-13.17.45:379][154]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 1.17 sec)
+[2024.10.28-13.17.45:379][154]AssetCheck: New page: Asset Save: BP_CS2_GameMode
+[2024.10.28-13.17.45:379][154]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_CS2_GameMode.BP_CS2_GameMode
+[2024.10.28-13.17.58:331][226]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.10.28-13.17.58:335][226]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.28-13.17.58:368][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_CS2_GameMode" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Blueprints/BP_CS2_GameMode.uasset" SILENT=true
+[2024.10.28-13.17.58:370][226]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_CS2_GameMode
+[2024.10.28-13.17.58:370][226]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_CS2_GameModeD31F80314BDA57A6075101A7F4A716B6.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Blueprints/BP_CS2_GameMode.uasset'
+[2024.10.28-13.17.58:374][226]LogFileHelpers: InternalPromptForCheckoutAndSave took 38 ms (total: 1.21 sec)
+[2024.10.28-13.17.58:374][226]AssetCheck: New page: Asset Save: BP_CS2_GameMode
+[2024.10.28-13.17.58:374][226]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_CS2_GameMode.BP_CS2_GameMode
+[2024.10.28-13.18.01:332][307]LogSlate: Took 0.004359 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.10.28-13.18.07:726][ 29]BlueprintLog: New page: Compile BP_CS2_GameMode
+[2024.10.28-13.18.07:741][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.10.28-13.18.08:024][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.10.28-13.18.08:028][ 58]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.28-13.18.08:077][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_CS2_GameMode" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Blueprints/BP_CS2_GameMode.uasset" SILENT=true
+[2024.10.28-13.18.08:079][ 58]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_CS2_GameMode
+[2024.10.28-13.18.08:079][ 58]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_CS2_GameModeF272658C4D4223D0BD7EF7AAA6B0964A.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Blueprints/BP_CS2_GameMode.uasset'
+[2024.10.28-13.18.08:083][ 58]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 1.26 sec)
+[2024.10.28-13.18.08:084][ 58]AssetCheck: New page: Asset Save: BP_CS2_GameMode
+[2024.10.28-13.18.08:084][ 58]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_CS2_GameMode.BP_CS2_GameMode
+[2024.10.28-13.19.20:523][956]BlueprintLog: New page: Compile BP_CS2_GameInstance
+[2024.10.28-13.19.20:539][956]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.10.28-13.19.20:913][996]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.10.28-13.19.20:918][996]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.28-13.19.20:972][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_CS2_GameInstance" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Blueprints/BP_CS2_GameInstance.uasset" SILENT=true
+[2024.10.28-13.19.20:973][996]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_CS2_GameInstance
+[2024.10.28-13.19.20:973][996]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_CS2_GameInstance0AF7A95D45BC28182CD2088E6DFE86A0.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Blueprints/BP_CS2_GameInstance.uasset'
+[2024.10.28-13.19.20:973][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_CS2_GameMode" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Blueprints/BP_CS2_GameMode.uasset" SILENT=true
+[2024.10.28-13.19.20:975][996]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_CS2_GameMode
+[2024.10.28-13.19.20:976][996]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_CS2_GameModeA7F306EB47448AFA28BF47A8B8C73EDE.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Blueprints/BP_CS2_GameMode.uasset'
+[2024.10.28-13.19.20:980][996]LogFileHelpers: InternalPromptForCheckoutAndSave took 61 ms (total: 1.33 sec)
+[2024.10.28-13.19.20:980][996]AssetCheck: New page: Asset Save: multiple assets
+[2024.10.28-13.19.20:980][996]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_CS2_GameInstance.BP_CS2_GameInstance
+[2024.10.28-13.19.20:980][996]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_CS2_GameMode.BP_CS2_GameMode
+[2024.10.28-13.20.34:523][913]BlueprintLog: New page: Compile BP_CS2_GameMode
+[2024.10.28-13.20.34:540][913]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.10.28-13.20.35:001][965]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.10.28-13.20.35:004][965]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.28-13.20.35:051][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_CS2_GameMode" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Blueprints/BP_CS2_GameMode.uasset" SILENT=true
+[2024.10.28-13.20.35:052][965]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_CS2_GameMode
+[2024.10.28-13.20.35:052][965]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_CS2_GameMode032A93DA4B44256E4AA1FD9C742996F4.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Blueprints/BP_CS2_GameMode.uasset'
+[2024.10.28-13.20.35:056][965]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 1.38 sec)
+[2024.10.28-13.20.35:056][965]AssetCheck: New page: Asset Save: BP_CS2_GameMode
+[2024.10.28-13.20.35:056][965]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_CS2_GameMode.BP_CS2_GameMode
+[2024.10.28-13.20.50:037][718]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.28-13.20.50:079][719]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.28-13.20.50:113][721]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.28-13.20.50:645][774]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Level/CS2_Level.CS2_Level:PersistentLevel.CS2_Level
+[2024.10.28-13.20.50:646][774]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.28-13.20.50:646][774]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.28-13.21.32:611][671]BlueprintLog: New page: Compile CS2_Level
+[2024.10.28-13.21.32:632][671]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.10.28-13.21.32:984][707]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.10.28-13.21.32:988][707]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.28-13.21.33:017][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/CS2_Level" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/CS2_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.10.28-13.21.33:043][707]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2024.10.28-13.21.33:050][707]LogSavePackage: Moving output files for package: /Game/Level/CS2_Level
+[2024.10.28-13.21.33:050][707]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/CS2_Level92A1F43F4AAEDB83DF010887B258F4D1.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/CS2_Level.umap'
+[2024.10.28-13.21.33:056][707]LogFileHelpers: All files are already saved.
+[2024.10.28-13.21.33:056][707]LogFileHelpers: Saving map 'CS2_Level' took 0.039
+[2024.10.28-13.21.33:061][707]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 1.45 sec)
+[2024.10.28-13.21.33:062][707]AssetCheck: New page: Asset Save: CS2_Level
+[2024.10.28-13.21.33:062][707]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/CS2_Level.CS2_Level
+[2024.10.28-13.27.02:500][231]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
