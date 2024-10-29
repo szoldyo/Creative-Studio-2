@@ -1260,3 +1260,52 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2024.10.29-11.09.37:630][631]LogFileHelpers: InternalPromptForCheckoutAndSave took 45 ms (total: 243 ms)
 [2024.10.29-11.09.37:630][631]AssetCheck: New page: Asset Save: WBP_CharacterSelect
 [2024.10.29-11.09.37:630][631]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelect.WBP_CharacterSelect
+[2024.10.29-11.11.23:509][215]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-11.11.31:189][ 70]LogContentBrowser: Attempting asset rename: CharacterSelect1 -> CharacterSelectTwo
+[2024.10.29-11.11.31:209][ 70]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-11.11.31:243][ 70]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.29-11.11.31:260][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.10.29-11.11.31:264][ 70]LogSavePackage: Moving output files for package: /Game/Level/CharacterSelectTwo
+[2024.10.29-11.11.31:264][ 70]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/CharacterSelectTwo7BFAF51045DBF2812FA3FB853AC21D7E.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/CharacterSelectTwo.umap'
+[2024.10.29-11.11.31:277][ 70]LogFileHelpers: Saving map 'CharacterSelectTwo' took 0.035
+[2024.10.29-11.11.31:283][ 70]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 317 ms)
+[2024.10.29-11.11.31:297][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.29-11.11.31:306][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.29-11.11.31:315][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.10.29-11.11.31:317][ 70]AssetCheck: New page: Asset Save: CharacterSelectTwo
+[2024.10.29-11.11.31:317][ 70]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/CharacterSelectTwo.CharacterSelectTwo
+[2024.10.29-11.11.40:949][206]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.29-11.11.45:965][751]LogContentBrowser: Attempting asset rename: GameMode_CharacterSelect1 -> GameMode_CharacterSelectTwo
+[2024.10.29-11.11.45:982][751]LogMetaData: Removing '/Game/Character_Selection/GameMode_CharacterSelectTwo.SKEL_GameMode_CharacterSelectTwo_C' ref from Metadata '/Game/Character_Selection/GameMode_CharacterSelect1.PackageMetaData'
+[2024.10.29-11.11.45:982][751]LogMetaData: Removing '/Game/Character_Selection/GameMode_CharacterSelectTwo.GameMode_CharacterSelectTwo_C' ref from Metadata '/Game/Character_Selection/GameMode_CharacterSelect1.PackageMetaData'
+[2024.10.29-11.11.45:982][751]LogMetaData: Removing '/Game/Character_Selection/GameMode_CharacterSelectTwo.SKEL_GameMode_CharacterSelectTwo_C:ReceiveBeginPlay' ref from Metadata '/Game/Character_Selection/GameMode_CharacterSelect1.PackageMetaData'
+[2024.10.29-11.11.45:982][751]LogMetaData: Removing '/Game/Character_Selection/GameMode_CharacterSelectTwo.SKEL_GameMode_CharacterSelectTwo_C:UserConstructionScript' ref from Metadata '/Game/Character_Selection/GameMode_CharacterSelect1.PackageMetaData'
+[2024.10.29-11.11.45:982][751]LogMetaData: Removing '/Game/Character_Selection/GameMode_CharacterSelectTwo.GameMode_CharacterSelectTwo_C:ReceiveBeginPlay' ref from Metadata '/Game/Character_Selection/GameMode_CharacterSelect1.PackageMetaData'
+[2024.10.29-11.11.45:982][751]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-11.11.46:040][751]LogSavePackage: Moving output files for package: /Game/Character_Selection/GameMode_CharacterSelectTwo
+[2024.10.29-11.11.46:040][751]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/GameMode_CharacterSelectTwo5D0489E7417A7AF24A2504B79F0C585F.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/GameMode_CharacterSelectTwo.uasset'
+[2024.10.29-11.11.46:048][751]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 383 ms)
+[2024.10.29-11.11.46:059][751]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.29-11.11.46:069][751]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.10.29-11.11.46:077][751]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.10.29-11.11.46:078][751]AssetCheck: New page: Asset Save: GameMode_CharacterSelectTwo
+[2024.10.29-11.11.46:078][751]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character_Selection/GameMode_CharacterSelectTwo.GameMode_CharacterSelectTwo
+[2024.10.29-11.11.49:967][205]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.29-11.11.54:020][634]LogContentBrowser: Attempting asset rename: BP_Camera1 -> BP_CameraTwo
+[2024.10.29-11.11.54:037][634]LogMetaData: Removing '/Game/Character_Selection/BP_CameraTwo.SKEL_BP_CameraTwo_C' ref from Metadata '/Game/Character_Selection/BP_Camera1.PackageMetaData'
+[2024.10.29-11.11.54:037][634]LogMetaData: Removing '/Game/Character_Selection/BP_CameraTwo.BP_CameraTwo_C' ref from Metadata '/Game/Character_Selection/BP_Camera1.PackageMetaData'
+[2024.10.29-11.11.54:037][634]LogMetaData: Removing '/Game/Character_Selection/BP_CameraTwo.SKEL_BP_CameraTwo_C:ReceiveBeginPlay' ref from Metadata '/Game/Character_Selection/BP_Camera1.PackageMetaData'
+[2024.10.29-11.11.54:037][634]LogMetaData: Removing '/Game/Character_Selection/BP_CameraTwo.SKEL_BP_CameraTwo_C:Rotate Camera' ref from Metadata '/Game/Character_Selection/BP_Camera1.PackageMetaData'
+[2024.10.29-11.11.54:037][634]LogMetaData: Removing '/Game/Character_Selection/BP_CameraTwo.SKEL_BP_CameraTwo_C:UserConstructionScript' ref from Metadata '/Game/Character_Selection/BP_Camera1.PackageMetaData'
+[2024.10.29-11.11.54:037][634]LogMetaData: Removing '/Game/Character_Selection/BP_CameraTwo.BP_CameraTwo_C:ReceiveBeginPlay' ref from Metadata '/Game/Character_Selection/BP_Camera1.PackageMetaData'
+[2024.10.29-11.11.54:037][634]LogMetaData: Removing '/Game/Character_Selection/BP_CameraTwo.BP_CameraTwo_C:Rotate Camera' ref from Metadata '/Game/Character_Selection/BP_Camera1.PackageMetaData'
+[2024.10.29-11.11.54:037][634]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-11.11.54:095][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character_Selection/BP_CameraTwo" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/BP_CameraTwo.uasset" SILENT=true
+[2024.10.29-11.11.54:098][634]LogSavePackage: Moving output files for package: /Game/Character_Selection/BP_CameraTwo
+[2024.10.29-11.11.54:098][634]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_CameraTwo914C668B48B81096E52CBF837DA02FD5.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/BP_CameraTwo.uasset'
+[2024.10.29-11.11.54:105][634]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 451 ms)
+[2024.10.29-11.11.54:118][634]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.29-11.11.54:127][634]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.29-11.11.54:136][634]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.10.29-11.11.54:137][634]AssetCheck: New page: Asset Save: BP_CameraTwo
+[2024.10.29-11.11.54:137][634]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character_Selection/BP_CameraTwo.BP_CameraTwo
