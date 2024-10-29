@@ -3007,3 +3007,1017 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2024.10.29-13.32.54:321][614]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms (total: 1.69 sec)
 [2024.10.29-13.32.54:322][614]AssetCheck: New page: Asset Save: CS2_Level
 [2024.10.29-13.32.54:322][614]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/CS2_Level.CS2_Level
+[2024.10.29-13.33.53:551][561]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.29-13.33.53:556][561]LogContentBundle: [CS2_Level(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.29-13.33.53:556][561]LogWorldPartition: Display: GenerateStreaming for 'CS2_Level' started...
+[2024.10.29-13.33.53:557][561]LogWorldPartition: Display: GenerateStreaming for 'CS2_Level' took 744 us (total: 28 ms)
+[2024.10.29-13.33.53:557][561]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.10.29-13.33.53:557][561]LogPlayLevel: [PlayLevel] Compiling GameMode_CharacterSelectTwo before play...
+[2024.10.29-13.33.53:579][561]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.10.29-13.33.53:580][561]LogPlayLevel: PlayLevel: Blueprint regeneration took 23 ms (1 blueprints)
+[2024.10.29-13.33.53:580][561]PIE: New page: PIE session: CS2_Level (29 Oct 2024, 13:33:53)
+[2024.10.29-13.33.53:603][561]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_CS2_Level
+[2024.10.29-13.33.53:604][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001873s)
+[2024.10.29-13.33.53:604][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/CS2_Level.CS2_Level to /Game/Level/UEDPIE_0_CS2_Level.CS2_Level (0.001898s)
+[2024.10.29-13.33.53:612][561]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.29-13.33.53:613][561]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.33.53:613][561]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.29-13.33.53:614][561]LogAIModule: Creating AISystem for world CS2_Level
+[2024.10.29-13.33.53:614][561]LogWorldPartition: ULevel::OnLevelLoaded(CS2_Level)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.29-13.33.53:614][561]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.29-13.33.53:614][561]LogWorldPartition: UWorldPartition::Initialize : World = CS2_Level, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.29-13.33.53:614][561]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.29-13.33.53:614][561]LogContentBundle: [CS2_Level(Standalone)] Creating new contrainer.
+[2024.10.29-13.33.53:614][561]LogWorldPartition: Display: WorldPartition initialize took 592 us (total: 129 ms)
+[2024.10.29-13.33.53:614][561]LogPlayLevel: PIE: World Init took: (0.001356s)
+[2024.10.29-13.33.53:614][561]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.10.29-13.33.53:614][561]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.29-13.33.53:615][561]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.29-13.33.53:615][561]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.29-13.33.53:615][561]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.29-13.33.53:615][561]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.29-13.33.53:615][561]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.29-13.33.53:615][561]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.29-13.33.53:615][561]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.29-13.33.53:615][561]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.29-13.33.53:615][561]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.29-13.33.53:615][561]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.29-13.33.53:616][561]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.29-13.33.53:632][561]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.29-13.33.53:632][561]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.29-13.33.53:632][561]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.29-13.33.53:632][561]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.29-13.33.53:633][561]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.10.29-13.33.53:633][561]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.10.29-13.33.53:634][561]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.10.29-13.33.53:634][561]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.10.29-13.33.53:634][561]LogInit: FAudioDevice initialized with ID 14.
+[2024.10.29-13.33.53:634][561]LogAudio: Display: Audio Device (ID: 14) registered with world 'CS2_Level'.
+[2024.10.29-13.33.53:634][561]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.10.29-13.33.53:636][561]LogLoad: Game class is 'BP_CS2_GameMode_C'
+[2024.10.29-13.33.53:636][561]LogWorld: Bringing World /Game/Level/UEDPIE_0_CS2_Level.CS2_Level up for play (max tick rate 0) at 2024.10.29-13.33.53
+[2024.10.29-13.33.53:636][561]LogWorld: Bringing up level for play took: 0.000460
+[2024.10.29-13.33.53:638][561]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2024.10.29-13.33.53:638][561]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for PlatformUserId 0,
+[2024.10.29-13.33.53:640][561]PIE: Server logged in
+[2024.10.29-13.33.53:641][561]PIE: Play in editor total start time 0.085 seconds.
+[2024.10.29-13.33.53:641][561]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.10.29-13.33.54:473][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.29-13.33.54:473][642]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_CS2_Level
+[2024.10.29-13.33.54:473][642]LogWorld: UWorld::CleanupWorld for CS2_Level, bSessionEnded=true, bCleanupResources=true
+[2024.10.29-13.33.54:473][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.33.54:473][642]LogContentBundle: [CS2_Level(Standalone)] Deleting container.
+[2024.10.29-13.33.54:476][642]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.29-13.33.54:479][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.33.54:487][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.29-13.33.54:487][642]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.10.29-13.33.54:487][642]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.10.29-13.33.54:489][642]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.10.29-13.33.54:494][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.29-13.33.54:546][644]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2024.10.29-13.33.59:959][275]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.29-13.34.00:022][275]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.34.00:023][275]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level/MainMenu.MainMenu
+[2024.10.29-13.34.00:023][275]Cmd: MAP LOAD FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.10.29-13.34.00:023][275]LightingResults: New page: Lighting Build
+[2024.10.29-13.34.00:023][275]LoadErrors: New page: Loading map: MainMenu.umap
+[2024.10.29-13.34.00:082][275]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2024.10.29-13.34.00:082][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.34.00:097][275]LogWorld: UWorld::CleanupWorld for CS2_Level, bSessionEnded=true, bCleanupResources=true
+[2024.10.29-13.34.00:097][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.34.00:098][275]LogContentBundle: [CS2_Level(Standalone)] Deleting container.
+[2024.10.29-13.34.00:098][275]MapCheck: New page: Map Check
+[2024.10.29-13.34.00:098][275]LightingResults: New page: Lighting Build
+[2024.10.29-13.34.00:106][275]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.29-13.34.00:108][275]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.10.29-13.34.00:112][275]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.10.29-13.34.00:112][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.34.00:121][275]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.29-13.34.00:128][275]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.10.29-13.34.00:134][275]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2024.10.29-13.34.00:134][275]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.34.00:134][275]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.29-13.34.00:134][275]LogAIModule: Creating AISystem for world MainMenu
+[2024.10.29-13.34.00:150][275]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.29-13.34.00:160][275]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.29-13.34.00:164][275]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.29-13.34.00:164][275]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.069ms to complete.
+[2024.10.29-13.34.01:086][374]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.29-13.34.01:090][374]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.29-13.34.01:090][374]PIE: New page: PIE session: MainMenu (29 Oct 2024, 13:34:01)
+[2024.10.29-13.34.01:113][374]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MainMenu
+[2024.10.29-13.34.01:114][374]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001250s)
+[2024.10.29-13.34.01:114][374]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MainMenu.MainMenu to /Game/Level/UEDPIE_0_MainMenu.MainMenu (0.001273s)
+[2024.10.29-13.34.01:122][374]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.29-13.34.01:125][374]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.34.01:125][374]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.29-13.34.01:125][374]LogAIModule: Creating AISystem for world MainMenu
+[2024.10.29-13.34.01:125][374]LogPlayLevel: PIE: World Init took: (0.000685s)
+[2024.10.29-13.34.01:125][374]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.10.29-13.34.01:125][374]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.29-13.34.01:125][374]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.29-13.34.01:125][374]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.29-13.34.01:125][374]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.29-13.34.01:125][374]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.29-13.34.01:125][374]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.29-13.34.01:125][374]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.29-13.34.01:125][374]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.29-13.34.01:126][374]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.29-13.34.01:126][374]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.29-13.34.01:126][374]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.29-13.34.01:127][374]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.29-13.34.01:142][374]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.29-13.34.01:142][374]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.29-13.34.01:142][374]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.29-13.34.01:142][374]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.29-13.34.01:142][374]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.10.29-13.34.01:142][374]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.10.29-13.34.01:144][374]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.10.29-13.34.01:144][374]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.10.29-13.34.01:144][374]LogInit: FAudioDevice initialized with ID 15.
+[2024.10.29-13.34.01:144][374]LogAudio: Display: Audio Device (ID: 15) registered with world 'MainMenu'.
+[2024.10.29-13.34.01:144][374]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.10.29-13.34.01:146][374]LogLoad: Game class is 'BP_CS2_GameMode_C'
+[2024.10.29-13.34.01:146][374]LogWorld: Bringing World /Game/Level/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.10.29-13.34.01
+[2024.10.29-13.34.01:146][374]LogWorld: Bringing up level for play took: 0.000373
+[2024.10.29-13.34.01:147][374]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2024.10.29-13.34.01:148][374]PIE: Server logged in
+[2024.10.29-13.34.01:148][374]PIE: Play in editor total start time 0.058 seconds.
+[2024.10.29-13.34.01:909][456]LogNet: Browse: /Game/Level/CharacterSelect
+[2024.10.29-13.34.01:909][456]LogLoad: LoadMap: /Game/Level/CharacterSelect
+[2024.10.29-13.34.01:909][456]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_MainMenu
+[2024.10.29-13.34.01:910][456]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.10.29-13.34.01:910][456]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.34.01:941][456]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.29-13.34.01:942][456]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.10.29-13.34.01:947][456]LogAudio: Display: Audio Device (ID: 15) registered with world 'CharacterSelect'.
+[2024.10.29-13.34.01:947][456]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.34.01:947][456]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.29-13.34.01:947][456]LogAIModule: Creating AISystem for world CharacterSelect
+[2024.10.29-13.34.01:947][456]LogPlayLevel: PIE: World Init took: (0.000600s)
+[2024.10.29-13.34.01:947][456]LogLoad: Game class is 'GameMode_CharacterSelect_C'
+[2024.10.29-13.34.01:954][456]LogWorld: Bringing World /Game/Level/UEDPIE_0_CharacterSelect.CharacterSelect up for play (max tick rate 0) at 2024.10.29-13.34.01
+[2024.10.29-13.34.01:954][456]LogWorld: Bringing up level for play took: 0.006746
+[2024.10.29-13.34.01:954][456]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.10.29-13.34.01:955][456]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.10.29-13.34.01:955][456]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.10.29-13.34.01:955][456]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.10.29-13.34.01:955][456]LogLoad: Took 0.045409 seconds to LoadMap(/Game/Level/CharacterSelect)
+[2024.10.29-13.34.11:720][618]LogNet: Browse: /Game/Level/CharacterSelectTwo
+[2024.10.29-13.34.11:720][618]LogLoad: LoadMap: /Game/Level/CharacterSelectTwo
+[2024.10.29-13.34.11:720][618]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_CharacterSelect
+[2024.10.29-13.34.11:720][618]LogWorld: UWorld::CleanupWorld for CharacterSelect, bSessionEnded=true, bCleanupResources=true
+[2024.10.29-13.34.11:720][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.34.11:762][618]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.29-13.34.11:763][618]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.29-13.34.11:769][618]LogAudio: Display: Audio Device (ID: 15) registered with world 'CharacterSelectTwo'.
+[2024.10.29-13.34.11:769][618]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.34.11:769][618]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.29-13.34.11:769][618]LogAIModule: Creating AISystem for world CharacterSelectTwo
+[2024.10.29-13.34.11:769][618]LogPlayLevel: PIE: World Init took: (0.000531s)
+[2024.10.29-13.34.11:769][618]LogLoad: Game class is 'GameMode_CharacterSelectTwo_C'
+[2024.10.29-13.34.11:776][618]LogWorld: Bringing World /Game/Level/UEDPIE_0_CharacterSelectTwo.CharacterSelectTwo up for play (max tick rate 0) at 2024.10.29-13.34.11
+[2024.10.29-13.34.11:776][618]LogWorld: Bringing up level for play took: 0.006338
+[2024.10.29-13.34.11:776][618]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.10.29-13.34.11:777][618]LogLoad: Took 0.057205 seconds to LoadMap(/Game/Level/CharacterSelectTwo)
+[2024.10.29-13.34.21:187][744]LogNet: Browse: /Game/Level/CS2_Level
+[2024.10.29-13.34.21:187][744]LogLoad: LoadMap: /Game/Level/CS2_Level
+[2024.10.29-13.34.21:187][744]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_CharacterSelectTwo
+[2024.10.29-13.34.21:187][744]LogWorld: UWorld::CleanupWorld for CharacterSelectTwo, bSessionEnded=true, bCleanupResources=true
+[2024.10.29-13.34.21:188][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.34.21:232][744]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.29-13.34.21:234][744]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.29-13.34.21:247][744]LogAudio: Display: Audio Device (ID: 15) registered with world 'CS2_Level'.
+[2024.10.29-13.34.21:247][744]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.34.21:247][744]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.29-13.34.21:247][744]LogAIModule: Creating AISystem for world CS2_Level
+[2024.10.29-13.34.21:247][744]LogWorldPartition: ULevel::OnLevelLoaded(CS2_Level)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.29-13.34.21:248][744]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.29-13.34.21:248][744]LogWorldPartition: UWorldPartition::Initialize : World = CS2_Level, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2024.10.29-13.34.21:248][744]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.29-13.34.21:248][744]LogWorldPartition: Display: GenerateStreaming for 'CS2_Level' started...
+[2024.10.29-13.34.21:251][744]LogWorldPartition: Display: GenerateStreaming for 'CS2_Level' took 3 ms (total: 31 ms)
+[2024.10.29-13.34.21:252][744]LogContentBundle: [CS2_Level(Standalone)] Creating new contrainer.
+[2024.10.29-13.34.21:252][744]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 133 ms)
+[2024.10.29-13.34.21:252][744]LogPlayLevel: PIE: World Init took: (0.005050s)
+[2024.10.29-13.34.21:252][744]LogLoad: Game class is 'BP_CS2_GameMode_C'
+[2024.10.29-13.34.21:253][744]LogWorld: Bringing World /Game/Level/UEDPIE_0_CS2_Level.CS2_Level up for play (max tick rate 0) at 2024.10.29-13.34.21
+[2024.10.29-13.34.21:253][744]LogWorld: Bringing up level for play took: 0.000607
+[2024.10.29-13.34.21:254][744]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for PlatformUserId 0,
+[2024.10.29-13.34.21:255][744]LogLoad: Took 0.067955 seconds to LoadMap(/Game/Level/CS2_Level)
+[2024.10.29-13.34.21:256][744]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.10.29-13.34.21:256][744]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.10.29-13.34.24:464][120]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.29-13.34.24:464][120]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_CS2_Level
+[2024.10.29-13.34.24:464][120]LogWorld: UWorld::CleanupWorld for CS2_Level, bSessionEnded=true, bCleanupResources=true
+[2024.10.29-13.34.24:464][120]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.34.24:464][120]LogContentBundle: [CS2_Level(Standalone)] Deleting container.
+[2024.10.29-13.34.24:466][120]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.29-13.34.24:469][120]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.34.24:476][120]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.29-13.34.24:476][120]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.10.29-13.34.24:476][120]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.10.29-13.34.24:478][120]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.10.29-13.34.24:480][120]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.29-13.34.24:482][120]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.29-13.34.24:545][124]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2024.10.29-13.34.55:370][817]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.29-13.34.55:418][817]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.34.55:424][817]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level/CharacterSelectTwo.CharacterSelectTwo
+[2024.10.29-13.34.55:424][817]Cmd: MAP LOAD FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/CharacterSelectTwo.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.10.29-13.34.55:424][817]LightingResults: New page: Lighting Build
+[2024.10.29-13.34.55:424][817]LoadErrors: New page: Loading map: CharacterSelectTwo.umap
+[2024.10.29-13.34.55:464][817]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.10.29-13.34.55:464][817]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.34.55:464][817]MapCheck: New page: Map Check
+[2024.10.29-13.34.55:464][817]LightingResults: New page: Lighting Build
+[2024.10.29-13.34.55:473][817]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.29-13.34.55:474][817]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.10.29-13.34.55:476][817]LogWorld: UWorld::CleanupWorld for CharacterSelectTwo, bSessionEnded=true, bCleanupResources=true
+[2024.10.29-13.34.55:476][817]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.34.55:486][817]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.29-13.34.55:495][817]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.29-13.34.55:498][817]LogAudio: Display: Audio Device (ID: 1) registered with world 'CharacterSelectTwo'.
+[2024.10.29-13.34.55:498][817]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.34.55:498][817]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.29-13.34.55:498][817]LogAIModule: Creating AISystem for world CharacterSelectTwo
+[2024.10.29-13.34.55:521][817]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.29-13.34.55:532][817]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.29-13.34.55:537][817]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.29-13.34.55:537][817]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.064ms to complete.
+[2024.10.29-13.35.12:091][764]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.10.29-13.35.12:141][764]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.35.12:141][764]LogWorldPartition: ULevel::OnLevelLoaded(CS2_Level)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.10.29-13.35.12:141][764]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.29-13.35.12:141][764]LogWorldPartition: UWorldPartition::Initialize : World = CS2_Level, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.29-13.35.12:147][764]LogContentBundle: [CS2_Level(Standalone)] Creating new contrainer.
+[2024.10.29-13.35.12:147][764]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 138 ms)
+[2024.10.29-13.35.12:148][764]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level/CS2_Level.CS2_Level
+[2024.10.29-13.35.12:148][764]Cmd: MAP LOAD FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/CS2_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.10.29-13.35.12:148][764]LightingResults: New page: Lighting Build
+[2024.10.29-13.35.12:148][764]LoadErrors: New page: Loading map: CS2_Level.umap
+[2024.10.29-13.35.12:194][764]LogWorld: UWorld::CleanupWorld for CharacterSelectTwo, bSessionEnded=true, bCleanupResources=true
+[2024.10.29-13.35.12:194][764]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.35.12:194][764]MapCheck: New page: Map Check
+[2024.10.29-13.35.12:194][764]LightingResults: New page: Lighting Build
+[2024.10.29-13.35.12:201][764]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.29-13.35.12:205][764]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.10.29-13.35.12:207][764]LogWorld: UWorld::CleanupWorld for CS2_Level, bSessionEnded=true, bCleanupResources=true
+[2024.10.29-13.35.12:207][764]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.35.12:207][764]LogContentBundle: [CS2_Level(Standalone)] Deleting container.
+[2024.10.29-13.35.12:218][764]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.10.29-13.35.12:228][764]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.29-13.35.12:240][764]LogAudio: Display: Audio Device (ID: 1) registered with world 'CS2_Level'.
+[2024.10.29-13.35.12:240][764]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.35.12:240][764]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.29-13.35.12:240][764]LogAIModule: Creating AISystem for world CS2_Level
+[2024.10.29-13.35.12:241][764]LogWorldPartition: ULevel::OnLevelLoaded(CS2_Level)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.10.29-13.35.12:241][764]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.29-13.35.12:241][764]LogWorldPartition: UWorldPartition::Initialize : World = CS2_Level, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.29-13.35.12:246][764]LogContentBundle: [CS2_Level(Standalone)] Creating new contrainer.
+[2024.10.29-13.35.12:246][764]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 143 ms)
+[2024.10.29-13.35.12:265][764]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.29-13.35.12:277][764]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.29-13.35.12:282][764]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.29-13.35.12:282][764]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.227ms to complete.
+[2024.10.29-13.35.20:570][676]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Level/CS2_Level.CS2_Level:PersistentLevel.CS2_Level
+[2024.10.29-13.35.20:571][676]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.35.20:571][676]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.29-13.35.39:251][835]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.29-13.35.39:304][835]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.35.39:311][835]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level/CharacterSelectTwo.CharacterSelectTwo
+[2024.10.29-13.35.39:311][835]Cmd: MAP LOAD FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/CharacterSelectTwo.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.10.29-13.35.39:311][835]LightingResults: New page: Lighting Build
+[2024.10.29-13.35.39:311][835]LoadErrors: New page: Loading map: CharacterSelectTwo.umap
+[2024.10.29-13.35.39:343][835]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2024.10.29-13.35.39:343][835]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.35.39:359][835]LogWorld: UWorld::CleanupWorld for CS2_Level, bSessionEnded=true, bCleanupResources=true
+[2024.10.29-13.35.39:359][835]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.35.39:359][835]LogContentBundle: [CS2_Level(Standalone)] Deleting container.
+[2024.10.29-13.35.39:359][835]MapCheck: New page: Map Check
+[2024.10.29-13.35.39:359][835]LightingResults: New page: Lighting Build
+[2024.10.29-13.35.39:368][835]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.29-13.35.39:370][835]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.10.29-13.35.39:372][835]LogWorld: UWorld::CleanupWorld for CharacterSelectTwo, bSessionEnded=true, bCleanupResources=true
+[2024.10.29-13.35.39:372][835]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.35.39:382][835]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.29-13.35.39:390][835]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.10.29-13.35.39:392][835]LogAudio: Display: Audio Device (ID: 1) registered with world 'CharacterSelectTwo'.
+[2024.10.29-13.35.39:392][835]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.35.39:393][835]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.29-13.35.39:393][835]LogAIModule: Creating AISystem for world CharacterSelectTwo
+[2024.10.29-13.35.39:415][835]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.29-13.35.39:426][835]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.29-13.35.39:431][835]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.29-13.35.39:431][835]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.061ms to complete.
+[2024.10.29-13.35.44:749][447]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Level/CharacterSelectTwo.CharacterSelectTwo:PersistentLevel.CharacterSelectTwo
+[2024.10.29-13.35.44:749][447]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.35.44:749][447]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.29-13.37.22:597][707]BlueprintLog: New page: Compile WBP_CharacterSelectTwo
+[2024.10.29-13.37.22:601][707]LogBlueprint: Warning: [AssetLog] C:\Github Repos\Creative-Studio-2\CS2_Proto\Content\UI\WBP_CharacterSelectTwo.uasset: [Compiler] 'BP Camera' does not inherit from 'Player Controller' ( Cast To BP_Camera  would always fail).
+[2024.10.29-13.37.22:614][707]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.29-13.37.22:972][742]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.29-13.37.22:976][742]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-13.37.23:025][742]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelectTwo" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelectTwo.uasset" SILENT=true
+[2024.10.29-13.37.23:033][742]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelectTwo
+[2024.10.29-13.37.23:033][742]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelectTwo7020D19949435C8AD53A9DA84D31E7FA.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelectTwo.uasset'
+[2024.10.29-13.37.23:039][742]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 1.76 sec)
+[2024.10.29-13.37.23:040][742]AssetCheck: New page: Asset Save: WBP_CharacterSelectTwo
+[2024.10.29-13.37.23:040][742]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelectTwo.WBP_CharacterSelectTwo
+[2024.10.29-13.37.32:084][766]BlueprintLog: New page: Compile WBP_CharacterSelectTwo
+[2024.10.29-13.37.32:102][766]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.10.29-13.37.32:431][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.29-13.37.32:434][798]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-13.37.32:470][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelectTwo" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelectTwo.uasset" SILENT=true
+[2024.10.29-13.37.32:476][798]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelectTwo
+[2024.10.29-13.37.32:476][798]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelectTwo003102A5463B574807191B89A0B0B424.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelectTwo.uasset'
+[2024.10.29-13.37.32:480][798]LogFileHelpers: InternalPromptForCheckoutAndSave took 46 ms (total: 1.80 sec)
+[2024.10.29-13.37.32:482][798]AssetCheck: New page: Asset Save: WBP_CharacterSelectTwo
+[2024.10.29-13.37.32:482][798]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelectTwo.WBP_CharacterSelectTwo
+[2024.10.29-13.39.22:146][461]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.10.29-13.39.22:149][461]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-13.39.22:191][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character_Selection/BP_Camera" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/BP_Camera.uasset" SILENT=true
+[2024.10.29-13.39.22:195][461]LogSavePackage: Moving output files for package: /Game/Character_Selection/BP_Camera
+[2024.10.29-13.39.22:196][461]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_Camera6DCD773F410DAA11CCF72A8305A46D18.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/BP_Camera.uasset'
+[2024.10.29-13.39.22:200][461]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 1.85 sec)
+[2024.10.29-13.39.22:200][461]AssetCheck: New page: Asset Save: BP_Camera
+[2024.10.29-13.39.22:200][461]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character_Selection/BP_Camera.BP_Camera
+[2024.10.29-13.40.40:514][220]BlueprintLog: New page: Compile WBP_CharacterSelectTwo
+[2024.10.29-13.40.40:533][220]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.10.29-13.40.41:051][272]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.10.29-13.40.41:056][272]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-13.40.41:107][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelectTwo" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelectTwo.uasset" SILENT=true
+[2024.10.29-13.40.41:114][272]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelectTwo
+[2024.10.29-13.40.41:115][272]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelectTwoCA4728104147EC2DC44170B8ACA5EAA6.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelectTwo.uasset'
+[2024.10.29-13.40.41:119][272]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 1.92 sec)
+[2024.10.29-13.40.41:120][272]AssetCheck: New page: Asset Save: WBP_CharacterSelectTwo
+[2024.10.29-13.40.41:120][272]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelectTwo.WBP_CharacterSelectTwo
+[2024.10.29-13.41.06:992][256]BlueprintLog: New page: Compile WBP_CharacterSelect
+[2024.10.29-13.41.07:010][256]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.10.29-13.41.07:383][292]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.10.29-13.41.07:389][292]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-13.41.07:449][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelect" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset" SILENT=true
+[2024.10.29-13.41.07:456][292]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelect
+[2024.10.29-13.41.07:457][292]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelect930D0C8C4BA42AC665E64292B864D328.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset'
+[2024.10.29-13.41.07:463][292]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 1.99 sec)
+[2024.10.29-13.41.07:464][292]AssetCheck: New page: Asset Save: WBP_CharacterSelect
+[2024.10.29-13.41.07:464][292]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelect.WBP_CharacterSelect
+[2024.10.29-13.41.10:019][577]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.29-13.41.10:024][577]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.29-13.41.10:024][577]PIE: New page: PIE session: CharacterSelectTwo (29 Oct 2024, 13:41:10)
+[2024.10.29-13.41.10:069][577]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_CharacterSelectTwo
+[2024.10.29-13.41.10:071][577]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001540s)
+[2024.10.29-13.41.10:071][577]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/CharacterSelectTwo.CharacterSelectTwo to /Game/Level/UEDPIE_0_CharacterSelectTwo.CharacterSelectTwo (0.001565s)
+[2024.10.29-13.41.10:082][577]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.10.29-13.41.10:083][577]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.41.10:083][577]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.29-13.41.10:084][577]LogAIModule: Creating AISystem for world CharacterSelectTwo
+[2024.10.29-13.41.10:084][577]LogPlayLevel: PIE: World Init took: (0.000708s)
+[2024.10.29-13.41.10:084][577]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.10.29-13.41.10:084][577]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.29-13.41.10:084][577]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.29-13.41.10:084][577]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.29-13.41.10:084][577]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.29-13.41.10:084][577]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.29-13.41.10:084][577]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.29-13.41.10:084][577]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.29-13.41.10:084][577]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.29-13.41.10:084][577]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.29-13.41.10:084][577]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.29-13.41.10:084][577]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.29-13.41.10:086][577]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.29-13.41.10:101][577]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.29-13.41.10:101][577]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.29-13.41.10:101][577]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.29-13.41.10:101][577]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.29-13.41.10:101][577]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.10.29-13.41.10:101][577]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.10.29-13.41.10:102][577]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.10.29-13.41.10:102][577]LogInit: FAudioDevice initialized with ID 16.
+[2024.10.29-13.41.10:102][577]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.10.29-13.41.10:102][577]LogAudio: Display: Audio Device (ID: 16) registered with world 'CharacterSelectTwo'.
+[2024.10.29-13.41.10:102][577]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.10.29-13.41.10:104][577]LogLoad: Game class is 'GameMode_CharacterSelectTwo_C'
+[2024.10.29-13.41.10:111][577]LogWorld: Bringing World /Game/Level/UEDPIE_0_CharacterSelectTwo.CharacterSelectTwo up for play (max tick rate 0) at 2024.10.29-13.41.10
+[2024.10.29-13.41.10:111][577]LogWorld: Bringing up level for play took: 0.006701
+[2024.10.29-13.41.10:112][577]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2024.10.29-13.41.10:114][577]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.10.29-13.41.10:114][577]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.10.29-13.41.10:114][577]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.10.29-13.41.10:114][577]PIE: Server logged in
+[2024.10.29-13.41.10:114][577]PIE: Play in editor total start time 0.09 seconds.
+[2024.10.29-13.41.13:710][996]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.29-13.41.13:710][996]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_CharacterSelectTwo
+[2024.10.29-13.41.13:710][996]LogWorld: UWorld::CleanupWorld for CharacterSelectTwo, bSessionEnded=true, bCleanupResources=true
+[2024.10.29-13.41.13:710][996]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.41.13:712][996]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.29-13.41.13:715][996]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.41.13:726][996]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.29-13.41.13:726][996]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.10.29-13.41.13:726][996]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.10.29-13.41.13:727][996]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.10.29-13.41.13:729][996]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.29-13.41.13:732][996]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.10.29-13.41.13:778][999]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2024.10.29-13.41.16:767][349]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.29-13.41.16:772][349]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.29-13.41.16:772][349]PIE: New page: PIE session: CharacterSelectTwo (29 Oct 2024, 13:41:16)
+[2024.10.29-13.41.16:809][349]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_CharacterSelectTwo
+[2024.10.29-13.41.16:811][349]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001476s)
+[2024.10.29-13.41.16:811][349]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/CharacterSelectTwo.CharacterSelectTwo to /Game/Level/UEDPIE_0_CharacterSelectTwo.CharacterSelectTwo (0.001500s)
+[2024.10.29-13.41.16:822][349]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.10.29-13.41.16:824][349]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.41.16:824][349]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.29-13.41.16:824][349]LogAIModule: Creating AISystem for world CharacterSelectTwo
+[2024.10.29-13.41.16:824][349]LogPlayLevel: PIE: World Init took: (0.000668s)
+[2024.10.29-13.41.16:824][349]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.10.29-13.41.16:824][349]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.29-13.41.16:824][349]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.29-13.41.16:824][349]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.29-13.41.16:824][349]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.29-13.41.16:824][349]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.29-13.41.16:824][349]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.29-13.41.16:824][349]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.29-13.41.16:824][349]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.29-13.41.16:825][349]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.29-13.41.16:825][349]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.29-13.41.16:825][349]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.29-13.41.16:826][349]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.29-13.41.16:840][349]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.29-13.41.16:841][349]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.29-13.41.16:841][349]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.29-13.41.16:841][349]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.29-13.41.16:841][349]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.10.29-13.41.16:841][349]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.10.29-13.41.16:842][349]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.10.29-13.41.16:842][349]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.10.29-13.41.16:842][349]LogInit: FAudioDevice initialized with ID 17.
+[2024.10.29-13.41.16:842][349]LogAudio: Display: Audio Device (ID: 17) registered with world 'CharacterSelectTwo'.
+[2024.10.29-13.41.16:842][349]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.10.29-13.41.16:844][349]LogLoad: Game class is 'GameMode_CharacterSelectTwo_C'
+[2024.10.29-13.41.16:850][349]LogWorld: Bringing World /Game/Level/UEDPIE_0_CharacterSelectTwo.CharacterSelectTwo up for play (max tick rate 0) at 2024.10.29-13.41.16
+[2024.10.29-13.41.16:850][349]LogWorld: Bringing up level for play took: 0.006677
+[2024.10.29-13.41.16:852][349]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2024.10.29-13.41.16:852][349]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.10.29-13.41.16:852][349]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.10.29-13.41.16:852][349]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.10.29-13.41.16:852][349]PIE: Server logged in
+[2024.10.29-13.41.16:853][349]PIE: Play in editor total start time 0.081 seconds.
+[2024.10.29-13.41.18:726][566]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WBP_CharacterSelectTwo_C /Engine/Transient.UnrealEdEngine_0:BP_CS2_GameInstance_C_15.WBP_CharacterSelectTwo_C_0
+	Function /Game/UI/WBP_CharacterSelectTwo.WBP_CharacterSelectTwo_C:ExecuteUbergraph_WBP_CharacterSelectTwo:0229
+[2024.10.29-13.41.18:726][566]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue". Node:  Possess Graph:  EventGraph Function:  Execute Ubergraph WBP Character Select Two Blueprint:  WBP_CharacterSelectTwo
+[2024.10.29-13.41.19:042][604]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WBP_CharacterSelectTwo_C /Engine/Transient.UnrealEdEngine_0:BP_CS2_GameInstance_C_15.WBP_CharacterSelectTwo_C_0
+	Function /Game/UI/WBP_CharacterSelectTwo.WBP_CharacterSelectTwo_C:ExecuteUbergraph_WBP_CharacterSelectTwo:0229
+[2024.10.29-13.41.19:043][604]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue". Node:  Possess Graph:  EventGraph Function:  Execute Ubergraph WBP Character Select Two Blueprint:  WBP_CharacterSelectTwo
+[2024.10.29-13.41.19:509][660]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WBP_CharacterSelectTwo_C /Engine/Transient.UnrealEdEngine_0:BP_CS2_GameInstance_C_15.WBP_CharacterSelectTwo_C_0
+	Function /Game/UI/WBP_CharacterSelectTwo.WBP_CharacterSelectTwo_C:ExecuteUbergraph_WBP_CharacterSelectTwo:0229
+[2024.10.29-13.41.19:509][660]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue". Node:  Possess Graph:  EventGraph Function:  Execute Ubergraph WBP Character Select Two Blueprint:  WBP_CharacterSelectTwo
+[2024.10.29-13.41.19:942][712]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WBP_CharacterSelectTwo_C /Engine/Transient.UnrealEdEngine_0:BP_CS2_GameInstance_C_15.WBP_CharacterSelectTwo_C_0
+	Function /Game/UI/WBP_CharacterSelectTwo.WBP_CharacterSelectTwo_C:ExecuteUbergraph_WBP_CharacterSelectTwo:0229
+[2024.10.29-13.41.19:943][712]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue". Node:  Possess Graph:  EventGraph Function:  Execute Ubergraph WBP Character Select Two Blueprint:  WBP_CharacterSelectTwo
+[2024.10.29-13.41.20:318][757]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WBP_CharacterSelectTwo_C /Engine/Transient.UnrealEdEngine_0:BP_CS2_GameInstance_C_15.WBP_CharacterSelectTwo_C_0
+	Function /Game/UI/WBP_CharacterSelectTwo.WBP_CharacterSelectTwo_C:ExecuteUbergraph_WBP_CharacterSelectTwo:0229
+[2024.10.29-13.41.20:318][757]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue". Node:  Possess Graph:  EventGraph Function:  Execute Ubergraph WBP Character Select Two Blueprint:  WBP_CharacterSelectTwo
+[2024.10.29-13.41.20:601][791]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WBP_CharacterSelectTwo_C /Engine/Transient.UnrealEdEngine_0:BP_CS2_GameInstance_C_15.WBP_CharacterSelectTwo_C_0
+	Function /Game/UI/WBP_CharacterSelectTwo.WBP_CharacterSelectTwo_C:ExecuteUbergraph_WBP_CharacterSelectTwo:0229
+[2024.10.29-13.41.20:601][791]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue". Node:  Possess Graph:  EventGraph Function:  Execute Ubergraph WBP Character Select Two Blueprint:  WBP_CharacterSelectTwo
+[2024.10.29-13.41.22:580][ 25]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.29-13.41.22:580][ 25]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_CharacterSelectTwo
+[2024.10.29-13.41.22:580][ 25]LogWorld: UWorld::CleanupWorld for CharacterSelectTwo, bSessionEnded=true, bCleanupResources=true
+[2024.10.29-13.41.22:580][ 25]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.41.22:582][ 25]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.29-13.41.22:586][ 25]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.41.22:595][ 25]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.29-13.41.22:595][ 25]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.10.29-13.41.22:596][ 25]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.10.29-13.41.22:597][ 25]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.10.29-13.41.22:602][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.10.29-13.41.22:697][ 26]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2024.10.29-13.41.32:617][160]LogSlate: Window 'Message Log' being destroyed
+[2024.10.29-13.41.32:619][160]LogSlate: Window 'Message Log' being destroyed
+[2024.10.29-13.42.02:934][751]BlueprintLog: New page: Compile WBP_CharacterSelect
+[2024.10.29-13.42.02:949][751]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.10.29-13.42.03:404][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.10.29-13.42.03:410][798]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-13.42.03:463][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelect" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset" SILENT=true
+[2024.10.29-13.42.03:470][798]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelect
+[2024.10.29-13.42.03:470][798]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelect51AEFB174359C499E4932E8DE5027733.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset'
+[2024.10.29-13.42.03:474][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelectTwo" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelectTwo.uasset" SILENT=true
+[2024.10.29-13.42.03:481][798]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelectTwo
+[2024.10.29-13.42.03:481][798]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelectTwoF28FC6224DD7700A446A50965E10390F.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelectTwo.uasset'
+[2024.10.29-13.42.03:486][798]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 2.07 sec)
+[2024.10.29-13.42.03:487][798]AssetCheck: New page: Asset Save: multiple assets
+[2024.10.29-13.42.03:487][798]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelect.WBP_CharacterSelect
+[2024.10.29-13.42.03:488][798]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelectTwo.WBP_CharacterSelectTwo
+[2024.10.29-13.42.04:573][917]BlueprintLog: New page: Compile WBP_CharacterSelectTwo
+[2024.10.29-13.42.04:590][917]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.10.29-13.42.04:854][942]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.10.29-13.43.09:101][425]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.43.20:079][721]BlueprintLog: New page: Compile BP_Camera
+[2024.10.29-13.43.20:102][721]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.10.29-13.43.20:532][764]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.10.29-13.43.20:540][764]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-13.43.20:592][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character_Selection/BP_Camera" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/BP_Camera.uasset" SILENT=true
+[2024.10.29-13.43.20:596][764]LogSavePackage: Moving output files for package: /Game/Character_Selection/BP_Camera
+[2024.10.29-13.43.20:596][764]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_CameraBDA894694EB43E14DEE82BBA179EA7DF.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/BP_Camera.uasset'
+[2024.10.29-13.43.20:600][764]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 2.13 sec)
+[2024.10.29-13.43.20:601][764]AssetCheck: New page: Asset Save: BP_Camera
+[2024.10.29-13.43.20:601][764]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character_Selection/BP_Camera.BP_Camera
+[2024.10.29-13.43.28:551][684]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.10.29-13.43.32:665][120]LogContentBrowser: Attempting asset rename: BP_Camera1 -> BP_CameraTwo
+[2024.10.29-13.43.32:682][120]LogMetaData: Removing '/Game/Character_Selection/BP_CameraTwo.SKEL_BP_CameraTwo_C' ref from Metadata '/Game/Character_Selection/BP_Camera1.PackageMetaData'
+[2024.10.29-13.43.32:682][120]LogMetaData: Removing '/Game/Character_Selection/BP_CameraTwo.BP_CameraTwo_C' ref from Metadata '/Game/Character_Selection/BP_Camera1.PackageMetaData'
+[2024.10.29-13.43.32:682][120]LogMetaData: Removing '/Game/Character_Selection/BP_CameraTwo.SKEL_BP_CameraTwo_C:ReceiveBeginPlay' ref from Metadata '/Game/Character_Selection/BP_Camera1.PackageMetaData'
+[2024.10.29-13.43.32:683][120]LogMetaData: Removing '/Game/Character_Selection/BP_CameraTwo.SKEL_BP_CameraTwo_C:Rotate Camera' ref from Metadata '/Game/Character_Selection/BP_Camera1.PackageMetaData'
+[2024.10.29-13.43.32:683][120]LogMetaData: Removing '/Game/Character_Selection/BP_CameraTwo.SKEL_BP_CameraTwo_C:UserConstructionScript' ref from Metadata '/Game/Character_Selection/BP_Camera1.PackageMetaData'
+[2024.10.29-13.43.32:683][120]LogMetaData: Removing '/Game/Character_Selection/BP_CameraTwo.BP_CameraTwo_C:ReceiveBeginPlay' ref from Metadata '/Game/Character_Selection/BP_Camera1.PackageMetaData'
+[2024.10.29-13.43.32:683][120]LogMetaData: Removing '/Game/Character_Selection/BP_CameraTwo.BP_CameraTwo_C:Rotate Camera' ref from Metadata '/Game/Character_Selection/BP_Camera1.PackageMetaData'
+[2024.10.29-13.43.32:683][120]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-13.43.32:736][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character_Selection/BP_CameraTwo" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/BP_CameraTwo.uasset" SILENT=true
+[2024.10.29-13.43.32:739][120]LogSavePackage: Moving output files for package: /Game/Character_Selection/BP_CameraTwo
+[2024.10.29-13.43.32:739][120]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_CameraTwoA038865E489F4F4AC1DBF08A1B4A11A7.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/BP_CameraTwo.uasset'
+[2024.10.29-13.43.32:748][120]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 2.19 sec)
+[2024.10.29-13.43.32:761][120]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.10.29-13.43.32:773][120]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.10.29-13.43.32:782][120]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.10.29-13.43.32:784][120]AssetCheck: New page: Asset Save: BP_CameraTwo
+[2024.10.29-13.43.32:784][120]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character_Selection/BP_CameraTwo.BP_CameraTwo
+[2024.10.29-13.43.33:952][249]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Character_Selection/BP_CameraTwo.BP_CameraTwo
+[2024.10.29-13.43.33:952][249]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.43.33:952][249]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.29-13.43.53:574][545]BlueprintLog: New page: Compile GameMode_CharacterSelectTwo
+[2024.10.29-13.43.53:592][545]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.10.29-13.43.53:826][565]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.10.29-13.43.53:832][565]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-13.43.53:890][565]LogSavePackage: Moving output files for package: /Game/Character_Selection/GameMode_CharacterSelectTwo
+[2024.10.29-13.43.53:890][565]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/GameMode_CharacterSelectTwo0D54DAEC45CD4F2646E265B5EDB69552.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/GameMode_CharacterSelectTwo.uasset'
+[2024.10.29-13.43.53:894][565]LogFileHelpers: InternalPromptForCheckoutAndSave took 61 ms (total: 2.25 sec)
+[2024.10.29-13.43.53:894][565]AssetCheck: New page: Asset Save: GameMode_CharacterSelectTwo
+[2024.10.29-13.43.53:894][565]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character_Selection/GameMode_CharacterSelectTwo.GameMode_CharacterSelectTwo
+[2024.10.29-13.44.07:277][142]BlueprintLog: New page: Compile BP_Camera
+[2024.10.29-13.44.07:303][142]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.10.29-13.44.07:558][163]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.10.29-13.44.07:566][163]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-13.44.07:614][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character_Selection/BP_CameraTwo" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/BP_CameraTwo.uasset" SILENT=true
+[2024.10.29-13.44.07:618][163]LogSavePackage: Moving output files for package: /Game/Character_Selection/BP_CameraTwo
+[2024.10.29-13.44.07:619][163]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_CameraTwoE7429E0048105174D32C7A826F6C8968.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/BP_CameraTwo.uasset'
+[2024.10.29-13.44.07:624][163]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 2.31 sec)
+[2024.10.29-13.44.07:625][163]AssetCheck: New page: Asset Save: BP_CameraTwo
+[2024.10.29-13.44.07:625][163]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character_Selection/BP_CameraTwo.BP_CameraTwo
+[2024.10.29-13.44.09:871][417]BlueprintLog: New page: Compile BP_CameraTwo
+[2024.10.29-13.44.09:890][417]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.10.29-13.44.10:166][441]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.10.29-13.44.11:675][595]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.29-13.44.11:681][595]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.29-13.44.11:681][595]PIE: New page: PIE session: CharacterSelectTwo (29 Oct 2024, 13:44:11)
+[2024.10.29-13.44.11:702][595]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_CharacterSelectTwo
+[2024.10.29-13.44.11:704][595]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001521s)
+[2024.10.29-13.44.11:704][595]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/CharacterSelectTwo.CharacterSelectTwo to /Game/Level/UEDPIE_0_CharacterSelectTwo.CharacterSelectTwo (0.001547s)
+[2024.10.29-13.44.11:714][595]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.10.29-13.44.11:715][595]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.44.11:715][595]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.29-13.44.11:716][595]LogAIModule: Creating AISystem for world CharacterSelectTwo
+[2024.10.29-13.44.11:716][595]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2024.10.29-13.44.11:716][595]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.10.29-13.44.11:716][595]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.29-13.44.11:716][595]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.29-13.44.11:716][595]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.29-13.44.11:716][595]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.29-13.44.11:716][595]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.29-13.44.11:716][595]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.29-13.44.11:716][595]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.29-13.44.11:716][595]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.29-13.44.11:716][595]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.29-13.44.11:716][595]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.29-13.44.11:716][595]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.29-13.44.11:718][595]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.29-13.44.11:733][595]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.29-13.44.11:733][595]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.29-13.44.11:733][595]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.29-13.44.11:733][595]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.29-13.44.11:734][595]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.10.29-13.44.11:734][595]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.10.29-13.44.11:735][595]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.10.29-13.44.11:735][595]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.10.29-13.44.11:735][595]LogInit: FAudioDevice initialized with ID 18.
+[2024.10.29-13.44.11:735][595]LogAudio: Display: Audio Device (ID: 18) registered with world 'CharacterSelectTwo'.
+[2024.10.29-13.44.11:735][595]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.10.29-13.44.11:738][595]LogLoad: Game class is 'GameMode_CharacterSelectTwo_C'
+[2024.10.29-13.44.11:744][595]LogWorld: Bringing World /Game/Level/UEDPIE_0_CharacterSelectTwo.CharacterSelectTwo up for play (max tick rate 0) at 2024.10.29-13.44.11
+[2024.10.29-13.44.11:744][595]LogWorld: Bringing up level for play took: 0.006849
+[2024.10.29-13.44.11:746][595]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2024.10.29-13.44.11:747][595]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.10.29-13.44.11:747][595]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.10.29-13.44.11:747][595]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.10.29-13.44.11:747][595]PIE: Server logged in
+[2024.10.29-13.44.11:747][595]PIE: Play in editor total start time 0.066 seconds.
+[2024.10.29-13.44.14:533][918]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.29-13.44.14:533][918]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_CharacterSelectTwo
+[2024.10.29-13.44.14:533][918]LogWorld: UWorld::CleanupWorld for CharacterSelectTwo, bSessionEnded=true, bCleanupResources=true
+[2024.10.29-13.44.14:533][918]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.44.14:535][918]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.29-13.44.14:539][918]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.44.14:549][918]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.29-13.44.14:549][918]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.10.29-13.44.14:549][918]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.10.29-13.44.14:551][918]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.10.29-13.44.14:556][918]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.10.29-13.44.14:610][923]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2024.10.29-13.48.38:463][530]BlueprintLog: New page: Compile GameMode_CharacterSelect
+[2024.10.29-13.48.38:479][530]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.10.29-13.48.40:107][719]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.10.29-13.48.40:112][719]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-13.48.40:166][719]LogSavePackage: Moving output files for package: /Game/Character_Selection/GameMode_CharacterSelect
+[2024.10.29-13.48.40:166][719]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/GameMode_CharacterSelectB75674F349660EBE2E45CCAB08EC4884.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/GameMode_CharacterSelect.uasset'
+[2024.10.29-13.48.40:170][719]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 2.37 sec)
+[2024.10.29-13.48.40:171][719]AssetCheck: New page: Asset Save: GameMode_CharacterSelect
+[2024.10.29-13.48.40:171][719]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character_Selection/GameMode_CharacterSelect.GameMode_CharacterSelect
+[2024.10.29-13.48.49:360][793]BlueprintLog: New page: Compile CharacterSelectTwo
+[2024.10.29-13.48.49:373][793]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.10.29-13.48.49:740][831]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.10.29-13.48.49:744][831]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-13.48.49:810][831]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2024.10.29-13.48.49:816][831]LogSavePackage: Moving output files for package: /Game/Level/CharacterSelectTwo
+[2024.10.29-13.48.49:817][831]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/CharacterSelectTwo3594B083494F9CDF8BDC83BCAC8D9658.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/CharacterSelectTwo.umap'
+[2024.10.29-13.48.49:821][831]LogFileHelpers: Saving map 'CharacterSelectTwo' took 0.034
+[2024.10.29-13.48.49:826][831]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 2.45 sec)
+[2024.10.29-13.48.49:827][831]AssetCheck: New page: Asset Save: CharacterSelectTwo
+[2024.10.29-13.48.49:827][831]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/CharacterSelectTwo.CharacterSelectTwo
+[2024.10.29-13.48.51:110][963]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.29-13.48.51:115][963]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.29-13.48.51:115][963]PIE: New page: PIE session: CharacterSelectTwo (29 Oct 2024, 13:48:51)
+[2024.10.29-13.48.51:147][963]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_CharacterSelectTwo
+[2024.10.29-13.48.51:148][963]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001572s)
+[2024.10.29-13.48.51:148][963]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/CharacterSelectTwo.CharacterSelectTwo to /Game/Level/UEDPIE_0_CharacterSelectTwo.CharacterSelectTwo (0.001601s)
+[2024.10.29-13.48.51:159][963]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.10.29-13.48.51:160][963]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.48.51:160][963]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.29-13.48.51:161][963]LogAIModule: Creating AISystem for world CharacterSelectTwo
+[2024.10.29-13.48.51:161][963]LogPlayLevel: PIE: World Init took: (0.000688s)
+[2024.10.29-13.48.51:161][963]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.10.29-13.48.51:161][963]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.29-13.48.51:161][963]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.29-13.48.51:161][963]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.29-13.48.51:161][963]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.29-13.48.51:161][963]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.29-13.48.51:161][963]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.29-13.48.51:161][963]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.29-13.48.51:161][963]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.29-13.48.51:161][963]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.29-13.48.51:161][963]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.29-13.48.51:161][963]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.29-13.48.51:163][963]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.29-13.48.51:177][963]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.29-13.48.51:177][963]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.29-13.48.51:178][963]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.29-13.48.51:178][963]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.29-13.48.51:178][963]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.10.29-13.48.51:178][963]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.10.29-13.48.51:179][963]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.10.29-13.48.51:179][963]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.10.29-13.48.51:179][963]LogInit: FAudioDevice initialized with ID 19.
+[2024.10.29-13.48.51:179][963]LogAudio: Display: Audio Device (ID: 19) registered with world 'CharacterSelectTwo'.
+[2024.10.29-13.48.51:179][963]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.10.29-13.48.51:181][963]LogLoad: Game class is 'GameMode_CharacterSelectTwo_C'
+[2024.10.29-13.48.51:188][963]LogWorld: Bringing World /Game/Level/UEDPIE_0_CharacterSelectTwo.CharacterSelectTwo up for play (max tick rate 0) at 2024.10.29-13.48.51
+[2024.10.29-13.48.51:188][963]LogWorld: Bringing up level for play took: 0.006500
+[2024.10.29-13.48.51:190][963]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2024.10.29-13.48.51:191][963]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.10.29-13.48.51:191][963]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.10.29-13.48.51:191][963]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.10.29-13.48.51:191][963]PIE: Error: SetInputMode_GameAndUI expects a valid player controller as 'PlayerController' target
+[2024.10.29-13.48.51:191][963]PIE: Server logged in
+[2024.10.29-13.48.51:191][963]PIE: Play in editor total start time 0.075 seconds.
+[2024.10.29-13.49.05:928][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.29-13.49.05:928][718]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_CharacterSelectTwo
+[2024.10.29-13.49.05:928][718]LogWorld: UWorld::CleanupWorld for CharacterSelectTwo, bSessionEnded=true, bCleanupResources=true
+[2024.10.29-13.49.05:928][718]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.49.05:930][718]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.29-13.49.05:933][718]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.49.05:943][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.29-13.49.05:943][718]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.10.29-13.49.05:943][718]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.10.29-13.49.05:944][718]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.10.29-13.49.05:950][718]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.10.29-13.49.06:053][719]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2024.10.29-13.49.10:050][162]LogSlate: Window 'Message Log' being destroyed
+[2024.10.29-13.49.10:053][162]LogSlate: Window 'Message Log' being destroyed
+[2024.10.29-13.49.17:121][974]BlueprintLog: New page: Compile GameMode_CharacterSelect
+[2024.10.29-13.49.17:137][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.10.29-13.49.17:397][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.10.29-13.49.17:402][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-13.49.17:464][  0]LogSavePackage: Moving output files for package: /Game/Character_Selection/GameMode_CharacterSelect
+[2024.10.29-13.49.17:464][  0]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/GameMode_CharacterSelectDFFFC58942FAD58A8CC706A0F760672F.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/GameMode_CharacterSelect.uasset'
+[2024.10.29-13.49.17:469][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms (total: 2.52 sec)
+[2024.10.29-13.49.17:470][  0]AssetCheck: New page: Asset Save: GameMode_CharacterSelect
+[2024.10.29-13.49.17:470][  0]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character_Selection/GameMode_CharacterSelect.GameMode_CharacterSelect
+[2024.10.29-13.49.33:531][890]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.29-13.49.33:537][890]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.29-13.49.33:537][890]PIE: New page: PIE session: CharacterSelectTwo (29 Oct 2024, 13:49:33)
+[2024.10.29-13.49.33:557][890]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_CharacterSelectTwo
+[2024.10.29-13.49.33:559][890]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001609s)
+[2024.10.29-13.49.33:559][890]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/CharacterSelectTwo.CharacterSelectTwo to /Game/Level/UEDPIE_0_CharacterSelectTwo.CharacterSelectTwo (0.001634s)
+[2024.10.29-13.49.33:570][890]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.10.29-13.49.33:571][890]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.49.33:571][890]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.29-13.49.33:571][890]LogAIModule: Creating AISystem for world CharacterSelectTwo
+[2024.10.29-13.49.33:572][890]LogPlayLevel: PIE: World Init took: (0.000627s)
+[2024.10.29-13.49.33:572][890]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2024.10.29-13.49.33:572][890]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.29-13.49.33:572][890]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.29-13.49.33:572][890]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.29-13.49.33:572][890]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.29-13.49.33:572][890]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.29-13.49.33:572][890]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.29-13.49.33:572][890]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.29-13.49.33:572][890]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.29-13.49.33:572][890]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.29-13.49.33:572][890]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.29-13.49.33:572][890]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.29-13.49.33:574][890]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.29-13.49.33:588][890]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.29-13.49.33:589][890]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.29-13.49.33:589][890]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.29-13.49.33:589][890]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.29-13.49.33:590][890]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2024.10.29-13.49.33:590][890]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2024.10.29-13.49.33:591][890]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2024.10.29-13.49.33:591][890]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2024.10.29-13.49.33:591][890]LogInit: FAudioDevice initialized with ID 20.
+[2024.10.29-13.49.33:591][890]LogAudio: Display: Audio Device (ID: 20) registered with world 'CharacterSelectTwo'.
+[2024.10.29-13.49.33:591][890]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2024.10.29-13.49.33:592][890]LogLoad: Game class is 'GameMode_CharacterSelectTwo_C'
+[2024.10.29-13.49.33:599][890]LogWorld: Bringing World /Game/Level/UEDPIE_0_CharacterSelectTwo.CharacterSelectTwo up for play (max tick rate 0) at 2024.10.29-13.49.33
+[2024.10.29-13.49.33:599][890]LogWorld: Bringing up level for play took: 0.006463
+[2024.10.29-13.49.33:600][890]LogOnline: OSS: Created online subsystem instance for: :Context_58
+[2024.10.29-13.49.33:601][890]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.10.29-13.49.33:601][890]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.10.29-13.49.33:601][890]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.10.29-13.49.33:602][890]PIE: Error: SetInputMode_GameAndUI expects a valid player controller as 'PlayerController' target
+[2024.10.29-13.49.33:602][890]PIE: Server logged in
+[2024.10.29-13.49.33:602][890]PIE: Play in editor total start time 0.066 seconds.
+[2024.10.29-13.49.39:548][591]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.29-13.49.39:548][591]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_CharacterSelectTwo
+[2024.10.29-13.49.39:548][591]LogWorld: UWorld::CleanupWorld for CharacterSelectTwo, bSessionEnded=true, bCleanupResources=true
+[2024.10.29-13.49.39:549][591]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.49.39:551][591]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.29-13.49.39:554][591]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.49.39:563][591]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.29-13.49.39:563][591]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2024.10.29-13.49.39:563][591]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.10.29-13.49.39:565][591]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.10.29-13.49.39:570][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.10.29-13.49.39:682][592]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2024.10.29-13.49.41:387][759]LogSlate: Window 'Message Log' being destroyed
+[2024.10.29-13.49.41:391][759]LogSlate: Window 'Message Log' being destroyed
+[2024.10.29-13.50.13:936][543]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.29-13.50.13:943][543]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.29-13.50.13:943][543]PIE: New page: PIE session: CharacterSelectTwo (29 Oct 2024, 13:50:13)
+[2024.10.29-13.50.13:968][543]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_CharacterSelectTwo
+[2024.10.29-13.50.13:969][543]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001600s)
+[2024.10.29-13.50.13:969][543]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/CharacterSelectTwo.CharacterSelectTwo to /Game/Level/UEDPIE_0_CharacterSelectTwo.CharacterSelectTwo (0.001624s)
+[2024.10.29-13.50.13:980][543]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.10.29-13.50.13:984][543]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.50.13:984][543]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.29-13.50.13:984][543]LogAIModule: Creating AISystem for world CharacterSelectTwo
+[2024.10.29-13.50.13:985][543]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2024.10.29-13.50.13:985][543]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.10.29-13.50.13:985][543]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.29-13.50.13:985][543]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.29-13.50.13:985][543]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.29-13.50.13:985][543]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.29-13.50.13:985][543]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.29-13.50.13:985][543]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.29-13.50.13:985][543]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.29-13.50.13:985][543]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.29-13.50.13:985][543]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.29-13.50.13:985][543]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.29-13.50.13:985][543]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.29-13.50.13:986][543]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.29-13.50.14:001][543]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.29-13.50.14:001][543]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.29-13.50.14:001][543]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.29-13.50.14:001][543]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.29-13.50.14:002][543]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2024.10.29-13.50.14:002][543]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2024.10.29-13.50.14:003][543]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2024.10.29-13.50.14:003][543]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2024.10.29-13.50.14:003][543]LogInit: FAudioDevice initialized with ID 21.
+[2024.10.29-13.50.14:003][543]LogAudio: Display: Audio Device (ID: 21) registered with world 'CharacterSelectTwo'.
+[2024.10.29-13.50.14:003][543]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2024.10.29-13.50.14:005][543]LogLoad: Game class is 'GameMode_CharacterSelectTwo_C'
+[2024.10.29-13.50.14:012][543]LogWorld: Bringing World /Game/Level/UEDPIE_0_CharacterSelectTwo.CharacterSelectTwo up for play (max tick rate 0) at 2024.10.29-13.50.14
+[2024.10.29-13.50.14:012][543]LogWorld: Bringing up level for play took: 0.006518
+[2024.10.29-13.50.14:013][543]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2024.10.29-13.50.14:014][543]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.10.29-13.50.14:014][543]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.10.29-13.50.14:014][543]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.10.29-13.50.14:014][543]PIE: Error: SetInputMode_GameAndUI expects a valid player controller as 'PlayerController' target
+[2024.10.29-13.50.14:014][543]PIE: Server logged in
+[2024.10.29-13.50.14:015][543]PIE: Play in editor total start time 0.072 seconds.
+[2024.10.29-13.50.17:609][951]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.29-13.50.17:609][951]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_CharacterSelectTwo
+[2024.10.29-13.50.17:609][951]LogWorld: UWorld::CleanupWorld for CharacterSelectTwo, bSessionEnded=true, bCleanupResources=true
+[2024.10.29-13.50.17:609][951]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.50.17:611][951]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.29-13.50.17:615][951]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.50.17:621][951]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.29-13.50.17:623][951]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2024.10.29-13.50.17:623][951]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.10.29-13.50.17:624][951]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.10.29-13.50.17:627][951]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.29-13.50.17:629][951]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.10.29-13.50.17:748][952]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2024.10.29-13.50.22:653][503]LogSlate: Window 'Message Log' being destroyed
+[2024.10.29-13.50.22:656][503]LogSlate: Window 'Message Log' being destroyed
+[2024.10.29-13.50.36:906][186]BlueprintLog: New page: Compile GameMode_CharacterSelectTwo
+[2024.10.29-13.50.36:925][186]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.10.29-13.50.37:118][200]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.10.29-13.50.37:122][200]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-13.50.37:202][200]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2024.10.29-13.50.37:209][200]LogSavePackage: Moving output files for package: /Game/Level/CharacterSelectTwo
+[2024.10.29-13.50.37:209][200]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/CharacterSelectTwo1AA1FE584285A9FF95D0B0B75C5722E8.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/CharacterSelectTwo.umap'
+[2024.10.29-13.50.37:214][200]LogFileHelpers: Saving map 'CharacterSelectTwo' took 0.035
+[2024.10.29-13.50.37:216][200]LogSavePackage: Moving output files for package: /Game/Character_Selection/GameMode_CharacterSelectTwo
+[2024.10.29-13.50.37:216][200]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/GameMode_CharacterSelectTwo8772CAD949350593E71D3A85FA5A3FA7.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/GameMode_CharacterSelectTwo.uasset'
+[2024.10.29-13.50.37:220][200]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 2.62 sec)
+[2024.10.29-13.50.37:220][200]AssetCheck: New page: Asset Save: multiple assets
+[2024.10.29-13.50.37:220][200]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/CharacterSelectTwo.CharacterSelectTwo
+[2024.10.29-13.50.37:220][200]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character_Selection/GameMode_CharacterSelectTwo.GameMode_CharacterSelectTwo
+[2024.10.29-13.50.38:311][303]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.29-13.50.38:316][303]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.10.29-13.50.38:316][303]LogPlayLevel: [PlayLevel] Compiling CharacterSelectTwo before play...
+[2024.10.29-13.50.38:338][303]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.10.29-13.50.38:340][303]LogPlayLevel: PlayLevel: Blueprint regeneration took 23 ms (1 blueprints)
+[2024.10.29-13.50.38:340][303]PIE: New page: PIE session: CharacterSelectTwo (29 Oct 2024, 13:50:38)
+[2024.10.29-13.50.38:369][303]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_CharacterSelectTwo
+[2024.10.29-13.50.38:370][303]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001521s)
+[2024.10.29-13.50.38:370][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/CharacterSelectTwo.CharacterSelectTwo to /Game/Level/UEDPIE_0_CharacterSelectTwo.CharacterSelectTwo (0.001544s)
+[2024.10.29-13.50.38:378][303]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.10.29-13.50.38:379][303]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.50.38:379][303]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.29-13.50.38:380][303]LogAIModule: Creating AISystem for world CharacterSelectTwo
+[2024.10.29-13.50.38:380][303]LogPlayLevel: PIE: World Init took: (0.000649s)
+[2024.10.29-13.50.38:380][303]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2024.10.29-13.50.38:380][303]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.29-13.50.38:380][303]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.29-13.50.38:380][303]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.29-13.50.38:380][303]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.29-13.50.38:380][303]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.29-13.50.38:380][303]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.29-13.50.38:380][303]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.29-13.50.38:380][303]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.29-13.50.38:380][303]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.29-13.50.38:380][303]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.29-13.50.38:380][303]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.29-13.50.38:382][303]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.29-13.50.38:397][303]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.29-13.50.38:397][303]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.29-13.50.38:397][303]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.29-13.50.38:397][303]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.29-13.50.38:397][303]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2024.10.29-13.50.38:397][303]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2024.10.29-13.50.38:398][303]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2024.10.29-13.50.38:398][303]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2024.10.29-13.50.38:398][303]LogInit: FAudioDevice initialized with ID 22.
+[2024.10.29-13.50.38:398][303]LogAudio: Display: Audio Device (ID: 22) registered with world 'CharacterSelectTwo'.
+[2024.10.29-13.50.38:398][303]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2024.10.29-13.50.38:400][303]LogLoad: Game class is 'GameMode_CharacterSelectTwo_C'
+[2024.10.29-13.50.38:406][303]LogWorld: Bringing World /Game/Level/UEDPIE_0_CharacterSelectTwo.CharacterSelectTwo up for play (max tick rate 0) at 2024.10.29-13.50.38
+[2024.10.29-13.50.38:407][303]LogWorld: Bringing up level for play took: 0.006693
+[2024.10.29-13.50.38:408][303]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2024.10.29-13.50.38:409][303]PIE: Error: SetInputMode_GameAndUI expects a valid player controller as 'PlayerController' target
+[2024.10.29-13.50.38:409][303]PIE: Server logged in
+[2024.10.29-13.50.38:409][303]PIE: Play in editor total start time 0.094 seconds.
+[2024.10.29-13.50.41:909][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.29-13.50.41:909][712]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_CharacterSelectTwo
+[2024.10.29-13.50.41:909][712]LogWorld: UWorld::CleanupWorld for CharacterSelectTwo, bSessionEnded=true, bCleanupResources=true
+[2024.10.29-13.50.41:910][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.50.41:911][712]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.29-13.50.41:915][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.50.41:924][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.29-13.50.41:924][712]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2024.10.29-13.50.41:924][712]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.10.29-13.50.41:926][712]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.10.29-13.50.41:931][712]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.10.29-13.50.42:018][713]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2024.10.29-13.50.43:557][855]LogSlate: Window 'Message Log' being destroyed
+[2024.10.29-13.50.43:560][855]LogSlate: Window 'Message Log' being destroyed
+[2024.10.29-13.50.50:883][684]BlueprintLog: New page: Compile GameMode_CharacterSelectTwo
+[2024.10.29-13.50.50:903][684]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.10.29-13.50.51:196][710]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.10.29-13.50.51:201][710]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-13.50.51:280][710]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2024.10.29-13.50.51:286][710]LogSavePackage: Moving output files for package: /Game/Level/CharacterSelectTwo
+[2024.10.29-13.50.51:286][710]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/CharacterSelectTwo1D7DC2AD44B7E8ABC60CDDBA4706BEA0.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/CharacterSelectTwo.umap'
+[2024.10.29-13.50.51:289][710]LogFileHelpers: Saving map 'CharacterSelectTwo' took 0.033
+[2024.10.29-13.50.51:292][710]LogSavePackage: Moving output files for package: /Game/Character_Selection/GameMode_CharacterSelectTwo
+[2024.10.29-13.50.51:292][710]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/GameMode_CharacterSelectTwo5A3ADC4846A533C6BFC1808DBDCF64E5.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/GameMode_CharacterSelectTwo.uasset'
+[2024.10.29-13.50.51:297][710]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 2.71 sec)
+[2024.10.29-13.50.51:299][710]AssetCheck: New page: Asset Save: multiple assets
+[2024.10.29-13.50.51:299][710]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/CharacterSelectTwo.CharacterSelectTwo
+[2024.10.29-13.50.51:299][710]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character_Selection/GameMode_CharacterSelectTwo.GameMode_CharacterSelectTwo
+[2024.10.29-13.51.02:931][ 30]BlueprintLog: New page: Compile GameMode_CharacterSelectTwo
+[2024.10.29-13.51.02:949][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.10.29-13.51.03:431][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.10.29-13.51.03:435][ 83]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-13.51.03:488][ 83]LogSavePackage: Moving output files for package: /Game/Character_Selection/GameMode_CharacterSelectTwo
+[2024.10.29-13.51.03:488][ 83]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/GameMode_CharacterSelectTwo6E282511415CB60E2C9FA99523F01DF9.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/GameMode_CharacterSelectTwo.uasset'
+[2024.10.29-13.51.03:492][ 83]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 2.77 sec)
+[2024.10.29-13.51.03:492][ 83]AssetCheck: New page: Asset Save: GameMode_CharacterSelectTwo
+[2024.10.29-13.51.03:492][ 83]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character_Selection/GameMode_CharacterSelectTwo.GameMode_CharacterSelectTwo
+[2024.10.29-13.51.14:345][310]BlueprintLog: New page: Compile GameMode_CharacterSelect
+[2024.10.29-13.51.14:361][310]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.10.29-13.51.14:673][339]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.10.29-13.51.14:677][339]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-13.51.14:712][339]LogSavePackage: Moving output files for package: /Game/Character_Selection/GameMode_CharacterSelect
+[2024.10.29-13.51.14:712][339]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/GameMode_CharacterSelect8E37D9264DD73E9D1DAE39B775D590E5.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/GameMode_CharacterSelect.uasset'
+[2024.10.29-13.51.14:717][339]LogFileHelpers: InternalPromptForCheckoutAndSave took 39 ms (total: 2.81 sec)
+[2024.10.29-13.51.14:717][339]AssetCheck: New page: Asset Save: GameMode_CharacterSelect
+[2024.10.29-13.51.14:717][339]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character_Selection/GameMode_CharacterSelect.GameMode_CharacterSelect
+[2024.10.29-13.51.23:933][394]BlueprintLog: New page: Compile GameMode_CharacterSelectTwo
+[2024.10.29-13.51.23:949][394]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.10.29-13.51.24:249][425]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.10.29-13.51.24:253][425]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-13.51.24:303][425]LogSavePackage: Moving output files for package: /Game/Character_Selection/GameMode_CharacterSelectTwo
+[2024.10.29-13.51.24:303][425]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/GameMode_CharacterSelectTwo37F89B9A4BBA8307EC2B9FB2E6C334B4.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/GameMode_CharacterSelectTwo.uasset'
+[2024.10.29-13.51.24:307][425]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 2.86 sec)
+[2024.10.29-13.51.24:308][425]AssetCheck: New page: Asset Save: GameMode_CharacterSelectTwo
+[2024.10.29-13.51.24:308][425]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character_Selection/GameMode_CharacterSelectTwo.GameMode_CharacterSelectTwo
+[2024.10.29-13.51.26:249][625]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.29-13.51.26:254][625]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.29-13.51.26:254][625]PIE: New page: PIE session: CharacterSelectTwo (29 Oct 2024, 13:51:26)
+[2024.10.29-13.51.26:290][625]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_CharacterSelectTwo
+[2024.10.29-13.51.26:291][625]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001567s)
+[2024.10.29-13.51.26:291][625]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/CharacterSelectTwo.CharacterSelectTwo to /Game/Level/UEDPIE_0_CharacterSelectTwo.CharacterSelectTwo (0.001597s)
+[2024.10.29-13.51.26:302][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.10.29-13.51.26:303][625]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.29-13.51.26:304][625]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.29-13.51.26:304][625]LogAIModule: Creating AISystem for world CharacterSelectTwo
+[2024.10.29-13.51.26:305][625]LogPlayLevel: PIE: World Init took: (0.000686s)
+[2024.10.29-13.51.26:305][625]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2024.10.29-13.51.26:305][625]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.29-13.51.26:305][625]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.29-13.51.26:305][625]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.29-13.51.26:305][625]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.29-13.51.26:305][625]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.29-13.51.26:305][625]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.29-13.51.26:305][625]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.29-13.51.26:305][625]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.29-13.51.26:305][625]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.29-13.51.26:305][625]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.29-13.51.26:305][625]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.29-13.51.26:306][625]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.29-13.51.26:320][625]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.29-13.51.26:320][625]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.29-13.51.26:320][625]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.29-13.51.26:320][625]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.29-13.51.26:321][625]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2024.10.29-13.51.26:321][625]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2024.10.29-13.51.26:322][625]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2024.10.29-13.51.26:322][625]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2024.10.29-13.51.26:322][625]LogInit: FAudioDevice initialized with ID 23.
+[2024.10.29-13.51.26:322][625]LogAudio: Display: Audio Device (ID: 23) registered with world 'CharacterSelectTwo'.
+[2024.10.29-13.51.26:322][625]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2024.10.29-13.51.26:323][625]LogLoad: Game class is 'GameMode_CharacterSelectTwo_C'
+[2024.10.29-13.51.26:331][625]LogWorld: Bringing World /Game/Level/UEDPIE_0_CharacterSelectTwo.CharacterSelectTwo up for play (max tick rate 0) at 2024.10.29-13.51.26
+[2024.10.29-13.51.26:331][625]LogWorld: Bringing up level for play took: 0.006990
+[2024.10.29-13.51.26:333][625]LogOnline: OSS: Created online subsystem instance for: :Context_61
+[2024.10.29-13.51.26:334][625]PIE: Error: SetInputMode_GameAndUI expects a valid player controller as 'PlayerController' target
+[2024.10.29-13.51.26:334][625]PIE: Error: SetInputMode_GameAndUI expects a valid player controller as 'PlayerController' target
+[2024.10.29-13.51.26:334][625]PIE: Server logged in
+[2024.10.29-13.51.26:334][625]PIE: Play in editor total start time 0.081 seconds.
+[2024.10.29-13.51.29:480][988]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.29-13.51.29:480][988]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_CharacterSelectTwo
+[2024.10.29-13.51.29:480][988]LogWorld: UWorld::CleanupWorld for CharacterSelectTwo, bSessionEnded=true, bCleanupResources=true
+[2024.10.29-13.51.29:481][988]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.51.29:482][988]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.29-13.51.29:486][988]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.51.29:496][988]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.29-13.51.29:496][988]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2024.10.29-13.51.29:496][988]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.10.29-13.51.29:498][988]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.10.29-13.51.29:502][988]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.10.29-13.51.29:590][989]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2024.10.29-13.51.33:320][397]LogSlate: Window 'Message Log' being destroyed
+[2024.10.29-13.51.33:323][397]LogSlate: Window 'Message Log' being destroyed
+[2024.10.29-13.51.34:892][582]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2024.10.29-13.51.34:892][582]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.29-13.51.48:574][167]BlueprintLog: New page: Compile GameMode_CharacterSelect
+[2024.10.29-13.51.48:591][167]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.10.29-13.51.48:886][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.10.29-13.51.48:890][196]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.29-13.51.48:941][196]LogSavePackage: Moving output files for package: /Game/Character_Selection/GameMode_CharacterSelect
+[2024.10.29-13.51.48:941][196]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/GameMode_CharacterSelect3CCAA63D4325BF844C1F48B5D04683A1.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/GameMode_CharacterSelect.uasset'
+[2024.10.29-13.51.48:945][196]LogSavePackage: Moving output files for package: /Game/Character_Selection/GameMode_CharacterSelectTwo
+[2024.10.29-13.51.48:945][196]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/GameMode_CharacterSelectTwo72B7641B436EA9B5B59C2CA0436A77B6.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/GameMode_CharacterSelectTwo.uasset'
+[2024.10.29-13.51.48:949][196]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 2.92 sec)
+[2024.10.29-13.51.48:950][196]AssetCheck: New page: Asset Save: multiple assets
+[2024.10.29-13.51.48:950][196]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character_Selection/GameMode_CharacterSelect.GameMode_CharacterSelect
+[2024.10.29-13.51.48:950][196]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character_Selection/GameMode_CharacterSelectTwo.GameMode_CharacterSelectTwo
