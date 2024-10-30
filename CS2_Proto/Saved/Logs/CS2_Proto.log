@@ -10558,3 +10558,263 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.30-13.33.34:708][530]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=88
 [2024.10.30-13.33.34:711][530]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
 [2024.10.30-13.33.34:756][532]LogPlayLevel: Display: Destroying online subsystem :Context_184
+[2024.10.30-13.40.43:286][501]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.10.30-13.40.43:288][501]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/CharacterSelect' took 0.013
+[2024.10.30-13.40.43:289][501]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Level/CS2_Level1/1/O6/XLE7CWSXQGGS3EY3PW6M1K_Auto1
+[2024.10.30-13.40.43:289][501]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/XLE7CWSXQGGS3EY3PW6M1K_Auto1A60609A843240A81317E5287EF01663D.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/Autosaves/Game/__ExternalActors__/Level/CS2_Level1/1/O6/XLE7CWSXQGGS3EY3PW6M1K_Auto1.uasset'
+[2024.10.30-13.40.43:289][501]LogFileHelpers: Auto-saving content packages took 0.001
+[2024.10.30-13.57.57:575][604]LogDerivedDataCache: C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.033 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 845 files in 1352 folders with total size 38 MiB.
+[2024.10.30-14.00.08:631][538]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/WBP_CharacterSelect.WBP_CharacterSelect
+[2024.10.30-14.00.08:631][538]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-14.00.08:631][538]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-14.00.08:635][538]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-14.00.08:635][538]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-14.01.55:045][211]BlueprintLog: New page: Compile WBP_CharacterSelect
+[2024.10.30-14.01.55:066][211]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.10.30-14.01.55:508][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.10.30-14.01.55:512][257]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-14.01.55:570][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelect" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset" SILENT=true
+[2024.10.30-14.01.55:577][257]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelect
+[2024.10.30-14.01.55:577][257]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelect75A767CF4E408E39E26059BD4954437C.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset'
+[2024.10.30-14.01.55:582][257]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 8.51 sec)
+[2024.10.30-14.01.55:583][257]AssetCheck: New page: Asset Save: WBP_CharacterSelect
+[2024.10.30-14.01.55:583][257]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelect.WBP_CharacterSelect
+[2024.10.30-14.01.57:691][471]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/WBP_CharacterSelectTwo.WBP_CharacterSelectTwo
+[2024.10.30-14.01.57:692][471]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-14.01.57:692][471]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-14.01.57:696][471]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-14.01.57:696][471]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-14.02.48:616][468]BlueprintLog: New page: Compile WBP_CharacterSelectTwo
+[2024.10.30-14.02.48:637][468]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.10.30-14.02.50:259][651]BlueprintLog: New page: Compile WBP_CharacterSelect
+[2024.10.30-14.02.50:277][651]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.10.30-14.02.51:008][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.10.30-14.02.51:011][715]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-14.02.51:052][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelect" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset" SILENT=true
+[2024.10.30-14.02.51:059][715]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelect
+[2024.10.30-14.02.51:059][715]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelectE8C797E643F5BAD46A5A92824022FE49.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset'
+[2024.10.30-14.02.51:063][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelectTwo" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelectTwo.uasset" SILENT=true
+[2024.10.30-14.02.51:069][715]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelectTwo
+[2024.10.30-14.02.51:069][715]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelectTwoD699FE0444C887B5E005BCA0F9AA578E.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelectTwo.uasset'
+[2024.10.30-14.02.51:075][715]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 8.57 sec)
+[2024.10.30-14.02.51:076][715]AssetCheck: New page: Asset Save: multiple assets
+[2024.10.30-14.02.51:076][715]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelect.WBP_CharacterSelect
+[2024.10.30-14.02.51:076][715]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelectTwo.WBP_CharacterSelectTwo
+[2024.10.30-14.03.23:092][478]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.10.30-14.03.23:787][560]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.10.30-14.03.40:441][481]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.10.30-14.03.43:577][815]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.10.30-14.03.44:992][976]Cmd: EDIT COPY
+[2024.10.30-14.03.45:135][993]Cmd: EDIT PASTE
+[2024.10.30-14.04.02:497][994]Cmd: SELECT NONE
+[2024.10.30-14.04.11:348][912]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.10.30-14.04.12:311][ 26]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.10.30-14.04.19:464][869]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.10.30-14.04.20:025][936]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.10.30-14.04.26:930][752]Cmd: SELECT NONE
+[2024.10.30-14.04.38:609][140]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.30-14.04.38:615][140]LogContentBundle: [CharacterSelect(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.30-14.04.38:615][140]LogWorldPartition: Display: GenerateStreaming for 'CharacterSelect' started...
+[2024.10.30-14.04.38:616][140]LogWorldPartition: Display: GenerateStreaming for 'CharacterSelect' took 780 us (total: 62 ms)
+[2024.10.30-14.04.38:616][140]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.30-14.04.38:616][140]PIE: New page: PIE session: CharacterSelect (30 Oct 2024, 14:04:38)
+[2024.10.30-14.04.38:643][140]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_CharacterSelect
+[2024.10.30-14.04.38:644][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001840s)
+[2024.10.30-14.04.38:644][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/CharacterSelect.CharacterSelect to /Game/Level/UEDPIE_0_CharacterSelect.CharacterSelect (0.001864s)
+[2024.10.30-14.04.38:657][140]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.10.30-14.04.38:659][140]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-14.04.38:659][140]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-14.04.38:659][140]LogAIModule: Creating AISystem for world CharacterSelect
+[2024.10.30-14.04.38:660][140]LogWorldPartition: ULevel::OnLevelLoaded(CharacterSelect)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.30-14.04.38:660][140]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.30-14.04.38:660][140]LogWorldPartition: UWorldPartition::Initialize : World = CharacterSelect, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.30-14.04.38:660][140]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.30-14.04.38:660][140]LogContentBundle: [CharacterSelect(Standalone)] Creating new contrainer.
+[2024.10.30-14.04.38:660][140]LogWorldPartition: Display: WorldPartition initialize took 569 us (total: 266 ms)
+[2024.10.30-14.04.38:660][140]LogPlayLevel: PIE: World Init took: (0.001320s)
+[2024.10.30-14.04.38:660][140]LogAudio: Display: Creating Audio Device:                 Id: 89, Scope: Unique, Realtime: True
+[2024.10.30-14.04.38:660][140]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.30-14.04.38:660][140]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.30-14.04.38:660][140]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.30-14.04.38:660][140]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.30-14.04.38:660][140]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.30-14.04.38:660][140]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.30-14.04.38:660][140]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.30-14.04.38:660][140]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.30-14.04.38:661][140]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.30-14.04.38:661][140]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.30-14.04.38:661][140]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.30-14.04.38:662][140]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.30-14.04.38:678][140]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.30-14.04.38:678][140]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.30-14.04.38:678][140]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.30-14.04.38:678][140]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.30-14.04.38:679][140]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=89
+[2024.10.30-14.04.38:679][140]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=89
+[2024.10.30-14.04.38:680][140]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=89
+[2024.10.30-14.04.38:680][140]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=89
+[2024.10.30-14.04.38:680][140]LogInit: FAudioDevice initialized with ID 89.
+[2024.10.30-14.04.38:680][140]LogAudio: Display: Audio Device (ID: 89) registered with world 'CharacterSelect'.
+[2024.10.30-14.04.38:680][140]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 89
+[2024.10.30-14.04.38:682][140]LogLoad: Game class is 'BP_CS2_GameMode_C'
+[2024.10.30-14.04.38:682][140]LogWorld: Bringing World /Game/Level/UEDPIE_0_CharacterSelect.CharacterSelect up for play (max tick rate 0) at 2024.10.30-14.04.38
+[2024.10.30-14.04.38:682][140]LogWorld: Bringing up level for play took: 0.000463
+[2024.10.30-14.04.38:683][140]LogOnline: OSS: Created online subsystem instance for: :Context_189
+[2024.10.30-14.04.38:684][140]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for PlatformUserId 0,
+[2024.10.30-14.04.38:684][140]PIE: Server logged in
+[2024.10.30-14.04.38:685][140]PIE: Play in editor total start time 0.07 seconds.
+[2024.10.30-14.04.42:513][577]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-14.04.42:513][577]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_CharacterSelect
+[2024.10.30-14.04.42:513][577]LogWorld: UWorld::CleanupWorld for CharacterSelect, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-14.04.42:513][577]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-14.04.42:513][577]LogContentBundle: [CharacterSelect(Standalone)] Deleting container.
+[2024.10.30-14.04.42:515][577]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.30-14.04.42:519][577]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-14.04.42:529][577]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.30-14.04.42:530][577]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 89
+[2024.10.30-14.04.42:530][577]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=89
+[2024.10.30-14.04.42:531][577]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=89
+[2024.10.30-14.04.42:533][577]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-14.04.42:535][577]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.10.30-14.04.42:588][582]LogPlayLevel: Display: Destroying online subsystem :Context_189
+[2024.10.30-14.04.55:018][956]Cmd: EDIT COPY
+[2024.10.30-14.04.55:193][977]Cmd: EDIT PASTE
+[2024.10.30-14.04.55:211][977]LogSlate: Took 0.002924 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.10.30-14.05.33:176][465]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.30-14.05.33:182][465]LogContentBundle: [CharacterSelect(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.30-14.05.33:182][465]LogWorldPartition: Display: GenerateStreaming for 'CharacterSelect' started...
+[2024.10.30-14.05.33:183][465]LogWorldPartition: Display: GenerateStreaming for 'CharacterSelect' took 810 us (total: 63 ms)
+[2024.10.30-14.05.33:183][465]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.30-14.05.33:183][465]PIE: New page: PIE session: CharacterSelect (30 Oct 2024, 14:05:33)
+[2024.10.30-14.05.33:213][465]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_CharacterSelect
+[2024.10.30-14.05.33:216][465]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001862s)
+[2024.10.30-14.05.33:216][465]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/CharacterSelect.CharacterSelect to /Game/Level/UEDPIE_0_CharacterSelect.CharacterSelect (0.001885s)
+[2024.10.30-14.05.33:226][465]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.10.30-14.05.33:229][465]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-14.05.33:229][465]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-14.05.33:230][465]LogAIModule: Creating AISystem for world CharacterSelect
+[2024.10.30-14.05.33:230][465]LogWorldPartition: ULevel::OnLevelLoaded(CharacterSelect)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.30-14.05.33:230][465]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.30-14.05.33:230][465]LogWorldPartition: UWorldPartition::Initialize : World = CharacterSelect, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.30-14.05.33:230][465]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.30-14.05.33:231][465]LogContentBundle: [CharacterSelect(Standalone)] Creating new contrainer.
+[2024.10.30-14.05.33:231][465]LogWorldPartition: Display: WorldPartition initialize took 569 us (total: 267 ms)
+[2024.10.30-14.05.33:231][465]LogPlayLevel: PIE: World Init took: (0.001324s)
+[2024.10.30-14.05.33:231][465]LogAudio: Display: Creating Audio Device:                 Id: 90, Scope: Unique, Realtime: True
+[2024.10.30-14.05.33:231][465]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.30-14.05.33:231][465]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.30-14.05.33:231][465]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.30-14.05.33:231][465]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.30-14.05.33:231][465]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.30-14.05.33:231][465]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.30-14.05.33:231][465]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.30-14.05.33:231][465]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.30-14.05.33:231][465]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.30-14.05.33:231][465]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.30-14.05.33:231][465]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.30-14.05.33:233][465]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.30-14.05.33:247][465]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.30-14.05.33:247][465]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.30-14.05.33:247][465]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.30-14.05.33:247][465]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.30-14.05.33:248][465]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=90
+[2024.10.30-14.05.33:248][465]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=90
+[2024.10.30-14.05.33:249][465]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=90
+[2024.10.30-14.05.33:249][465]LogInit: FAudioDevice initialized with ID 90.
+[2024.10.30-14.05.33:249][465]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=90
+[2024.10.30-14.05.33:249][465]LogAudio: Display: Audio Device (ID: 90) registered with world 'CharacterSelect'.
+[2024.10.30-14.05.33:249][465]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 90
+[2024.10.30-14.05.33:251][465]LogLoad: Game class is 'BP_CS2_GameMode_C'
+[2024.10.30-14.05.33:252][465]LogWorld: Bringing World /Game/Level/UEDPIE_0_CharacterSelect.CharacterSelect up for play (max tick rate 0) at 2024.10.30-14.05.33
+[2024.10.30-14.05.33:252][465]LogWorld: Bringing up level for play took: 0.000461
+[2024.10.30-14.05.33:254][465]LogOnline: OSS: Created online subsystem instance for: :Context_190
+[2024.10.30-14.05.33:254][465]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for PlatformUserId 0,
+[2024.10.30-14.05.33:255][465]PIE: Server logged in
+[2024.10.30-14.05.33:255][465]PIE: Play in editor total start time 0.073 seconds.
+[2024.10.30-14.05.35:934][767]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-14.05.35:934][767]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_CharacterSelect
+[2024.10.30-14.05.35:934][767]LogWorld: UWorld::CleanupWorld for CharacterSelect, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-14.05.35:934][767]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-14.05.35:934][767]LogContentBundle: [CharacterSelect(Standalone)] Deleting container.
+[2024.10.30-14.05.35:937][767]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.30-14.05.35:940][767]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-14.05.35:951][767]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-14.05.35:951][767]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 90
+[2024.10.30-14.05.35:951][767]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=90
+[2024.10.30-14.05.35:952][767]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=90
+[2024.10.30-14.05.35:957][767]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.10.30-14.05.35:995][768]LogPlayLevel: Display: Destroying online subsystem :Context_190
+[2024.10.30-14.05.47:721][125]Cmd: DELETE
+[2024.10.30-14.05.47:721][125]Cmd: ACTOR DELETE
+[2024.10.30-14.05.47:722][125]LogEditorActor: Deleted Actor: DirectionalLight
+[2024.10.30-14.05.47:735][125]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.10.30-14.05.47:738][125]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2024.10.30-14.05.49:153][290]Cmd: DELETE
+[2024.10.30-14.05.49:153][290]Cmd: ACTOR DELETE
+[2024.10.30-14.05.49:154][290]LogEditorActor: Deleted Actor: DirectionalLight
+[2024.10.30-14.05.49:166][290]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.10.30-14.05.49:168][290]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2024.10.30-14.05.50:557][450]Cmd: TRANSACTION UNDO
+[2024.10.30-14.05.50:557][450]LogEditorTransaction: Undo Delete Elements
+[2024.10.30-14.06.00:212][537]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2024.10.30-14.06.00:212][537]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2024.10.30-14.07.12:098][960]LogSlate: Window 'Color Picker' being destroyed
+[2024.10.30-14.07.23:634][324]Cmd: DELETE
+[2024.10.30-14.07.23:634][324]Cmd: ACTOR DELETE
+[2024.10.30-14.07.23:635][324]LogEditorActor: Deleted Actor: PointLight
+[2024.10.30-14.07.23:647][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.10.30-14.07.23:649][324]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2024.10.30-14.07.28:812][884]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SpotLight
+[2024.10.30-14.07.28:812][884]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SpotLight
+[2024.10.30-14.08.27:103][643]Cmd: DELETE
+[2024.10.30-14.08.27:103][643]Cmd: ACTOR DELETE
+[2024.10.30-14.08.27:104][643]LogEditorActor: Deleted Actor: DirectionalLight
+[2024.10.30-14.08.27:122][643]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.10.30-14.08.27:125][643]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2024.10.30-14.08.52:825][624]Cmd: EDIT COPY
+[2024.10.30-14.08.53:005][641]Cmd: EDIT PASTE
+[2024.10.30-14.09.02:038][627]Cmd: SELECT NONE
+[2024.10.30-14.09.03:290][761]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.10.30-14.09.03:295][761]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-14.09.03:343][761]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2024.10.30-14.09.03:354][761]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2024.10.30-14.09.03:364][761]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2024.10.30-14.09.03:366][761]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/CharacterSelect/6/AT/FH3V0X06HUDJLESZWZ8VMS
+[2024.10.30-14.09.03:367][761]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/FH3V0X06HUDJLESZWZ8VMS1F8C7AE644E760AA8A3B50968CAE354E.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/__ExternalActors__/Level/CharacterSelect/6/AT/FH3V0X06HUDJLESZWZ8VMS.uasset'
+[2024.10.30-14.09.03:368][761]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/CharacterSelect/7/CT/BQLGO3GQ9EO7B460WYKLFO
+[2024.10.30-14.09.03:368][761]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BQLGO3GQ9EO7B460WYKLFO961745FD49E1D66246A56E9BD5FA2076.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/__ExternalActors__/Level/CharacterSelect/7/CT/BQLGO3GQ9EO7B460WYKLFO.uasset'
+[2024.10.30-14.09.03:369][761]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/CharacterSelect/D/27/KH7F2GFGLT10VUSPZRRUPW
+[2024.10.30-14.09.03:369][761]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/KH7F2GFGLT10VUSPZRRUPW838CD3C846FAE840B3FEA88CFC8E20E0.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/__ExternalActors__/Level/CharacterSelect/D/27/KH7F2GFGLT10VUSPZRRUPW.uasset'
+[2024.10.30-14.09.03:371][761]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/CharacterSelect/3/SG/YG8OWC7A4LL0UJXBU60SK5
+[2024.10.30-14.09.03:371][761]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/YG8OWC7A4LL0UJXBU60SK533F80346481D18C92345A892920991B8.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/__ExternalActors__/Level/CharacterSelect/3/SG/YG8OWC7A4LL0UJXBU60SK5.uasset'
+[2024.10.30-14.09.03:372][761]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/CharacterSelect/0/4T/FWSMR7VJFUQQCCOYSODLP9
+[2024.10.30-14.09.03:372][761]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/FWSMR7VJFUQQCCOYSODLP9B65836C045128471ED5A359434E99833.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/__ExternalActors__/Level/CharacterSelect/0/4T/FWSMR7VJFUQQCCOYSODLP9.uasset'
+[2024.10.30-14.09.03:382][761]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 8.66 sec)
+[2024.10.30-14.09.03:382][761]AssetCheck: New page: Asset Save: multiple assets
+[2024.10.30-14.09.03:382][761]LogContentValidation: Display: Validating /Script/Engine.PlayerStart /Game/Level/CharacterSelect.CharacterSelect:PersistentLevel.PlayerStart_UAID_08BFB8A7114E761D02_1886652893
+[2024.10.30-14.09.03:382][761]LogContentValidation: Display: Validating /Script/Engine.PlayerStart /Game/Level/CharacterSelect.CharacterSelect:PersistentLevel.PlayerStart_UAID_08BFB8A7114E761D02_1863961892
+[2024.10.30-14.09.03:382][761]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Level/CharacterSelect.CharacterSelect:PersistentLevel.StaticMeshActor_UAID_08BFB8A7114EA52A02_1771029887
+[2024.10.30-14.09.03:382][761]LogContentValidation: Display: Validating /Script/Engine.SpotLight /Game/Level/CharacterSelect.CharacterSelect:PersistentLevel.SpotLight_UAID_08BFB8A7114EA52A02_1994705890
+[2024.10.30-14.09.03:382][761]LogContentValidation: Display: Validating /Script/Engine.SpotLight /Game/Level/CharacterSelect.CharacterSelect:PersistentLevel.SpotLight_UAID_08BFB8A7114EA52A02_2078900891
+[2024.10.30-14.09.17:432][379]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Player/Classes/Melee/BP_Player_M.BP_Player_M
+[2024.10.30-14.09.17:432][379]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-14.09.17:432][379]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-14.09.20:931][751]LogWorld: UWorld::CleanupWorld for World_116, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-14.09.20:931][751]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-14.10.06:888][931]BlueprintLog: New page: Compile BP_Camera
+[2024.10.30-14.10.06:910][931]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.10.30-14.10.07:423][967]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.10.30-14.10.07:427][967]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-14.10.07:485][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character_Selection/BP_Camera" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/BP_Camera.uasset" SILENT=true
+[2024.10.30-14.10.07:490][967]LogSavePackage: Moving output files for package: /Game/Character_Selection/BP_Camera
+[2024.10.30-14.10.07:490][967]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_CameraB68752CF46FCBD5CD2A47A9A3FAC6ED1.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/BP_Camera.uasset'
+[2024.10.30-14.10.07:491][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character_Selection/BP_CameraTwo" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/BP_CameraTwo.uasset" SILENT=true
+[2024.10.30-14.10.07:495][967]LogSavePackage: Moving output files for package: /Game/Character_Selection/BP_CameraTwo
+[2024.10.30-14.10.07:495][967]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_CameraTwo152A41F94C1691CE957D7AA739C89CCF.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Character_Selection/BP_CameraTwo.uasset'
+[2024.10.30-14.10.07:499][967]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 8.73 sec)
+[2024.10.30-14.10.07:500][967]AssetCheck: New page: Asset Save: multiple assets
+[2024.10.30-14.10.07:500][967]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character_Selection/BP_Camera.BP_Camera
+[2024.10.30-14.10.07:500][967]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character_Selection/BP_CameraTwo.BP_CameraTwo
+[2024.10.30-14.10.09:289][167]BlueprintLog: New page: Compile BP_CameraTwo
+[2024.10.30-14.10.09:306][167]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.10.30-14.10.09:612][194]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
