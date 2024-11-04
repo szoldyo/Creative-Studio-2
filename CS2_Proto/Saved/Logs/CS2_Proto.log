@@ -2374,3 +2374,225 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.11.04-10.24.07:907][522]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
 [2024.11.04-10.24.07:915][522]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
 [2024.11.04-10.24.07:962][524]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.11.04-10.25.31:206][395]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.04-10.25.31:211][395]LogContentBundle: [CharacterSelect(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.04-10.25.31:211][395]LogWorldPartition: Display: GenerateStreaming for 'CharacterSelect' started...
+[2024.11.04-10.25.31:212][395]LogWorldPartition: Display: GenerateStreaming for 'CharacterSelect' took 960 us (total: 36 ms)
+[2024.11.04-10.25.31:212][395]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.04-10.25.31:212][395]PIE: New page: PIE session: CharacterSelect (4 Nov 2024, 10:25:31)
+[2024.11.04-10.25.31:241][395]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_CharacterSelect
+[2024.11.04-10.25.31:243][395]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002531s)
+[2024.11.04-10.25.31:243][395]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/CharacterSelect.CharacterSelect to /Game/Level/UEDPIE_0_CharacterSelect.CharacterSelect (0.002555s)
+[2024.11.04-10.25.31:253][395]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.11.04-10.25.31:255][395]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.04-10.25.31:255][395]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.04-10.25.31:256][395]LogAIModule: Creating AISystem for world CharacterSelect
+[2024.11.04-10.25.31:256][395]LogWorldPartition: ULevel::OnLevelLoaded(CharacterSelect)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.04-10.25.31:256][395]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.04-10.25.31:256][395]LogWorldPartition: UWorldPartition::Initialize : World = CharacterSelect, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.04-10.25.31:256][395]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.04-10.25.31:257][395]LogContentBundle: [CharacterSelect(Standalone)] Creating new contrainer.
+[2024.11.04-10.25.31:257][395]LogWorldPartition: Display: WorldPartition initialize took 704 us (total: 546 ms)
+[2024.11.04-10.25.31:257][395]LogPlayLevel: PIE: World Init took: (0.001448s)
+[2024.11.04-10.25.31:257][395]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.11.04-10.25.31:257][395]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.04-10.25.31:257][395]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.04-10.25.31:257][395]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.04-10.25.31:257][395]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.04-10.25.31:257][395]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.04-10.25.31:257][395]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.04-10.25.31:257][395]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.04-10.25.31:257][395]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.04-10.25.31:257][395]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.04-10.25.31:257][395]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.04-10.25.31:257][395]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.04-10.25.31:259][395]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.04-10.25.31:273][395]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.04-10.25.31:273][395]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.04-10.25.31:273][395]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.04-10.25.31:273][395]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.04-10.25.31:273][395]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.11.04-10.25.31:273][395]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.11.04-10.25.31:275][395]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.11.04-10.25.31:275][395]LogInit: FAudioDevice initialized with ID 14.
+[2024.11.04-10.25.31:275][395]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.11.04-10.25.31:275][395]LogAudio: Display: Audio Device (ID: 14) registered with world 'CharacterSelect'.
+[2024.11.04-10.25.31:275][395]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.11.04-10.25.31:276][395]LogLoad: Game class is 'BP_CS2_GameMode_C'
+[2024.11.04-10.25.31:291][395]LogWorld: Bringing World /Game/Level/UEDPIE_0_CharacterSelect.CharacterSelect up for play (max tick rate 0) at 2024.11.04-10.25.31
+[2024.11.04-10.25.31:294][395]LogWorld: Bringing up level for play took: 0.016738
+[2024.11.04-10.25.31:295][395]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.11.04-10.25.31:296][395]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for PlatformUserId 0,
+[2024.11.04-10.25.31:297][395]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.04-10.25.31:297][395]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.04-10.25.31:297][395]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.11.04-10.25.31:297][395]PIE: Server logged in
+[2024.11.04-10.25.31:297][395]PIE: Play in editor total start time 0.086 seconds.
+[2024.11.04-10.25.36:911][ 46]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.04-10.25.36:911][ 46]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_CharacterSelect
+[2024.11.04-10.25.36:911][ 46]LogWorld: UWorld::CleanupWorld for CharacterSelect, bSessionEnded=true, bCleanupResources=true
+[2024.11.04-10.25.36:912][ 46]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.04-10.25.36:912][ 46]LogContentBundle: [CharacterSelect(Standalone)] Deleting container.
+[2024.11.04-10.25.36:914][ 46]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.04-10.25.36:917][ 46]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.04-10.25.36:927][ 46]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.04-10.25.36:927][ 46]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.11.04-10.25.36:927][ 46]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.11.04-10.25.36:928][ 46]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.11.04-10.25.36:935][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.11.04-10.25.36:981][ 48]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.11.04-10.26.37:259][210]LogSlate: Window 'Color Picker' being destroyed
+[2024.11.04-10.26.41:522][720]BlueprintLog: New page: Compile WBP_CharacterSelect
+[2024.11.04-10.26.41:541][720]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.11.04-10.26.41:897][755]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.11.04-10.26.41:902][755]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.04-10.26.41:954][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelect" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset" SILENT=true
+[2024.11.04-10.26.41:962][755]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelect
+[2024.11.04-10.26.41:962][755]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelect3439B7DC4AE0A54DA086A3A834EE5C49.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelect.uasset'
+[2024.11.04-10.26.41:966][755]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 1.29 sec)
+[2024.11.04-10.26.41:967][755]AssetCheck: New page: Asset Save: WBP_CharacterSelect
+[2024.11.04-10.26.41:967][755]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelect.WBP_CharacterSelect
+[2024.11.04-10.26.43:362][900]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.04-10.26.43:367][900]LogContentBundle: [CharacterSelect(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.04-10.26.43:367][900]LogWorldPartition: Display: GenerateStreaming for 'CharacterSelect' started...
+[2024.11.04-10.26.43:368][900]LogWorldPartition: Display: GenerateStreaming for 'CharacterSelect' took 900 us (total: 37 ms)
+[2024.11.04-10.26.43:368][900]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.04-10.26.43:368][900]PIE: New page: PIE session: CharacterSelect (4 Nov 2024, 10:26:43)
+[2024.11.04-10.26.43:393][900]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_CharacterSelect
+[2024.11.04-10.26.43:395][900]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002541s)
+[2024.11.04-10.26.43:395][900]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/CharacterSelect.CharacterSelect to /Game/Level/UEDPIE_0_CharacterSelect.CharacterSelect (0.002566s)
+[2024.11.04-10.26.43:404][900]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.11.04-10.26.43:405][900]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.04-10.26.43:405][900]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.04-10.26.43:406][900]LogAIModule: Creating AISystem for world CharacterSelect
+[2024.11.04-10.26.43:406][900]LogWorldPartition: ULevel::OnLevelLoaded(CharacterSelect)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.04-10.26.43:406][900]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.04-10.26.43:406][900]LogWorldPartition: UWorldPartition::Initialize : World = CharacterSelect, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.04-10.26.43:406][900]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.04-10.26.43:407][900]LogContentBundle: [CharacterSelect(Standalone)] Creating new contrainer.
+[2024.11.04-10.26.43:407][900]LogWorldPartition: Display: WorldPartition initialize took 702 us (total: 546 ms)
+[2024.11.04-10.26.43:407][900]LogPlayLevel: PIE: World Init took: (0.001480s)
+[2024.11.04-10.26.43:407][900]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.11.04-10.26.43:407][900]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.04-10.26.43:407][900]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.04-10.26.43:407][900]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.04-10.26.43:407][900]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.04-10.26.43:407][900]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.04-10.26.43:407][900]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.04-10.26.43:407][900]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.04-10.26.43:407][900]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.04-10.26.43:407][900]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.04-10.26.43:407][900]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.04-10.26.43:407][900]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.04-10.26.43:409][900]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.04-10.26.43:423][900]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.04-10.26.43:424][900]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.04-10.26.43:424][900]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.04-10.26.43:424][900]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.04-10.26.43:424][900]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.11.04-10.26.43:424][900]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.11.04-10.26.43:425][900]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.11.04-10.26.43:425][900]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.11.04-10.26.43:425][900]LogInit: FAudioDevice initialized with ID 15.
+[2024.11.04-10.26.43:425][900]LogAudio: Display: Audio Device (ID: 15) registered with world 'CharacterSelect'.
+[2024.11.04-10.26.43:425][900]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.11.04-10.26.43:427][900]LogLoad: Game class is 'BP_CS2_GameMode_C'
+[2024.11.04-10.26.43:440][900]LogWorld: Bringing World /Game/Level/UEDPIE_0_CharacterSelect.CharacterSelect up for play (max tick rate 0) at 2024.11.04-10.26.43
+[2024.11.04-10.26.43:443][900]LogWorld: Bringing up level for play took: 0.016044
+[2024.11.04-10.26.43:445][900]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2024.11.04-10.26.43:445][900]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for PlatformUserId 0,
+[2024.11.04-10.26.43:446][900]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.04-10.26.43:446][900]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.04-10.26.43:446][900]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.11.04-10.26.43:447][900]PIE: Server logged in
+[2024.11.04-10.26.43:447][900]PIE: Play in editor total start time 0.079 seconds.
+[2024.11.04-10.26.52:343][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.04-10.26.52:343][950]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_CharacterSelect
+[2024.11.04-10.26.52:343][950]LogWorld: UWorld::CleanupWorld for CharacterSelect, bSessionEnded=true, bCleanupResources=true
+[2024.11.04-10.26.52:344][950]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.04-10.26.52:344][950]LogContentBundle: [CharacterSelect(Standalone)] Deleting container.
+[2024.11.04-10.26.52:346][950]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.04-10.26.52:349][950]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.04-10.26.52:359][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.04-10.26.52:359][950]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.11.04-10.26.52:359][950]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.11.04-10.26.52:360][950]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.11.04-10.26.52:368][950]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.11.04-10.26.52:422][953]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.11.04-10.26.54:303][168]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.04-10.26.54:309][168]LogContentBundle: [CharacterSelect(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.04-10.26.54:309][168]LogWorldPartition: Display: GenerateStreaming for 'CharacterSelect' started...
+[2024.11.04-10.26.54:310][168]LogWorldPartition: Display: GenerateStreaming for 'CharacterSelect' took 1 ms (total: 38 ms)
+[2024.11.04-10.26.54:310][168]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.04-10.26.54:310][168]PIE: New page: PIE session: CharacterSelect (4 Nov 2024, 10:26:54)
+[2024.11.04-10.26.54:333][168]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_CharacterSelect
+[2024.11.04-10.26.54:335][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002435s)
+[2024.11.04-10.26.54:335][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/CharacterSelect.CharacterSelect to /Game/Level/UEDPIE_0_CharacterSelect.CharacterSelect (0.002459s)
+[2024.11.04-10.26.54:344][168]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.11.04-10.26.54:346][168]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.04-10.26.54:346][168]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.04-10.26.54:346][168]LogAIModule: Creating AISystem for world CharacterSelect
+[2024.11.04-10.26.54:347][168]LogWorldPartition: ULevel::OnLevelLoaded(CharacterSelect)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.04-10.26.54:347][168]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.04-10.26.54:347][168]LogWorldPartition: UWorldPartition::Initialize : World = CharacterSelect, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.04-10.26.54:347][168]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.04-10.26.54:347][168]LogContentBundle: [CharacterSelect(Standalone)] Creating new contrainer.
+[2024.11.04-10.26.54:347][168]LogWorldPartition: Display: WorldPartition initialize took 724 us (total: 547 ms)
+[2024.11.04-10.26.54:347][168]LogPlayLevel: PIE: World Init took: (0.001465s)
+[2024.11.04-10.26.54:347][168]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.11.04-10.26.54:347][168]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.04-10.26.54:347][168]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.04-10.26.54:347][168]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.04-10.26.54:347][168]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.04-10.26.54:347][168]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.04-10.26.54:347][168]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.04-10.26.54:347][168]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.04-10.26.54:347][168]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.04-10.26.54:348][168]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.04-10.26.54:348][168]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.04-10.26.54:348][168]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.04-10.26.54:349][168]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.04-10.26.54:363][168]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.04-10.26.54:363][168]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.04-10.26.54:363][168]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.04-10.26.54:363][168]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.04-10.26.54:364][168]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.11.04-10.26.54:364][168]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.11.04-10.26.54:365][168]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.11.04-10.26.54:365][168]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.11.04-10.26.54:365][168]LogInit: FAudioDevice initialized with ID 16.
+[2024.11.04-10.26.54:365][168]LogAudio: Display: Audio Device (ID: 16) registered with world 'CharacterSelect'.
+[2024.11.04-10.26.54:365][168]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.11.04-10.26.54:367][168]LogLoad: Game class is 'BP_CS2_GameMode_C'
+[2024.11.04-10.26.54:381][168]LogWorld: Bringing World /Game/Level/UEDPIE_0_CharacterSelect.CharacterSelect up for play (max tick rate 0) at 2024.11.04-10.26.54
+[2024.11.04-10.26.54:383][168]LogWorld: Bringing up level for play took: 0.016108
+[2024.11.04-10.26.54:385][168]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.11.04-10.26.54:385][168]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for PlatformUserId 0,
+[2024.11.04-10.26.54:386][168]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.04-10.26.54:386][168]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.04-10.26.54:386][168]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.11.04-10.26.54:386][168]PIE: Server logged in
+[2024.11.04-10.26.54:387][168]PIE: Play in editor total start time 0.078 seconds.
+[2024.11.04-10.27.01:923][ 54]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.04-10.27.01:923][ 54]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_CharacterSelect
+[2024.11.04-10.27.01:923][ 54]LogWorld: UWorld::CleanupWorld for CharacterSelect, bSessionEnded=true, bCleanupResources=true
+[2024.11.04-10.27.01:924][ 54]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.04-10.27.01:924][ 54]LogContentBundle: [CharacterSelect(Standalone)] Deleting container.
+[2024.11.04-10.27.01:926][ 54]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.04-10.27.01:929][ 54]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.04-10.27.01:938][ 54]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.04-10.27.01:938][ 54]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.11.04-10.27.01:938][ 54]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.11.04-10.27.01:940][ 54]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.11.04-10.27.01:945][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.11.04-10.27.01:991][ 56]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.11.04-10.27.20:054][159]BlueprintLog: New page: Compile WBP_CharacterSelectTwo
+[2024.11.04-10.27.20:071][159]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.11.04-10.27.20:441][195]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.11.04-10.27.20:448][195]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.04-10.27.20:487][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_CharacterSelectTwo" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelectTwo.uasset" SILENT=true
+[2024.11.04-10.27.20:496][195]LogSavePackage: Moving output files for package: /Game/UI/WBP_CharacterSelectTwo
+[2024.11.04-10.27.20:496][195]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/WBP_CharacterSelectTwo2C1DD86449496B29E39DEDB8192E3948.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/UI/WBP_CharacterSelectTwo.uasset'
+[2024.11.04-10.27.20:501][195]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 1.34 sec)
+[2024.11.04-10.27.20:501][195]AssetCheck: New page: Asset Save: WBP_CharacterSelectTwo
+[2024.11.04-10.27.20:501][195]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_CharacterSelectTwo.WBP_CharacterSelectTwo
