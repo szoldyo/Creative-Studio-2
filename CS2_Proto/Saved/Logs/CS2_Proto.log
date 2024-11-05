@@ -3580,3 +3580,93 @@ Make sure 'BP_Player_M_C' has been compiled for  Get IsBlocking?
 [2024.11.05-11.10.28:745][259]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
 [2024.11.05-11.10.28:790][261]LogPlayLevel: Display: Destroying online subsystem :Context_20
 [2024.11.05-11.10.31:956][562]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.11.05-11.11.17:067][948]LogViewport: Scene viewport resized to 766x312, mode Windowed.
+[2024.11.05-11.11.18:261][ 71]Cmd: SELECT NONE
+[2024.11.05-11.11.28:041][163]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.TextRenderActor
+[2024.11.05-11.11.28:041][163]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.TextRenderActor
+[2024.11.05-11.11.28:042][163]LogActorFactory: Actor Factory spawned Class /Script/Engine.TextRenderActor as actor: TextRenderActor /Game/Level/CS2_Level.CS2_Level:PersistentLevel.TextRenderActor_UAID_08BFB8A7114E7E2C02_1954052137
+[2024.11.05-11.11.28:042][163]LogActorFactory: Actor Factory spawned Class /Script/Engine.TextRenderActor as actor: TextRenderActor /Game/Level/CS2_Level.CS2_Level:PersistentLevel.TextRenderActor_UAID_08BFB8A7114E7E2C02_1954052137
+[2024.11.05-11.12.05:077][490]Cmd: EDIT COPY
+[2024.11.05-11.12.05:235][509]Cmd: EDIT PASTE
+[2024.11.05-11.12.20:460][296]Cmd: EDIT COPY
+[2024.11.05-11.12.20:643][318]Cmd: EDIT PASTE
+[2024.11.05-11.12.34:561][953]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.05-11.12.34:567][953]LogContentBundle: [CS2_Level(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.05-11.12.34:567][953]LogWorldPartition: Display: GenerateStreaming for 'CS2_Level' started...
+[2024.11.05-11.12.34:568][953]LogWorldPartition: Display: GenerateStreaming for 'CS2_Level' took 810 us (total: 5 ms)
+[2024.11.05-11.12.34:568][953]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.05-11.12.34:568][953]PIE: New page: PIE session: CS2_Level (5 Nov 2024, 11:12:34)
+[2024.11.05-11.12.34:593][953]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_CS2_Level
+[2024.11.05-11.12.34:597][953]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002618s)
+[2024.11.05-11.12.34:597][953]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/CS2_Level.CS2_Level to /Game/Level/UEDPIE_0_CS2_Level.CS2_Level (0.002647s)
+[2024.11.05-11.12.34:609][953]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.11.05-11.12.34:611][953]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.05-11.12.34:611][953]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.05-11.12.34:612][953]LogAIModule: Creating AISystem for world CS2_Level
+[2024.11.05-11.12.34:612][953]LogWorldPartition: ULevel::OnLevelLoaded(CS2_Level)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.05-11.12.34:612][953]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.05-11.12.34:612][953]LogWorldPartition: UWorldPartition::Initialize : World = CS2_Level, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.05-11.12.34:612][953]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.05-11.12.34:613][953]LogContentBundle: [CS2_Level(Standalone)] Creating new contrainer.
+[2024.11.05-11.12.34:613][953]LogWorldPartition: Display: WorldPartition initialize took 779 us (total: 79 ms)
+[2024.11.05-11.12.34:613][953]LogPlayLevel: PIE: World Init took: (0.001626s)
+[2024.11.05-11.12.34:613][953]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.11.05-11.12.34:613][953]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.05-11.12.34:613][953]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.05-11.12.34:613][953]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.05-11.12.34:613][953]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.05-11.12.34:613][953]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.05-11.12.34:613][953]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.05-11.12.34:613][953]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.05-11.12.34:613][953]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.05-11.12.34:613][953]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.05-11.12.34:613][953]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.05-11.12.34:613][953]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.05-11.12.34:614][953]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.05-11.12.34:629][953]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.05-11.12.34:629][953]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.05-11.12.34:629][953]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.05-11.12.34:629][953]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.05-11.12.34:630][953]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.11.05-11.12.34:630][953]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.11.05-11.12.34:631][953]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.11.05-11.12.34:631][953]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.11.05-11.12.34:631][953]LogInit: FAudioDevice initialized with ID 9.
+[2024.11.05-11.12.34:631][953]LogAudio: Display: Audio Device (ID: 9) registered with world 'CS2_Level'.
+[2024.11.05-11.12.34:631][953]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.11.05-11.12.34:633][953]LogLoad: Game class is 'BP_CS2_GameMode_C'
+[2024.11.05-11.12.34:635][953]LogWorld: Bringing World /Game/Level/UEDPIE_0_CS2_Level.CS2_Level up for play (max tick rate 0) at 2024.11.05-11.12.34
+[2024.11.05-11.12.34:635][953]LogWorld: Bringing up level for play took: 0.001767
+[2024.11.05-11.12.34:636][953]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.11.05-11.12.34:637][953]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for PlatformUserId 0,
+[2024.11.05-11.12.34:639][953]PIE: Server logged in
+[2024.11.05-11.12.34:640][953]PIE: Play in editor total start time 0.073 seconds.
+[2024.11.05-11.12.34:641][953]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.11.05-11.12.40:415][628]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.05-11.12.40:415][628]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_CS2_Level
+[2024.11.05-11.12.40:415][628]LogWorld: UWorld::CleanupWorld for CS2_Level, bSessionEnded=true, bCleanupResources=true
+[2024.11.05-11.12.40:416][628]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.05-11.12.40:416][628]LogContentBundle: [CS2_Level(Standalone)] Deleting container.
+[2024.11.05-11.12.40:418][628]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.05-11.12.40:421][628]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.05-11.12.40:431][628]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.05-11.12.40:431][628]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.11.05-11.12.40:431][628]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.11.05-11.12.40:432][628]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.11.05-11.12.40:435][628]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.05-11.12.40:437][628]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.11.05-11.12.40:475][629]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.11.05-11.12.41:930][796]Cmd: SELECT NONE
+[2024.11.05-11.12.42:542][867]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.11.05-11.12.42:547][867]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.05-11.12.42:592][867]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/CS2_Level/9/38/UO7QR6R4K0PGL7A6VG2CHG
+[2024.11.05-11.12.42:592][867]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/UO7QR6R4K0PGL7A6VG2CHG975E92354AAC16F4DE4A55B9D7869270.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/__ExternalActors__/Level/CS2_Level/9/38/UO7QR6R4K0PGL7A6VG2CHG.uasset'
+[2024.11.05-11.12.42:593][867]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/CS2_Level/2/TC/4HGFPX6SX7YQ2MM45IO21I
+[2024.11.05-11.12.42:593][867]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/4HGFPX6SX7YQ2MM45IO21I6D29915A44032921D1A0E0B60187766B.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/__ExternalActors__/Level/CS2_Level/2/TC/4HGFPX6SX7YQ2MM45IO21I.uasset'
+[2024.11.05-11.12.42:594][867]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/CS2_Level/8/SK/0ATOK0TVT9XDRZ3V8W2O4P
+[2024.11.05-11.12.42:594][867]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/0ATOK0TVT9XDRZ3V8W2O4P35F578574F39A04E69BB8FB281FFA6A5.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/__ExternalActors__/Level/CS2_Level/8/SK/0ATOK0TVT9XDRZ3V8W2O4P.uasset'
+[2024.11.05-11.12.42:602][867]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 2.56 sec)
+[2024.11.05-11.12.42:604][867]AssetCheck: New page: Asset Save: multiple assets
+[2024.11.05-11.12.42:604][867]LogContentValidation: Display: Validating /Script/Engine.TextRenderActor /Game/Level/CS2_Level.CS2_Level:PersistentLevel.TextRenderActor_UAID_08BFB8A7114E7E2C02_1954052137
+[2024.11.05-11.12.42:604][867]LogContentValidation: Display: Validating /Script/Engine.TextRenderActor /Game/Level/CS2_Level.CS2_Level:PersistentLevel.TextRenderActor_UAID_08BFB8A7114E7E2C02_1991247138
+[2024.11.05-11.12.42:604][867]LogContentValidation: Display: Validating /Script/Engine.TextRenderActor /Game/Level/CS2_Level.CS2_Level:PersistentLevel.TextRenderActor_UAID_08BFB8A7114E7E2C02_2006655139
