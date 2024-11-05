@@ -3671,3 +3671,44 @@ Make sure 'BP_Player_M_C' has been compiled for  Get IsBlocking?
 [2024.11.05-11.12.42:604][867]LogContentValidation: Display: Validating /Script/Engine.TextRenderActor /Game/Level/CS2_Level.CS2_Level:PersistentLevel.TextRenderActor_UAID_08BFB8A7114E7E2C02_1991247138
 [2024.11.05-11.12.42:604][867]LogContentValidation: Display: Validating /Script/Engine.TextRenderActor /Game/Level/CS2_Level.CS2_Level:PersistentLevel.TextRenderActor_UAID_08BFB8A7114E7E2C02_2006655139
 [2024.11.05-11.38.23:704][517]LogDerivedDataCache: C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.030 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 845 files in 1352 folders with total size 38 MiB.
+[2024.11.05-11.44.07:815][379]LogViewport: Scene viewport resized to 766x312, mode Windowed.
+[2024.11.05-11.44.28:221][537]LogViewport: Scene viewport resized to 766x312, mode Windowed.
+[2024.11.05-11.44.38:043][560]LogViewport: Scene viewport resized to 766x312, mode Windowed.
+[2024.11.05-11.45.24:471][479]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.05-11.45.24:509][480]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.05-11.45.28:618][870]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/Classes/TestDummy/BP_PlayerTestDummy.BP_PlayerTestDummy_C
+[2024.11.05-11.45.28:618][870]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/Classes/TestDummy/BP_PlayerTestDummy.BP_PlayerTestDummy_C
+[2024.11.05-11.45.28:620][870]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/Classes/TestDummy/BP_PlayerTestDummy.BP_PlayerTestDummy as actor: BP_PlayerTestDummy_C /Game/Level/CS2_Level.CS2_Level:PersistentLevel.BP_PlayerTestDummy_C_0
+[2024.11.05-11.45.28:622][870]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/Classes/TestDummy/BP_PlayerTestDummy.BP_PlayerTestDummy as actor: BP_PlayerTestDummy_C /Game/Level/CS2_Level.CS2_Level:PersistentLevel.BP_PlayerTestDummy_C_0
+[2024.11.05-11.45.29:349][929]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/Classes/TestDummy/BP_PlayerTestDummy.BP_PlayerTestDummy_C
+[2024.11.05-11.45.29:349][929]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/Classes/TestDummy/BP_PlayerTestDummy.BP_PlayerTestDummy_C
+[2024.11.05-11.45.29:353][929]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/Classes/TestDummy/BP_PlayerTestDummy.BP_PlayerTestDummy as actor: BP_PlayerTestDummy_C /Game/Level/CS2_Level.CS2_Level:PersistentLevel.BP_PlayerTestDummy_C_UAID_08BFB8A7114E802C02_1847876492
+[2024.11.05-11.45.29:354][929]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/Classes/TestDummy/BP_PlayerTestDummy.BP_PlayerTestDummy as actor: BP_PlayerTestDummy_C /Game/Level/CS2_Level.CS2_Level:PersistentLevel.BP_PlayerTestDummy_C_UAID_08BFB8A7114E802C02_1847876492
+[2024.11.05-11.45.29:446][930]LogViewport: Scene viewport resized to 766x312, mode Windowed.
+[2024.11.05-11.45.48:831][944]LogViewport: Scene viewport resized to 766x312, mode Windowed.
+[2024.11.05-11.46.07:926][135]LogViewport: Scene viewport resized to 766x312, mode Windowed.
+[2024.11.05-11.46.28:176][477]LogViewport: Scene viewport resized to 766x312, mode Windowed.
+[2024.11.05-11.46.46:052][522]Cmd: SELECT NONE
+[2024.11.05-11.46.48:651][824]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.11.05-11.46.48:656][824]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.05-11.46.48:699][824]LogWorldPartition: Can't find class descriptor '/Game/Player/Classes/Ranged/BP_Player_R.BP_Player_R_C' for saving '/Game/Level/CS2_Level.CS2_Level:PersistentLevel.BP_Player_R_C_UAID_08BFB8A7114E7E2C02_1803376136'
+[2024.11.05-11.46.48:699][824]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/CS2_Level/5/HD/T5UWOHUFOKU1DF8EIRWSTV
+[2024.11.05-11.46.48:700][824]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/T5UWOHUFOKU1DF8EIRWSTVFD56E88C44D10FD8B5EC6B9D50B3FC94.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/__ExternalActors__/Level/CS2_Level/5/HD/T5UWOHUFOKU1DF8EIRWSTV.uasset'
+[2024.11.05-11.46.48:702][824]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/CS2_Level/6/GG/V2LSUQ772SNL6AY4UF3BC6
+[2024.11.05-11.46.48:702][824]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/V2LSUQ772SNL6AY4UF3BC658A3BF7E4BA101A90164588EC81C441C.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/__ExternalActors__/Level/CS2_Level/6/GG/V2LSUQ772SNL6AY4UF3BC6.uasset'
+[2024.11.05-11.46.48:704][824]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/CS2_Level/9/38/UO7QR6R4K0PGL7A6VG2CHG
+[2024.11.05-11.46.48:704][824]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/UO7QR6R4K0PGL7A6VG2CHGA65EE69E44895C1F59B0148E21B5281D.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/__ExternalActors__/Level/CS2_Level/9/38/UO7QR6R4K0PGL7A6VG2CHG.uasset'
+[2024.11.05-11.46.48:705][824]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/CS2_Level/2/TC/4HGFPX6SX7YQ2MM45IO21I
+[2024.11.05-11.46.48:705][824]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/4HGFPX6SX7YQ2MM45IO21I1475576949186602AC1F9EA2EB4582D8.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/__ExternalActors__/Level/CS2_Level/2/TC/4HGFPX6SX7YQ2MM45IO21I.uasset'
+[2024.11.05-11.46.48:706][824]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/CS2_Level/8/SK/0ATOK0TVT9XDRZ3V8W2O4P
+[2024.11.05-11.46.48:706][824]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/0ATOK0TVT9XDRZ3V8W2O4PA967146949B5D80DEA908FB0707C9802.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/__ExternalActors__/Level/CS2_Level/8/SK/0ATOK0TVT9XDRZ3V8W2O4P.uasset'
+[2024.11.05-11.46.48:708][824]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/CS2_Level/B/IK/F2OYQ92TF64WW2GGG8RSG3
+[2024.11.05-11.46.48:708][824]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/F2OYQ92TF64WW2GGG8RSG3353FBC6642F4B59907992DA6CA16D2F0.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/__ExternalActors__/Level/CS2_Level/B/IK/F2OYQ92TF64WW2GGG8RSG3.uasset'
+[2024.11.05-11.46.48:713][824]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 2.62 sec)
+[2024.11.05-11.46.48:714][824]AssetCheck: New page: Asset Save: multiple assets
+[2024.11.05-11.46.48:714][824]LogContentValidation: Display: Validating /Game/Player/Classes/Ranged/BP_Player_R.BP_Player_R_C /Game/Level/CS2_Level.CS2_Level:PersistentLevel.BP_Player_R_C_UAID_08BFB8A7114E7E2C02_1803376136
+[2024.11.05-11.46.48:714][824]LogContentValidation: Display: Validating /Game/Player/Classes/Melee/BP_Player_M.BP_Player_M_C /Game/Level/CS2_Level.CS2_Level:PersistentLevel.BP_Player_M_C_UAID_08BFB8A7114E7E2C02_1793733135
+[2024.11.05-11.46.48:714][824]LogContentValidation: Display: Validating /Script/Engine.TextRenderActor /Game/Level/CS2_Level.CS2_Level:PersistentLevel.TextRenderActor_UAID_08BFB8A7114E7E2C02_1954052137
+[2024.11.05-11.46.48:714][824]LogContentValidation: Display: Validating /Script/Engine.TextRenderActor /Game/Level/CS2_Level.CS2_Level:PersistentLevel.TextRenderActor_UAID_08BFB8A7114E7E2C02_1991247138
+[2024.11.05-11.46.48:714][824]LogContentValidation: Display: Validating /Script/Engine.TextRenderActor /Game/Level/CS2_Level.CS2_Level:PersistentLevel.TextRenderActor_UAID_08BFB8A7114E7E2C02_2006655139
+[2024.11.05-11.46.48:714][824]LogContentValidation: Display: Validating /Game/Player/Classes/TestDummy/BP_PlayerTestDummy.BP_PlayerTestDummy_C /Game/Level/CS2_Level.CS2_Level:PersistentLevel.BP_PlayerTestDummy_C_UAID_08BFB8A7114E802C02_1847876492
