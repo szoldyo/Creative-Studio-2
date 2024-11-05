@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/GitHub Backups/Creative-Studio-2/CS2_Proto/Content/Player/Classes/Melee/BP_Player_M.uasset",
+				"D:/GitHub Backups/Creative-Studio-2/CS2_Proto/Content/Player/Master/BP_PlayerMaster.uasset",
+				"D:/GitHub Backups/Creative-Studio-2/CS2_Proto/Content/Player/Master/Input/Actions/IA_Dash.uasset",
+				"D:/GitHub Backups/Creative-Studio-2/CS2_Proto/Content/Player/Master/Input/IMC_Default.uasset",
 				"C:/Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/BP_Player.uasset",
 				"C:/Github Repos/Creative-Studio-2/CS2_Proto/Content/Blueprints/BP_CS2_GameMode.uasset",
 				"C:/Github Repos/Creative-Studio-2/CS2_Proto/Content/__ExternalActors__/Level/CS2_Level/B/YJ/FUAT2UA909HAVNDZQUJ6R2.uasset",
