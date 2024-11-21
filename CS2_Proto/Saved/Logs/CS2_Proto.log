@@ -1532,3 +1532,62 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.11.21-11.41.23:825][512]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 1.55 sec)
 [2024.11.21-11.41.23:826][512]AssetCheck: New page: Asset Save: BP_PlayerMaster
 [2024.11.21-11.41.23:826][512]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Master/BP_PlayerMaster.BP_PlayerMaster
+[2024.11.21-11.55.45:156][931]BlueprintLog: New page: Compile BP_PlayerMaster
+[2024.11.21-11.55.45:241][931]LogScript: Warning: Attempted to access REINST_BP_PlayerTestDummy_C_0 via property Character, but REINST_BP_PlayerTestDummy_C_0 is not valid (pending kill or garbage)
+	ABP_Quinn_C /Engine/Transient.World_11:PersistentLevel.REINST_BP_PlayerTestDummy_C_0.CharacterMesh0.ABP_Quinn_C_1
+	Function /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:04BE
+[2024.11.21-11.55.45:241][931]LogScript: Warning: Attempted to access REINST_BP_Player_M_C_0 via property Character, but REINST_BP_Player_M_C_0 is not valid (pending kill or garbage)
+	ABP_Manny_C /Engine/Transient.World_9:PersistentLevel.REINST_BP_Player_M_C_0.CharacterMesh0.ABP_Manny_C_0
+	Function /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:04BE
+[2024.11.21-11.55.45:252][931]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.11.21-11.55.45:657][959]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.11.21-11.55.45:661][959]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.21-11.55.45:761][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Master/BP_PlayerMaster" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Master/BP_PlayerMaster.uasset" SILENT=true
+[2024.11.21-11.55.45:782][959]LogSavePackage: Moving output files for package: /Game/Player/Master/BP_PlayerMaster
+[2024.11.21-11.55.45:782][959]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_PlayerMaster04E381B94516CB6F2039FC8411DD2973.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Master/BP_PlayerMaster.uasset'
+[2024.11.21-11.55.45:787][959]LogFileHelpers: InternalPromptForCheckoutAndSave took 125 ms (total: 1.67 sec)
+[2024.11.21-11.55.45:788][959]AssetCheck: New page: Asset Save: BP_PlayerMaster
+[2024.11.21-11.55.45:788][959]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Master/BP_PlayerMaster.BP_PlayerMaster
+[2024.11.21-11.57.31:246][410]LogBlueprint: Warning: [AssetLog] C:\Github Repos\Creative-Studio-2\CS2_Proto\Content\Blueprints\BP_CS2_GameInstance.uasset: [Compiler] Pasted node  CustomEvent   conflicted with  Player One Wins  and was replaced as a Custom Event!
+[2024.11.21-11.57.43:916][867]BlueprintLog: New page: Compile BP_CS2_GameInstance
+[2024.11.21-11.57.43:936][867]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.11.21-11.57.44:305][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.11.21-11.57.44:315][902]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.21-11.57.44:363][902]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_CS2_GameInstance" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Blueprints/BP_CS2_GameInstance.uasset" SILENT=true
+[2024.11.21-11.57.44:365][902]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_CS2_GameInstance
+[2024.11.21-11.57.44:365][902]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_CS2_GameInstanceCADBF6964EE65AE0106B22BE8D26DFE2.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Blueprints/BP_CS2_GameInstance.uasset'
+[2024.11.21-11.57.44:368][902]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 1.72 sec)
+[2024.11.21-11.57.44:369][902]AssetCheck: New page: Asset Save: BP_CS2_GameInstance
+[2024.11.21-11.57.44:369][902]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_CS2_GameInstance.BP_CS2_GameInstance
+[2024.11.21-12.03.04:166][406]BlueprintLog: New page: Compile BP_PlayerMaster
+[2024.11.21-12.03.04:251][406]LogScript: Warning: Attempted to access REINST_BP_PlayerTestDummy_C_0 via property Character, but REINST_BP_PlayerTestDummy_C_0 is not valid (pending kill or garbage)
+	ABP_Quinn_C /Engine/Transient.World_11:PersistentLevel.REINST_BP_PlayerTestDummy_C_0.CharacterMesh0.ABP_Quinn_C_1
+	Function /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:04BE
+[2024.11.21-12.03.04:251][406]LogScript: Warning: Attempted to access REINST_BP_Player_M_C_0 via property Character, but REINST_BP_Player_M_C_0 is not valid (pending kill or garbage)
+	ABP_Manny_C /Engine/Transient.World_9:PersistentLevel.REINST_BP_Player_M_C_0.CharacterMesh0.ABP_Manny_C_0
+	Function /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:04BE
+[2024.11.21-12.03.04:265][406]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.11.21-12.03.04:676][435]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.11.21-12.03.04:685][435]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.21-12.03.04:779][435]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Master/BP_PlayerMaster" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Master/BP_PlayerMaster.uasset" SILENT=true
+[2024.11.21-12.03.04:801][435]LogSavePackage: Moving output files for package: /Game/Player/Master/BP_PlayerMaster
+[2024.11.21-12.03.04:801][435]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_PlayerMaster1142FB084E81DB2CCE278F8AF28C54D7.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Master/BP_PlayerMaster.uasset'
+[2024.11.21-12.03.04:806][435]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms (total: 1.85 sec)
+[2024.11.21-12.03.04:807][435]AssetCheck: New page: Asset Save: BP_PlayerMaster
+[2024.11.21-12.03.04:807][435]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Master/BP_PlayerMaster.BP_PlayerMaster
+[2024.11.21-12.03.43:632][952]BlueprintLog: New page: Compile BP_PlayerMaster
+[2024.11.21-12.03.43:708][952]LogScript: Warning: Attempted to access REINST_BP_PlayerTestDummy_C_0 via property Character, but REINST_BP_PlayerTestDummy_C_0 is not valid (pending kill or garbage)
+	ABP_Quinn_C /Engine/Transient.World_11:PersistentLevel.REINST_BP_PlayerTestDummy_C_0.CharacterMesh0.ABP_Quinn_C_1
+	Function /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:04BE
+[2024.11.21-12.03.43:708][952]LogScript: Warning: Attempted to access REINST_BP_Player_M_C_0 via property Character, but REINST_BP_Player_M_C_0 is not valid (pending kill or garbage)
+	ABP_Manny_C /Engine/Transient.World_9:PersistentLevel.REINST_BP_Player_M_C_0.CharacterMesh0.ABP_Manny_C_0
+	Function /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:04BE
+[2024.11.21-12.03.43:721][952]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.11.21-12.03.44:064][967]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.11.21-12.03.44:070][967]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.21-12.03.44:145][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Master/BP_PlayerMaster" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Master/BP_PlayerMaster.uasset" SILENT=true
+[2024.11.21-12.03.44:166][967]LogSavePackage: Moving output files for package: /Game/Player/Master/BP_PlayerMaster
+[2024.11.21-12.03.44:166][967]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/BP_PlayerMaster94421DCE4DE3D31BC0E63FADC246C0AD.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Player/Master/BP_PlayerMaster.uasset'
+[2024.11.21-12.03.44:172][967]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 1.95 sec)
+[2024.11.21-12.03.44:173][967]AssetCheck: New page: Asset Save: BP_PlayerMaster
+[2024.11.21-12.03.44:173][967]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/Master/BP_PlayerMaster.BP_PlayerMaster
