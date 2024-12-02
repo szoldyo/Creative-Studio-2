@@ -18890,3 +18890,146 @@ Make sure 'PlayerOneRanged_UI_C' has been compiled for  Remove Crosshair
 [2024.12.02-15.34.04:778][860]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 18.0 sec)
 [2024.12.02-15.34.04:779][860]AssetCheck: New page: Asset Save: fabric
 [2024.12.02-15.34.04:779][860]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Characters/ArtistsCharacters/Muntana/fabric.fabric
+[2024.12.02-15.34.45:721][442]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/Meshes/AlicesCustomShapes/BigWall.BigWall
+[2024.12.02-15.34.45:721][442]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/Meshes/AlicesCustomShapes/BigWall.BigWall
+[2024.12.02-15.34.45:721][442]LogActorFactory: Actor Factory spawned StaticMesh /Game/LevelPrototyping/Meshes/AlicesCustomShapes/BigWall.BigWall as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_5
+[2024.12.02-15.34.48:165][732]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/Meshes/AlicesCustomShapes/BigWall.BigWall
+[2024.12.02-15.34.48:165][732]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/Meshes/AlicesCustomShapes/BigWall.BigWall
+[2024.12.02-15.34.48:166][732]LogActorFactory: Actor Factory spawned StaticMesh /Game/LevelPrototyping/Meshes/AlicesCustomShapes/BigWall.BigWall as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_6
+[2024.12.02-15.34.53:322][331]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_6.StaticMeshComponent0, from: Addition to navoctree)
+[2024.12.02-15.34.53:381][338]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_6.StaticMeshComponent0, from: Remove from navoctree)
+[2024.12.02-15.34.53:605][365]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_6.StaticMeshComponent0, from: Addition to navoctree)
+[2024.12.02-15.34.53:989][411]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_6.StaticMeshComponent0, from: Remove from navoctree)
+[2024.12.02-15.34.59:314][ 26]Cmd: DELETE
+[2024.12.02-15.34.59:314][ 26]Cmd: ACTOR DELETE
+[2024.12.02-15.34.59:315][ 26]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.12.02-15.34.59:326][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.12.02-15.34.59:334][ 26]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2024.12.02-15.35.05:583][721]LogViewport: Scene viewport resized to 1490x793, mode Windowed.
+[2024.12.02-15.35.52:355][213]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Level/_GENERATED/Student/Cylinder_AC15D851.Cylinder_AC15D851
+[2024.12.02-15.35.52:355][213]LogStaticMesh: Display: Building static mesh Cylinder_AC15D851...
+[2024.12.02-15.35.52:356][213]LogActorFactory: Actor Factory spawned StaticMesh /Game/Level/_GENERATED/Student/Cylinder_AC15D851.Cylinder_AC15D851 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_7
+[2024.12.02-15.35.52:357][213]LogStaticMesh: Built static mesh [0.00s] /Game/Level/_GENERATED/Student/Cylinder_AC15D851.Cylinder_AC15D851
+[2024.12.02-15.36.31:235][724]LogStaticMesh: Display: Building static mesh Cylinder_AC15D851...
+[2024.12.02-15.36.31:236][724]LogStaticMesh: Built static mesh [0.00s] /Game/Level/_GENERATED/Student/Cylinder_AC15D851.Cylinder_AC15D851
+[2024.12.02-15.36.38:479][543]Cmd: TRANSACTION UNDO
+[2024.12.02-15.36.38:479][543]LogEditorTransaction: Undo Move Elements
+[2024.12.02-15.36.39:376][593]Cmd: SELECT NONE
+[2024.12.02-15.36.48:522][553]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.12.02-15.36.48:531][553]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.02-15.36.48:577][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/MainMenu" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.12.02-15.36.48:602][553]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2024.12.02-15.36.48:611][553]LogSavePackage: Moving output files for package: /Game/Level/MainMenu
+[2024.12.02-15.36.48:611][553]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/MainMenuE8CF8C9B4A842A2A21D86F8261BD21C7.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/MainMenu.umap'
+[2024.12.02-15.36.48:616][553]LogFileHelpers: Saving map 'MainMenu' took 0.039
+[2024.12.02-15.36.48:645][553]LogSavePackage: Moving output files for package: /Game/Level/_GENERATED/Student/Cylinder_AC15D851
+[2024.12.02-15.36.48:645][553]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/Cylinder_AC15D851FD1D5D7541A16FC88E8EC1A31CECB694.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/_GENERATED/Student/Cylinder_AC15D851.uasset'
+[2024.12.02-15.36.48:651][553]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms (total: 18.1 sec)
+[2024.12.02-15.36.48:653][553]AssetCheck: New page: Asset Save: multiple assets
+[2024.12.02-15.36.48:653][553]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/MainMenu.MainMenu
+[2024.12.02-15.36.48:653][553]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Level/_GENERATED/Student/Cylinder_AC15D851.Cylinder_AC15D851
+[2024.12.02-15.36.50:572][758]LogViewport: Scene viewport resized to 1943x793, mode Windowed.
+[2024.12.02-15.42.26:391][963]LogViewport: Scene viewport resized to 1490x793, mode Windowed.
+[2024.12.02-15.42.57:802][638]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Level/_GENERATED/Student/Sphere_99D04EF3.Sphere_99D04EF3
+[2024.12.02-15.42.57:802][638]LogStaticMesh: Display: Building static mesh Sphere_99D04EF3...
+[2024.12.02-15.42.57:803][638]LogActorFactory: Actor Factory spawned StaticMesh /Game/Level/_GENERATED/Student/Sphere_99D04EF3.Sphere_99D04EF3 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_8
+[2024.12.02-15.42.57:809][638]LogStaticMesh: Built static mesh [0.01s] /Game/Level/_GENERATED/Student/Sphere_99D04EF3.Sphere_99D04EF3
+[2024.12.02-15.43.23:141][504]Cmd: TRANSACTION UNDO
+[2024.12.02-15.43.23:141][504]LogEditorTransaction: Undo Transform
+[2024.12.02-15.43.24:694][634]Cmd: TRANSACTION UNDO
+[2024.12.02-15.43.24:694][634]LogEditorTransaction: Undo Transform
+[2024.12.02-15.43.43:467][815]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Level/_GENERATED/Student/Box_C3DE87CA.Box_C3DE87CA
+[2024.12.02-15.43.43:467][815]LogStaticMesh: Display: Building static mesh Box_C3DE87CA...
+[2024.12.02-15.43.43:468][815]LogActorFactory: Actor Factory spawned StaticMesh /Game/Level/_GENERATED/Student/Box_C3DE87CA.Box_C3DE87CA as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_9
+[2024.12.02-15.43.43:468][815]LogStaticMesh: Built static mesh [0.00s] /Game/Level/_GENERATED/Student/Box_C3DE87CA.Box_C3DE87CA
+[2024.12.02-15.43.44:652][921]Cmd: SELECT NONE
+[2024.12.02-15.44.08:440][717]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Level/_GENERATED/Student/Box_FAEC7C4B.Box_FAEC7C4B
+[2024.12.02-15.44.08:440][717]LogStaticMesh: Display: Building static mesh Box_FAEC7C4B...
+[2024.12.02-15.44.08:440][717]LogActorFactory: Actor Factory spawned StaticMesh /Game/Level/_GENERATED/Student/Box_FAEC7C4B.Box_FAEC7C4B as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_10
+[2024.12.02-15.44.08:440][717]LogStaticMesh: Built static mesh [0.00s] /Game/Level/_GENERATED/Student/Box_FAEC7C4B.Box_FAEC7C4B
+[2024.12.02-15.44.19:756][ 33]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Level/_GENERATED/Student/Box_ACA831E6.Box_ACA831E6
+[2024.12.02-15.44.19:756][ 33]LogStaticMesh: Display: Building static mesh Box_ACA831E6...
+[2024.12.02-15.44.19:757][ 33]LogActorFactory: Actor Factory spawned StaticMesh /Game/Level/_GENERATED/Student/Box_ACA831E6.Box_ACA831E6 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_11
+[2024.12.02-15.44.19:757][ 33]LogStaticMesh: Built static mesh [0.00s] /Game/Level/_GENERATED/Student/Box_ACA831E6.Box_ACA831E6
+[2024.12.02-15.44.35:953][943]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Level/_GENERATED/Student/Box_BEE897A5.Box_BEE897A5
+[2024.12.02-15.44.35:953][943]LogStaticMesh: Display: Building static mesh Box_BEE897A5...
+[2024.12.02-15.44.35:954][943]LogActorFactory: Actor Factory spawned StaticMesh /Game/Level/_GENERATED/Student/Box_BEE897A5.Box_BEE897A5 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_12
+[2024.12.02-15.44.35:954][943]LogStaticMesh: Built static mesh [0.00s] /Game/Level/_GENERATED/Student/Box_BEE897A5.Box_BEE897A5
+[2024.12.02-15.44.37:257][ 77]Cmd: SELECT NONE
+[2024.12.02-15.45.27:454][952]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Level/_GENERATED/Student/Stairs_230171D5.Stairs_230171D5
+[2024.12.02-15.45.27:455][952]LogStaticMesh: Display: Building static mesh Stairs_230171D5...
+[2024.12.02-15.45.27:455][952]LogActorFactory: Actor Factory spawned StaticMesh /Game/Level/_GENERATED/Student/Stairs_230171D5.Stairs_230171D5 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_14
+[2024.12.02-15.45.27:456][952]LogStaticMesh: Built static mesh [0.00s] /Game/Level/_GENERATED/Student/Stairs_230171D5.Stairs_230171D5
+[2024.12.02-15.45.28:142][  5]Cmd: SELECT NONE
+[2024.12.02-15.46.39:311][407]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Level/_GENERATED/Student/Cylinder_ADBC0FBC.Cylinder_ADBC0FBC
+[2024.12.02-15.46.39:311][407]LogStaticMesh: Display: Building static mesh Cylinder_ADBC0FBC...
+[2024.12.02-15.46.39:312][407]LogActorFactory: Actor Factory spawned StaticMesh /Game/Level/_GENERATED/Student/Cylinder_ADBC0FBC.Cylinder_ADBC0FBC as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_15
+[2024.12.02-15.46.39:312][407]LogStaticMesh: Built static mesh [0.00s] /Game/Level/_GENERATED/Student/Cylinder_ADBC0FBC.Cylinder_ADBC0FBC
+[2024.12.02-15.46.40:235][443]Cmd: SELECT NONE
+[2024.12.02-15.46.42:907][757]Cmd: DELETE
+[2024.12.02-15.46.42:907][757]Cmd: ACTOR DELETE
+[2024.12.02-15.46.42:910][757]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.12.02-15.46.42:924][757]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.12.02-15.46.42:935][757]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2024.12.02-15.46.43:262][789]Cmd: DELETE
+[2024.12.02-15.46.43:262][789]Cmd: ACTOR DELETE
+[2024.12.02-15.46.43:264][789]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.12.02-15.46.43:275][789]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2024.12.02-15.46.43:279][789]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2024.12.02-15.46.43:731][833]Cmd: DELETE
+[2024.12.02-15.46.43:731][833]Cmd: ACTOR DELETE
+[2024.12.02-15.46.43:733][833]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.12.02-15.46.43:744][833]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.12.02-15.46.43:749][833]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2024.12.02-15.46.44:614][927]Cmd: DELETE
+[2024.12.02-15.46.44:614][927]Cmd: ACTOR DELETE
+[2024.12.02-15.46.44:616][927]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.12.02-15.46.44:625][927]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2024.12.02-15.46.44:629][927]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2024.12.02-15.46.45:942][ 74]Cmd: DELETE
+[2024.12.02-15.46.45:942][ 74]Cmd: ACTOR DELETE
+[2024.12.02-15.46.45:944][ 74]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.12.02-15.46.45:955][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2024.12.02-15.46.45:959][ 74]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2024.12.02-15.46.46:284][104]Cmd: DELETE
+[2024.12.02-15.46.46:284][104]Cmd: ACTOR DELETE
+[2024.12.02-15.46.46:285][104]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.12.02-15.46.46:297][104]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2024.12.02-15.46.46:302][104]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2024.12.02-15.46.46:659][142]Cmd: DELETE
+[2024.12.02-15.46.46:659][142]Cmd: ACTOR DELETE
+[2024.12.02-15.46.46:661][142]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.12.02-15.46.46:672][142]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.12.02-15.46.46:675][142]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2024.12.02-15.46.48:901][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.12.02-15.46.48:906][393]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.02-15.46.48:953][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/MainMenu" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.12.02-15.46.48:980][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.12.02-15.46.48:989][393]LogSavePackage: Moving output files for package: /Game/Level/MainMenu
+[2024.12.02-15.46.48:989][393]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/MainMenu360C220D48582750003FF6A72C483CB1.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/MainMenu.umap'
+[2024.12.02-15.46.48:995][393]LogFileHelpers: Saving map 'MainMenu' took 0.041
+[2024.12.02-15.46.49:025][393]LogSavePackage: Moving output files for package: /Game/Level/_GENERATED/Student/Sphere_99D04EF3
+[2024.12.02-15.46.49:025][393]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/Sphere_99D04EF319D4BA9E41255AE39FEB49AAE14CD8EF.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/_GENERATED/Student/Sphere_99D04EF3.uasset'
+[2024.12.02-15.46.49:033][393]LogSavePackage: Moving output files for package: /Game/Level/_GENERATED/Student/Box_C3DE87CA
+[2024.12.02-15.46.49:033][393]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/Box_C3DE87CA989AE26441C0879B2080F8B857F48A3B.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/_GENERATED/Student/Box_C3DE87CA.uasset'
+[2024.12.02-15.46.49:040][393]LogSavePackage: Moving output files for package: /Game/Level/_GENERATED/Student/Box_FAEC7C4B
+[2024.12.02-15.46.49:040][393]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/Box_FAEC7C4B43B8593F45B626E1B2977898D90E9752.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/_GENERATED/Student/Box_FAEC7C4B.uasset'
+[2024.12.02-15.46.49:046][393]LogSavePackage: Moving output files for package: /Game/Level/_GENERATED/Student/Box_ACA831E6
+[2024.12.02-15.46.49:046][393]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/Box_ACA831E6F272DAE048DCE94B3FFDF8BD6E73E701.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/_GENERATED/Student/Box_ACA831E6.uasset'
+[2024.12.02-15.46.49:053][393]LogSavePackage: Moving output files for package: /Game/Level/_GENERATED/Student/Box_BEE897A5
+[2024.12.02-15.46.49:054][393]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/Box_BEE897A59FCFB3DE4247F60B80D83A8BA8EDD195.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/_GENERATED/Student/Box_BEE897A5.uasset'
+[2024.12.02-15.46.49:060][393]LogSavePackage: Moving output files for package: /Game/Level/_GENERATED/Student/Stairs_230171D5
+[2024.12.02-15.46.49:060][393]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/Stairs_230171D5F12E96094A126B749F1D7988C932F492.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/_GENERATED/Student/Stairs_230171D5.uasset'
+[2024.12.02-15.46.49:067][393]LogSavePackage: Moving output files for package: /Game/Level/_GENERATED/Student/Cylinder_ADBC0FBC
+[2024.12.02-15.46.49:067][393]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/Cylinder_ADBC0FBC9990669D4548A28A0AFBAD998CF28D47.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/_GENERATED/Student/Cylinder_ADBC0FBC.uasset'
+[2024.12.02-15.46.49:073][393]LogFileHelpers: InternalPromptForCheckoutAndSave took 166 ms (total: 18.3 sec)
+[2024.12.02-15.46.49:074][393]AssetCheck: New page: Asset Save: multiple assets
+[2024.12.02-15.46.49:074][393]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/MainMenu.MainMenu
+[2024.12.02-15.46.49:074][393]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Level/_GENERATED/Student/Sphere_99D04EF3.Sphere_99D04EF3
+[2024.12.02-15.46.49:074][393]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Level/_GENERATED/Student/Box_C3DE87CA.Box_C3DE87CA
+[2024.12.02-15.46.49:074][393]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Level/_GENERATED/Student/Box_FAEC7C4B.Box_FAEC7C4B
+[2024.12.02-15.46.49:074][393]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Level/_GENERATED/Student/Box_ACA831E6.Box_ACA831E6
+[2024.12.02-15.46.49:074][393]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Level/_GENERATED/Student/Box_BEE897A5.Box_BEE897A5
+[2024.12.02-15.46.49:074][393]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Level/_GENERATED/Student/Stairs_230171D5.Stairs_230171D5
+[2024.12.02-15.46.49:074][393]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Level/_GENERATED/Student/Cylinder_ADBC0FBC.Cylinder_ADBC0FBC
+[2024.12.02-15.46.52:333][775]LogViewport: Scene viewport resized to 1943x793, mode Windowed.
