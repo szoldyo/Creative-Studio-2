@@ -19033,3 +19033,663 @@ Make sure 'PlayerOneRanged_UI_C' has been compiled for  Remove Crosshair
 [2024.12.02-15.46.49:074][393]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Level/_GENERATED/Student/Stairs_230171D5.Stairs_230171D5
 [2024.12.02-15.46.49:074][393]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Level/_GENERATED/Student/Cylinder_ADBC0FBC.Cylinder_ADBC0FBC
 [2024.12.02-15.46.52:333][775]LogViewport: Scene viewport resized to 1943x793, mode Windowed.
+[2024.12.02-15.49.22:652][527]LogCEFBrowser: CEF GPU acceleration enabled
+[2024.12.02-15.51.13:966][751]LogStaticMesh: Display: Building static mesh S_Desert_Western_Rock_Small_02_xgjqbag_lod3_Var1...
+[2024.12.02-15.51.14:031][752]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/T_DesertWesternRockSmall02_xgjqbag_2K_DpR.T_DesertWesternRockSmall02_xgjqbag_2K_DpR (TFO_DXT1, 2048x2048 x1x1x1) (Required Memory Estimate: 296.062483 MB), EncodeSpeed: Fast
+[2024.12.02-15.51.14:072][754]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/T_Desert_Western_Rock_Small_02_xgjqbag_2K_N.T_Desert_Western_Rock_Small_02_xgjqbag_2K_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 397.562488 MB), EncodeSpeed: Fast
+[2024.12.02-15.51.14:083][756]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/T_Desert_Western_Rock_Small_02_xgjqbag_2K_D.T_Desert_Western_Rock_Small_02_xgjqbag_2K_D (TFO_DXT1, 2048x2048 x1x1x1) (Required Memory Estimate: 296.062483 MB), EncodeSpeed: Fast
+[2024.12.02-15.51.14:105][757]LogStaticMesh: Built static mesh [0.14s] /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/S_Desert_Western_Rock_Small_02_xgjqbag_lod3_Var1.S_Desert_Western_Rock_Small_02_xgjqbag_lod3_Var1
+[2024.12.02-15.51.18:696][280]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/S_Desert_Western_Rock_Small_02_xgjqbag_lod3_Var1.S_Desert_Western_Rock_Small_02_xgjqbag_lod3_Var1
+[2024.12.02-15.51.18:696][280]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/S_Desert_Western_Rock_Small_02_xgjqbag_lod3_Var1.S_Desert_Western_Rock_Small_02_xgjqbag_lod3_Var1
+[2024.12.02-15.51.18:697][280]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/S_Desert_Western_Rock_Small_02_xgjqbag_lod3_Var1.S_Desert_Western_Rock_Small_02_xgjqbag_lod3_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_16
+[2024.12.02-15.51.19:301][351]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/S_Desert_Western_Rock_Small_02_xgjqbag_lod3_Var1.S_Desert_Western_Rock_Small_02_xgjqbag_lod3_Var1
+[2024.12.02-15.51.19:301][351]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/S_Desert_Western_Rock_Small_02_xgjqbag_lod3_Var1.S_Desert_Western_Rock_Small_02_xgjqbag_lod3_Var1
+[2024.12.02-15.51.19:302][351]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/S_Desert_Western_Rock_Small_02_xgjqbag_lod3_Var1.S_Desert_Western_Rock_Small_02_xgjqbag_lod3_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_17
+[2024.12.02-15.52.24:190][775]Cmd: SELECT NONE
+[2024.12.02-15.52.24:844][852]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.12.02-15.52.24:857][852]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.02-15.52.24:905][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/MainMenu" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.12.02-15.52.24:932][852]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2024.12.02-15.52.24:942][852]LogSavePackage: Moving output files for package: /Game/Level/MainMenu
+[2024.12.02-15.52.24:942][852]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/MainMenu4C2EAE7B4EDDA325C4B02B9007F31140.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/MainMenu.umap'
+[2024.12.02-15.52.24:947][852]LogFileHelpers: Saving map 'MainMenu' took 0.042
+[2024.12.02-15.52.24:951][852]LogFileHelpers: InternalPromptForCheckoutAndSave took 94 ms (total: 18.3 sec)
+[2024.12.02-15.52.24:952][852]AssetCheck: New page: Asset Save: MainMenu
+[2024.12.02-15.52.24:952][852]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/MainMenu.MainMenu
+[2024.12.02-15.52.33:916][869]Cmd: SELECT NONE
+[2024.12.02-15.52.34:864][980]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.12.02-15.52.34:869][980]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.02-15.52.34:913][980]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/MainMenu" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.12.02-15.52.34:937][980]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2024.12.02-15.52.34:946][980]LogSavePackage: Moving output files for package: /Game/Level/MainMenu
+[2024.12.02-15.52.34:947][980]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/MainMenu85C6591943510CCE8EFF8297B57DA5CA.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/MainMenu.umap'
+[2024.12.02-15.52.34:951][980]LogFileHelpers: Saving map 'MainMenu' took 0.039
+[2024.12.02-15.52.34:959][980]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms (total: 18.4 sec)
+[2024.12.02-15.52.34:960][980]AssetCheck: New page: Asset Save: MainMenu
+[2024.12.02-15.52.34:960][980]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/MainMenu.MainMenu
+[2024.12.02-15.52.58:295][727]Cmd: DELETE
+[2024.12.02-15.52.58:295][727]Cmd: ACTOR DELETE
+[2024.12.02-15.52.58:296][727]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.12.02-15.52.58:306][727]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.12.02-15.52.58:310][727]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2024.12.02-15.52.58:616][758]Cmd: DELETE
+[2024.12.02-15.52.58:616][758]Cmd: ACTOR DELETE
+[2024.12.02-15.52.58:618][758]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.12.02-15.52.58:630][758]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.12.02-15.52.58:634][758]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2024.12.02-15.52.59:370][839]Cmd: DELETE
+[2024.12.02-15.52.59:370][839]Cmd: ACTOR DELETE
+[2024.12.02-15.52.59:371][839]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.12.02-15.52.59:382][839]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.12.02-15.52.59:387][839]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2024.12.02-15.52.59:923][896]Cmd: DELETE
+[2024.12.02-15.52.59:923][896]Cmd: ACTOR DELETE
+[2024.12.02-15.52.59:924][896]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.12.02-15.52.59:933][896]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.12.02-15.52.59:937][896]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2024.12.02-15.53.00:994][ 15]Cmd: DELETE
+[2024.12.02-15.53.00:994][ 15]Cmd: ACTOR DELETE
+[2024.12.02-15.53.00:995][ 15]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.12.02-15.53.01:006][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.12.02-15.53.01:011][ 15]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2024.12.02-15.53.02:785][205]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.12.02-15.53.04:798][205]LogSlate: Window 'Delete Assets' being destroyed
+[2024.12.02-15.53.05:218][205]LogUObjectGlobals: Force Deleting 5 Package(s):
+	Asset Name: /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/T_DesertWesternRockSmall02_xgjqbag_2K_DpR.T_DesertWesternRockSmall02_xgjqbag_2K_DpR
+	Asset Type: Texture2D
+	Asset Name: /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/MI_Desert_Western_Rock_Small_02_xgjqbag_2K.MI_Desert_Western_Rock_Small_02_xgjqbag_2K
+	Asset Type: MaterialInstanceConstant
+	Asset Name: /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/S_Desert_Western_Rock_Small_02_xgjqbag_lod3_Var1.S_Desert_Western_Rock_Small_02_xgjqbag_lod3_Var1
+	Asset Type: StaticMesh
+	Asset Name: /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/T_Desert_Western_Rock_Small_02_xgjqbag_2K_D.T_Desert_Western_Rock_Small_02_xgjqbag_2K_D
+	Asset Type: Texture2D
+	Asset Name: /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/T_Desert_Western_Rock_Small_02_xgjqbag_2K_N.T_Desert_Western_Rock_Small_02_xgjqbag_2K_N
+	Asset Type: Texture2D
+[2024.12.02-15.53.05:417][205]LogStaticMesh: Display: Building static mesh S_Desert_Western_Rock_Small_02_xgjqbag_lod3_Var1...
+[2024.12.02-15.53.05:522][205]LogStaticMesh: Built static mesh [0.10s] /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/S_Desert_Western_Rock_Small_02_xgjqbag_lod3_Var1.S_Desert_Western_Rock_Small_02_xgjqbag_lod3_Var1
+[2024.12.02-15.53.06:426][205]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.12.02-15.53.06:439][205]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.12.02-15.53.06:449][205]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2024.12.02-15.53.06:463][205]LogAutomationController: Ignoring very large delta of 3.69 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.12.02-15.53.15:819][297]LogStaticMesh: Display: Building static mesh S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1...
+[2024.12.02-15.53.15:835][297]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/T_DesertWesternRockSmall02_xgjqbag_1K_DpR.T_DesertWesternRockSmall02_xgjqbag_1K_DpR (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 125.770823 MB), EncodeSpeed: Fast
+[2024.12.02-15.53.15:839][297]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1.S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1
+[2024.12.02-15.53.15:846][298]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/T_Desert_Western_Rock_Small_02_xgjqbag_1K_D.T_Desert_Western_Rock_Small_02_xgjqbag_1K_D (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 125.770823 MB), EncodeSpeed: Fast
+[2024.12.02-15.53.15:848][298]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/T_Desert_Western_Rock_Small_02_xgjqbag_1K_N.T_Desert_Western_Rock_Small_02_xgjqbag_1K_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 217.562488 MB), EncodeSpeed: Fast
+[2024.12.02-15.53.18:122][542]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1.S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1
+[2024.12.02-15.53.18:122][542]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1.S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1
+[2024.12.02-15.53.18:122][542]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1.S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_22
+[2024.12.02-15.53.19:050][652]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1.S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1
+[2024.12.02-15.53.19:051][652]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1.S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1
+[2024.12.02-15.53.19:051][652]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1.S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_23
+[2024.12.02-15.54.19:442][780]Cmd: SELECT NONE
+[2024.12.02-15.54.20:121][860]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.12.02-15.54.20:129][860]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.02-15.54.20:186][860]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/MainMenu" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.12.02-15.54.20:212][860]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.12.02-15.54.20:222][860]LogSavePackage: Moving output files for package: /Game/Level/MainMenu
+[2024.12.02-15.54.20:222][860]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/MainMenuBC8F2E404F297AC30F336AAF1BE716ED.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/MainMenu.umap'
+[2024.12.02-15.54.20:227][860]LogFileHelpers: Saving map 'MainMenu' took 0.042
+[2024.12.02-15.54.20:232][860]LogFileHelpers: InternalPromptForCheckoutAndSave took 103 ms (total: 18.5 sec)
+[2024.12.02-15.54.20:233][860]AssetCheck: New page: Asset Save: MainMenu
+[2024.12.02-15.54.20:233][860]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/MainMenu.MainMenu
+[2024.12.02-15.54.51:010][543]LogStaticMesh: Display: Building static mesh S_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_lod5_Var1...
+[2024.12.02-15.54.51:032][544]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Assets/Desert_Wester_Ledge_Rock_Small_01_xgjpbbt/S_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_lod5_Var1.S_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_lod5_Var1
+[2024.12.02-15.54.51:038][544]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Desert_Wester_Ledge_Rock_Small_01_xgjpbbt/T_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_1K_D.T_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_1K_D (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 125.770823 MB), EncodeSpeed: Fast
+[2024.12.02-15.54.51:038][544]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Desert_Wester_Ledge_Rock_Small_01_xgjpbbt/T_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_1K_N.T_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_1K_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 217.562488 MB), EncodeSpeed: Fast
+[2024.12.02-15.54.51:040][544]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Desert_Wester_Ledge_Rock_Small_01_xgjpbbt/T_DesertWesterLedgeRockSmall01_xgjpbbt_1K_DpR.T_DesertWesterLedgeRockSmall01_xgjpbbt_1K_DpR (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 125.770823 MB), EncodeSpeed: Fast
+[2024.12.02-15.54.57:487][309]LogStaticMesh: Display: Building static mesh S_Desert_Western_Spire_Layered_Xl_01_yd1gfbjab_lod5_Var1...
+[2024.12.02-15.54.57:505][310]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Desert_Western_Spire_Layered_Xl_01_yd1gfbjab/T_DesertWesternSpireLayeredXl01_yd1gfbjab_1K_DpR.T_DesertWesternSpireLayeredXl01_yd1gfbjab_1K_DpR (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 125.770823 MB), EncodeSpeed: Fast
+[2024.12.02-15.54.57:515][310]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Desert_Western_Spire_Layered_Xl_01_yd1gfbjab/T_Desert_Western_Spire_Layered_Xl_01_yd1gfbjab_1K_N.T_Desert_Western_Spire_Layered_Xl_01_yd1gfbjab_1K_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 217.562488 MB), EncodeSpeed: Fast
+[2024.12.02-15.54.57:526][310]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Desert_Western_Spire_Layered_Xl_01_yd1gfbjab/T_Desert_Western_Spire_Layered_Xl_01_yd1gfbjab_1K_D.T_Desert_Western_Spire_Layered_Xl_01_yd1gfbjab_1K_D (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 125.770823 MB), EncodeSpeed: Fast
+[2024.12.02-15.54.57:546][312]LogStaticMesh: Built static mesh [0.06s] /Game/Megascans/3D_Assets/Desert_Western_Spire_Layered_Xl_01_yd1gfbjab/S_Desert_Western_Spire_Layered_Xl_01_yd1gfbjab_lod5_Var1.S_Desert_Western_Spire_Layered_Xl_01_yd1gfbjab_lod5_Var1
+[2024.12.02-15.54.58:866][470]LogMeshUtilities: Finished distance field build in 1.3s - 126x126x126 sparse distance field, 2.4Mb total, 0.1Mb always loaded, 69% occupied, 172 triangles, S_Desert_Western_Spire_Layered_Xl_01_yd1gfbjab_lod5_Var1
+[2024.12.02-15.55.05:768][287]LogDerivedDataCache: C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.037 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1793 files in 2948 folders with total size 156 MiB.
+[2024.12.02-15.56.24:584][716]LogStaticMesh: Display: Building static mesh S_Canyon_Sandstone_Rocky_Ground_uk4teag_lod5_Var1...
+[2024.12.02-15.56.24:603][716]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_uk4teag/T_CanyonSandstoneRockyGround_uk4teag_1K_DpR.T_CanyonSandstoneRockyGround_uk4teag_1K_DpR (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 125.770823 MB), EncodeSpeed: Fast
+[2024.12.02-15.56.24:618][717]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_uk4teag/T_Canyon_Sandstone_Rocky_Ground_uk4teag_1K_N.T_Canyon_Sandstone_Rocky_Ground_uk4teag_1K_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 217.562488 MB), EncodeSpeed: Fast
+[2024.12.02-15.56.24:619][717]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_uk4teag/T_Canyon_Sandstone_Rocky_Ground_uk4teag_1K_D.T_Canyon_Sandstone_Rocky_Ground_uk4teag_1K_D (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 125.770823 MB), EncodeSpeed: Fast
+[2024.12.02-15.56.24:639][718]LogStaticMesh: Built static mesh [0.06s] /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_uk4teag/S_Canyon_Sandstone_Rocky_Ground_uk4teag_lod5_Var1.S_Canyon_Sandstone_Rocky_Ground_uk4teag_lod5_Var1
+[2024.12.02-15.56.38:682][380]LogStaticMesh: Display: Building static mesh S_Canyon_Sandstone_Rocky_Ground_ulksbdy_lod5_Var1...
+[2024.12.02-15.56.38:699][380]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_ulksbdy/T_CanyonSandstoneRockyGround_ulksbdy_1K_DpR.T_CanyonSandstoneRockyGround_ulksbdy_1K_DpR (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 125.770823 MB), EncodeSpeed: Fast
+[2024.12.02-15.56.38:711][381]LogStaticMesh: Built static mesh [0.03s] /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_ulksbdy/S_Canyon_Sandstone_Rocky_Ground_ulksbdy_lod5_Var1.S_Canyon_Sandstone_Rocky_Ground_ulksbdy_lod5_Var1
+[2024.12.02-15.56.38:715][381]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_ulksbdy/T_Canyon_Sandstone_Rocky_Ground_ulksbdy_1K_D.T_Canyon_Sandstone_Rocky_Ground_ulksbdy_1K_D (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 125.770823 MB), EncodeSpeed: Fast
+[2024.12.02-15.56.38:727][381]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_ulksbdy/T_Canyon_Sandstone_Rocky_Ground_ulksbdy_1K_N.T_Canyon_Sandstone_Rocky_Ground_ulksbdy_1K_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 217.562488 MB), EncodeSpeed: Fast
+[2024.12.02-15.57.01:634][109]LogStaticMesh: Display: Building static mesh S_Canyon_Sandstone_Rocky_Ground_uk4qed3_lod5_Var1...
+[2024.12.02-15.57.01:652][110]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_uk4qed3/T_CanyonSandstoneRockyGround_uk4qed3_1K_DpR.T_CanyonSandstoneRockyGround_uk4qed3_1K_DpR (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 125.770823 MB), EncodeSpeed: Fast
+[2024.12.02-15.57.01:653][110]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_uk4qed3/S_Canyon_Sandstone_Rocky_Ground_uk4qed3_lod5_Var1.S_Canyon_Sandstone_Rocky_Ground_uk4qed3_lod5_Var1
+[2024.12.02-15.57.01:671][110]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_uk4qed3/T_Canyon_Sandstone_Rocky_Ground_uk4qed3_1K_N.T_Canyon_Sandstone_Rocky_Ground_uk4qed3_1K_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 217.562488 MB), EncodeSpeed: Fast
+[2024.12.02-15.57.01:671][110]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_uk4qed3/T_Canyon_Sandstone_Rocky_Ground_uk4qed3_1K_D.T_Canyon_Sandstone_Rocky_Ground_uk4qed3_1K_D (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 125.770823 MB), EncodeSpeed: Fast
+[2024.12.02-15.57.40:240][688]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_uk4qed3/S_Canyon_Sandstone_Rocky_Ground_uk4qed3_lod5_Var1.S_Canyon_Sandstone_Rocky_Ground_uk4qed3_lod5_Var1
+[2024.12.02-15.57.40:240][688]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_uk4qed3/S_Canyon_Sandstone_Rocky_Ground_uk4qed3_lod5_Var1.S_Canyon_Sandstone_Rocky_Ground_uk4qed3_lod5_Var1
+[2024.12.02-15.57.40:241][688]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_uk4qed3/S_Canyon_Sandstone_Rocky_Ground_uk4qed3_lod5_Var1.S_Canyon_Sandstone_Rocky_Ground_uk4qed3_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_25
+[2024.12.02-15.57.40:808][754]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_uk4qed3/S_Canyon_Sandstone_Rocky_Ground_uk4qed3_lod5_Var1.S_Canyon_Sandstone_Rocky_Ground_uk4qed3_lod5_Var1
+[2024.12.02-15.57.40:808][754]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_uk4qed3/S_Canyon_Sandstone_Rocky_Ground_uk4qed3_lod5_Var1.S_Canyon_Sandstone_Rocky_Ground_uk4qed3_lod5_Var1
+[2024.12.02-15.57.40:808][754]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_uk4qed3/S_Canyon_Sandstone_Rocky_Ground_uk4qed3_lod5_Var1.S_Canyon_Sandstone_Rocky_Ground_uk4qed3_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_26
+[2024.12.02-15.57.52:240][104]Cmd: DUPLICATE
+[2024.12.02-15.57.52:240][104]Cmd: ACTOR DUPLICATE
+[2024.12.02-15.58.15:458][788]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Wester_Ledge_Rock_Small_01_xgjpbbt/S_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_lod5_Var1.S_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_lod5_Var1
+[2024.12.02-15.58.15:458][788]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Wester_Ledge_Rock_Small_01_xgjpbbt/S_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_lod5_Var1.S_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_lod5_Var1
+[2024.12.02-15.58.15:458][788]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Wester_Ledge_Rock_Small_01_xgjpbbt/S_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_lod5_Var1.S_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_28
+[2024.12.02-15.58.17:751][ 55]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Wester_Ledge_Rock_Small_01_xgjpbbt/S_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_lod5_Var1.S_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_lod5_Var1
+[2024.12.02-15.58.17:751][ 55]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Wester_Ledge_Rock_Small_01_xgjpbbt/S_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_lod5_Var1.S_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_lod5_Var1
+[2024.12.02-15.58.17:752][ 55]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Wester_Ledge_Rock_Small_01_xgjpbbt/S_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_lod5_Var1.S_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_29
+[2024.12.02-15.58.30:136][499]Cmd: DUPLICATE
+[2024.12.02-15.58.30:136][499]Cmd: ACTOR DUPLICATE
+[2024.12.02-15.59.22:913][748]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1.S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1
+[2024.12.02-15.59.22:913][748]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1.S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1
+[2024.12.02-15.59.22:913][748]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1.S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_31
+[2024.12.02-15.59.23:891][857]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1.S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1
+[2024.12.02-15.59.23:891][857]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1.S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1
+[2024.12.02-15.59.23:892][857]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1.S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_32
+[2024.12.02-16.00.17:171][124]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_ulksbdy/S_Canyon_Sandstone_Rocky_Ground_ulksbdy_lod5_Var1.S_Canyon_Sandstone_Rocky_Ground_ulksbdy_lod5_Var1
+[2024.12.02-16.00.17:171][124]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_ulksbdy/S_Canyon_Sandstone_Rocky_Ground_ulksbdy_lod5_Var1.S_Canyon_Sandstone_Rocky_Ground_ulksbdy_lod5_Var1
+[2024.12.02-16.00.17:171][124]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_ulksbdy/S_Canyon_Sandstone_Rocky_Ground_ulksbdy_lod5_Var1.S_Canyon_Sandstone_Rocky_Ground_ulksbdy_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_33
+[2024.12.02-16.00.17:603][170]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_ulksbdy/S_Canyon_Sandstone_Rocky_Ground_ulksbdy_lod5_Var1.S_Canyon_Sandstone_Rocky_Ground_ulksbdy_lod5_Var1
+[2024.12.02-16.00.17:603][170]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_ulksbdy/S_Canyon_Sandstone_Rocky_Ground_ulksbdy_lod5_Var1.S_Canyon_Sandstone_Rocky_Ground_ulksbdy_lod5_Var1
+[2024.12.02-16.00.17:604][170]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_ulksbdy/S_Canyon_Sandstone_Rocky_Ground_ulksbdy_lod5_Var1.S_Canyon_Sandstone_Rocky_Ground_ulksbdy_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_34
+[2024.12.02-16.00.41:959][ 54]Cmd: DUPLICATE
+[2024.12.02-16.00.41:959][ 54]Cmd: ACTOR DUPLICATE
+[2024.12.02-16.01.01:637][380]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.12.02-16.01.03:976][640]Cmd: DUPLICATE
+[2024.12.02-16.01.03:976][640]Cmd: ACTOR DUPLICATE
+[2024.12.02-16.01.13:500][764]Cmd: DUPLICATE
+[2024.12.02-16.01.13:500][764]Cmd: ACTOR DUPLICATE
+[2024.12.02-16.01.13:500][764]LogConsoleManager: Warning: Performance warning: Many (31) failed FindConsoleObject() for 'ACTOR'. 
+[2024.12.02-16.01.21:562][716]Cmd: DUPLICATE
+[2024.12.02-16.01.21:562][716]Cmd: ACTOR DUPLICATE
+[2024.12.02-16.02.02:895][601]Cmd: DUPLICATE
+[2024.12.02-16.02.02:896][601]Cmd: ACTOR DUPLICATE
+[2024.12.02-16.03.04:967][983]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.12.02-16.03.09:103][414]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_uk4teag/S_Canyon_Sandstone_Rocky_Ground_uk4teag_lod5_Var1.S_Canyon_Sandstone_Rocky_Ground_uk4teag_lod5_Var1
+[2024.12.02-16.03.09:103][414]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_uk4teag/S_Canyon_Sandstone_Rocky_Ground_uk4teag_lod5_Var1.S_Canyon_Sandstone_Rocky_Ground_uk4teag_lod5_Var1
+[2024.12.02-16.03.09:104][414]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_uk4teag/S_Canyon_Sandstone_Rocky_Ground_uk4teag_lod5_Var1.S_Canyon_Sandstone_Rocky_Ground_uk4teag_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_40
+[2024.12.02-16.03.11:392][674]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_uk4teag/S_Canyon_Sandstone_Rocky_Ground_uk4teag_lod5_Var1.S_Canyon_Sandstone_Rocky_Ground_uk4teag_lod5_Var1
+[2024.12.02-16.03.11:393][674]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_uk4teag/S_Canyon_Sandstone_Rocky_Ground_uk4teag_lod5_Var1.S_Canyon_Sandstone_Rocky_Ground_uk4teag_lod5_Var1
+[2024.12.02-16.03.11:393][674]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Canyon_Sandstone_Rocky_Ground_uk4teag/S_Canyon_Sandstone_Rocky_Ground_uk4teag_lod5_Var1.S_Canyon_Sandstone_Rocky_Ground_uk4teag_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_41
+[2024.12.02-16.03.12:147][751]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.12.02-16.03.23:659][105]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.12.02-16.03.37:085][667]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.12.02-16.03.43:211][327]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Wester_Ledge_Rock_Small_01_xgjpbbt/S_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_lod5_Var1.S_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_lod5_Var1
+[2024.12.02-16.03.43:211][327]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Wester_Ledge_Rock_Small_01_xgjpbbt/S_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_lod5_Var1.S_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_lod5_Var1
+[2024.12.02-16.03.43:212][327]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Wester_Ledge_Rock_Small_01_xgjpbbt/S_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_lod5_Var1.S_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_42
+[2024.12.02-16.03.43:823][394]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Wester_Ledge_Rock_Small_01_xgjpbbt/S_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_lod5_Var1.S_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_lod5_Var1
+[2024.12.02-16.03.43:823][394]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Wester_Ledge_Rock_Small_01_xgjpbbt/S_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_lod5_Var1.S_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_lod5_Var1
+[2024.12.02-16.03.43:824][394]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Wester_Ledge_Rock_Small_01_xgjpbbt/S_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_lod5_Var1.S_Desert_Wester_Ledge_Rock_Small_01_xgjpbbt_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_43
+[2024.12.02-16.03.53:139][491]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.12.02-16.04.10:577][542]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.12.02-16.04.30:955][946]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.12.02-16.04.47:197][850]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.12.02-16.04.58:838][205]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.12.02-16.05.08:656][280]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Spire_Layered_Xl_01_yd1gfbjab/S_Desert_Western_Spire_Layered_Xl_01_yd1gfbjab_lod5_Var1.S_Desert_Western_Spire_Layered_Xl_01_yd1gfbjab_lod5_Var1
+[2024.12.02-16.05.08:656][280]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Spire_Layered_Xl_01_yd1gfbjab/S_Desert_Western_Spire_Layered_Xl_01_yd1gfbjab_lod5_Var1.S_Desert_Western_Spire_Layered_Xl_01_yd1gfbjab_lod5_Var1
+[2024.12.02-16.05.08:656][280]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Spire_Layered_Xl_01_yd1gfbjab/S_Desert_Western_Spire_Layered_Xl_01_yd1gfbjab_lod5_Var1.S_Desert_Western_Spire_Layered_Xl_01_yd1gfbjab_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_44
+[2024.12.02-16.05.09:531][376]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Spire_Layered_Xl_01_yd1gfbjab/S_Desert_Western_Spire_Layered_Xl_01_yd1gfbjab_lod5_Var1.S_Desert_Western_Spire_Layered_Xl_01_yd1gfbjab_lod5_Var1
+[2024.12.02-16.05.09:531][376]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Spire_Layered_Xl_01_yd1gfbjab/S_Desert_Western_Spire_Layered_Xl_01_yd1gfbjab_lod5_Var1.S_Desert_Western_Spire_Layered_Xl_01_yd1gfbjab_lod5_Var1
+[2024.12.02-16.05.09:532][376]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Spire_Layered_Xl_01_yd1gfbjab/S_Desert_Western_Spire_Layered_Xl_01_yd1gfbjab_lod5_Var1.S_Desert_Western_Spire_Layered_Xl_01_yd1gfbjab_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_45
+[2024.12.02-16.05.12:661][730]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_45.StaticMeshComponent0, from: Remove from navoctree)
+[2024.12.02-16.05.15:186][ 33]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_45.StaticMeshComponent0, from: Remove from navoctree)
+[2024.12.02-16.05.15:795][106]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_45.StaticMeshComponent0, from: Remove from navoctree)
+[2024.12.02-16.05.18:162][382]Cmd: TRANSACTION UNDO
+[2024.12.02-16.05.18:162][382]LogEditorTransaction: Undo Scale Elements
+[2024.12.02-16.05.30:841][830]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.12.02-16.05.38:574][744]Cmd: DUPLICATE
+[2024.12.02-16.05.38:574][744]Cmd: ACTOR DUPLICATE
+[2024.12.02-16.06.21:984][667]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1.S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1
+[2024.12.02-16.06.21:984][667]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1.S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1
+[2024.12.02-16.06.21:984][667]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1.S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_47
+[2024.12.02-16.06.22:804][759]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1.S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1
+[2024.12.02-16.06.22:804][759]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1.S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1
+[2024.12.02-16.06.22:805][759]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Rock_Small_02_xgjqbag/S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1.S_Desert_Western_Rock_Small_02_xgjqbag_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_48
+[2024.12.02-16.06.24:327][931]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_48.StaticMeshComponent0, from: Remove from navoctree)
+[2024.12.02-16.06.24:760][983]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_48.StaticMeshComponent0, from: Remove from navoctree)
+[2024.12.02-16.06.27:080][260]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.12.02-16.07.01:134][257]Cmd: TRANSACTION UNDO
+[2024.12.02-16.07.01:134][257]LogEditorTransaction: Undo Scale Elements
+[2024.12.02-16.07.12:746][558]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.12.02-16.08.14:406][728]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.12.02-16.08.14:431][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Level/MainMenu_Auto9
+[2024.12.02-16.08.14:431][728]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/MainMenu_Auto9CBD0163D4103F44AB5E118ADFF081DA5.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/Autosaves/Game/Level/MainMenu_Auto9.umap'
+[2024.12.02-16.08.14:432][728]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/Autosaves/Game/Level/MainMenu_Auto9.umap is in the /Temp path, will not scan.
+[2024.12.02-16.08.14:432][728]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Level/MainMenu_Auto9 is in the /Temp path, will not scan.
+[2024.12.02-16.08.14:432][728]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Level/MainMenu_Auto9 is in the /Temp path, will not scan.
+[2024.12.02-16.08.14:432][728]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/MainMenu' took 0.038
+[2024.12.02-16.08.14:432][728]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.038
+[2024.12.02-16.08.57:203][893]LogSlate: Window 'Megascans' being destroyed
+[2024.12.02-16.08.58:039][986]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2024.12.02-16.08.58:039][986]LogWebBrowser: Deleting browser for Url=https://www.google.com.
+[2024.12.02-16.08.58:396][ 23]LogJson: Warning: Field progressiveStage was not found.
+[2024.12.02-16.08.58:397][ 23]LogJson: Error: Json Value of type 'Null' used as a 'Number'.
+[2024.12.02-16.08.58:423][ 23]LogStaticMesh: Display: Building static mesh S_Desert_Western_Tree_Log_Dead_Small_02_xglmaiu_lod5...
+[2024.12.02-16.08.58:440][ 23]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Desert_Western_Tree_Log_Dead_Small_02_xglmaiu/T_DesertWesternTreeLogDeadSmall02_xglmaiu_1K_DpR.T_DesertWesternTreeLogDeadSmall02_xglmaiu_1K_DpR (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 125.770823 MB), EncodeSpeed: Fast
+[2024.12.02-16.08.58:451][ 23]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Desert_Western_Tree_Log_Dead_Small_02_xglmaiu/T_Desert_Western_Tree_Log_Dead_Small_02_xglmaiu_1K_N.T_Desert_Western_Tree_Log_Dead_Small_02_xglmaiu_1K_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 217.562488 MB), EncodeSpeed: Fast
+[2024.12.02-16.08.58:453][ 23]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Desert_Western_Tree_Log_Dead_Small_02_xglmaiu/T_Desert_Western_Tree_Log_Dead_Small_02_xglmaiu_1K_D.T_Desert_Western_Tree_Log_Dead_Small_02_xglmaiu_1K_D (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 125.770823 MB), EncodeSpeed: Fast
+[2024.12.02-16.08.58:479][ 23]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Log_Dead_Small_02_xglmaiu/S_Desert_Western_Tree_Log_Dead_Small_02_xglmaiu_lod5.S_Desert_Western_Tree_Log_Dead_Small_02_xglmaiu_lod5
+[2024.12.02-16.08.58:479][ 23]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Log_Dead_Small_02_xglmaiu/S_Desert_Western_Tree_Log_Dead_Small_02_xglmaiu_lod5.S_Desert_Western_Tree_Log_Dead_Small_02_xglmaiu_lod5
+[2024.12.02-16.08.58:479][ 23]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Log_Dead_Small_02_xglmaiu/S_Desert_Western_Tree_Log_Dead_Small_02_xglmaiu_lod5.S_Desert_Western_Tree_Log_Dead_Small_02_xglmaiu_lod5 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_49
+[2024.12.02-16.08.58:494][ 23]LogStaticMesh: Built static mesh [0.07s] /Game/Megascans/3D_Assets/Desert_Western_Tree_Log_Dead_Small_02_xglmaiu/S_Desert_Western_Tree_Log_Dead_Small_02_xglmaiu_lod5.S_Desert_Western_Tree_Log_Dead_Small_02_xglmaiu_lod5
+[2024.12.02-16.08.58:495][ 23]LogJson: Warning: Field progressiveStage was not found.
+[2024.12.02-16.08.58:496][ 23]LogJson: Error: Json Value of type 'Null' used as a 'Number'.
+[2024.12.02-16.08.58:511][ 23]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Log_Dead_Small_02_xglmaiu/S_Desert_Western_Tree_Log_Dead_Small_02_xglmaiu_lod5.S_Desert_Western_Tree_Log_Dead_Small_02_xglmaiu_lod5
+[2024.12.02-16.08.58:511][ 23]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Log_Dead_Small_02_xglmaiu/S_Desert_Western_Tree_Log_Dead_Small_02_xglmaiu_lod5.S_Desert_Western_Tree_Log_Dead_Small_02_xglmaiu_lod5
+[2024.12.02-16.08.58:511][ 23]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Log_Dead_Small_02_xglmaiu/S_Desert_Western_Tree_Log_Dead_Small_02_xglmaiu_lod5.S_Desert_Western_Tree_Log_Dead_Small_02_xglmaiu_lod5 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_50
+[2024.12.02-16.08.58:695][ 40]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Log_Dead_Small_02_xglmaiu/S_Desert_Western_Tree_Log_Dead_Small_02_xglmaiu_lod5.S_Desert_Western_Tree_Log_Dead_Small_02_xglmaiu_lod5
+[2024.12.02-16.08.58:695][ 40]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Log_Dead_Small_02_xglmaiu/S_Desert_Western_Tree_Log_Dead_Small_02_xglmaiu_lod5.S_Desert_Western_Tree_Log_Dead_Small_02_xglmaiu_lod5
+[2024.12.02-16.08.58:695][ 40]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Log_Dead_Small_02_xglmaiu/S_Desert_Western_Tree_Log_Dead_Small_02_xglmaiu_lod5.S_Desert_Western_Tree_Log_Dead_Small_02_xglmaiu_lod5 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_51
+[2024.12.02-16.08.58:713][ 40]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2024.12.02-16.08.58:713][ 40]LogWebBrowser: Deleting browser for Url=https://www.google.com/.
+[2024.12.02-16.09.20:732][638]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.12.02-16.09.24:758][101]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2024.12.02-16.09.24:758][101]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2024.12.02-16.09.24:758][101]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_52
+[2024.12.02-16.09.24:758][101]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_52
+[2024.12.02-16.09.25:067][131]LogJson: Warning: Field progressiveStage was not found.
+[2024.12.02-16.09.25:067][131]LogJson: Error: Json Value of type 'Null' used as a 'Number'.
+[2024.12.02-16.09.25:096][131]LogStaticMesh: Display: Building static mesh S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1...
+[2024.12.02-16.09.25:117][131]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq/T_DesertWesternTreeStumpDeadMedium01_xglnfcq_1K_DpR.T_DesertWesternTreeStumpDeadMedium01_xglnfcq_1K_DpR (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 125.770823 MB), EncodeSpeed: Fast
+[2024.12.02-16.09.25:122][131]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq/T_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_1K_N.T_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_1K_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 217.562488 MB), EncodeSpeed: Fast
+[2024.12.02-16.09.25:129][131]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq/T_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_1K_D.T_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_1K_D (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 125.770823 MB), EncodeSpeed: Fast
+[2024.12.02-16.09.25:148][131]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2024.12.02-16.09.25:148][131]LogWebBrowser: Deleting browser for Url=https://www.google.com/.
+[2024.12.02-16.09.25:152][131]LogStaticMesh: Built static mesh [0.06s] /Game/Megascans/3D_Assets/Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq/S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1.S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1
+[2024.12.02-16.09.25:157][131]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq/S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1.S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1
+[2024.12.02-16.09.25:157][131]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq/S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1.S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1
+[2024.12.02-16.09.25:157][131]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq/S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1.S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_53
+[2024.12.02-16.09.25:158][131]LogJson: Warning: Field progressiveStage was not found.
+[2024.12.02-16.09.25:158][131]LogJson: Error: Json Value of type 'Null' used as a 'Number'.
+[2024.12.02-16.09.25:179][131]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq/S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1.S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1
+[2024.12.02-16.09.25:179][131]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq/S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1.S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1
+[2024.12.02-16.09.25:179][131]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq/S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1.S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_54
+[2024.12.02-16.09.25:831][202]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq/S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1.S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1
+[2024.12.02-16.09.25:831][202]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq/S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1.S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1
+[2024.12.02-16.09.25:832][202]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq/S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1.S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_55
+[2024.12.02-16.09.25:850][202]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2024.12.02-16.09.25:850][202]LogWebBrowser: Deleting browser for Url=https://www.google.com/.
+[2024.12.02-16.09.33:516][ 89]Cmd: DUPLICATE
+[2024.12.02-16.09.33:516][ 89]Cmd: ACTOR DUPLICATE
+[2024.12.02-16.09.37:497][553]Cmd: TRANSACTION UNDO
+[2024.12.02-16.09.37:497][553]LogEditorTransaction: Undo Scale Elements
+[2024.12.02-16.09.38:808][652]Cmd: TRANSACTION UNDO
+[2024.12.02-16.09.38:808][652]LogEditorTransaction: Undo Scale Elements
+[2024.12.02-16.10.15:267][999]Cmd: DUPLICATE
+[2024.12.02-16.10.15:267][999]Cmd: ACTOR DUPLICATE
+[2024.12.02-16.10.34:729][291]Cmd: TRANSACTION UNDO
+[2024.12.02-16.10.34:729][291]LogEditorTransaction: Undo Move Elements
+[2024.12.02-16.10.37:802][603]Cmd: DUPLICATE
+[2024.12.02-16.10.37:803][603]Cmd: ACTOR DUPLICATE
+[2024.12.02-16.10.49:705][994]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.12.02-16.10.52:259][270]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2024.12.02-16.10.52:259][270]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2024.12.02-16.10.52:259][270]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_60
+[2024.12.02-16.10.52:259][270]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_60
+[2024.12.02-16.10.52:577][301]LogJson: Warning: Field progressiveStage was not found.
+[2024.12.02-16.10.52:577][301]LogJson: Error: Json Value of type 'Null' used as a 'Number'.
+[2024.12.02-16.10.52:621][301]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2024.12.02-16.10.52:621][301]LogWebBrowser: Deleting browser for Url=https://www.google.com/.
+[2024.12.02-16.10.52:629][301]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq/S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1.S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1
+[2024.12.02-16.10.52:629][301]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq/S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1.S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1
+[2024.12.02-16.10.52:629][301]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq/S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1.S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_61
+[2024.12.02-16.10.52:629][301]LogJson: Warning: Field progressiveStage was not found.
+[2024.12.02-16.10.52:629][301]LogJson: Error: Json Value of type 'Null' used as a 'Number'.
+[2024.12.02-16.10.52:646][301]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq/S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1.S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1
+[2024.12.02-16.10.52:646][301]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq/S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1.S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1
+[2024.12.02-16.10.52:646][301]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq/S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1.S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_62
+[2024.12.02-16.10.53:220][363]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq/S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1.S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1
+[2024.12.02-16.10.53:220][363]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq/S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1.S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1
+[2024.12.02-16.10.53:221][363]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq/S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1.S_Desert_Western_Tree_Stump_Dead_Medium_01_xglnfcq_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_63
+[2024.12.02-16.10.53:238][363]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2024.12.02-16.10.53:238][363]LogWebBrowser: Deleting browser for Url=https://www.google.com/.
+[2024.12.02-16.11.03:523][573]Cmd: TRANSACTION UNDO
+[2024.12.02-16.11.03:523][573]LogEditorTransaction: Undo Move Elements
+[2024.12.02-16.11.04:233][603]Cmd: DUPLICATE
+[2024.12.02-16.11.04:233][603]Cmd: ACTOR DUPLICATE
+[2024.12.02-16.11.06:947][919]Cmd: TRANSACTION UNDO
+[2024.12.02-16.11.06:947][919]LogEditorTransaction: Undo Move Elements
+[2024.12.02-16.11.17:363][139]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2024.12.02-16.11.17:363][139]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2024.12.02-16.11.17:363][139]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_66
+[2024.12.02-16.11.17:364][139]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_66
+[2024.12.02-16.11.17:672][167]LogJson: Warning: Field progressiveStage was not found.
+[2024.12.02-16.11.17:672][167]LogJson: Error: Json Value of type 'Null' used as a 'Number'.
+[2024.12.02-16.11.17:699][167]LogStaticMesh: Display: Building static mesh S_Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs_lod5_Var1...
+[2024.12.02-16.11.17:717][167]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs/T_DesertWesternTreeBranchJuniperDead05_xgpvdjs_1K_DpR.T_DesertWesternTreeBranchJuniperDead05_xgpvdjs_1K_DpR (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 125.770823 MB), EncodeSpeed: Fast
+[2024.12.02-16.11.17:728][167]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs/T_Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs_1K_N.T_Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs_1K_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 217.562488 MB), EncodeSpeed: Fast
+[2024.12.02-16.11.17:733][167]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs/T_Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs_1K_D.T_Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs_1K_D (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 125.770823 MB), EncodeSpeed: Fast
+[2024.12.02-16.11.17:743][167]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2024.12.02-16.11.17:743][167]LogWebBrowser: Deleting browser for Url=https://www.google.com/.
+[2024.12.02-16.11.17:753][167]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs/S_Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs_lod5_Var1.S_Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs_lod5_Var1
+[2024.12.02-16.11.17:753][167]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs/S_Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs_lod5_Var1.S_Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs_lod5_Var1
+[2024.12.02-16.11.17:753][167]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs/S_Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs_lod5_Var1.S_Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_67
+[2024.12.02-16.11.17:762][167]LogStaticMesh: Built static mesh [0.06s] /Game/Megascans/3D_Assets/Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs/S_Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs_lod5_Var1.S_Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs_lod5_Var1
+[2024.12.02-16.11.17:764][167]LogJson: Warning: Field progressiveStage was not found.
+[2024.12.02-16.11.17:764][167]LogJson: Error: Json Value of type 'Null' used as a 'Number'.
+[2024.12.02-16.11.17:788][168]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs/S_Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs_lod5_Var1.S_Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs_lod5_Var1
+[2024.12.02-16.11.17:788][168]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs/S_Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs_lod5_Var1.S_Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs_lod5_Var1
+[2024.12.02-16.11.17:789][168]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs/S_Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs_lod5_Var1.S_Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_68
+[2024.12.02-16.11.18:892][292]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs/S_Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs_lod5_Var1.S_Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs_lod5_Var1
+[2024.12.02-16.11.18:892][292]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs/S_Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs_lod5_Var1.S_Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs_lod5_Var1
+[2024.12.02-16.11.18:893][292]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs/S_Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs_lod5_Var1.S_Desert_Western_Tree_Branch_Juniper_Dead_05_xgpvdjs_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_69
+[2024.12.02-16.11.18:909][292]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2024.12.02-16.11.18:909][292]LogWebBrowser: Deleting browser for Url=https://www.google.com/.
+[2024.12.02-16.11.21:633][607]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_69.StaticMeshComponent0, from: Remove from navoctree)
+[2024.12.02-16.11.22:053][657]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_69.StaticMeshComponent0, from: Remove from navoctree)
+[2024.12.02-16.11.29:893][588]Cmd: TRANSACTION UNDO
+[2024.12.02-16.11.29:893][588]LogEditorTransaction: Undo Rotate Elements
+[2024.12.02-16.11.31:944][763]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.12.02-16.11.35:493][169]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.12.02-16.11.39:927][686]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2024.12.02-16.11.39:927][686]LogWebBrowser: Deleting browser for Url=https://www.google.com.
+[2024.12.02-16.11.40:295][723]LogJson: Warning: Field progressiveStage was not found.
+[2024.12.02-16.11.40:295][723]LogJson: Error: Json Value of type 'Null' used as a 'Number'.
+[2024.12.02-16.11.40:324][723]LogStaticMesh: Display: Building static mesh S_Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs_lod5_Var1...
+[2024.12.02-16.11.40:343][723]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs/T_DesertWesternTreeLogDeadMedium04_xglvbbs_1K_DpR.T_DesertWesternTreeLogDeadMedium04_xglvbbs_1K_DpR (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 125.770823 MB), EncodeSpeed: Fast
+[2024.12.02-16.11.40:356][723]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs/T_Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs_1K_D.T_Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs_1K_D (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 125.770823 MB), EncodeSpeed: Fast
+[2024.12.02-16.11.40:357][723]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs/T_Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs_1K_N.T_Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs_1K_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 217.562488 MB), EncodeSpeed: Fast
+[2024.12.02-16.11.40:378][723]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2024.12.02-16.11.40:378][723]LogWebBrowser: Deleting browser for Url=https://www.google.com.
+[2024.12.02-16.11.40:378][723]LogJson: Warning: Field progressiveStage was not found.
+[2024.12.02-16.11.40:378][723]LogJson: Error: Json Value of type 'Null' used as a 'Number'.
+[2024.12.02-16.11.40:398][724]LogStaticMesh: Built static mesh [0.07s] /Game/Megascans/3D_Assets/Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs/S_Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs_lod5_Var1.S_Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs_lod5_Var1
+[2024.12.02-16.11.42:377][950]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2024.12.02-16.11.42:377][950]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2024.12.02-16.11.42:377][950]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_70
+[2024.12.02-16.11.42:377][950]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_70
+[2024.12.02-16.11.42:536][963]LogJson: Warning: Field progressiveStage was not found.
+[2024.12.02-16.11.42:536][963]LogJson: Error: Json Value of type 'Null' used as a 'Number'.
+[2024.12.02-16.11.42:580][963]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2024.12.02-16.11.42:580][963]LogWebBrowser: Deleting browser for Url=https://www.google.com/.
+[2024.12.02-16.11.42:593][963]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs/S_Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs_lod5_Var1.S_Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs_lod5_Var1
+[2024.12.02-16.11.42:593][963]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs/S_Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs_lod5_Var1.S_Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs_lod5_Var1
+[2024.12.02-16.11.42:593][963]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs/S_Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs_lod5_Var1.S_Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_71
+[2024.12.02-16.11.42:616][963]LogJson: Warning: Field progressiveStage was not found.
+[2024.12.02-16.11.42:616][963]LogJson: Error: Json Value of type 'Null' used as a 'Number'.
+[2024.12.02-16.11.42:655][964]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs/S_Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs_lod5_Var1.S_Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs_lod5_Var1
+[2024.12.02-16.11.42:655][964]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs/S_Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs_lod5_Var1.S_Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs_lod5_Var1
+[2024.12.02-16.11.42:656][964]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs/S_Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs_lod5_Var1.S_Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_72
+[2024.12.02-16.11.43:623][ 70]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs/S_Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs_lod5_Var1.S_Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs_lod5_Var1
+[2024.12.02-16.11.43:623][ 70]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs/S_Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs_lod5_Var1.S_Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs_lod5_Var1
+[2024.12.02-16.11.43:624][ 70]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs/S_Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs_lod5_Var1.S_Desert_Western_Tree_Log_Dead_Medium_04_xglvbbs_lod5_Var1 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_73
+[2024.12.02-16.11.43:641][ 70]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2024.12.02-16.11.43:641][ 70]LogWebBrowser: Deleting browser for Url=https://www.google.com/.
+[2024.12.02-16.11.47:827][558]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.12.02-16.12.06:433][739]Cmd: DELETE
+[2024.12.02-16.12.06:433][739]Cmd: ACTOR DELETE
+[2024.12.02-16.12.06:434][739]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.12.02-16.12.06:446][739]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.12.02-16.12.06:462][739]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2024.12.02-16.12.41:779][904]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2024.12.02-16.12.41:779][904]LogWebBrowser: Deleting browser for Url=https://www.google.com.
+[2024.12.02-16.12.42:132][942]LogJson: Warning: Field progressiveStage was not found.
+[2024.12.02-16.12.42:132][942]LogJson: Error: Json Value of type 'Null' used as a 'Number'.
+[2024.12.02-16.12.42:274][942]LogStaticMesh: Display: Building static mesh S_Dead_Finish_ucokaamia_Var1_lod3...
+[2024.12.02-16.12.42:275][942]LogStaticMesh: Built static mesh [0.00s] /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/S_Dead_Finish_ucokaamia_Var1_lod3.S_Dead_Finish_ucokaamia_Var1_lod3
+[2024.12.02-16.12.42:297][942]LogTexture: Display: Building textures: /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/T_DeadFinish_ucokaamia_1K_ART.T_DeadFinish_ucokaamia_1K_ART (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 125.770823 MB), EncodeSpeed: Fast
+[2024.12.02-16.12.42:306][942]LogTexture: Display: Building textures: /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/T_DeadFinish_ucokaamia_1K_billboard_ART.T_DeadFinish_ucokaamia_1K_billboard_ART (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 125.770823 MB), EncodeSpeed: Fast
+[2024.12.02-16.12.42:308][942]LogTexture: Display: Building textures: /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/T_Dead_Finish_ucokaamia_Billboard_N.T_Dead_Finish_ucokaamia_Billboard_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 217.562488 MB), EncodeSpeed: Fast
+[2024.12.02-16.12.42:310][942]LogTexture: Display: Building textures: /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/T_Dead_Finish_ucokaamia_1K_D.T_Dead_Finish_ucokaamia_1K_D (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 125.770823 MB), EncodeSpeed: Fast
+[2024.12.02-16.12.42:310][942]LogTexture: Display: Building textures: /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/T_Dead_Finish_ucokaamia_Billboard_D.T_Dead_Finish_ucokaamia_Billboard_D (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 125.770823 MB), EncodeSpeed: Fast
+[2024.12.02-16.12.42:312][942]LogTexture: Display: Building textures: /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/T_Dead_Finish_ucokaamia_1K_N.T_Dead_Finish_ucokaamia_1K_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 217.562488 MB), EncodeSpeed: Fast
+[2024.12.02-16.12.42:338][942]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/S_Dead_Finish_ucokaamia_Var1_lod3.S_Dead_Finish_ucokaamia_Var1_lod3
+[2024.12.02-16.12.42:338][942]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/S_Dead_Finish_ucokaamia_Var1_lod3.S_Dead_Finish_ucokaamia_Var1_lod3
+[2024.12.02-16.12.42:338][942]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/S_Dead_Finish_ucokaamia_Var1_lod3.S_Dead_Finish_ucokaamia_Var1_lod3 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_75
+[2024.12.02-16.12.42:340][942]LogJson: Warning: Field progressiveStage was not found.
+[2024.12.02-16.12.42:340][942]LogJson: Error: Json Value of type 'Null' used as a 'Number'.
+[2024.12.02-16.12.42:365][942]LogStaticMesh: Display: Building static mesh S_Dead_Finish_ucokaamia_Var2_lod3...
+[2024.12.02-16.12.42:365][942]LogStaticMesh: Display: Building static mesh S_Dead_Finish_ucokaamia_Var3_lod3...
+[2024.12.02-16.12.42:365][942]LogStaticMesh: Display: Building static mesh S_Dead_Finish_ucokaamia_Var4_lod3...
+[2024.12.02-16.12.42:367][942]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/S_Dead_Finish_ucokaamia_Var1_lod3.S_Dead_Finish_ucokaamia_Var1_lod3
+[2024.12.02-16.12.42:367][942]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/S_Dead_Finish_ucokaamia_Var1_lod3.S_Dead_Finish_ucokaamia_Var1_lod3
+[2024.12.02-16.12.42:367][942]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/S_Dead_Finish_ucokaamia_Var1_lod3.S_Dead_Finish_ucokaamia_Var1_lod3 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_76
+[2024.12.02-16.12.42:368][942]LogStaticMesh: Built static mesh [0.00s] /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/S_Dead_Finish_ucokaamia_Var3_lod3.S_Dead_Finish_ucokaamia_Var3_lod3
+[2024.12.02-16.12.42:368][942]LogStaticMesh: Built static mesh [0.00s] /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/S_Dead_Finish_ucokaamia_Var2_lod3.S_Dead_Finish_ucokaamia_Var2_lod3
+[2024.12.02-16.12.42:368][942]LogStaticMesh: Built static mesh [0.00s] /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/S_Dead_Finish_ucokaamia_Var4_lod3.S_Dead_Finish_ucokaamia_Var4_lod3
+[2024.12.02-16.12.42:370][942]LogStaticMesh: Display: Building static mesh S_Dead_Finish_ucokaamia_Var5_lod3...
+[2024.12.02-16.12.42:370][942]LogStaticMesh: Display: Building static mesh S_Dead_Finish_ucokaamia_Var6_lod3...
+[2024.12.02-16.12.42:370][942]LogStaticMesh: Display: Building static mesh S_Dead_Finish_ucokaamia_Var7_lod3...
+[2024.12.02-16.12.42:372][942]LogStaticMesh: Built static mesh [0.00s] /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/S_Dead_Finish_ucokaamia_Var5_lod3.S_Dead_Finish_ucokaamia_Var5_lod3
+[2024.12.02-16.12.42:373][942]LogStaticMesh: Built static mesh [0.00s] /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/S_Dead_Finish_ucokaamia_Var7_lod3.S_Dead_Finish_ucokaamia_Var7_lod3
+[2024.12.02-16.12.42:373][942]LogStaticMesh: Display: Building static mesh S_Dead_Finish_ucokaamia_Var8_lod3...
+[2024.12.02-16.12.42:373][942]LogStaticMesh: Display: Building static mesh S_Dead_Finish_ucokaamia_Var9_lod3...
+[2024.12.02-16.12.42:373][942]LogStaticMesh: Display: Building static mesh S_Dead_Finish_ucokaamia_Var10_lod3...
+[2024.12.02-16.12.42:375][942]LogStaticMesh: Display: Building static mesh S_Dead_Finish_ucokaamia_Var11_lod3...
+[2024.12.02-16.12.42:376][942]LogStaticMesh: Display: Building static mesh S_Dead_Finish_ucokaamia_Var12_lod3...
+[2024.12.02-16.12.42:382][943]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/S_Dead_Finish_ucokaamia_Var6_lod3.S_Dead_Finish_ucokaamia_Var6_lod3
+[2024.12.02-16.12.42:383][943]LogStaticMesh: Display: Building static mesh S_Dead_Finish_ucokaamia_Var13_lod3...
+[2024.12.02-16.12.42:383][943]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/S_Dead_Finish_ucokaamia_Var9_lod3.S_Dead_Finish_ucokaamia_Var9_lod3
+[2024.12.02-16.12.42:395][943]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/S_Dead_Finish_ucokaamia_Var8_lod3.S_Dead_Finish_ucokaamia_Var8_lod3
+[2024.12.02-16.12.42:396][943]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/S_Dead_Finish_ucokaamia_Var12_lod3.S_Dead_Finish_ucokaamia_Var12_lod3
+[2024.12.02-16.12.42:396][943]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/S_Dead_Finish_ucokaamia_Var11_lod3.S_Dead_Finish_ucokaamia_Var11_lod3
+[2024.12.02-16.12.42:397][943]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/S_Dead_Finish_ucokaamia_Var13_lod3.S_Dead_Finish_ucokaamia_Var13_lod3
+[2024.12.02-16.12.42:399][943]LogStaticMesh: Built static mesh [0.03s] /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/S_Dead_Finish_ucokaamia_Var10_lod3.S_Dead_Finish_ucokaamia_Var10_lod3
+[2024.12.02-16.12.43:099][ 16]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/S_Dead_Finish_ucokaamia_Var1_lod3.S_Dead_Finish_ucokaamia_Var1_lod3
+[2024.12.02-16.12.43:099][ 16]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/S_Dead_Finish_ucokaamia_Var1_lod3.S_Dead_Finish_ucokaamia_Var1_lod3
+[2024.12.02-16.12.43:099][ 16]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/S_Dead_Finish_ucokaamia_Var1_lod3.S_Dead_Finish_ucokaamia_Var1_lod3 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_77
+[2024.12.02-16.12.43:117][ 16]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2024.12.02-16.12.43:117][ 16]LogWebBrowser: Deleting browser for Url=https://www.google.com/.
+[2024.12.02-16.12.48:548][650]Cmd: DUPLICATE
+[2024.12.02-16.12.48:548][650]Cmd: ACTOR DUPLICATE
+[2024.12.02-16.12.50:610][888]Cmd: DUPLICATE
+[2024.12.02-16.12.50:610][888]Cmd: ACTOR DUPLICATE
+[2024.12.02-16.12.53:283][199]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.12.02-16.12.55:248][405]Cmd: TRANSACTION UNDO
+[2024.12.02-16.12.55:248][405]LogEditorTransaction: Undo Move Elements
+[2024.12.02-16.13.02:662][230]Cmd: DUPLICATE
+[2024.12.02-16.13.02:662][230]Cmd: ACTOR DUPLICATE
+[2024.12.02-16.13.18:014][ 49]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.12.02-16.13.35:960][ 61]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/S_Dead_Finish_ucokaamia_Var12_lod3.S_Dead_Finish_ucokaamia_Var12_lod3
+[2024.12.02-16.13.35:960][ 61]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/S_Dead_Finish_ucokaamia_Var12_lod3.S_Dead_Finish_ucokaamia_Var12_lod3
+[2024.12.02-16.13.35:960][ 61]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/S_Dead_Finish_ucokaamia_Var12_lod3.S_Dead_Finish_ucokaamia_Var12_lod3 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_82
+[2024.12.02-16.13.36:483][119]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/S_Dead_Finish_ucokaamia_Var12_lod3.S_Dead_Finish_ucokaamia_Var12_lod3
+[2024.12.02-16.13.36:484][119]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/S_Dead_Finish_ucokaamia_Var12_lod3.S_Dead_Finish_ucokaamia_Var12_lod3
+[2024.12.02-16.13.36:484][119]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Plants/Dead_Finish_ucokaamia/S_Dead_Finish_ucokaamia_Var12_lod3.S_Dead_Finish_ucokaamia_Var12_lod3 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_83
+[2024.12.02-16.13.37:592][244]Cmd: DELETE
+[2024.12.02-16.13.37:592][244]Cmd: ACTOR DELETE
+[2024.12.02-16.13.37:594][244]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.12.02-16.13.37:606][244]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.12.02-16.13.37:615][244]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2024.12.02-16.14.43:435][100]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2024.12.02-16.14.43:435][100]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2024.12.02-16.14.43:435][100]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_84
+[2024.12.02-16.14.43:435][100]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_84
+[2024.12.02-16.14.43:682][124]LogJson: Warning: Field progressiveStage was not found.
+[2024.12.02-16.14.43:682][124]LogJson: Error: Json Value of type 'Null' used as a 'Number'.
+[2024.12.02-16.14.43:710][124]LogStaticMesh: Display: Building static mesh S_Wooden_Post_tgnicbnfa_lod5...
+[2024.12.02-16.14.43:724][124]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Assets/Wooden_Post_tgnicbnfa/S_Wooden_Post_tgnicbnfa_lod5.S_Wooden_Post_tgnicbnfa_lod5
+[2024.12.02-16.14.43:729][124]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Wooden_Post_tgnicbnfa/T_WoodenPost_tgnicbnfa_1K_DpR.T_WoodenPost_tgnicbnfa_1K_DpR (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 125.770823 MB), EncodeSpeed: Fast
+[2024.12.02-16.14.43:739][124]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Wooden_Post_tgnicbnfa/T_Wooden_Post_tgnicbnfa_1K_N.T_Wooden_Post_tgnicbnfa_1K_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 217.562488 MB), EncodeSpeed: Fast
+[2024.12.02-16.14.43:743][124]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Wooden_Post_tgnicbnfa/T_Wooden_Post_tgnicbnfa_1K_D.T_Wooden_Post_tgnicbnfa_1K_D (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 125.770823 MB), EncodeSpeed: Fast
+[2024.12.02-16.14.43:767][124]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2024.12.02-16.14.43:767][124]LogWebBrowser: Deleting browser for Url=https://www.google.com/.
+[2024.12.02-16.14.43:777][124]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Wooden_Post_tgnicbnfa/S_Wooden_Post_tgnicbnfa_lod5.S_Wooden_Post_tgnicbnfa_lod5
+[2024.12.02-16.14.43:777][124]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Wooden_Post_tgnicbnfa/S_Wooden_Post_tgnicbnfa_lod5.S_Wooden_Post_tgnicbnfa_lod5
+[2024.12.02-16.14.43:778][124]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Wooden_Post_tgnicbnfa/S_Wooden_Post_tgnicbnfa_lod5.S_Wooden_Post_tgnicbnfa_lod5 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_85
+[2024.12.02-16.14.43:778][124]LogJson: Warning: Field progressiveStage was not found.
+[2024.12.02-16.14.43:778][124]LogJson: Error: Json Value of type 'Null' used as a 'Number'.
+[2024.12.02-16.14.43:794][124]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Wooden_Post_tgnicbnfa/S_Wooden_Post_tgnicbnfa_lod5.S_Wooden_Post_tgnicbnfa_lod5
+[2024.12.02-16.14.43:794][124]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Wooden_Post_tgnicbnfa/S_Wooden_Post_tgnicbnfa_lod5.S_Wooden_Post_tgnicbnfa_lod5
+[2024.12.02-16.14.43:795][124]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Wooden_Post_tgnicbnfa/S_Wooden_Post_tgnicbnfa_lod5.S_Wooden_Post_tgnicbnfa_lod5 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_86
+[2024.12.02-16.14.44:172][164]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Wooden_Post_tgnicbnfa/S_Wooden_Post_tgnicbnfa_lod5.S_Wooden_Post_tgnicbnfa_lod5
+[2024.12.02-16.14.44:172][164]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Wooden_Post_tgnicbnfa/S_Wooden_Post_tgnicbnfa_lod5.S_Wooden_Post_tgnicbnfa_lod5
+[2024.12.02-16.14.44:173][164]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Wooden_Post_tgnicbnfa/S_Wooden_Post_tgnicbnfa_lod5.S_Wooden_Post_tgnicbnfa_lod5 as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_87
+[2024.12.02-16.14.44:190][164]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2024.12.02-16.14.44:190][164]LogWebBrowser: Deleting browser for Url=https://www.google.com/.
+[2024.12.02-16.14.46:185][392]Cmd: TRANSACTION UNDO
+[2024.12.02-16.14.46:185][392]LogEditorTransaction: Undo Rotate Elements
+[2024.12.02-16.14.52:766][114]Cmd: TRANSACTION UNDO
+[2024.12.02-16.14.52:766][114]LogEditorTransaction: Undo Move Elements
+[2024.12.02-16.14.53:112][121]Cmd: TRANSACTION UNDO
+[2024.12.02-16.14.53:112][121]LogEditorTransaction: Undo Rotate Elements
+[2024.12.02-16.15.04:093][394]Cmd: TRANSACTION UNDO
+[2024.12.02-16.15.04:093][394]LogEditorTransaction: Undo Scale Elements
+[2024.12.02-16.15.11:351][200]Cmd: DUPLICATE
+[2024.12.02-16.15.11:351][200]Cmd: ACTOR DUPLICATE
+[2024.12.02-16.15.16:112][761]Cmd: DUPLICATE
+[2024.12.02-16.15.16:114][761]Cmd: ACTOR DUPLICATE
+[2024.12.02-16.15.26:029][933]Cmd: DUPLICATE
+[2024.12.02-16.15.26:029][933]Cmd: ACTOR DUPLICATE
+[2024.12.02-16.15.29:405][328]Cmd: DUPLICATE
+[2024.12.02-16.15.29:405][328]Cmd: ACTOR DUPLICATE
+[2024.12.02-16.15.36:028][110]Cmd: DUPLICATE
+[2024.12.02-16.15.36:028][110]Cmd: ACTOR DUPLICATE
+[2024.12.02-16.15.50:125][765]Cmd: TRANSACTION UNDO
+[2024.12.02-16.15.50:125][765]LogEditorTransaction: Undo Move Elements
+[2024.12.02-16.15.51:486][873]Cmd: DUPLICATE
+[2024.12.02-16.15.51:486][873]Cmd: ACTOR DUPLICATE
+[2024.12.02-16.16.11:017][168]Cmd: DUPLICATE
+[2024.12.02-16.16.11:017][168]Cmd: ACTOR DUPLICATE
+[2024.12.02-16.16.21:435][382]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.12.02-16.17.06:332][693]Cmd: DUPLICATE
+[2024.12.02-16.17.06:332][693]Cmd: ACTOR DUPLICATE
+[2024.12.02-16.18.01:347][ 82]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Megascans/Surfaces/Canyon_Rocky_Ground_xgimdjm/M_SandyGround.M_SandyGround
+[2024.12.02-16.18.01:350][ 82]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.02-16.18.01:350][ 82]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.02-16.18.01:432][ 82]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.02-16.18.01:432][ 82]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.12.02-16.18.01:432][ 82]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.02-16.18.01:432][ 82]MaterialEditorStats: Shader Count: 0
+[2024.12.02-16.18.01:435][ 82]LogViewport: Scene viewport resized to 502x601, mode Windowed.
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display: ================================================
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display: Total job queries 382, among them cache hits 190 (49.74%)
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display: Tracking 53 distinct input hashes that result in 35 distinct outputs (66.04%)
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display: RAM used: 1.10 MiB of 1.60 GiB budget. Usage: 0.07%
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display: Shaders Compiled: 25
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display: Jobs assigned 33, completed 25 (75.76%)
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display: Average time worker was idle: 4101.81 s
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.14 s
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display: Job execution time: average 0.45 s, max 0.92 s
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display: Job life time (pending + execution): average 0.53 s, max 1.01
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display: Shader code size: average 33.179 KiB, min 29.664 KiB, max 37.445 KiB
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.39 s
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display: Jobs were issued in 33 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display: Average processing rate: 7.39 jobs/sec
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display: Total thread time: 5.685 s
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display: Total thread preprocess time: 3.013 s
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display: Percentage time preprocessing: 52.99%
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display: Effective parallelization: 1.68 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    7 times, average 0.26 sec, max 0.58 sec, min 0.13 sec)
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    5 times, average 0.26 sec, max 0.43 sec, min 0.12 sec)
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    7 times, average 0.22 sec, max 0.44 sec, min 0.12 sec)
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    6 times, average 0.17 sec, max 0.40 sec, min 0.05 sec)
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 32.54% of total time (compiled    7 times, average 0.26 sec, max 0.58 sec, min 0.13 sec)
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 27.08% of total time (compiled    7 times, average 0.22 sec, max 0.44 sec, min 0.12 sec)
+[2024.12.02-16.18.01:764][114]LogShaderCompilers: Display:                                                 FLumenCardVS - 22.51% of total time (compiled    5 times, average 0.26 sec, max 0.43 sec, min 0.12 sec)
+[2024.12.02-16.18.01:766][114]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 17.87% of total time (compiled    6 times, average 0.17 sec, max 0.40 sec, min 0.05 sec)
+[2024.12.02-16.18.01:766][114]LogShaderCompilers: Display: ================================================
+[2024.12.02-16.18.01:772][115]MaterialEditorStats: Texture samplers: 2/16
+[2024.12.02-16.18.01:772][115]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.12.02-16.18.01:772][115]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.02-16.18.01:772][115]MaterialEditorStats: Shader Count: 1
+[2024.12.02-16.18.01:874][125]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.12.02-16.18.01:874][125]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.02-16.18.01:874][125]MaterialEditorStats: Texture samplers: 5/16
+[2024.12.02-16.18.01:874][125]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.12.02-16.18.01:874][125]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.02-16.18.01:874][125]MaterialEditorStats: Shader Count: 4
+[2024.12.02-16.18.09:127][980]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.02-16.18.09:128][980]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.12.02-16.18.09:128][980]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.02-16.18.09:128][980]MaterialEditorStats: Shader Count: 0
+[2024.12.02-16.18.09:290][999]MaterialEditorStats: Texture samplers: 2/16
+[2024.12.02-16.18.09:290][999]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.12.02-16.18.09:290][999]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.02-16.18.09:290][999]MaterialEditorStats: Shader Count: 1
+[2024.12.02-16.18.09:391][ 11]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.12.02-16.18.09:391][ 11]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.02-16.18.09:391][ 11]MaterialEditorStats: Texture samplers: 5/16
+[2024.12.02-16.18.09:391][ 11]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.12.02-16.18.09:391][ 11]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.02-16.18.09:391][ 11]MaterialEditorStats: Shader Count: 4
+[2024.12.02-16.18.10:940][195]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.02-16.18.10:940][195]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.12.02-16.18.10:940][195]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.02-16.18.10:940][195]MaterialEditorStats: Shader Count: 0
+[2024.12.02-16.18.11:167][221]MaterialEditorStats: Texture samplers: 2/16
+[2024.12.02-16.18.11:167][221]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.12.02-16.18.11:167][221]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.02-16.18.11:167][221]MaterialEditorStats: Shader Count: 1
+[2024.12.02-16.18.11:267][233]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.12.02-16.18.11:267][233]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.02-16.18.11:267][233]MaterialEditorStats: Texture samplers: 5/16
+[2024.12.02-16.18.11:267][233]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.12.02-16.18.11:267][233]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.02-16.18.11:267][233]MaterialEditorStats: Shader Count: 4
+[2024.12.02-16.18.12:677][400]LogMaterialEditor: Applying material M_SandyGround
+[2024.12.02-16.18.12:734][400]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.12.02-16.18.13:144][400]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2024.12.02-16.18.13:544][447]LogMaterialEditor: Saving and Compiling material M_SandyGround
+[2024.12.02-16.18.13:545][447]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.02-16.18.14:112][447]LogSavePackage: Moving output files for package: /Game/Megascans/Surfaces/Canyon_Rocky_Ground_xgimdjm/M_SandyGround
+[2024.12.02-16.18.14:112][447]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/M_SandyGround4858F3BF4FA771C591BC2D80B8223A59.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Megascans/Surfaces/Canyon_Rocky_Ground_xgimdjm/M_SandyGround.uasset'
+[2024.12.02-16.18.14:117][447]LogFileHelpers: InternalPromptForCheckoutAndSave took 571 ms (total: 19.1 sec)
+[2024.12.02-16.18.14:117][447]AssetCheck: New page: Asset Save: M_SandyGround
+[2024.12.02-16.18.14:117][447]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Megascans/Surfaces/Canyon_Rocky_Ground_xgimdjm/M_SandyGround.M_SandyGround
+[2024.12.02-16.18.14:118][447]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.12.02-16.18.14:118][447]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.02-16.18.14:118][447]MaterialEditorStats: MaxSampler: 269 instructions
+[2024.12.02-16.18.14:118][447]MaterialEditorStats: Texture samplers: 6/16
+[2024.12.02-16.18.14:118][447]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.12.02-16.18.14:118][447]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.02-16.18.14:118][447]MaterialEditorStats: Shader Count: 16
+[2024.12.02-16.18.14:844][529]LogViewport: Scene viewport resized to 324x397, mode Windowed.
+[2024.12.02-16.18.15:678][529]LogViewport: Scene viewport resized to 502x601, mode Windowed.
+[2024.12.02-16.18.27:102][841]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.02-16.18.27:102][841]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.12.02-16.18.27:102][841]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.02-16.18.27:102][841]MaterialEditorStats: Shader Count: 0
+[2024.12.02-16.18.27:307][866]MaterialEditorStats: Texture samplers: 2/16
+[2024.12.02-16.18.27:307][866]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.12.02-16.18.27:307][866]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.02-16.18.27:307][866]MaterialEditorStats: Shader Count: 1
+[2024.12.02-16.18.27:407][878]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.12.02-16.18.27:407][878]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.02-16.18.27:407][878]MaterialEditorStats: Texture samplers: 5/16
+[2024.12.02-16.18.27:407][878]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.12.02-16.18.27:407][878]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.02-16.18.27:407][878]MaterialEditorStats: Shader Count: 4
+[2024.12.02-16.18.29:262][ 99]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.02-16.18.29:262][ 99]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.12.02-16.18.29:262][ 99]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.02-16.18.29:262][ 99]MaterialEditorStats: Shader Count: 0
+[2024.12.02-16.18.29:401][116]MaterialEditorStats: Texture samplers: 2/16
+[2024.12.02-16.18.29:402][116]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.12.02-16.18.29:402][116]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.02-16.18.29:402][116]MaterialEditorStats: Shader Count: 1
+[2024.12.02-16.18.29:509][129]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.12.02-16.18.29:509][129]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.02-16.18.29:509][129]MaterialEditorStats: Texture samplers: 5/16
+[2024.12.02-16.18.29:509][129]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.12.02-16.18.29:509][129]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.02-16.18.29:509][129]MaterialEditorStats: Shader Count: 4
+[2024.12.02-16.18.31:343][345]LogMaterialEditor: Applying material M_SandyGround
+[2024.12.02-16.18.31:385][345]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2024.12.02-16.18.31:792][345]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2024.12.02-16.18.32:452][422]LogMaterialEditor: Saving and Compiling material M_SandyGround
+[2024.12.02-16.18.32:453][422]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.02-16.18.32:916][422]LogSavePackage: Moving output files for package: /Game/Megascans/Surfaces/Canyon_Rocky_Ground_xgimdjm/M_SandyGround
+[2024.12.02-16.18.32:916][422]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/M_SandyGroundD62C798C49C45AD4A4AD848A556DC4DF.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Megascans/Surfaces/Canyon_Rocky_Ground_xgimdjm/M_SandyGround.uasset'
+[2024.12.02-16.18.32:921][422]LogFileHelpers: InternalPromptForCheckoutAndSave took 467 ms (total: 19.6 sec)
+[2024.12.02-16.18.32:922][422]AssetCheck: New page: Asset Save: M_SandyGround
+[2024.12.02-16.18.32:922][422]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Megascans/Surfaces/Canyon_Rocky_Ground_xgimdjm/M_SandyGround.M_SandyGround
+[2024.12.02-16.18.32:922][422]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.12.02-16.18.32:922][422]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.02-16.18.32:922][422]MaterialEditorStats: MaxSampler: 269 instructions
+[2024.12.02-16.18.32:922][422]MaterialEditorStats: Texture samplers: 6/16
+[2024.12.02-16.18.32:922][422]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.12.02-16.18.32:922][422]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.02-16.18.32:922][422]MaterialEditorStats: Shader Count: 16
+[2024.12.02-16.18.47:435][141]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.12.02-16.19.11:338][953]Cmd: DUPLICATE
+[2024.12.02-16.19.11:338][953]Cmd: ACTOR DUPLICATE
+[2024.12.02-16.19.18:341][776]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.02-16.19.18:388][776]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/MainMenu" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.12.02-16.19.18:415][776]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.12.02-16.19.18:433][776]LogSavePackage: Moving output files for package: /Game/Level/MainMenu
+[2024.12.02-16.19.18:434][776]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/MainMenuF85EC7B64400EC1A381CB99DB9AD6C23.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/MainMenu.umap'
+[2024.12.02-16.19.18:438][776]LogFileHelpers: Saving map 'MainMenu' took 0.051
+[2024.12.02-16.19.18:443][776]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 19.7 sec)
+[2024.12.02-16.19.18:444][776]AssetCheck: New page: Asset Save: MainMenu
+[2024.12.02-16.19.18:444][776]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/MainMenu.MainMenu
