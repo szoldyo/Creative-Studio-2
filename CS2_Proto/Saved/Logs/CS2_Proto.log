@@ -18196,3 +18196,697 @@ Make sure 'PlayerOneRanged_UI_C' has been compiled for  Remove Crosshair
 [2024.12.02-15.03.15:162][275]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
 [2024.12.02-15.03.15:174][275]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
 [2024.12.02-15.03.15:186][275]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 17.2 sec)
+[2024.12.02-15.04.02:384][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.12.02-15.04.02:384][622]LogWorld: UWorld::CleanupWorld for World_80, bSessionEnded=true, bCleanupResources=true
+[2024.12.02-15.04.02:384][622]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.02-15.04.02:723][646]LogWorld: UWorld::CleanupWorld for World_89, bSessionEnded=true, bCleanupResources=true
+[2024.12.02-15.04.02:723][646]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.02-15.04.03:584][737]LogWorld: UWorld::CleanupWorld for World_127, bSessionEnded=true, bCleanupResources=true
+[2024.12.02-15.04.03:584][737]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.02-15.09.12:865][190]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.12.02-15.09.13:102][190]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.02-15.09.13:107][190]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level/MainMenu.MainMenu
+[2024.12.02-15.09.13:107][190]Cmd: MAP LOAD FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.12.02-15.09.13:107][190]LightingResults: New page: Lighting Build
+[2024.12.02-15.09.13:107][190]LoadErrors: New page: Loading map: MainMenu.umap
+[2024.12.02-15.09.13:126][190]LogWorld: UWorld::CleanupWorld for CS2_Level, bSessionEnded=true, bCleanupResources=true
+[2024.12.02-15.09.13:126][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.02-15.09.13:128][190]LogContentBundle: [CS2_Level(Standalone)] Deleting container.
+[2024.12.02-15.09.13:128][190]MapCheck: New page: Map Check
+[2024.12.02-15.09.13:128][190]LightingResults: New page: Lighting Build
+[2024.12.02-15.09.13:139][190]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.02-15.09.13:143][190]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.12.02-15.09.13:151][190]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.12.02-15.09.13:151][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.02-15.09.13:164][190]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.12.02-15.09.13:174][190]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.12.02-15.09.13:182][190]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2024.12.02-15.09.13:182][190]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.02-15.09.13:182][190]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.02-15.09.13:183][190]LogAIModule: Creating AISystem for world MainMenu
+[2024.12.02-15.09.13:206][190]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.12.02-15.09.13:219][190]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.12.02-15.09.13:225][190]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.12.02-15.09.13:225][190]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.061ms to complete.
+[2024.12.02-15.09.14:155][288]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.02-15.09.14:160][288]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.02-15.09.14:160][288]PIE: New page: PIE session: MainMenu (2 Dec 2024, 15:09:14)
+[2024.12.02-15.09.14:199][288]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MainMenu
+[2024.12.02-15.09.14:201][288]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001714s)
+[2024.12.02-15.09.14:201][288]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MainMenu.MainMenu to /Game/Level/UEDPIE_0_MainMenu.MainMenu (0.001738s)
+[2024.12.02-15.09.14:211][288]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.12.02-15.09.14:215][288]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.02-15.09.14:215][288]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.02-15.09.14:215][288]LogAIModule: Creating AISystem for world MainMenu
+[2024.12.02-15.09.14:216][288]LogPlayLevel: PIE: World Init took: (0.000658s)
+[2024.12.02-15.09.14:216][288]LogAudio: Display: Creating Audio Device:                 Id: 110, Scope: Unique, Realtime: True
+[2024.12.02-15.09.14:216][288]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.02-15.09.14:216][288]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.02-15.09.14:216][288]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.02-15.09.14:216][288]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.02-15.09.14:216][288]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.02-15.09.14:216][288]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.02-15.09.14:216][288]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.02-15.09.14:216][288]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.02-15.09.14:216][288]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.02-15.09.14:216][288]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.02-15.09.14:216][288]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.02-15.09.14:218][288]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.02-15.09.14:234][288]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.12.02-15.09.14:234][288]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.02-15.09.14:234][288]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.02-15.09.14:234][288]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.02-15.09.14:234][288]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=110
+[2024.12.02-15.09.14:234][288]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=110
+[2024.12.02-15.09.14:235][288]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=110
+[2024.12.02-15.09.14:235][288]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=110
+[2024.12.02-15.09.14:235][288]LogInit: FAudioDevice initialized with ID 110.
+[2024.12.02-15.09.14:235][288]LogAudio: Display: Audio Device (ID: 110) registered with world 'MainMenu'.
+[2024.12.02-15.09.14:235][288]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 110
+[2024.12.02-15.09.14:237][288]LogLoad: Game class is 'BP_MM_MainMenu_C'
+[2024.12.02-15.09.14:237][288]LogWorld: Bringing World /Game/Level/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.12.02-15.09.14
+[2024.12.02-15.09.14:237][288]LogWorld: Bringing up level for play took: 0.000510
+[2024.12.02-15.09.14:239][288]LogOnline: OSS: Created online subsystem instance for: :Context_209
+[2024.12.02-15.09.14:240][288]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.12.02-15.09.14:240][288]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.12.02-15.09.14:240][288]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.12.02-15.09.14:240][288]PIE: Server logged in
+[2024.12.02-15.09.14:241][288]PIE: Play in editor total start time 0.081 seconds.
+[2024.12.02-15.09.23:090][337]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.02-15.09.23:090][337]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_MainMenu
+[2024.12.02-15.09.23:090][337]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.12.02-15.09.23:090][337]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.02-15.09.23:092][337]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.02-15.09.23:096][337]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.02-15.09.23:102][337]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.02-15.09.23:103][337]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 110
+[2024.12.02-15.09.23:103][337]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=110
+[2024.12.02-15.09.23:104][337]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=110
+[2024.12.02-15.09.23:107][337]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.02-15.09.23:109][337]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.12.02-15.09.23:157][341]LogPlayLevel: Display: Destroying online subsystem :Context_209
+[2024.12.02-15.09.56:522][476]Cmd: SELECT NONE
+[2024.12.02-15.10.47:909][484]Cmd: SELECT NONE
+[2024.12.02-15.18.02:637][249]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Student\Downloads\HectateLowPolyBaked.fbx)
+[2024.12.02-15.18.02:659][249]LogFbx: Loading FBX Scene from C:\Users\Student\Downloads\HectateLowPolyBaked.fbx
+[2024.12.02-15.18.02:691][249]LogFbx: FBX Scene Loaded Succesfully
+[2024.12.02-15.18.45:842][249]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.12.02-15.18.45:876][249]LogFbx: Valid bind pose for Pose (BindPose) - LowPolyBakedMesh
+[2024.12.02-15.18.45:877][249]LogFbx: Triangulating skeletal mesh LowPolyBakedMesh
+[2024.12.02-15.18.46:076][249]LogFbx: Triangulating skeletal mesh Shirt
+[2024.12.02-15.18.46:136][249]LogFbx: Triangulating skeletal mesh pPipe5
+[2024.12.02-15.18.46:139][249]LogFbx: Triangulating skeletal mesh Hand_Topology1:polySurface1
+[2024.12.02-15.18.46:245][249]LogFbx: Triangulating skeletal mesh Leggins
+[2024.12.02-15.18.46:282][249]LogFbx: Triangulating skeletal mesh Amour
+[2024.12.02-15.18.46:297][249]LogFbx: Triangulating skeletal mesh pCube5
+[2024.12.02-15.18.46:311][249]LogFbx: Triangulating skeletal mesh Boots
+[2024.12.02-15.18.46:323][249]LogFbx: Triangulating skeletal mesh Jacket1
+[2024.12.02-15.18.46:415][249]LogFbx: Bones digested - 65  Depth of hierarchy - 12
+[2024.12.02-15.18.46:946][249]LogSkeletalMesh: Display: /Game/Characters/ArtistsCharacters/Sean/HectateLowPolyBaked.HectateLowPolyBaked ComputeTangents MikkTSpace function: Compute a zero length normal vector.
+[2024.12.02-15.18.47:201][249]LogSkeletalMesh: Section 0: Material=0, 56188 triangles
+[2024.12.02-15.18.47:255][249]LogSkeletalMesh: Building Skeletal Mesh HectateLowPolyBaked...
+[2024.12.02-15.18.47:275][249]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (HectateLowPolyBaked) ...
+[2024.12.02-15.18.47:704][249]LogSkeletalMesh: Display: /Game/Characters/ArtistsCharacters/Sean/HectateLowPolyBaked.HectateLowPolyBaked ComputeTangents MikkTSpace function: Compute a zero length normal vector.
+[2024.12.02-15.18.48:024][249]LogSkeletalMesh: Built Skeletal Mesh [0.77s] /Game/Characters/ArtistsCharacters/Sean/HectateLowPolyBaked.HectateLowPolyBaked
+[2024.12.02-15.18.48:146][249]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.02-15.18.48:146][249]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.02-15.18.48:158][249]LogWorld: UWorld::CleanupWorld for World_128, bSessionEnded=true, bCleanupResources=true
+[2024.12.02-15.18.48:158][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.02-15.18.48:168][249]LogFbx: SortedLinks :(0) Hips
+[2024.12.02-15.18.48:168][249]LogFbx: SortedLinks :(1) Spine
+[2024.12.02-15.18.48:168][249]LogFbx: SortedLinks :(2) Spine1
+[2024.12.02-15.18.48:168][249]LogFbx: SortedLinks :(3) Spine2
+[2024.12.02-15.18.48:168][249]LogFbx: SortedLinks :(4) Neck
+[2024.12.02-15.18.48:168][249]LogFbx: SortedLinks :(5) Head
+[2024.12.02-15.18.48:168][249]LogFbx: SortedLinks :(6) HeadTop_End
+[2024.12.02-15.18.48:168][249]LogFbx: SortedLinks :(7) LeftShoulder
+[2024.12.02-15.18.48:168][249]LogFbx: SortedLinks :(8) LeftArm
+[2024.12.02-15.18.48:168][249]LogFbx: SortedLinks :(9) LeftForeArm
+[2024.12.02-15.18.48:168][249]LogFbx: SortedLinks :(10) LeftHand
+[2024.12.02-15.18.48:168][249]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2024.12.02-15.18.48:168][249]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2024.12.02-15.18.48:168][249]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2024.12.02-15.18.48:168][249]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2024.12.02-15.18.48:168][249]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2024.12.02-15.18.48:168][249]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2024.12.02-15.18.48:168][249]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(23) LeftHandRing1
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(24) LeftHandRing2
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(25) LeftHandRing3
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(26) LeftHandRing4
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(31) RightShoulder
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(32) RightArm
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(33) RightForeArm
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(34) RightHand
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(35) RightHandThumb1
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(36) RightHandThumb2
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(37) RightHandThumb3
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(38) RightHandThumb4
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(39) RightHandIndex1
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(40) RightHandIndex2
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(41) RightHandIndex3
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(42) RightHandIndex4
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(47) RightHandRing1
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(48) RightHandRing2
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(49) RightHandRing3
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(50) RightHandRing4
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(51) RightHandPinky1
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(52) RightHandPinky2
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(53) RightHandPinky3
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(54) RightHandPinky4
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(55) LeftUpLeg
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(56) LeftLeg
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(57) LeftFoot
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(58) LeftToeBase
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(59) LeftToe_End
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(60) RightUpLeg
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(61) RightLeg
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(62) RightFoot
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(63) RightToeBase
+[2024.12.02-15.18.48:169][249]LogFbx: SortedLinks :(64) RightToe_End
+[2024.12.02-15.18.48:169][249]LogFbx: Parsing AnimStack mixamo.com
+[2024.12.02-15.18.48:325][249]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/ArtistsCharacters/Sean/HectateLowPolyBaked_Anim.HectateLowPolyBaked_Anim
+[2024.12.02-15.18.48:326][249]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/ArtistsCharacters/Sean/HectateLowPolyBaked_Anim.HectateLowPolyBaked_Anim, at AnimationSequence/3d2f84bcee12329aa41993b4901aabfaa5cb7133
+[2024.12.02-15.18.48:347][249]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (HectateLowPolyBaked) ...
+[2024.12.02-15.18.48:354][249]FBXImport: Warning: Ignoring mesh default because it has no weights. 
+[2024.12.02-15.18.48:354][249]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.12.02-15.18.48:354][249]FBXImport: Warning: Ignoring mesh default because it has no weights. 
+[2024.12.02-15.18.48:437][249]LogAutomationController: Ignoring very large delta of 45.82 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.12.02-15.18.48:689][252]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.02-15.18.48:781][255]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.02-15.18.51:824][618]LogSlate: Window 'Message Log' being destroyed
+[2024.12.02-15.18.51:827][618]LogSlate: Window 'Message Log' being destroyed
+[2024.12.02-15.18.53:682][829]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.12.02-15.18.53:693][829]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.02-15.18.53:748][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/MainMenu" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.12.02-15.18.53:775][829]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.12.02-15.18.53:785][829]LogSavePackage: Moving output files for package: /Game/Level/MainMenu
+[2024.12.02-15.18.53:785][829]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/MainMenuAD0F138A4D9A05E18AB23581DB14828D.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/MainMenu.umap'
+[2024.12.02-15.18.53:789][829]LogFileHelpers: Saving map 'MainMenu' took 0.042
+[2024.12.02-15.18.53:871][829]LogSavePackage: Moving output files for package: /Game/Characters/ArtistsCharacters/Sean/HectateLowPolyBaked
+[2024.12.02-15.18.53:871][829]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/HectateLowPolyBakedDA209ED14712FF0EF334DEB56CD5130C.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Characters/ArtistsCharacters/Sean/HectateLowPolyBaked.uasset'
+[2024.12.02-15.18.53:880][829]LogSavePackage: Moving output files for package: /Game/Characters/ArtistsCharacters/Sean/HectateLowPolyBaked_Skeleton
+[2024.12.02-15.18.53:880][829]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/HectateLowPolyBaked_SkeletonC78A2FAD46A7DF1DA4E514BC0BE04742.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Characters/ArtistsCharacters/Sean/HectateLowPolyBaked_Skeleton.uasset'
+[2024.12.02-15.18.53:887][829]LogSavePackage: Moving output files for package: /Game/Characters/ArtistsCharacters/Sean/HectateLowPolyBaked_PhysicsAsset
+[2024.12.02-15.18.53:887][829]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/HectateLowPolyBaked_PhysicsAssetA4AAE9ED43CEF9F36461969B0661B804.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Characters/ArtistsCharacters/Sean/HectateLowPolyBaked_PhysicsAsset.uasset'
+[2024.12.02-15.18.53:898][829]LogSavePackage: Moving output files for package: /Game/Characters/ArtistsCharacters/Sean/HectateLowPolyBaked_Anim
+[2024.12.02-15.18.53:898][829]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/HectateLowPolyBaked_AnimD3A6DD24422FC2CF80BD299368D1A7A1.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Characters/ArtistsCharacters/Sean/HectateLowPolyBaked_Anim.uasset'
+[2024.12.02-15.18.53:905][829]LogFileHelpers: InternalPromptForCheckoutAndSave took 211 ms (total: 17.4 sec)
+[2024.12.02-15.18.53:906][829]AssetCheck: New page: Asset Save: multiple assets
+[2024.12.02-15.18.53:906][829]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/MainMenu.MainMenu
+[2024.12.02-15.18.53:906][829]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/Characters/ArtistsCharacters/Sean/HectateLowPolyBaked.HectateLowPolyBaked
+[2024.12.02-15.18.53:906][829]LogContentValidation: Display: Validating /Script/Engine.Skeleton /Game/Characters/ArtistsCharacters/Sean/HectateLowPolyBaked_Skeleton.HectateLowPolyBaked_Skeleton
+[2024.12.02-15.18.53:906][829]LogContentValidation: Display: Validating /Script/Engine.PhysicsAsset /Game/Characters/ArtistsCharacters/Sean/HectateLowPolyBaked_PhysicsAsset.HectateLowPolyBaked_PhysicsAsset
+[2024.12.02-15.18.53:906][829]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Characters/ArtistsCharacters/Sean/HectateLowPolyBaked_Anim.HectateLowPolyBaked_Anim
+[2024.12.02-15.18.58:303][334]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Characters/ArtistsCharacters/Sean/HectateLowPolyBaked.HectateLowPolyBaked
+[2024.12.02-15.18.58:303][334]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Characters/ArtistsCharacters/Sean/HectateLowPolyBaked.HectateLowPolyBaked
+[2024.12.02-15.18.58:303][334]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/ArtistsCharacters/Sean/HectateLowPolyBaked.HectateLowPolyBaked as actor: SkeletalMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.SkeletalMeshActor_0
+[2024.12.02-15.18.58:303][334]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/ArtistsCharacters/Sean/HectateLowPolyBaked.HectateLowPolyBaked as actor: SkeletalMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.SkeletalMeshActor_0
+[2024.12.02-15.18.58:338][337]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Characters/ArtistsCharacters/Sean/HectateLowPolyBaked.HectateLowPolyBaked
+[2024.12.02-15.18.58:338][337]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Characters/ArtistsCharacters/Sean/HectateLowPolyBaked.HectateLowPolyBaked
+[2024.12.02-15.18.58:339][337]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/ArtistsCharacters/Sean/HectateLowPolyBaked.HectateLowPolyBaked as actor: SkeletalMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.SkeletalMeshActor_1
+[2024.12.02-15.18.58:339][337]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/ArtistsCharacters/Sean/HectateLowPolyBaked.HectateLowPolyBaked as actor: SkeletalMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.SkeletalMeshActor_1
+[2024.12.02-15.19.08:740][555]Cmd: TRANSACTION UNDO
+[2024.12.02-15.19.08:740][555]LogEditorTransaction: Undo Set Scale
+[2024.12.02-15.19.54:076][912]Cmd: SELECT NONE
+[2024.12.02-15.20.04:404][ 95]Cmd: SELECT NONE
+[2024.12.02-15.20.04:512][108]Cmd: SELECT NONE
+[2024.12.02-15.20.17:869][605]Cmd: SELECT NONE
+[2024.12.02-15.21.52:263][223]Cmd: SELECT NONE
+[2024.12.02-15.22.03:512][489]Cmd: DELETE
+[2024.12.02-15.22.03:513][489]Cmd: ACTOR DELETE
+[2024.12.02-15.22.03:513][489]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.12.02-15.22.03:525][489]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.12.02-15.22.03:534][489]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2024.12.02-15.22.35:773][221]Cmd: SELECT NONE
+[2024.12.02-15.28.54:005][435]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.12.02-15.28.54:017][435]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Level/MainMenu_Auto8
+[2024.12.02-15.28.54:017][435]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/MainMenu_Auto8B73409324E867407DA149B8DA0D99F28.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/Autosaves/Game/Level/MainMenu_Auto8.umap'
+[2024.12.02-15.28.54:018][435]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/Autosaves/Game/Level/MainMenu_Auto8.umap is in the /Temp path, will not scan.
+[2024.12.02-15.28.54:018][435]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Level/MainMenu_Auto8 is in the /Temp path, will not scan.
+[2024.12.02-15.28.54:018][435]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Level/MainMenu_Auto8 is in the /Temp path, will not scan.
+[2024.12.02-15.28.54:018][435]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/MainMenu' took 0.025
+[2024.12.02-15.28.54:018][435]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.025
+[2024.12.02-15.31.34:790][120]Cmd: DELETE
+[2024.12.02-15.31.34:790][120]Cmd: ACTOR DELETE
+[2024.12.02-15.31.34:791][120]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.12.02-15.31.34:803][120]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.12.02-15.31.34:808][120]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2024.12.02-15.31.36:656][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.12.02-15.31.40:026][325]LogSlate: Window 'Delete Assets' being destroyed
+[2024.12.02-15.31.40:443][325]LogUObjectGlobals: Force Deleting 6 Package(s):
+	Asset Name: /Game/Characters/ArtistsCharacters/Muntana/metal1.metal1
+	Asset Type: Material
+	Asset Name: /Game/Characters/ArtistsCharacters/Muntana/Body.Body
+	Asset Type: Material
+	Asset Name: /Game/Characters/ArtistsCharacters/Muntana/CorsetArmor.CorsetArmor
+	Asset Type: Material
+	Asset Name: /Game/Characters/ArtistsCharacters/Muntana/fabric.fabric
+	Asset Type: Material
+	Asset Name: /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low
+	Asset Type: StaticMesh
+	Asset Name: /Game/Characters/ArtistsCharacters/Muntana/Leather.Leather
+	Asset Type: Material
+[2024.12.02-15.31.41:504][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.12.02-15.31.41:518][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.12.02-15.31.41:530][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.12.02-15.31.41:540][325]LogAutomationController: Ignoring very large delta of 4.90 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.12.02-15.31.46:730][761]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Student\Downloads\Hippolyte_low.fbx)
+[2024.12.02-15.31.46:735][761]LogFbx: Loading FBX Scene from C:\Users\Student\Downloads\Hippolyte_low.fbx
+[2024.12.02-15.31.46:757][761]LogFbx: FBX Scene Loaded Succesfully
+[2024.12.02-15.31.52:425][761]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.12.02-15.31.52:445][761]LogMaterial: Display: Material /Game/Characters/ArtistsCharacters/Muntana/Body.Body needed to have new flag set bUsedWithSkeletalMesh !
+[2024.12.02-15.31.52:476][761]LogFbx: Triangulating skeletal mesh Body_low
+[2024.12.02-15.31.52:558][761]LogFbx: Bones digested - 1  Depth of hierarchy - 1
+[2024.12.02-15.31.52:712][761]LogSkeletalMesh: Section 0: Material=0, 8732 triangles
+[2024.12.02-15.31.52:727][761]LogSkeletalMesh: Building Skeletal Mesh Hippolyte_low_Body_low...
+[2024.12.02-15.31.52:745][761]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Hippolyte_low_Body_low) ...
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display: ================================================
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display: Total job queries 96, among them cache hits 34 (35.42%)
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display: Tracking 36 distinct input hashes that result in 22 distinct outputs (61.11%)
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display: RAM used: 710.85 KiB of 1.60 GiB budget. Usage: 0.04%
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display: Shaders Compiled: 20
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display: Jobs assigned 20, completed 20 (100%)
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display: Average time worker was idle: 2001.34 s
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display: Time job spent in pending queue: average 0.09 s, longest 0.11 s
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display: Job execution time: average 0.49 s, max 0.92 s
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display: Job life time (pending + execution): average 0.58 s, max 1.01
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display: Shader code size: average 32.845 KiB, min 29.664 KiB, max 35.664 KiB
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.41 s
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display: Jobs were issued in 20 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display: Average processing rate: 8.29 jobs/sec
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display: Total thread time: 5.05 s
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display: Total thread preprocess time: 2.934 s
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display: Percentage time preprocessing: 58.10%
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display: Effective parallelization: 2.09 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    5 times, average 0.31 sec, max 0.58 sec, min 0.13 sec)
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    5 times, average 0.26 sec, max 0.43 sec, min 0.12 sec)
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    5 times, average 0.25 sec, max 0.44 sec, min 0.12 sec)
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    5 times, average 0.19 sec, max 0.40 sec, min 0.05 sec)
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 31.10% of total time (compiled    5 times, average 0.31 sec, max 0.58 sec, min 0.13 sec)
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display:                                                 FLumenCardVS - 25.34% of total time (compiled    5 times, average 0.26 sec, max 0.43 sec, min 0.12 sec)
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 24.90% of total time (compiled    5 times, average 0.25 sec, max 0.44 sec, min 0.12 sec)
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 18.66% of total time (compiled    5 times, average 0.19 sec, max 0.40 sec, min 0.05 sec)
+[2024.12.02-15.31.52:745][761]LogShaderCompilers: Display: ================================================
+[2024.12.02-15.31.52:831][761]LogSkeletalMesh: Built Skeletal Mesh [0.11s] /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low_Body_low
+[2024.12.02-15.31.52:911][761]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.02-15.31.52:911][761]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.02-15.31.52:919][761]LogWorld: UWorld::CleanupWorld for World_131, bSessionEnded=true, bCleanupResources=true
+[2024.12.02-15.31.52:919][761]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.02-15.31.52:927][761]LogFbx: SortedLinks :(0) Body_low
+[2024.12.02-15.31.52:927][761]LogFbx: Parsing AnimStack Take 001
+[2024.12.02-15.31.53:080][761]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low_Body_low_Anim.Hippolyte_low_Body_low_Anim
+[2024.12.02-15.31.53:080][761]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low_Body_low_Anim.Hippolyte_low_Body_low_Anim, at AnimationSequence/7a73ac7b5360913a82052ec0fe0244673a08718d
+[2024.12.02-15.31.53:090][761]LogMaterial: Display: Material /Game/Characters/ArtistsCharacters/Muntana/CorsetArmor.CorsetArmor needed to have new flag set bUsedWithSkeletalMesh !
+[2024.12.02-15.31.53:105][761]LogFbx: Triangulating skeletal mesh CorsetArmor_neck6_low
+[2024.12.02-15.31.53:108][761]LogFbx: Triangulating skeletal mesh CorsetArmor_neck4_low
+[2024.12.02-15.31.53:116][761]LogFbx: Triangulating skeletal mesh CorsetArmor_neck5_low
+[2024.12.02-15.31.53:122][761]LogFbx: Triangulating skeletal mesh CorsetArmor_neck3_low
+[2024.12.02-15.31.53:124][761]LogFbx: Triangulating skeletal mesh CorsetArmor_button_low
+[2024.12.02-15.31.53:127][761]LogFbx: Triangulating skeletal mesh CorsetArmor_neck1_low
+[2024.12.02-15.31.53:132][761]LogFbx: Triangulating skeletal mesh CorsetArmor_neck2_low
+[2024.12.02-15.31.53:137][761]LogFbx: Triangulating skeletal mesh CorsetArmor_Deco1_low
+[2024.12.02-15.31.53:144][761]LogFbx: Triangulating skeletal mesh CorsetArmor_Deco2_low
+[2024.12.02-15.31.53:150][761]LogFbx: Triangulating skeletal mesh CorsetArmor_Deco3_low
+[2024.12.02-15.31.53:156][761]LogFbx: Triangulating skeletal mesh CorsetArmor_Deco4_low
+[2024.12.02-15.31.53:168][761]LogFbx: Triangulating skeletal mesh CorsetArmor_main_low
+[2024.12.02-15.31.53:182][761]LogFbx: Triangulating skeletal mesh CorsetArmor_Deco5_low
+[2024.12.02-15.31.53:189][761]LogFbx: Triangulating skeletal mesh CorsetArmor_Deco6_low
+[2024.12.02-15.31.53:211][761]LogFbx: Triangulating skeletal mesh CorsetArmor_Deco7_low
+[2024.12.02-15.31.53:211][761]LogFbx: Triangulating skeletal mesh CorsetArmor_Deco8_low
+[2024.12.02-15.31.53:215][761]LogFbx: Triangulating skeletal mesh CorsetArmor_Deco9low
+[2024.12.02-15.31.53:215][761]LogFbx: Triangulating skeletal mesh CorsetArmor_Deco10_low
+[2024.12.02-15.31.53:237][761]LogFbx: Triangulating skeletal mesh Emblem_main_low
+[2024.12.02-15.31.53:257][761]LogFbx: Triangulating skeletal mesh Emblem_low
+[2024.12.02-15.31.53:268][761]LogFbx: Bones digested - 21  Depth of hierarchy - 2
+[2024.12.02-15.31.53:530][761]LogSkeletalMesh: Section 0: Material=0, 17750 triangles
+[2024.12.02-15.31.53:550][761]LogSkeletalMesh: Building Skeletal Mesh Hippolyte_low_CorsetArmor_neck6_low...
+[2024.12.02-15.31.53:568][761]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Hippolyte_low_CorsetArmor_neck6_low) ...
+[2024.12.02-15.31.53:751][761]LogSkeletalMesh: Built Skeletal Mesh [0.20s] /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low_CorsetArmor_neck6_low
+[2024.12.02-15.31.53:844][761]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.02-15.31.53:844][761]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.02-15.31.53:852][761]LogWorld: UWorld::CleanupWorld for World_132, bSessionEnded=true, bCleanupResources=true
+[2024.12.02-15.31.53:852][761]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.02-15.31.53:862][761]LogFbx: SortedLinks :(0) CorsetArmor1
+[2024.12.02-15.31.53:862][761]LogFbx: SortedLinks :(1) CorsetArmor_neck6_low
+[2024.12.02-15.31.53:862][761]LogFbx: SortedLinks :(2) CorsetArmor_neck4_low
+[2024.12.02-15.31.53:862][761]LogFbx: SortedLinks :(3) CorsetArmor_neck5_low
+[2024.12.02-15.31.53:862][761]LogFbx: SortedLinks :(4) CorsetArmor_neck3_low
+[2024.12.02-15.31.53:862][761]LogFbx: SortedLinks :(5) CorsetArmor_button_low
+[2024.12.02-15.31.53:862][761]LogFbx: SortedLinks :(6) CorsetArmor_neck1_low
+[2024.12.02-15.31.53:862][761]LogFbx: SortedLinks :(7) CorsetArmor_neck2_low
+[2024.12.02-15.31.53:862][761]LogFbx: SortedLinks :(8) CorsetArmor_Deco1_low
+[2024.12.02-15.31.53:862][761]LogFbx: SortedLinks :(9) CorsetArmor_Deco2_low
+[2024.12.02-15.31.53:862][761]LogFbx: SortedLinks :(10) CorsetArmor_Deco3_low
+[2024.12.02-15.31.53:862][761]LogFbx: SortedLinks :(11) CorsetArmor_Deco4_low
+[2024.12.02-15.31.53:862][761]LogFbx: SortedLinks :(12) CorsetArmor_main_low
+[2024.12.02-15.31.53:862][761]LogFbx: SortedLinks :(13) CorsetArmor_Deco5_low
+[2024.12.02-15.31.53:862][761]LogFbx: SortedLinks :(14) CorsetArmor_Deco6_low
+[2024.12.02-15.31.53:862][761]LogFbx: SortedLinks :(15) CorsetArmor_Deco7_low
+[2024.12.02-15.31.53:862][761]LogFbx: SortedLinks :(16) CorsetArmor_Deco8_low
+[2024.12.02-15.31.53:862][761]LogFbx: SortedLinks :(17) CorsetArmor_Deco9low
+[2024.12.02-15.31.53:862][761]LogFbx: SortedLinks :(18) CorsetArmor_Deco10_low
+[2024.12.02-15.31.53:862][761]LogFbx: SortedLinks :(19) Emblem_main_low
+[2024.12.02-15.31.53:862][761]LogFbx: SortedLinks :(20) Emblem_low
+[2024.12.02-15.31.53:862][761]LogFbx: Parsing AnimStack Take 001
+[2024.12.02-15.31.53:984][761]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low_CorsetArmor_neck6_low_Anim.Hippolyte_low_CorsetArmor_neck6_low_Anim
+[2024.12.02-15.31.53:986][761]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low_CorsetArmor_neck6_low_Anim.Hippolyte_low_CorsetArmor_neck6_low_Anim, at AnimationSequence/e9ddf9e47487008f3e6dceb31d821d9c06b9c29b
+[2024.12.02-15.31.53:997][761]LogMaterial: Display: Material /Game/Characters/ArtistsCharacters/Muntana/metal1.metal1 needed to have new flag set bUsedWithSkeletalMesh !
+[2024.12.02-15.31.54:011][761]LogFbx: Triangulating skeletal mesh spaulders_1_low
+[2024.12.02-15.31.54:019][761]LogFbx: Triangulating skeletal mesh spaulders_2_low
+[2024.12.02-15.31.54:024][761]LogFbx: Triangulating skeletal mesh spaulders_3_low
+[2024.12.02-15.31.54:031][761]LogFbx: Triangulating skeletal mesh spaulders_4_low
+[2024.12.02-15.31.54:037][761]LogFbx: Triangulating skeletal mesh buttons_low
+[2024.12.02-15.31.54:063][761]LogFbx: Triangulating skeletal mesh Chainmail_top_low
+[2024.12.02-15.31.54:072][761]LogFbx: Triangulating skeletal mesh Chainmail_waist_low
+[2024.12.02-15.31.54:076][761]LogFbx: Triangulating skeletal mesh chains_low
+[2024.12.02-15.31.54:111][761]LogFbx: Bones digested - 9  Depth of hierarchy - 2
+[2024.12.02-15.31.54:292][761]LogSkeletalMesh: Section 0: Material=0, 9036 triangles
+[2024.12.02-15.31.54:292][761]LogSkeletalMesh: Section 1: Material=1, 1600 triangles
+[2024.12.02-15.31.54:307][761]LogSkeletalMesh: Building Skeletal Mesh Hippolyte_low_spaulders_1_low...
+[2024.12.02-15.31.54:326][761]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Hippolyte_low_spaulders_1_low) ...
+[2024.12.02-15.31.54:431][761]LogSkeletalMesh: Built Skeletal Mesh [0.12s] /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low_spaulders_1_low
+[2024.12.02-15.31.54:511][761]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.02-15.31.54:511][761]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.02-15.31.54:520][761]LogWorld: UWorld::CleanupWorld for World_133, bSessionEnded=true, bCleanupResources=true
+[2024.12.02-15.31.54:520][761]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.02-15.31.54:529][761]LogFbx: SortedLinks :(0) metal
+[2024.12.02-15.31.54:529][761]LogFbx: SortedLinks :(1) spaulders_1_low
+[2024.12.02-15.31.54:529][761]LogFbx: SortedLinks :(2) spaulders_2_low
+[2024.12.02-15.31.54:529][761]LogFbx: SortedLinks :(3) spaulders_3_low
+[2024.12.02-15.31.54:529][761]LogFbx: SortedLinks :(4) spaulders_4_low
+[2024.12.02-15.31.54:529][761]LogFbx: SortedLinks :(5) buttons_low
+[2024.12.02-15.31.54:529][761]LogFbx: SortedLinks :(6) Chainmail_top_low
+[2024.12.02-15.31.54:529][761]LogFbx: SortedLinks :(7) Chainmail_waist_low
+[2024.12.02-15.31.54:529][761]LogFbx: SortedLinks :(8) chains_low
+[2024.12.02-15.31.54:529][761]LogFbx: Parsing AnimStack Take 001
+[2024.12.02-15.31.54:656][761]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low_spaulders_1_low_Anim.Hippolyte_low_spaulders_1_low_Anim
+[2024.12.02-15.31.54:657][761]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low_spaulders_1_low_Anim.Hippolyte_low_spaulders_1_low_Anim, at AnimationSequence/aaac01ad85a83a1241aced0aa994cb9d0a4e9c7c
+[2024.12.02-15.31.54:666][761]LogMaterial: Display: Material /Game/Characters/ArtistsCharacters/Muntana/Leather.Leather needed to have new flag set bUsedWithSkeletalMesh !
+[2024.12.02-15.31.54:680][761]LogFbx: Triangulating skeletal mesh shoes_leather1_low
+[2024.12.02-15.31.54:690][761]LogFbx: Triangulating skeletal mesh shoes_base_low
+[2024.12.02-15.31.54:712][761]LogFbx: Triangulating skeletal mesh shoes_leather2_low
+[2024.12.02-15.31.54:725][761]LogFbx: Triangulating skeletal mesh belt_low
+[2024.12.02-15.31.54:751][761]LogFbx: Triangulating skeletal mesh Belt_deco_low
+[2024.12.02-15.31.54:800][761]LogFbx: Triangulating skeletal mesh Leather_shoulder_low
+[2024.12.02-15.31.54:805][761]LogFbx: Triangulating skeletal mesh ApronBelt_arm_low
+[2024.12.02-15.31.54:825][761]LogFbx: Bones digested - 10  Depth of hierarchy - 3
+[2024.12.02-15.31.55:047][761]LogSkeletalMesh: Section 0: Material=0, 15344 triangles
+[2024.12.02-15.31.55:066][761]LogSkeletalMesh: Building Skeletal Mesh Hippolyte_low_shoes_leather1_low...
+[2024.12.02-15.31.55:085][761]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Hippolyte_low_shoes_leather1_low) ...
+[2024.12.02-15.31.55:243][761]LogSkeletalMesh: Built Skeletal Mesh [0.18s] /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low_shoes_leather1_low
+[2024.12.02-15.31.55:346][761]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.02-15.31.55:346][761]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.02-15.31.55:354][761]LogWorld: UWorld::CleanupWorld for World_134, bSessionEnded=true, bCleanupResources=true
+[2024.12.02-15.31.55:354][761]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.02-15.31.55:362][761]LogFbx: SortedLinks :(0) Leather1
+[2024.12.02-15.31.55:362][761]LogFbx: SortedLinks :(1) shoes
+[2024.12.02-15.31.55:362][761]LogFbx: SortedLinks :(2) shoes_leather1_low
+[2024.12.02-15.31.55:362][761]LogFbx: SortedLinks :(3) shoes_base_low
+[2024.12.02-15.31.55:362][761]LogFbx: SortedLinks :(4) shoes_leather2_low
+[2024.12.02-15.31.55:362][761]LogFbx: SortedLinks :(5) belt
+[2024.12.02-15.31.55:362][761]LogFbx: SortedLinks :(6) belt_low
+[2024.12.02-15.31.55:362][761]LogFbx: SortedLinks :(7) Belt_deco_low
+[2024.12.02-15.31.55:362][761]LogFbx: SortedLinks :(8) Leather_shoulder_low
+[2024.12.02-15.31.55:362][761]LogFbx: SortedLinks :(9) ApronBelt_arm_low
+[2024.12.02-15.31.55:362][761]LogFbx: Parsing AnimStack Take 001
+[2024.12.02-15.31.55:509][761]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low_shoes_leather1_low_Anim.Hippolyte_low_shoes_leather1_low_Anim
+[2024.12.02-15.31.55:511][761]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low_shoes_leather1_low_Anim.Hippolyte_low_shoes_leather1_low_Anim, at AnimationSequence/8b788a4f98556b207332d5e906f3404f86d9d8a1
+[2024.12.02-15.31.55:520][761]LogMaterial: Display: Material /Game/Characters/ArtistsCharacters/Muntana/fabric.fabric needed to have new flag set bUsedWithSkeletalMesh !
+[2024.12.02-15.31.55:534][761]LogFbx: Triangulating skeletal mesh cape_deco_low
+[2024.12.02-15.31.55:544][761]LogFbx: Triangulating skeletal mesh cape_low
+[2024.12.02-15.31.55:584][761]LogFbx: Triangulating skeletal mesh dress_low
+[2024.12.02-15.31.55:645][761]LogFbx: Bones digested - 4  Depth of hierarchy - 2
+[2024.12.02-15.31.55:816][761]LogSkeletalMesh: Section 0: Material=0, 11954 triangles
+[2024.12.02-15.31.55:833][761]LogSkeletalMesh: Building Skeletal Mesh Hippolyte_low_cape_deco_low...
+[2024.12.02-15.31.55:852][761]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Hippolyte_low_cape_deco_low) ...
+[2024.12.02-15.31.55:965][761]LogSkeletalMesh: Built Skeletal Mesh [0.13s] /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low_cape_deco_low
+[2024.12.02-15.31.56:062][761]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.02-15.31.56:063][761]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.02-15.31.56:071][761]LogWorld: UWorld::CleanupWorld for World_135, bSessionEnded=true, bCleanupResources=true
+[2024.12.02-15.31.56:071][761]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.02-15.31.56:080][761]LogFbx: SortedLinks :(0) Fabric
+[2024.12.02-15.31.56:080][761]LogFbx: SortedLinks :(1) cape_deco_low
+[2024.12.02-15.31.56:080][761]LogFbx: SortedLinks :(2) cape_low
+[2024.12.02-15.31.56:080][761]LogFbx: SortedLinks :(3) dress_low
+[2024.12.02-15.31.56:080][761]LogFbx: Parsing AnimStack Take 001
+[2024.12.02-15.31.56:219][761]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low_cape_deco_low_Anim.Hippolyte_low_cape_deco_low_Anim
+[2024.12.02-15.31.56:220][761]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low_cape_deco_low_Anim.Hippolyte_low_cape_deco_low_Anim, at AnimationSequence/2a0f20c15d0477162270a910ece1725f11fef7de
+[2024.12.02-15.31.56:230][761]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.12.02-15.31.56:230][761]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2024.12.02-15.31.56:230][761]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2024.12.02-15.31.56:230][761]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2024.12.02-15.31.56:230][761]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2024.12.02-15.31.56:230][761]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2024.12.02-15.31.56:402][761]LogAutomationController: Ignoring very large delta of 9.69 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.12.02-15.31.57:109][807]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.02-15.31.57:234][817]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.02-15.31.57:346][826]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.02-15.31.57:360][827]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.02-15.31.57:406][830]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.02-15.32.00:526][203]LogSlate: Window 'Message Log' being destroyed
+[2024.12.02-15.32.00:529][203]LogSlate: Window 'Message Log' being destroyed
+[2024.12.02-15.32.14:101][745]Cmd: TRANSACTION UNDO
+[2024.12.02-15.32.14:101][745]LogEditorTransaction: Undo Edit Skeletal Mesh
+[2024.12.02-15.32.26:275][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.12.02-15.32.31:642][ 60]LogSlate: Window 'Delete Assets' being destroyed
+[2024.12.02-15.32.32:065][ 60]LogUObjectGlobals: Force Deleting 20 Package(s):
+	Asset Name: /Game/Characters/ArtistsCharacters/Muntana/Body.Body
+	Asset Type: Material
+	Asset Name: /Game/Characters/ArtistsCharacters/Muntana/CorsetArmor.CorsetArmor
+	Asset Type: Material
+	Asset Name: /Game/Characters/ArtistsCharacters/Muntana/metal1.metal1
+	Asset Type: Material
+	Asset Name: /Game/Characters/ArtistsCharacters/Muntana/Leather.Leather
+	Asset Type: Material
+	Asset Name: /Game/Characters/ArtistsCharacters/Muntana/fabric.fabric
+	Asset Type: Material
+	Asset Name: /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low_shoes_leather1_low_PhysicsAsset.Hippolyte_low_shoes_leather1_low_PhysicsAsset
+	Asset Type: PhysicsAsset
+	Asset Name: /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low_shoes_leather1_low_Skeleton.Hippolyte_low_shoes_leather1_low_Skeleton
+	Asset Type: Skeleton
+	Asset Name: /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low_spaulders_1_low_Anim.Hippolyte_low_spaulders_1_low_Anim
+	Asset Type: AnimSequence
+	Asset Name: /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low_spaulders_1_low_PhysicsAsset.Hippolyte_low_spaulders_1_low_PhysicsAsset
+	Asset Type: PhysicsAsset
+	Asset Name: /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low_spaulders_1_low_Skeleton.Hippolyte_low_spaulders_1_low_Skeleton
+	Asset Type: Skeleton
+[2024.12.02-15.32.35:206][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.12.02-15.32.35:219][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.12.02-15.32.35:230][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.12.02-15.32.35:282][ 60]LogAutomationController: Ignoring very large delta of 9.02 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.12.02-15.32.38:450][382]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Student\Downloads\Hippolyte_low.fbx)
+[2024.12.02-15.32.38:455][382]LogFbx: Loading FBX Scene from C:\Users\Student\Downloads\Hippolyte_low.fbx
+[2024.12.02-15.32.38:476][382]LogFbx: FBX Scene Loaded Succesfully
+[2024.12.02-15.32.42:653][382]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.12.02-15.32.42:723][382]LogFbx: Display: Triangulating static mesh Body_low
+[2024.12.02-15.32.42:825][382]LogFbx: Display: Triangulating static mesh CorsetArmor_neck6_low
+[2024.12.02-15.32.42:830][382]LogFbx: Display: Triangulating static mesh CorsetArmor_neck4_low
+[2024.12.02-15.32.42:839][382]LogFbx: Display: Triangulating static mesh CorsetArmor_neck5_low
+[2024.12.02-15.32.42:846][382]LogFbx: Display: Triangulating static mesh CorsetArmor_neck3_low
+[2024.12.02-15.32.42:849][382]LogFbx: Display: Triangulating static mesh CorsetArmor_button_low
+[2024.12.02-15.32.42:853][382]LogFbx: Display: Triangulating static mesh CorsetArmor_neck1_low
+[2024.12.02-15.32.42:860][382]LogFbx: Display: Triangulating static mesh CorsetArmor_neck2_low
+[2024.12.02-15.32.42:864][382]LogFbx: Display: Triangulating static mesh CorsetArmor_Deco1_low
+[2024.12.02-15.32.42:872][382]LogFbx: Display: Triangulating static mesh CorsetArmor_Deco2_low
+[2024.12.02-15.32.42:880][382]LogFbx: Display: Triangulating static mesh CorsetArmor_Deco3_low
+[2024.12.02-15.32.42:888][382]LogFbx: Display: Triangulating static mesh CorsetArmor_Deco4_low
+[2024.12.02-15.32.42:900][382]LogFbx: Display: Triangulating static mesh CorsetArmor_main_low
+[2024.12.02-15.32.42:921][382]LogFbx: Display: Triangulating static mesh CorsetArmor_Deco5_low
+[2024.12.02-15.32.42:928][382]LogFbx: Display: Triangulating static mesh CorsetArmor_Deco6_low
+[2024.12.02-15.32.42:955][382]LogFbx: Display: Triangulating static mesh CorsetArmor_Deco7_low
+[2024.12.02-15.32.42:956][382]LogFbx: Display: Triangulating static mesh CorsetArmor_Deco8_low
+[2024.12.02-15.32.42:960][382]LogFbx: Display: Triangulating static mesh CorsetArmor_Deco9low
+[2024.12.02-15.32.42:960][382]LogFbx: Display: Triangulating static mesh CorsetArmor_Deco10_low
+[2024.12.02-15.32.42:987][382]LogFbx: Display: Triangulating static mesh Emblem_main_low
+[2024.12.02-15.32.43:010][382]LogFbx: Display: Triangulating static mesh Emblem_low
+[2024.12.02-15.32.43:020][382]LogFbx: Display: Triangulating static mesh spaulders_1_low
+[2024.12.02-15.32.43:029][382]LogFbx: Display: Triangulating static mesh spaulders_2_low
+[2024.12.02-15.32.43:036][382]LogFbx: Display: Triangulating static mesh spaulders_3_low
+[2024.12.02-15.32.43:043][382]LogFbx: Display: Triangulating static mesh spaulders_4_low
+[2024.12.02-15.32.43:051][382]LogFbx: Display: Triangulating static mesh buttons_low
+[2024.12.02-15.32.43:080][382]LogFbx: Display: Triangulating static mesh Chainmail_top_low
+[2024.12.02-15.32.43:091][382]LogFbx: Display: Triangulating static mesh Chainmail_waist_low
+[2024.12.02-15.32.43:096][382]LogFbx: Display: Triangulating static mesh chains_low
+[2024.12.02-15.32.43:139][382]LogFbx: Display: Triangulating static mesh shoes_leather1_low
+[2024.12.02-15.32.43:150][382]LogFbx: Display: Triangulating static mesh shoes_base_low
+[2024.12.02-15.32.43:176][382]LogFbx: Display: Triangulating static mesh shoes_leather2_low
+[2024.12.02-15.32.43:191][382]LogFbx: Display: Triangulating static mesh belt_low
+[2024.12.02-15.32.43:220][382]LogFbx: Display: Triangulating static mesh Belt_deco_low
+[2024.12.02-15.32.43:277][382]LogFbx: Display: Triangulating static mesh Leather_shoulder_low
+[2024.12.02-15.32.43:285][382]LogFbx: Display: Triangulating static mesh ApronBelt_arm_low
+[2024.12.02-15.32.43:305][382]LogFbx: Display: Triangulating static mesh cape_deco_low
+[2024.12.02-15.32.43:316][382]LogFbx: Display: Triangulating static mesh cape_low
+[2024.12.02-15.32.43:364][382]LogFbx: Display: Triangulating static mesh dress_low
+[2024.12.02-15.32.43:591][382]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.12.02-15.32.43:700][382]LogAutomationController: Ignoring very large delta of 5.26 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.12.02-15.32.45:335][562]LogSlate: Window 'Message Log' being destroyed
+[2024.12.02-15.32.45:338][562]LogSlate: Window 'Message Log' being destroyed
+[2024.12.02-15.32.47:071][753]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low
+[2024.12.02-15.32.47:071][753]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low
+[2024.12.02-15.32.47:071][753]LogActorFactory: Actor Factory spawned StaticMesh /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_2
+[2024.12.02-15.32.47:939][856]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low
+[2024.12.02-15.32.47:939][856]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low
+[2024.12.02-15.32.47:940][856]LogActorFactory: Actor Factory spawned StaticMesh /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low as actor: StaticMeshActor /Game/Level/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_4
+[2024.12.02-15.33.04:730][838]Cmd: TRANSACTION UNDO
+[2024.12.02-15.33.04:730][838]LogEditorTransaction: Undo Reset Location
+[2024.12.02-15.33.07:393][100]Cmd: SELECT NONE
+[2024.12.02-15.33.28:837][653]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.02-15.33.28:874][653]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.02-15.33.28:879][653]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low_Body_low has no skeleton. This needs to fixed before an animation can be set
+[2024.12.02-15.33.28:909][653]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.02-15.33.28:913][653]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low_CorsetArmor_neck6_low has no skeleton. This needs to fixed before an animation can be set
+[2024.12.02-15.33.28:921][653]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.02-15.33.28:925][653]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low_spaulders_1_low has no skeleton. This needs to fixed before an animation can be set
+[2024.12.02-15.33.28:931][653]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.02-15.33.28:936][653]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low_shoes_leather1_low has no skeleton. This needs to fixed before an animation can be set
+[2024.12.02-15.33.28:943][653]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.02-15.33.28:947][653]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low_cape_deco_low has no skeleton. This needs to fixed before an animation can be set
+[2024.12.02-15.33.29:047][653]LogSavePackage: Moving output files for package: /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low
+[2024.12.02-15.33.29:047][653]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/Hippolyte_lowA96EFE654E1083D031B9CBBDEBCDDDD0.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Characters/ArtistsCharacters/Muntana/Hippolyte_low.uasset'
+[2024.12.02-15.33.29:097][653]LogSavePackage: Moving output files for package: /Game/Characters/ArtistsCharacters/Muntana/Body
+[2024.12.02-15.33.29:097][653]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/Body349282E243788383908BA5BAF1323985.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Characters/ArtistsCharacters/Muntana/Body.uasset'
+[2024.12.02-15.33.29:109][653]LogSavePackage: Moving output files for package: /Game/Characters/ArtistsCharacters/Muntana/fabric
+[2024.12.02-15.33.29:109][653]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/fabric5A3E6E134D5B753A9AFE9EA30DD8C4E0.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Characters/ArtistsCharacters/Muntana/fabric.uasset'
+[2024.12.02-15.33.29:122][653]LogSavePackage: Moving output files for package: /Game/Characters/ArtistsCharacters/Muntana/Leather
+[2024.12.02-15.33.29:122][653]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/Leather799B27F84C5998F7D2836683F24067C4.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Characters/ArtistsCharacters/Muntana/Leather.uasset'
+[2024.12.02-15.33.29:134][653]LogSavePackage: Moving output files for package: /Game/Characters/ArtistsCharacters/Muntana/metal1
+[2024.12.02-15.33.29:134][653]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/metal12DB59F2B4317F8EC3AFC9E9A605273A4.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Characters/ArtistsCharacters/Muntana/metal1.uasset'
+[2024.12.02-15.33.29:146][653]LogSavePackage: Moving output files for package: /Game/Characters/ArtistsCharacters/Muntana/CorsetArmor
+[2024.12.02-15.33.29:146][653]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/CorsetArmorBFCBB1D040F3E05E5AD9B283BBD991F0.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Characters/ArtistsCharacters/Muntana/CorsetArmor.uasset'
+[2024.12.02-15.33.29:151][653]LogFileHelpers: InternalPromptForCheckoutAndSave took 314 ms (total: 17.7 sec)
+[2024.12.02-15.33.29:151][653]AssetCheck: New page: Asset Save: multiple assets
+[2024.12.02-15.33.29:151][653]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low_Body_low
+[2024.12.02-15.33.29:151][653]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low_CorsetArmor_neck6_low
+[2024.12.02-15.33.29:151][653]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low_spaulders_1_low
+[2024.12.02-15.33.29:151][653]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low_shoes_leather1_low
+[2024.12.02-15.33.29:151][653]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low_cape_deco_low
+[2024.12.02-15.33.29:151][653]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low
+[2024.12.02-15.33.29:151][653]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Characters/ArtistsCharacters/Muntana/Body.Body
+[2024.12.02-15.33.29:151][653]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Characters/ArtistsCharacters/Muntana/fabric.fabric
+[2024.12.02-15.33.29:151][653]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Characters/ArtistsCharacters/Muntana/Leather.Leather
+[2024.12.02-15.33.29:151][653]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Characters/ArtistsCharacters/Muntana/metal1.metal1
+[2024.12.02-15.33.29:151][653]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Characters/ArtistsCharacters/Muntana/CorsetArmor.CorsetArmor
+[2024.12.02-15.33.29:151][653]AssetCheck: Error: [AssetLog] C:\Github Repos\Creative-Studio-2\CS2_Proto\Content\Characters\ArtistsCharacters\Muntana\Hippolyte_low.uasset: This skeletal mesh asset has no Skeleton. Skeletal mesh asset need a valid skeleton.
+[2024.12.02-15.33.29:151][653]AssetCheck: /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low contains invalid data.
+[2024.12.02-15.33.29:151][653]AssetCheck: Error: [AssetLog] C:\Github Repos\Creative-Studio-2\CS2_Proto\Content\Characters\ArtistsCharacters\Muntana\Hippolyte_low.uasset: This skeletal mesh asset has no Skeleton. Skeletal mesh asset need a valid skeleton.
+[2024.12.02-15.33.29:151][653]AssetCheck: /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low contains invalid data.
+[2024.12.02-15.33.29:151][653]AssetCheck: Error: [AssetLog] C:\Github Repos\Creative-Studio-2\CS2_Proto\Content\Characters\ArtistsCharacters\Muntana\Hippolyte_low.uasset: This skeletal mesh asset has no Skeleton. Skeletal mesh asset need a valid skeleton.
+[2024.12.02-15.33.29:151][653]AssetCheck: /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low contains invalid data.
+[2024.12.02-15.33.29:151][653]AssetCheck: Error: [AssetLog] C:\Github Repos\Creative-Studio-2\CS2_Proto\Content\Characters\ArtistsCharacters\Muntana\Hippolyte_low.uasset: This skeletal mesh asset has no Skeleton. Skeletal mesh asset need a valid skeleton.
+[2024.12.02-15.33.29:151][653]AssetCheck: /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low contains invalid data.
+[2024.12.02-15.33.29:152][653]AssetCheck: Error: [AssetLog] C:\Github Repos\Creative-Studio-2\CS2_Proto\Content\Characters\ArtistsCharacters\Muntana\Hippolyte_low.uasset: This skeletal mesh asset has no Skeleton. Skeletal mesh asset need a valid skeleton.
+[2024.12.02-15.33.29:152][653]AssetCheck: /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low contains invalid data.
+[2024.12.02-15.33.29:152][653]AssetCheck: Data validation FAILED.
+[2024.12.02-15.33.29:152][653]AssetCheck: Files Checked: 11, Passed: 6, Failed: 5, Skipped: 0, Unable to validate: 0
+[2024.12.02-15.33.35:609][322]LogSlate: Window 'Message Log' being destroyed
+[2024.12.02-15.33.35:612][322]LogSlate: Window 'Message Log' being destroyed
+[2024.12.02-15.33.36:451][419]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.12.02-15.33.36:460][419]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.02-15.33.36:515][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/MainMenu" FILE="../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.12.02-15.33.36:541][419]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.12.02-15.33.36:551][419]LogSavePackage: Moving output files for package: /Game/Level/MainMenu
+[2024.12.02-15.33.36:551][419]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/MainMenuACF240AA47CFC1769F7BE896CF04C99D.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Level/MainMenu.umap'
+[2024.12.02-15.33.36:556][419]LogFileHelpers: Saving map 'MainMenu' took 0.041
+[2024.12.02-15.33.36:561][419]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 17.8 sec)
+[2024.12.02-15.33.36:562][419]AssetCheck: New page: Asset Save: MainMenu
+[2024.12.02-15.33.36:562][419]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/MainMenu.MainMenu
+[2024.12.02-15.33.43:706][228]LogContentBrowser: Attempting asset rename: metal1 -> metal
+[2024.12.02-15.33.43:724][228]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.02-15.33.43:802][228]LogSavePackage: Moving output files for package: /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low
+[2024.12.02-15.33.43:803][228]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/Hippolyte_low60FF4A3E4361031FF6A5949AA08AF898.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Characters/ArtistsCharacters/Muntana/Hippolyte_low.uasset'
+[2024.12.02-15.33.43:805][228]LogSavePackage: Moving output files for package: /Game/Characters/ArtistsCharacters/Muntana/metal
+[2024.12.02-15.33.43:805][228]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/metalAEAB7A86478AE37CB4ACD7B8314F8A4F.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Characters/ArtistsCharacters/Muntana/metal.uasset'
+[2024.12.02-15.33.43:811][228]LogFileHelpers: InternalPromptForCheckoutAndSave took 87 ms (total: 17.9 sec)
+[2024.12.02-15.33.43:900][228]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.12.02-15.33.43:913][228]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.12.02-15.33.43:924][228]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.12.02-15.33.43:929][228]AssetCheck: New page: Asset Save: multiple assets
+[2024.12.02-15.33.43:929][228]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low_Body_low
+[2024.12.02-15.33.43:929][228]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low_CorsetArmor_neck6_low
+[2024.12.02-15.33.43:929][228]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low_spaulders_1_low
+[2024.12.02-15.33.43:929][228]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low_shoes_leather1_low
+[2024.12.02-15.33.43:929][228]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low_cape_deco_low
+[2024.12.02-15.33.43:929][228]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low.Hippolyte_low
+[2024.12.02-15.33.43:929][228]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Characters/ArtistsCharacters/Muntana/metal.metal
+[2024.12.02-15.33.43:929][228]AssetCheck: Error: [AssetLog] C:\Github Repos\Creative-Studio-2\CS2_Proto\Content\Characters\ArtistsCharacters\Muntana\Hippolyte_low.uasset: This skeletal mesh asset has no Skeleton. Skeletal mesh asset need a valid skeleton.
+[2024.12.02-15.33.43:929][228]AssetCheck: /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low contains invalid data.
+[2024.12.02-15.33.43:929][228]AssetCheck: Error: [AssetLog] C:\Github Repos\Creative-Studio-2\CS2_Proto\Content\Characters\ArtistsCharacters\Muntana\Hippolyte_low.uasset: This skeletal mesh asset has no Skeleton. Skeletal mesh asset need a valid skeleton.
+[2024.12.02-15.33.43:929][228]AssetCheck: /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low contains invalid data.
+[2024.12.02-15.33.43:929][228]AssetCheck: Error: [AssetLog] C:\Github Repos\Creative-Studio-2\CS2_Proto\Content\Characters\ArtistsCharacters\Muntana\Hippolyte_low.uasset: This skeletal mesh asset has no Skeleton. Skeletal mesh asset need a valid skeleton.
+[2024.12.02-15.33.43:930][228]AssetCheck: /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low contains invalid data.
+[2024.12.02-15.33.43:930][228]AssetCheck: Error: [AssetLog] C:\Github Repos\Creative-Studio-2\CS2_Proto\Content\Characters\ArtistsCharacters\Muntana\Hippolyte_low.uasset: This skeletal mesh asset has no Skeleton. Skeletal mesh asset need a valid skeleton.
+[2024.12.02-15.33.43:930][228]AssetCheck: /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low contains invalid data.
+[2024.12.02-15.33.43:930][228]AssetCheck: Error: [AssetLog] C:\Github Repos\Creative-Studio-2\CS2_Proto\Content\Characters\ArtistsCharacters\Muntana\Hippolyte_low.uasset: This skeletal mesh asset has no Skeleton. Skeletal mesh asset need a valid skeleton.
+[2024.12.02-15.33.43:930][228]AssetCheck: /Game/Characters/ArtistsCharacters/Muntana/Hippolyte_low contains invalid data.
+[2024.12.02-15.33.43:930][228]AssetCheck: Data validation FAILED.
+[2024.12.02-15.33.43:930][228]AssetCheck: Files Checked: 7, Passed: 2, Failed: 5, Skipped: 0, Unable to validate: 0
+[2024.12.02-15.33.45:794][407]LogSlate: Window 'Message Log' being destroyed
+[2024.12.02-15.33.45:797][407]LogSlate: Window 'Message Log' being destroyed
+[2024.12.02-15.33.46:204][452]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2024.12.02-15.33.49:970][871]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Characters/ArtistsCharacters/Muntana/fabric.fabric
+[2024.12.02-15.33.49:984][871]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.02-15.33.49:984][871]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.02-15.33.50:122][871]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.02-15.33.50:122][871]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.12.02-15.33.50:122][871]MaterialEditorStats: Shader Count: 0
+[2024.12.02-15.33.50:130][871]LogViewport: Scene viewport resized to 417x410, mode Windowed.
+[2024.12.02-15.33.50:192][873]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.12.02-15.33.50:192][873]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.12.02-15.33.50:192][873]MaterialEditorStats: Texture samplers: 2/16
+[2024.12.02-15.33.50:192][873]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.12.02-15.33.50:192][873]MaterialEditorStats: Shader Count: 4
+[2024.12.02-15.33.52:854][161]LogSlate: Window 'fabric' being destroyed
+[2024.12.02-15.33.52:858][161]LogSlate: Window 'fabric' being destroyed
+[2024.12.02-15.33.52:871][161]LogWorld: UWorld::CleanupWorld for World_146, bSessionEnded=true, bCleanupResources=true
+[2024.12.02-15.33.52:871][161]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.02-15.33.53:283][205]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.12.02-15.33.54:443][333]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Characters/ArtistsCharacters/Muntana/fabric.fabric
+[2024.12.02-15.33.54:445][333]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.02-15.33.54:445][333]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.02-15.33.54:571][333]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.02-15.33.54:571][333]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.12.02-15.33.54:571][333]MaterialEditorStats: Shader Count: 0
+[2024.12.02-15.33.54:577][333]LogViewport: Scene viewport resized to 418x411, mode Windowed.
+[2024.12.02-15.33.54:617][335]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.12.02-15.33.54:617][335]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.12.02-15.33.54:617][335]MaterialEditorStats: Texture samplers: 2/16
+[2024.12.02-15.33.54:617][335]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.12.02-15.33.54:617][335]MaterialEditorStats: Shader Count: 4
+[2024.12.02-15.33.58:653][445]LogSlate: Window 'Color Picker' being destroyed
+[2024.12.02-15.33.58:664][445]LogAutomationController: Ignoring very large delta of 3.04 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.12.02-15.34.02:918][697]LogSlate: Window 'Message' being destroyed
+[2024.12.02-15.34.02:922][697]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Characters/ArtistsCharacters/Muntana/fabric.fabric
+(Selecting 'No' will cause all changes to be lost!)
+[2024.12.02-15.34.02:976][697]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.12.02-15.34.03:148][697]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.12.02-15.34.03:164][697]LogSlate: Window 'fabric' being destroyed
+[2024.12.02-15.34.03:165][697]LogSlate: Window 'fabric' being destroyed
+[2024.12.02-15.34.03:207][697]LogWorld: UWorld::CleanupWorld for World_147, bSessionEnded=true, bCleanupResources=true
+[2024.12.02-15.34.03:207][697]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.02-15.34.03:263][697]LogAutomationController: Ignoring very large delta of 2.17 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.12.02-15.34.04:691][860]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.12.02-15.34.04:699][860]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.02-15.34.04:772][860]LogSavePackage: Moving output files for package: /Game/Characters/ArtistsCharacters/Muntana/fabric
+[2024.12.02-15.34.04:772][860]LogSavePackage: Moving '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Saved/fabric21B2184946C1E2246E6DDCA0A9E4E895.tmp' to '../../../../../../Github Repos/Creative-Studio-2/CS2_Proto/Content/Characters/ArtistsCharacters/Muntana/fabric.uasset'
+[2024.12.02-15.34.04:778][860]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 18.0 sec)
+[2024.12.02-15.34.04:779][860]AssetCheck: New page: Asset Save: fabric
+[2024.12.02-15.34.04:779][860]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Characters/ArtistsCharacters/Muntana/fabric.fabric
